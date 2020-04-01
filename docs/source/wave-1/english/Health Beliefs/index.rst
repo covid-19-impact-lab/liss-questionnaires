@@ -6,4 +6,4 @@ Health Beliefs
    :maxdepth: 1
    :glob:
 
-	   *
+   *

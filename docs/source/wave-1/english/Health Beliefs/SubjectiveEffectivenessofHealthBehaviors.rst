@@ -13,7 +13,6 @@ In your opinion, how effective is wearing a mask when it comes to protecting you
 .. csv-table::
 
        not effective at all, hardly effective, somewhat effective, effective, very effective
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 In your opinion, how effective is praying when it comes to protecting yourself against the coronavirus?
@@ -22,7 +21,6 @@ In your opinion, how effective is praying when it comes to protecting yourself a
 .. csv-table::
 
        not effective at all, hardly effective, somewhat effective, effective, very effective
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 In your opinion, how effective is washing your hands or using desinfectant when it comes to protecting yourself against the coronavirus?
@@ -31,7 +29,6 @@ In your opinion, how effective is washing your hands or using desinfectant when 
 .. csv-table::
 
        not effective at all, hardly effective, somewhat effective, effective, very effective
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 In your opinion, how effective is calling a physician if you are ill when it comes to protecting yourself against the coronavirus?
@@ -40,7 +37,6 @@ In your opinion, how effective is calling a physician if you are ill when it com
 .. csv-table::
 
        not effective at all, hardly effective, somewhat effective, effective, very effective
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 In your opinion, how effective is calling a physician if you don't feel ill but are worried when it comes to protecting yourself against the coronavirus?
@@ -49,7 +45,6 @@ In your opinion, how effective is calling a physician if you don't feel ill but 
 .. csv-table::
 
        not effective at all, hardly effective, somewhat effective, effective, very effective
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 

@@ -13,7 +13,6 @@ In your opinion, how effective is avoiding public places when it comes to protec
 .. csv-table::
 
        not effective at all, hardly effective, somewhat effective, effective, very effective
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 In your opinion, how effective is avoiding vulnerable people when it comes to protecting yourself against the coronavirus?
@@ -22,7 +21,6 @@ In your opinion, how effective is avoiding vulnerable people when it comes to pr
 .. csv-table::
 
        not effective at all, hardly effective, somewhat effective, effective, very effective
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 In your opinion, how effective is avoiding visitng others in the hospital or retirement homes when it comes to protecting yourself against the coronavirus?
@@ -31,7 +29,6 @@ In your opinion, how effective is avoiding visitng others in the hospital or ret
 .. csv-table::
 
        not effective at all, hardly effective, somewhat effective, effective, very effective
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 In your opinion, how effective is avoiding cafes and restaurants when it comes to protecting yourself against the coronavirus?
@@ -40,7 +37,6 @@ In your opinion, how effective is avoiding cafes and restaurants when it comes t
 .. csv-table::
 
        not effective at all, hardly effective, somewhat effective, effective, very effective
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 In your opinion, how effective is avoiding public transport when it comes to protecting yourself against the coronavirus?
@@ -49,7 +45,6 @@ In your opinion, how effective is avoiding public transport when it comes to pro
 .. csv-table::
 
        not effective at all, hardly effective, somewhat effective, effective, very effective
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 

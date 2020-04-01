@@ -13,7 +13,6 @@ How likely is it that the following economic effects of the coronavirus crisis w
 .. csv-table::
 
        very unlikely, unlikely, probably, very likely
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 How likely is it that the following economic effects of the coronavirus crisis will occur to you in the next 12 months? No more contracts (self-employed)
@@ -22,7 +21,6 @@ How likely is it that the following economic effects of the coronavirus crisis w
 .. csv-table::
 
        very unlikely, unlikely, probably, very likely
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 How likely is it that the following economic effects of the coronavirus crisis will occur to you in the next 12 months? Shortening my pension
@@ -31,7 +29,6 @@ How likely is it that the following economic effects of the coronavirus crisis w
 .. csv-table::
 
        very unlikely, unlikely, probably, very likely
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 How likely is it that the following economic effects of the coronavirus crisis will occur to you in the next 12 months? Assets will drop in value
@@ -40,7 +37,6 @@ How likely is it that the following economic effects of the coronavirus crisis w
 .. csv-table::
 
        very unlikely, unlikely, probably, very likely
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 How likely is it that the following economic effects of the coronavirus crisis will occur to you in the next 12 months? My bank will go bankrupt
@@ -49,7 +45,6 @@ How likely is it that the following economic effects of the coronavirus crisis w
 .. csv-table::
 
        very unlikely, unlikely, probably, very likely
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 How likely is it that the following economic effects of the coronavirus crisis will occur to you in the next 12 months? Struggle to repay debts
@@ -58,7 +53,6 @@ How likely is it that the following economic effects of the coronavirus crisis w
 .. csv-table::
 
        very unlikely, unlikely, probably, very likely
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 

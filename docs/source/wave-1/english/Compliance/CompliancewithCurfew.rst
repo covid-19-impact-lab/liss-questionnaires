@@ -13,7 +13,6 @@ Would you comply with a curfew?
 .. csv-table::
 
        yes, no, critical occupation
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 

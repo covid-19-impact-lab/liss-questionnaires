@@ -6,4 +6,4 @@ Policy
    :maxdepth: 1
    :glob:
 
-	   *
+   *

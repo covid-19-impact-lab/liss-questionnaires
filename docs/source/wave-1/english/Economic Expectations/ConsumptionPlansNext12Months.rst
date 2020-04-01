@@ -13,7 +13,6 @@ If you think about the coronavirus outbreak at this moment and then look ahead t
 .. csv-table::
 
        0 totally disagree, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 totally agree
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 If you think about the coronavirus outbreak at this moment and then look ahead to the next 12 months, do you agree with the following statements? Work more
@@ -22,7 +21,6 @@ If you think about the coronavirus outbreak at this moment and then look ahead t
 .. csv-table::
 
        0 totally disagree, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 totally agree
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 If you think about the coronavirus outbreak at this moment and then look ahead to the next 12 months, do you agree with the following statements? Work less
@@ -31,7 +29,6 @@ If you think about the coronavirus outbreak at this moment and then look ahead t
 .. csv-table::
 
        0 totally disagree, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 totally agree
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 If you think about the coronavirus outbreak at this moment and then look ahead to the next 12 months, do you agree with the following statements? Borrow extra
@@ -40,7 +37,6 @@ If you think about the coronavirus outbreak at this moment and then look ahead t
 .. csv-table::
 
        0 totally disagree, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 totally agree
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 If you think about the coronavirus outbreak at this moment and then look ahead to the next 12 months, do you agree with the following statements? Postpone house purchase
@@ -49,7 +45,6 @@ If you think about the coronavirus outbreak at this moment and then look ahead t
 .. csv-table::
 
        0 totally disagree, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 totally agree
-
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 

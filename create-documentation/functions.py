@@ -6,8 +6,8 @@ import numpy as np
 button = ":raw-html:`&#10063;`"
 csv_header ="\n{}\n"
 csv_entry = "\n.. csv-table::"
-csv_columns = "       {}"
-csv_row = "\n            {}"  
+csv_columns = "\n       {}"
+csv_row = "            {}"  
 bool_entry = ":raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – {}\n"
 open_question = "\n{}  .............. \n"
 
