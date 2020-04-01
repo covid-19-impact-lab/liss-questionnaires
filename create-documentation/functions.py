@@ -1,13 +1,15 @@
 """ Functions used in create-documentation notebook"""
-
+import os
+import pandas as pd
+import numpy as np
 
 button = ":raw-html:`&#10063;`"
-csv_header="\n*{}*\n"
-csv_entry = "\n.. csv-table:: \n"
-csv_columns = "\n       {}"
-csv_row ="\n            {}"  
-bool_entry=":raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *{}*\n"
-open_question="\n*{}*  .............. \n"
+csv_header ="\n{}\n"
+csv_entry = "\n.. csv-table::"
+csv_columns = "       {}"
+csv_row = "\n            {}"  
+bool_entry = ":raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – {}\n"
+open_question = "\n{}  .............. \n"
 
 
 def add_to_file(msg, path):
@@ -19,8 +21,8 @@ def add_to_file(msg, path):
 def get_rst_names(name_list):
     """ Get list of group .rst-file names. """
     files =[]
-    for group in name_list:
-        file_name=group
+    for name in name_list:
+        file_name = name
         file_name = ''.join(file_name.split())
         files.append(file_name)
         
@@ -47,9 +49,16 @@ def insert_question(df, idx, q_type, q_label, q_categories, path):
     else:
         raise ValueError("Question type (q_type) must be in ['Categorical','bool', 'int', 'float', 'str']")
         
+def create_topic_folders(codebook, q_topics, target_dir):
+    
+    topics_list = list(codebook[q_topics].unique())
+
+    for topic in topics_list:
+        path = target_dir + topic
+        os.mkdir(path)
         
         
-def create_group_file(codebook, q_groups, q_type, q_label, q_categories, target_dir):
+def create_group_file(codebook, q_topics, q_groups, q_type, q_label, q_categories, target_dir):
     """ Create reStructuredText files for all groups specified in q_groups. Each file holds all questions that belong to a respective group.
     """
     
@@ -61,13 +70,12 @@ def create_group_file(codebook, q_groups, q_type, q_label, q_categories, target_
     for idx, group in enumerate(group_list):
         
         df = data[data.index.get_level_values(q_groups) == group]
-        
+        topic = list(df[q_topics].unique())[0]
         # Create rst-file.
         file_name = group
         file_name = ''.join(file_name.split())
-        
-        path = target_dir + file_name +".rst"
-        
+        path = target_dir + topic + "/" + file_name +".rst"
+ 
         # Write header with anchor, group name and add role to use raw-html.                                             
         add_to_file(".. _"+ file_name +":", path) 
         add_to_file("\n \n .. role:: raw-html(raw) \n        :format: html \n", path)
