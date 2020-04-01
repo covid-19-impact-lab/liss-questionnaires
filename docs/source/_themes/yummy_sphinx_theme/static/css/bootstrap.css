@@ -1178,10 +1178,10 @@ pre code{
 	padding:.3rem
 }
 .table-bordered,.table-bordered td,.table-bordered th{
-	border:1px solid #dee2e6
+	border:0px solid #FFFFFF
 }
 .table-bordered thead td,.table-bordered thead th{
-	border-top-width:2px
+	border-top-width:0px
 }
 .table-borderless tbody+tbody,.table-borderless td,.table-borderless th,.table-borderless thead th{
 	border:0

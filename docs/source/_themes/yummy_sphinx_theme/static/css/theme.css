@@ -3616,18 +3616,20 @@ a:link {
 	overflow:auto
 }
 .markdown-body table th{
-	font-weight:600
+	font-weight:600;
 }
 .markdown-body table td,.markdown-body table th{
 	padding:6px 13px;
-	border:1px solid #dfe2e5
+	border:1px solid #dfe2e5;
+	border-left: 0px none;
+    border-right: 0px none;
 }
 .markdown-body table tr{
-	background-color:#fff;
+	background-color:#F8F8F8;
 	border-top:1px solid #c6cbd1
 }
 .markdown-body table tr:nth-child(2n){
-	background-color:#f6f8fa
+	background-color:#F8F8F8
 }
 .markdown-body table img{
 	background-color:transparent
