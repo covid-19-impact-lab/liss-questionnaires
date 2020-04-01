@@ -58,4 +58,4 @@ Subjective Effectiveness of Health Behaviors
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 
-:raw-html:`&larr;` :ref:`FacebookUsage` | :ref:`SubjectiveEffectivenessofSocialDistancing` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`ChildcareAdjustments` | :ref:`SubjectiveEffectivenessofSocialDistancing` :raw-html:`&rarr;`

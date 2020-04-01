@@ -1,11 +1,11 @@
-.. _ReasonsforWorkingLess:
+.. _ReasonsforWorkingLessAmongEmployees:
 
  
  .. role:: raw-html(raw) 
         :format: html 
 
-Reasons for Working Less
-========================
+Reasons for Working Less Among Employees
+========================================
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *Less business activity in the company where I work*
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *Must take care of people (children, parents) who depend on me*
@@ -16,14 +16,6 @@ Reasons for Working Less
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *Otherwise*
 
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *Less business activity in my company*
-
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *Must take care of people (children, parents) who depend on me*
-
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *The entire company is closed (for now) due to the risk of contamination*
-
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *The entire company is closed (for now) due to the risk of contamination*
 
 
-
-:raw-html:`&larr;` :ref:`ReasonsforNotWorking` | :ref:`ContactwithWorkersorStudents` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`ReasonsforNotWorkingAmongEmployees` | :ref:`ReasonsforWorkingLessAmongtheSelf-Employed` :raw-html:`&rarr;`

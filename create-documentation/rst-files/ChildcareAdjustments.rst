@@ -26,18 +26,6 @@ Childcare Adjustments
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *Otherwise*
 
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *Nothing has changed because of the current epidemic*
 
 
-*Are you well helped with this emergency (child) care?*
-
-
-.. csv-table:: 
-
-
-       1 no not at all, 2, 3, 4, 5 yes very good
-
-            :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
-
-
-:raw-html:`&larr;` :ref:`WorkAdjustments` | :ref:`MediaDiet` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`TrustinGovernment` | :ref:`SubjectiveEffectivenessofHealthBehaviors` :raw-html:`&rarr;`

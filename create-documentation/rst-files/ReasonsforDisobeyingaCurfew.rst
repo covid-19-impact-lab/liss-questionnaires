@@ -20,8 +20,6 @@ Reasons for Disobeying a Curfew
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *I would disobey a curfew because it would be too boring to stay home all the time.*
 
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *I would disobey a curfew because of another reason.*
-
 
 
 :raw-html:`&larr;` :ref:`ReasonsforComplyingwithCurfew` | :ref:`WorkingHours` :raw-html:`&rarr;`

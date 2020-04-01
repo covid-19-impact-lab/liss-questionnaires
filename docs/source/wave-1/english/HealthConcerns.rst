@@ -23,7 +23,7 @@ Health Concerns
 .. csv-table:: 
 
 
-       2 not concerned at all, 2, 3, 4, 5 very concerned
+       1 not concerned at all, 2, 3, 4, 5 very concerned
 
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
@@ -33,7 +33,7 @@ Health Concerns
 .. csv-table:: 
 
 
-       3 not concerned at all, 2, 3, 4, 5 very concerned
+       1 not concerned at all, 2, 3, 4, 5 very concerned
 
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
@@ -43,7 +43,7 @@ Health Concerns
 .. csv-table:: 
 
 
-       4 not concerned at all, 2, 3, 4, 5 very concerned
+       1 not concerned at all, 2, 3, 4, 5 very concerned
 
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
@@ -53,9 +53,9 @@ Health Concerns
 .. csv-table:: 
 
 
-       9 not concerned at all, 2, 3, 4, 5 very concerned
+       1 not concerned at all, 2, 3, 4, 5 very concerned
 
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 
-:raw-html:`&larr;` :ref:`MoodintheLastWeek` | :ref:`EconomicConcerns` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`MentalHealthinthePastWeek` | :ref:`EconomicConcerns` :raw-html:`&rarr;`

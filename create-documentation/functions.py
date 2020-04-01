@@ -11,6 +11,7 @@ open_question="\n*{}*  .............. \n"
 
 
 def add_to_file(msg, path):
+    """ Adds line to file specified in path."""
     with open(path, "a") as f:
         f.write(msg + "\n")
         
@@ -27,7 +28,7 @@ def get_rst_names(name_list):
 
         
 def insert_question(df, idx, q_type, q_label, q_categories, path):
-    """ Inserts question based on question type using q_label als question title."""
+    """ Inserts question based on question type using q_label as question title."""
     
     if df.loc[idx, q_type] == 'Categorical':
         add_to_file(csv_header.format(df.loc[idx, q_label]), path)
@@ -49,6 +50,8 @@ def insert_question(df, idx, q_type, q_label, q_categories, path):
         
         
 def create_group_file(codebook, q_groups, q_type, q_label, q_categories, target_dir):
+    """ Create reStructuredText files for all groups specified in q_groups. Each file holds all questions that belong to a respective group.
+    """
     
     group_list = list(codebook[q_groups].unique())
     
@@ -65,7 +68,7 @@ def create_group_file(codebook, q_groups, q_type, q_label, q_categories, target_
         
         path = target_dir + file_name +".rst"
         
-        # Write header with anchor, group name and some other utilities.                                             
+        # Write header with anchor, group name and add role to use raw-html.                                             
         add_to_file(".. _"+ file_name +":", path) 
         add_to_file("\n \n .. role:: raw-html(raw) \n        :format: html \n", path)
         add_to_file(group + "\n"+ "="*len(group), path)
@@ -74,7 +77,7 @@ def create_group_file(codebook, q_groups, q_type, q_label, q_categories, target_
         for i in df.index:
             insert_question(df=df,idx=i, q_type=q_type,q_label=q_label,q_categories=q_categories, path=path)
 
-        # Insert link to previous and next group in documentation.
+        # Insert link to previous and next group at the bottom of the page.
         if idx == 0:
             next_group = group_list[idx+1]
             next_group = ''.join(next_group.split())
@@ -91,56 +94,3 @@ def create_group_file(codebook, q_groups, q_type, q_label, q_categories, target_
             next_group = group_list[idx+1]
             next_group = ''.join(next_group.split())
             add_to_file("\n\n:raw-html:`&larr;` :ref:`" + previous_group +"` | :ref:`"+ next_group + "` :raw-html:`&rarr;`", path)
-
-            
-### NEEDS TO BE UPDATED ---------------------------------------------------------------------------------------
-def create_topic_file(codebook, q_topics, q_groups, q_type):
-    
-    topic_list = list(codebook[q_topics].unique())
-    
-    data = codebook.copy()
-    data = data.set_index([codebook.index, q_topics, q_groups])
-    
-    for idx, topic in enumerate(topic_list):
-        
-        topic_df = data[data.index.get_level_values(q_topics) == topic]
-        
-        # Create rst-file.
-        file_name = topic
-        file_name = ''.join(file_name.split())
-        f= open(target_dir + file_name +".rst", "w+")
-        
-        # Write header with anchor, group name and some other utilities.
-        f.write(".. _"+ file_name +":")
-        f.write("\n \n .. role:: raw-html(raw) \n        :format: html \n \n")
-        f.write(topic + "\n"+ "="*len(topic)+"\n\n")
-        
-        group_list = list(topic_df.index.get_level_values(q_groups).unique())
-        for group in group_list:
-            
-            # Take slice of dataframe for each group.
-            df = topic_df[topic_df.index.get_level_values(q_groups) == group]
-            f.write("\n" + group + "\n"+ "-"*len(group) +"\n\n")
-            # Insert questions.
-            for i in df.index:
-                insert_question(df=df,idx=i, q_type=q_type,q_label=q_label, path=path)
-
-        # Insert link to previous and next topic in documentation.
-        if idx == 0:
-            next_topic = topic_list[idx+1]
-            next_topic = ''.join(next_topic.split())
-            f.write("\n :ref:`"+ next_topic + "` :raw-html:`&rarr;`")
-
-        elif idx == (len(topic_list)-1):
-            previous_topic = topic_list[idx-1]
-            previous_topic = ''.join(previous_topic.split())
-            f.write("\n :raw-html:`&larr;` :ref:`" + previous_topic +"`")
-        else:
-            previous_topic = topic_list[idx-1]
-            previous_topic = ''.join(previous_topic.split())
-
-            next_topic = topic_list[idx+1]
-            next_topic = ''.join(next_topic.split())
-            f.write("\n\n :raw-html:`&larr;` :ref:`" + previous_topic +"` | :ref:`"+ next_topic + "` :raw-html:`&rarr;`")
-        
-        f.close()

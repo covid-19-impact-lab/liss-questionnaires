@@ -48,4 +48,4 @@ Appropriateness of Policies
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 
-:raw-html:`&larr;` :ref:`CompliancewithCurfew` | :ref:`Trust` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`CompliancewithCurfew` | :ref:`TrustinGovernment` :raw-html:`&rarr;`

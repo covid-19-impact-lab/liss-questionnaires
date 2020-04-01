@@ -23,4 +23,4 @@ Employer Prospects
 
 
 
-:raw-html:`&larr;` :ref:`UseofOne-TimeAllowance` | :ref:`ProbabilityofSevereFinancialDistress` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`UseofOne-TimeAllowance` | :ref:`ProbabilityofNoOrInsufficientIncome` :raw-html:`&rarr;`

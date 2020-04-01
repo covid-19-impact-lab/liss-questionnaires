@@ -78,4 +78,4 @@ Subjective Effectiveness of Policies
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 
-:raw-html:`&larr;` :ref:`HealthBehaviors` | :ref:`CompliancewithCurfew` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`SocialDistancing` | :ref:`CompliancewithCurfew` :raw-html:`&rarr;`

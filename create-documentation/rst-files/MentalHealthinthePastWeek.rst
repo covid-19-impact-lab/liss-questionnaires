@@ -1,11 +1,11 @@
-.. _MoodintheLastWeek:
+.. _MentalHealthinthePastWeek:
 
  
  .. role:: raw-html(raw) 
         :format: html 
 
-Mood in the Last Week
-=====================
+Mental Health in the Past Week
+==============================
 
 *The past seven days I was very nervous*
 

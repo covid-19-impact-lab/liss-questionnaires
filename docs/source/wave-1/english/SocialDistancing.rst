@@ -18,10 +18,8 @@ Social Distancing
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *I have quarantined myself even though I have no symptoms.*
 
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *I have reduced personal meetings and contacts*
-
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *I have done none of the above*
 
 
 
-:raw-html:`&larr;` :ref:`SubjectiveRiskofDeath` | :ref:`HealthBehaviors` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`Vignettes:RiskofDeath` | :ref:`SubjectiveEffectivenessofPolicies` :raw-html:`&rarr;`

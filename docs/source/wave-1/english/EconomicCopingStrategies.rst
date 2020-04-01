@@ -18,11 +18,6 @@ Economic Coping Strategies
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *If the crisis leads to a situation where you have no income or where the income is lower than what you need to cover basic needs and outstanding payment obligations, how do you or your household deal with this? Must rely on social assistance*
 
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *If the crisis leads to a situation where you have no income or where the income is lower than what you need to cover basic needs and outstanding payment obligations, how do you or your household deal with this? Must rely on social assistance*
 
 
-*If the crisis leads to a situation where you have no income or where the income is lower than what you need to cover basic needs and outstanding payment obligations, how do you or your household deal with this? Other, namely:*  .............. 
-
-
-
-:raw-html:`&larr;` :ref:`ProbabilityofSevereFinancialDistress` | :ref:`MoodintheLastWeek` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`ProbabilityofNoOrInsufficientIncome` | :ref:`MentalHealthinthePastWeek` :raw-html:`&rarr;`

@@ -2,46 +2,43 @@
 Questions (English)
 ========================
 
-Below, you find the english documentation of all questions asked in the questionnaire. The questions are grouped by topic.  
+Below you find the english documentation of all questions asked in the questionnaire. The questions are grouped by topic.  
 
 .. toctree::
    :maxdepth: 1
    
-   SubjectiveRiskofHospitalization
-   SubjectiveRiskofGettingorSpreading
-   SubjectiveRiskofDeath
+   SubjectiveRisks
+   Vignettes:RiskofHospitalization
+   Vignettes:RiskofDeath
    SocialDistancing
-   HealthBehaviors
    SubjectiveEffectivenessofPolicies
    CompliancewithCurfew
    AppropriatenessofPolicies
-   Trust
    TrustinGovernment
-   BackgroundVariables
-   WorkAdjustments
    ChildcareAdjustments
-   MediaDiet
-   FacebookUsage
    SubjectiveEffectivenessofHealthBehaviors
    SubjectiveEffectivenessofSocialDistancing
    ContactwiththeElderly
    SupportforPolicies
    ExpectedDurationofRestrictions
+   ExpectedComplianceofOthers
    ReasonsforComplyingwithCurfew
    ReasonsforDisobeyingaCurfew
    WorkingHours
-   ReasonsforNotWorking
-   ReasonsforWorkingLess
+   ReasonsforNotWorkingAmongEmployees
+   ReasonsforWorkingLessAmongEmployees
+   ReasonsforWorkingLessAmongtheSelf-Employed
    ContactwithWorkersorStudents
    ConsumptionPlans
    UseofOne-TimeAllowance
    EmployerProspects
-   ProbabilityofSevereFinancialDistress
+   ProbabilityofNoOrInsufficientIncome
    EconomicCopingStrategies
-   MoodintheLastWeek
+   MentalHealthinthePastWeek
    HealthConcerns
    EconomicConcerns
    DurationoftheEconomicCrisis
    ProbabilitiesofEconomicRepercussions
    HousePrices
+   ConsumptionPlansNext12Months
    Employment

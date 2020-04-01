@@ -18,4 +18,4 @@ Contact with Workers or Students
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 
-:raw-html:`&larr;` :ref:`ReasonsforWorkingLess` | :ref:`ConsumptionPlans` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`ReasonsforWorkingLessAmongtheSelf-Employed` | :ref:`ConsumptionPlans` :raw-html:`&rarr;`

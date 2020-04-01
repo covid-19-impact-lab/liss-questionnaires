@@ -6,9 +6,6 @@
 
 Reasons for Complying with Curfew
 =================================
-
-*If the government obliges everyone to stay home tomorrow (except to do basic groceries), how many out of 100 people who don't work in critical professions would do this, do you think?*  .............. 
-
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *I would comply with a curfew because I see it as my civic duty.*
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *I would comply with a curfew out of fear of being punished.*
@@ -25,4 +22,4 @@ Reasons for Complying with Curfew
 
 
 
-:raw-html:`&larr;` :ref:`ExpectedDurationofRestrictions` | :ref:`ReasonsforDisobeyingaCurfew` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`ExpectedComplianceofOthers` | :ref:`ReasonsforDisobeyingaCurfew` :raw-html:`&rarr;`

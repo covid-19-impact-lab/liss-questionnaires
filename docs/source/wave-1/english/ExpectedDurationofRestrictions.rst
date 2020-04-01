@@ -18,4 +18,4 @@ Expected Duration of Restrictions
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 
-:raw-html:`&larr;` :ref:`SupportforPolicies` | :ref:`ReasonsforComplyingwithCurfew` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`SupportforPolicies` | :ref:`ExpectedComplianceofOthers` :raw-html:`&rarr;`

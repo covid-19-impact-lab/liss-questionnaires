@@ -1,11 +1,11 @@
-.. _ReasonsforNotWorking:
+.. _ReasonsforNotWorkingAmongEmployees:
 
  
  .. role:: raw-html(raw) 
         :format: html 
 
-Reasons for Not Working
-=======================
+Reasons for Not Working Among Employees
+=======================================
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *Less business activity in the company where I work*
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – *Must take care of people (children, parents) who depend on me*
@@ -20,4 +20,4 @@ Reasons for Not Working
 
 
 
-:raw-html:`&larr;` :ref:`WorkingHours` | :ref:`ReasonsforWorkingLess` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`WorkingHours` | :ref:`ReasonsforWorkingLessAmongEmployees` :raw-html:`&rarr;`

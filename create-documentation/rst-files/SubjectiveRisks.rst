@@ -1,11 +1,11 @@
-.. _SubjectiveRiskofGettingorSpreading:
+.. _SubjectiveRisks:
 
  
  .. role:: raw-html(raw) 
         :format: html 
 
-Subjective Risk of Getting or Spreading
-=======================================
+Subjective Risks
+================
 
 *How likely do you think it is that you will become infected with the new coronavirus in the next 2 months?*
 
@@ -57,4 +57,4 @@ Subjective Risk of Getting or Spreading
 
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
- :ref:`SubjectiveRiskofHospitalization` :raw-html:`&rarr;`
+ :ref:`Vignettes:RiskofHospitalization` :raw-html:`&rarr;`

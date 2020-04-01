@@ -13,7 +13,7 @@ Economic Concerns
 .. csv-table:: 
 
 
-       5 not concerned at all, 2, 3, 4, 5 very concerned
+       1 not concerned at all, 2, 3, 4, 5 very concerned
 
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
@@ -23,7 +23,7 @@ Economic Concerns
 .. csv-table:: 
 
 
-       6 not concerned at all, 2, 3, 4, 5 very concerned
+       1 not concerned at all, 2, 3, 4, 5 very concerned
 
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
@@ -33,7 +33,7 @@ Economic Concerns
 .. csv-table:: 
 
 
-       7 not concerned at all, 2, 3, 4, 5 very concerned
+       1 not concerned at all, 2, 3, 4, 5 very concerned
 
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
@@ -43,7 +43,7 @@ Economic Concerns
 .. csv-table:: 
 
 
-       8 not concerned at all, 2, 3, 4, 5 very concerned
+       1 not concerned at all, 2, 3, 4, 5 very concerned
 
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
@@ -53,7 +53,7 @@ Economic Concerns
 .. csv-table:: 
 
 
-       10 not concerned at all, 2, 3, 4, 5 very concerned
+       1 not concerned at all, 2, 3, 4, 5 very concerned
 
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
