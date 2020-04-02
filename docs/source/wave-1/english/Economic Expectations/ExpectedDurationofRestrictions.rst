@@ -7,7 +7,8 @@
 Expected Duration of Restrictions
 =================================
 
-Until when dou you think that the limitations that exist now will remain in effect?; *Variable:* ``duration_restrictions``
+Until when dou you think that the limitations that exist now will remain in effect?
+ *Variable:* ``duration_restrictions``
 
 
 .. csv-table::
@@ -16,4 +17,4 @@ Until when dou you think that the limitations that exist now will remain in effe
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 
-:raw-html:`&larr;` :ref:`SupportforPolicies` | :ref:`ExpectedComplianceofOthers` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`Employment` | :ref:`HousePrices` :raw-html:`&rarr;`

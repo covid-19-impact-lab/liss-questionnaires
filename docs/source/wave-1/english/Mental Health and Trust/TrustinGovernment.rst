@@ -7,7 +7,8 @@
 Trust in Government
 ===================
 
-In general, how confident are you in the government?; *Variable:* ``trust_gov``
+In general, how confident are you in the government?
+ *Variable:* ``trust_gov``
 
 
 .. csv-table::
@@ -16,4 +17,4 @@ In general, how confident are you in the government?; *Variable:* ``trust_gov``
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 
-:raw-html:`&larr;` :ref:`AppropriatenessofPolicies` | :ref:`ChildcareAdjustments` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`MentalHealthinthePastWeek` | :ref:`AppropriatenessofPolicies` :raw-html:`&rarr;`

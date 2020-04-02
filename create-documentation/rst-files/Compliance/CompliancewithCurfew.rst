@@ -7,7 +7,8 @@
 Compliance with Curfew
 ======================
 
-Would you comply with a curfew?; *Variable:* ``comply_curfew_self``
+Would you comply with a curfew?
+ *Variable:* ``comply_curfew_self``
 
 
 .. csv-table::
@@ -15,5 +16,4 @@ Would you comply with a curfew?; *Variable:* ``comply_curfew_self``
        yes, no, critical occupation
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-
-:raw-html:`&larr;` :ref:`SubjectiveEffectivenessofPolicies` | :ref:`AppropriatenessofPolicies` :raw-html:`&rarr;`
+ :ref:`ContactwithWorkersorStudents` :raw-html:`&rarr;`

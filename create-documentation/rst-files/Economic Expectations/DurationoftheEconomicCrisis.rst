@@ -7,7 +7,8 @@
 Duration of the Economic Crisis
 ===============================
 
-How long do you think the economic crisis will last?; *Variable:* ``duration_econ_crisis``
+How long do you think the economic crisis will last?
+ *Variable:* ``duration_econ_crisis``
 
 
 .. csv-table::
@@ -16,4 +17,4 @@ How long do you think the economic crisis will last?; *Variable:* ``duration_eco
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 
-:raw-html:`&larr;` :ref:`EconomicConcerns` | :ref:`ProbabilitiesofEconomicRepercussions` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`ConsumptionPlansNext12Months` | :ref:`EconomicCopingStrategies` :raw-html:`&rarr;`

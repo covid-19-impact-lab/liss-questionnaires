@@ -7,7 +7,8 @@
 Contact with the Elderly
 ========================
 
-Have you had personal, social contact with older people in the past seven days?; *Variable:* ``contact_older_people``
+Have you had personal, social contact with older people in the past seven days?
+ *Variable:* ``contact_older_people``
 
 
 .. csv-table::
@@ -16,4 +17,4 @@ Have you had personal, social contact with older people in the past seven days?;
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 
-:raw-html:`&larr;` :ref:`SubjectiveEffectivenessofSocialDistancing` | :ref:`SupportforPolicies` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`ContactwithWorkersorStudents` | :ref:`ExpectedComplianceofOthers` :raw-html:`&rarr;`

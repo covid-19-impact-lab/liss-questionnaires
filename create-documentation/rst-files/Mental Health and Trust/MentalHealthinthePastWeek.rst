@@ -7,7 +7,8 @@
 Mental Health in the Past Week
 ==============================
 
-The past seven days I was very nervous; *Variable:* ``nervous``
+The past seven days I was very nervous
+ *Variable:* ``nervous``
 
 
 .. csv-table::
@@ -15,7 +16,8 @@ The past seven days I was very nervous; *Variable:* ``nervous``
        never, rarely, sometimes, often, mostly, constantly
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-The past seven days I was so down that nothing could cheer me up; *Variable:* ``depressed``
+The past seven days I was so down that nothing could cheer me up
+ *Variable:* ``depressed``
 
 
 .. csv-table::
@@ -23,7 +25,8 @@ The past seven days I was so down that nothing could cheer me up; *Variable:* ``
        never, rarely, sometimes, often, mostly, constantly
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-The past seven days I felt calm and peaceful; *Variable:* ``calm``
+The past seven days I felt calm and peaceful
+ *Variable:* ``calm``
 
 
 .. csv-table::
@@ -31,7 +34,8 @@ The past seven days I felt calm and peaceful; *Variable:* ``calm``
        never, rarely, sometimes, often, mostly, constantly
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-The past seven days I felt dejected and gloomy; *Variable:* ``gloomy``
+The past seven days I felt dejected and gloomy
+ *Variable:* ``gloomy``
 
 
 .. csv-table::
@@ -39,7 +43,8 @@ The past seven days I felt dejected and gloomy; *Variable:* ``gloomy``
        never, rarely, sometimes, often, mostly, constantly
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-The past seven daysI felt happy; *Variable:* ``happy``
+The past seven daysI felt happy
+ *Variable:* ``happy``
 
 
 .. csv-table::
@@ -48,4 +53,4 @@ The past seven daysI felt happy; *Variable:* ``happy``
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 
-:raw-html:`&larr;` :ref:`EconomicCopingStrategies` | :ref:`HealthConcerns` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`HealthConcerns` | :ref:`TrustinGovernment` :raw-html:`&rarr;`

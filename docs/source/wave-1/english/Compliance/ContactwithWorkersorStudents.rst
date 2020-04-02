@@ -7,7 +7,8 @@
 Contact with Workers or Students
 ================================
 
-How often do you have personal social contacts with people who now work or study?; *Variable:* ``contact_workers``
+How often do you have personal social contacts with people who now work or study?
+ *Variable:* ``contact_workers``
 
 
 .. csv-table::
@@ -16,4 +17,4 @@ How often do you have personal social contacts with people who now work or study
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 
-:raw-html:`&larr;` :ref:`ReasonsforWorkingLessAmongtheSelf-Employed` | :ref:`ConsumptionPlans` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`CompliancewithCurfew` | :ref:`ContactwiththeElderly` :raw-html:`&rarr;`

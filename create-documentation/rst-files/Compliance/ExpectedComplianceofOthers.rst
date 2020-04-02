@@ -7,8 +7,9 @@
 Expected Compliance of Others
 =============================
 
-If the government obliges everyone to stay home tomorrow (except to do basic groceries), how many out of 100 people who don't work in critical professions would do this, do you think?  .............. ; *Variable:* ``comply_curfew_others`` 
+If the government obliges everyone to stay home tomorrow (except to do basic groceries), how many out of 100 people who don't work in critical professions would do this, do you think?  ..............
+ *Variable:* ``comply_curfew_others`` 
 
 
 
-:raw-html:`&larr;` :ref:`ExpectedDurationofRestrictions` | :ref:`ReasonsforComplyingwithCurfew` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`ContactwiththeElderly` | :ref:`ReasonsforComplyingwithCurfew` :raw-html:`&rarr;`
