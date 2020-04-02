@@ -7,8 +7,7 @@
 Subjective Effectiveness of Social Distancing
 =============================================
 
-In your opinion, how effective is avoiding public places when it comes to protecting yourself against the coronavirus?
- *Variable:* ``effect_avoid_public``
+In your opinion, how effective is avoiding public places when it comes to protecting yourself against the coronavirus? ``effect_avoid_public``
 
 
 .. csv-table::
@@ -16,8 +15,7 @@ In your opinion, how effective is avoiding public places when it comes to protec
        not effective at all, hardly effective, somewhat effective, effective, very effective
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-In your opinion, how effective is avoiding vulnerable people when it comes to protecting yourself against the coronavirus?
- *Variable:* ``effect_avoid_high_risk``
+In your opinion, how effective is avoiding vulnerable people when it comes to protecting yourself against the coronavirus? ``effect_avoid_high_risk``
 
 
 .. csv-table::
@@ -25,8 +23,7 @@ In your opinion, how effective is avoiding vulnerable people when it comes to pr
        not effective at all, hardly effective, somewhat effective, effective, very effective
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-In your opinion, how effective is avoiding visitng others in the hospital or retirement homes when it comes to protecting yourself against the coronavirus?
- *Variable:* ``effect_avoid_hospital``
+In your opinion, how effective is avoiding visitng others in the hospital or retirement homes when it comes to protecting yourself against the coronavirus? ``effect_avoid_hospital``
 
 
 .. csv-table::
@@ -34,8 +31,7 @@ In your opinion, how effective is avoiding visitng others in the hospital or ret
        not effective at all, hardly effective, somewhat effective, effective, very effective
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-In your opinion, how effective is avoiding cafes and restaurants when it comes to protecting yourself against the coronavirus?
- *Variable:* ``effect_avoid_gastro``
+In your opinion, how effective is avoiding cafes and restaurants when it comes to protecting yourself against the coronavirus? ``effect_avoid_gastro``
 
 
 .. csv-table::
@@ -43,8 +39,7 @@ In your opinion, how effective is avoiding cafes and restaurants when it comes t
        not effective at all, hardly effective, somewhat effective, effective, very effective
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-In your opinion, how effective is avoiding public transport when it comes to protecting yourself against the coronavirus?
- *Variable:* ``effect_avoid_public_transp``
+In your opinion, how effective is avoiding public transport when it comes to protecting yourself against the coronavirus? ``effect_avoid_public_transp``
 
 
 .. csv-table::

@@ -6,6 +6,9 @@
 Welcome to the CoViD-19 Impact Lab LISS Questionnaire documentation!
 ================================================================================
 
+This page contains the documentation of questionnaires created by the `CoViD-19 Impact Lab <https://covid-19-impact-lab.readthedocs.io/en/latest/>`_ in the `LISS Panel <https://www.lissdata.nl/>`_. The questionnaires are used to survey participants of the LISS Panel on their experiences, expectations, and socio-economic situation during the 2020 coronavirus pandemic. The surveys are divided into multiple waves, all of which will be documented here.
+
+
 .. toctree::
    :maxdepth: 3
 

@@ -7,8 +7,7 @@
 Health Concerns
 ===============
 
-That I get very bored
- *Variable:* ``concern_bored``
+That I get very bored ``concern_bored``
 
 
 .. csv-table::
@@ -16,8 +15,7 @@ That I get very bored
        1 not concerned at all, 2, 3, 4, 5 very concerned
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-That I become infected with the coronavirus and become very ill or die
- *Variable:* ``concern_serious_ill``
+That I become infected with the coronavirus and become very ill or die ``concern_serious_ill``
 
 
 .. csv-table::
@@ -25,8 +23,7 @@ That I become infected with the coronavirus and become very ill or die
        1 not concerned at all, 2, 3, 4, 5 very concerned
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-That I get infected with the coronavirus and infect others
- *Variable:* ``concern_infect_others``
+That I get infected with the coronavirus and infect others ``concern_infect_others``
 
 
 .. csv-table::
@@ -34,8 +31,7 @@ That I get infected with the coronavirus and infect others
        1 not concerned at all, 2, 3, 4, 5 very concerned
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-That loved ones become infected with the coronavirus and become very ill or die
- *Variable:* ``concern_loved_ill``
+That loved ones become infected with the coronavirus and become very ill or die ``concern_loved_ill``
 
 
 .. csv-table::
@@ -43,8 +39,7 @@ That loved ones become infected with the coronavirus and become very ill or die
        1 not concerned at all, 2, 3, 4, 5 very concerned
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-That I will not get good health care
- *Variable:* ``concern_health_care``
+That I will not get good health care ``concern_health_care``
 
 
 .. csv-table::

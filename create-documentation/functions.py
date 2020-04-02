@@ -4,12 +4,12 @@ import pandas as pd
 import numpy as np
 
 button = ":raw-html:`&#10063;`"
-csv_header ="\n{}\n *Variable:* ``{}``\n"
+csv_header ="\n{} ``{}``\n"
 csv_entry = "\n.. csv-table::"
 csv_columns = "\n       {}"
 csv_row = "            {}"  
-bool_entry = ":raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – {} \n *Variable:* ``{}``\n"
-open_question = "\n{}  ..............\n *Variable:* ``{}`` \n"
+bool_entry = ":raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – {} ``{}``\n"
+open_question = "\n{}  .............. ``{}`` \n"
 
 
 def add_to_file(msg, path):

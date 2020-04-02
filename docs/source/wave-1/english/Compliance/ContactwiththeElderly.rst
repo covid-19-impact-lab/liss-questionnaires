@@ -7,8 +7,7 @@
 Contact with the Elderly
 ========================
 
-Have you had personal, social contact with older people in the past seven days?
- *Variable:* ``contact_older_people``
+Have you had personal, social contact with older people in the past seven days? ``contact_older_people``
 
 
 .. csv-table::
