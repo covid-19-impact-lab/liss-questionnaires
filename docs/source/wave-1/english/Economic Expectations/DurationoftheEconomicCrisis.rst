@@ -7,7 +7,7 @@
 Duration of the Economic Crisis
 ===============================
 
-How long do you think the economic crisis will last?
+How long do you think the economic crisis will last?; *Variable:* ``duration_econ_crisis``
 
 
 .. csv-table::

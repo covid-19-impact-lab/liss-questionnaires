@@ -7,7 +7,7 @@
 Compliance with Curfew
 ======================
 
-Would you comply with a curfew?
+Would you comply with a curfew?; *Variable:* ``comply_curfew_self``
 
 
 .. csv-table::

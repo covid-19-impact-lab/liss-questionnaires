@@ -7,7 +7,7 @@
 House Prices
 ============
 
-At what level will house prices in 12 months be compared to house prices in February (ie before the coronavirus outbreak)?
+At what level will house prices in 12 months be compared to house prices in February (ie before the coronavirus outbreak)?; *Variable:* ``exp_house_prices_direction``
 
 
 .. csv-table::
@@ -15,7 +15,7 @@ At what level will house prices in 12 months be compared to house prices in Febr
        House prices will be lower, House prices will be the same, House prices will be higher
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-How many percent ^ f_hogerlager 
+How many percent ^ f_hogerlager ; *Variable:* ``exp_house_prices_percent``
 
 
 .. csv-table::

@@ -7,7 +7,7 @@
 Expected Duration of Restrictions
 =================================
 
-Until when dou you think that the limitations that exist now will remain in effect?
+Until when dou you think that the limitations that exist now will remain in effect?; *Variable:* ``duration_restrictions``
 
 
 .. csv-table::

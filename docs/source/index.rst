@@ -7,7 +7,7 @@ Welcome to the CoViD-19 Impact Lab LISS Questionnaire documentation!
 ================================================================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
 
    wave-1/index
 

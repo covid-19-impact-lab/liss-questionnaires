@@ -7,7 +7,7 @@
 Trust in Government
 ===================
 
-In general, how confident are you in the government?
+In general, how confident are you in the government?; *Variable:* ``trust_gov``
 
 
 .. csv-table::

@@ -7,7 +7,7 @@
 Mental Health in the Past Week
 ==============================
 
-The past seven days I was very nervous
+The past seven days I was very nervous; *Variable:* ``nervous``
 
 
 .. csv-table::
@@ -15,7 +15,7 @@ The past seven days I was very nervous
        never, rarely, sometimes, often, mostly, constantly
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-The past seven days I was so down that nothing could cheer me up
+The past seven days I was so down that nothing could cheer me up; *Variable:* ``depressed``
 
 
 .. csv-table::
@@ -23,7 +23,7 @@ The past seven days I was so down that nothing could cheer me up
        never, rarely, sometimes, often, mostly, constantly
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-The past seven days I felt calm and peaceful
+The past seven days I felt calm and peaceful; *Variable:* ``calm``
 
 
 .. csv-table::
@@ -31,7 +31,7 @@ The past seven days I felt calm and peaceful
        never, rarely, sometimes, often, mostly, constantly
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-The past seven days I felt dejected and gloomy
+The past seven days I felt dejected and gloomy; *Variable:* ``gloomy``
 
 
 .. csv-table::
@@ -39,7 +39,7 @@ The past seven days I felt dejected and gloomy
        never, rarely, sometimes, often, mostly, constantly
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-The past seven daysI felt happy
+The past seven daysI felt happy; *Variable:* ``happy``
 
 
 .. csv-table::

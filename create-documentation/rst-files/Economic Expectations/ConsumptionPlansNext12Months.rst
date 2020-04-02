@@ -7,7 +7,7 @@
 Consumption Plans Next 12 Months
 ================================
 
-If you think about the coronavirus outbreak at this moment and then look ahead to the next 12 months, do you agree with the following statements? Spend less
+If you think about the coronavirus outbreak at this moment and then look ahead to the next 12 months, do you agree with the following statements? Spend less; *Variable:* ``exp_spend_less``
 
 
 .. csv-table::
@@ -15,7 +15,7 @@ If you think about the coronavirus outbreak at this moment and then look ahead t
        0 totally disagree, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 totally agree
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-If you think about the coronavirus outbreak at this moment and then look ahead to the next 12 months, do you agree with the following statements? Work more
+If you think about the coronavirus outbreak at this moment and then look ahead to the next 12 months, do you agree with the following statements? Work more; *Variable:* ``exp_work_more``
 
 
 .. csv-table::
@@ -23,7 +23,7 @@ If you think about the coronavirus outbreak at this moment and then look ahead t
        0 totally disagree, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 totally agree
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-If you think about the coronavirus outbreak at this moment and then look ahead to the next 12 months, do you agree with the following statements? Work less
+If you think about the coronavirus outbreak at this moment and then look ahead to the next 12 months, do you agree with the following statements? Work less; *Variable:* ``exp_work_less``
 
 
 .. csv-table::
@@ -31,7 +31,7 @@ If you think about the coronavirus outbreak at this moment and then look ahead t
        0 totally disagree, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 totally agree
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-If you think about the coronavirus outbreak at this moment and then look ahead to the next 12 months, do you agree with the following statements? Borrow extra
+If you think about the coronavirus outbreak at this moment and then look ahead to the next 12 months, do you agree with the following statements? Borrow extra; *Variable:* ``exp_borrow``
 
 
 .. csv-table::
@@ -39,7 +39,7 @@ If you think about the coronavirus outbreak at this moment and then look ahead t
        0 totally disagree, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 totally agree
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-If you think about the coronavirus outbreak at this moment and then look ahead to the next 12 months, do you agree with the following statements? Postpone house purchase
+If you think about the coronavirus outbreak at this moment and then look ahead to the next 12 months, do you agree with the following statements? Postpone house purchase; *Variable:* ``exp_postpone_house``
 
 
 .. csv-table::

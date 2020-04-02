@@ -7,7 +7,7 @@
 Subjective Effectiveness of Health Behaviors
 ============================================
 
-In your opinion, how effective is wearing a mask when it comes to protecting yourself against the coronavirus?
+In your opinion, how effective is wearing a mask when it comes to protecting yourself against the coronavirus?; *Variable:* ``effect_mask``
 
 
 .. csv-table::
@@ -15,7 +15,7 @@ In your opinion, how effective is wearing a mask when it comes to protecting you
        not effective at all, hardly effective, somewhat effective, effective, very effective
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-In your opinion, how effective is praying when it comes to protecting yourself against the coronavirus?
+In your opinion, how effective is praying when it comes to protecting yourself against the coronavirus?; *Variable:* ``effect_pray``
 
 
 .. csv-table::
@@ -23,7 +23,7 @@ In your opinion, how effective is praying when it comes to protecting yourself a
        not effective at all, hardly effective, somewhat effective, effective, very effective
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-In your opinion, how effective is washing your hands or using desinfectant when it comes to protecting yourself against the coronavirus?
+In your opinion, how effective is washing your hands or using desinfectant when it comes to protecting yourself against the coronavirus?; *Variable:* ``effect_wash_hands``
 
 
 .. csv-table::
@@ -31,7 +31,7 @@ In your opinion, how effective is washing your hands or using desinfectant when 
        not effective at all, hardly effective, somewhat effective, effective, very effective
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-In your opinion, how effective is calling a physician if you are ill when it comes to protecting yourself against the coronavirus?
+In your opinion, how effective is calling a physician if you are ill when it comes to protecting yourself against the coronavirus?; *Variable:* ``effect_doctor_ill``
 
 
 .. csv-table::
@@ -39,7 +39,7 @@ In your opinion, how effective is calling a physician if you are ill when it com
        not effective at all, hardly effective, somewhat effective, effective, very effective
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-In your opinion, how effective is calling a physician if you don't feel ill but are worried when it comes to protecting yourself against the coronavirus?
+In your opinion, how effective is calling a physician if you don't feel ill but are worried when it comes to protecting yourself against the coronavirus?; *Variable:* ``effect_doctor_healthy``
 
 
 .. csv-table::

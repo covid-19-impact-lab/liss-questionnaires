@@ -7,7 +7,7 @@
 Economic Concerns
 =================
 
-That I will lose my job
+That I will lose my job; *Variable:* ``concern_unemp``
 
 
 .. csv-table::
@@ -15,7 +15,7 @@ That I will lose my job
        1 not concerned at all, 2, 3, 4, 5 very concerned
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-That my company gets in financial difficulties.
+That my company gets in financial difficulties.; *Variable:* ``concern_company``
 
 
 .. csv-table::
@@ -23,7 +23,7 @@ That my company gets in financial difficulties.
        1 not concerned at all, 2, 3, 4, 5 very concerned
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-That I won't be able to find a new job.
+That I won't be able to find a new job.; *Variable:* ``concern_new_job``
 
 
 .. csv-table::
@@ -31,7 +31,7 @@ That I won't be able to find a new job.
        1 not concerned at all, 2, 3, 4, 5 very concerned
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-That I am unable to buy enough food
+That I am unable to buy enough food; *Variable:* ``concern_food``
 
 
 .. csv-table::
@@ -39,7 +39,7 @@ That I am unable to buy enough food
        1 not concerned at all, 2, 3, 4, 5 very concerned
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-That my favorite restaurant / cafe is going bankrupt
+That my favorite restaurant / cafe is going bankrupt; *Variable:* ``concern_fav_shop_bancrupt``
 
 
 .. csv-table::
