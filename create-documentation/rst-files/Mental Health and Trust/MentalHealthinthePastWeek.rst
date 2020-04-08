@@ -31,14 +31,6 @@ The past seven days I felt calm and peaceful ``calm``
        never, rarely, sometimes, often, mostly, constantly
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-The past seven days I felt dejected and gloomy ``gloomy``
-
-
-.. csv-table::
-
-       never, rarely, sometimes, often, mostly, constantly
-            :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
-
 The past seven daysI felt happy ``happy``
 
 
@@ -47,5 +39,13 @@ The past seven daysI felt happy ``happy``
        never, rarely, sometimes, often, mostly, constantly
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
+The past seven days I felt dejected and gloomy ``gloomy``
 
-:raw-html:`&larr;` :ref:`HealthConcerns` | :ref:`TrustinGovernment` :raw-html:`&rarr;`
+
+.. csv-table::
+
+       never, rarely, sometimes, often, mostly, constantly
+            :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
+
+
+:raw-html:`&larr;` :ref:`HealthConcerns` | :ref:`SupportforPolicies` :raw-html:`&rarr;`

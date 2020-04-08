@@ -7,14 +7,6 @@
 Subjective Risks
 ================
 
-How likely do you think it is that you will become infected with the new coronavirus in the next 2 months? ``p_infected``
-
-
-.. csv-table::
-
-       not at all likely, very unlikely, rather unlikely, moderately likely, rather likely, very likely, certain, has already happened
-            :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
-
 How likely do you think it is that someone in your direct environment (family, friends, colleagues) will be infected with the new coronavirus in the next 2 months? ``p_acquaintance_infected``
 
 
@@ -47,5 +39,13 @@ How likely do you think it is that you will get infected and infect others in th
        not at all likely, very unlikely, rather unlikely, moderately likely, rather likely, very likely, certain, has already happened
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
+How likely do you think it is that you will become infected with the new coronavirus in the next 2 months? ``p_infected``
 
-:raw-html:`&larr;` :ref:`SubjectiveEffectivenessofSocialDistancing` | :ref:`Vignettes:RiskofDeath` :raw-html:`&rarr;`
+
+.. csv-table::
+
+       not at all likely, very unlikely, rather unlikely, moderately likely, rather likely, very likely, certain, has already happened
+            :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
+
+
+:raw-html:`&larr;` :ref:`ExpectedDurationofRestrictions` | :ref:`Vignettes:RiskofHospitalization` :raw-html:`&rarr;`

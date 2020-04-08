@@ -1,0 +1,22 @@
+.. _q17:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+q17 Reasons for Working Not Or Less Among the Self-Employed
+===========================================================
+
+Why are you not working less or not at the moment? Multiple answers possible.
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Less business activity of my company ``selfempl_less_business``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – The entire company is closed (for now) due to the risk of contamination ``selfempl_less_closure``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Another reason. ``selfempl_less_other``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – I need to take care of people (children, parents) who depend on me ``selfempl_less_care``
+
+
+
+:raw-html:`&larr;` :ref:`q16` | :ref:`q18` :raw-html:`&rarr;`

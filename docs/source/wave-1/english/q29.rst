@@ -1,0 +1,33 @@
+.. _q29:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+q29 Economic Coping Strategies
+==============================
+
+If the crisis leads to a situation where you have no income or where the income is lower than what
+you need to cover basic needs and outstanding payment obligations, how do you or your household
+deal with this?
+Basic needs and payment obligations include basic food, utility bills, insurance, mortgage and other
+loans, medical expenses, etc.
+This concerns the total income of your household.
+Multiple answers possible
+I will / we will …
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – must rely on social assistance ``cope_soc_assist``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – tap into my/our savings ``cope_savings``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – take out a loan / increase the mortgage ``cope_loan``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – would rely on family ``cope_family``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – would apply for unemployment / disability benefits ``cope_unemp``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – apply for my (early) retirement pension ``cope_retire``
+
+
+
+:raw-html:`&larr;` :ref:`q28` | :ref:`q30` :raw-html:`&rarr;`

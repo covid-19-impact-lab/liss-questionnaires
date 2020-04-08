@@ -1,0 +1,23 @@
+.. _q33:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+q33 Appropriateness of Policy Response
+======================================
+
+Do you think that the government is taking too few or too many measures to combat the
+coronavirus crisis in the following areas?
+
+
+.. csv-table::
+
+       ,too few, rather too few, right amount, rather too many, too many 
+           Limiting social contacts, e.g., by closing public spaces and shops,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
+           Reducing its economic impact,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
+           Guaranteeing medical care,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
+           Communication with the population,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
+
+
+:raw-html:`&larr;` :ref:`q32` | :ref:`v1` :raw-html:`&rarr;`

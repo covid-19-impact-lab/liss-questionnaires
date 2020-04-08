@@ -7,7 +7,7 @@
 Appropriateness of Policies
 ===========================
 
-Has the federal government taken enough action to safeguard medical coverage to fight the current epidemic? ``approp_gov_medical``
+Has the federal government taken enough action communicating with the general public to fight the current epidemic? ``approp_gov_communication``
 
 
 .. csv-table::
@@ -23,6 +23,14 @@ Has the federal government taken enough action in restricting the public life to
        too few, rather too few, right amount, rather too many, too many 
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
+Has the federal government taken enough action to safeguard medical coverage to fight the current epidemic? ``approp_gov_medical``
+
+
+.. csv-table::
+
+       too few, rather too few, right amount, rather too many, too many 
+            :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
+
 Has the federal government taken enough action to mitigate the economic repercussions to fight the current epidemic? ``approp_gov_econ_mitigation``
 
 
@@ -31,13 +39,5 @@ Has the federal government taken enough action to mitigate the economic repercus
        too few, rather too few, right amount, rather too many, too many 
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
-Has the federal government taken enough action communicating with the general public to fight the current epidemic? ``approp_gov_communication``
 
-
-.. csv-table::
-
-       too few, rather too few, right amount, rather too many, too many 
-            :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
-
-
-:raw-html:`&larr;` :ref:`TrustinGovernment` | :ref:`SubjectiveEffectivenessofPolicies` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`SupportforPolicies` | :ref:`SubjectiveEffectivenessofPolicies` :raw-html:`&rarr;`

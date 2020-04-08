@@ -15,4 +15,5 @@ Would you comply with a curfew? ``comply_curfew_self``
        yes, no, critical occupation
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
- :ref:`ContactwithWorkersorStudents` :raw-html:`&rarr;`
+
+:raw-html:`&larr;` :ref:`ReasonsforDisobeyingaCurfew` | :ref:`ReasonsforComplyingwithCurfew` :raw-html:`&rarr;`

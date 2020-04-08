@@ -11,4 +11,4 @@ If the government obliges everyone to stay home tomorrow (except to do basic gro
 
 
 
-:raw-html:`&larr;` :ref:`ContactwiththeElderly` | :ref:`ReasonsforComplyingwithCurfew` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`SocialDistancing` | :ref:`ContactwithWorkersorStudents` :raw-html:`&rarr;`

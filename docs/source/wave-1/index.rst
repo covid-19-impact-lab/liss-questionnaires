@@ -4,7 +4,7 @@ Wave 1
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    example
    english/index

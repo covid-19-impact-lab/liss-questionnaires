@@ -16,4 +16,4 @@ How long do you think the economic crisis will last? ``duration_econ_crisis``
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 
-:raw-html:`&larr;` :ref:`ConsumptionPlansNext12Months` | :ref:`EconomicCopingStrategies` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`EmployerProspects` | :ref:`ExpectedDurationofRestrictions` :raw-html:`&rarr;`

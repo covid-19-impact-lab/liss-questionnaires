@@ -3,13 +3,68 @@ import os
 import pandas as pd
 import numpy as np
 
-button = ":raw-html:`&#10063;`"
-csv_header ="\n{} ``{}``\n"
-csv_entry = "\n.. csv-table::"
-csv_columns = "\n       {}"
-csv_row = "            {}"  
-bool_entry = ":raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – {} ``{}``\n"
-open_question = "\n{}  .............. ``{}`` \n"
+button = ':raw-html:`&#10063;`'
+csv_header ='\n{} ``{}``\n'
+csv_entry = '\n.. csv-table::'
+csv_columns = '\n       ,{}'
+csv_row = '           {},{}'  
+bool_entry = ':raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – {} ``{}``\n'
+open_question = '\n{}  .............. ``{}`` \n'
+header_question = '\n{}\n'
+
+def create_pages(codebook, q_ids, q_groups, q_layout, q_text, q_sub_text, q_categories, q_varname, target_dir):
+    """ Create reStructuredText files for all groups specified in q_groups. Each file holds all questions that belong to a respective group.
+    """
+    
+    qids = list(codebook[q_ids].unique())
+    
+    data = codebook.copy()
+    data = data.set_index([codebook.index, q_ids])
+    
+    for idx, qid in enumerate(qids):
+        
+        df = data[data.index.get_level_values(q_ids) == qid]
+        # Create rst-file.
+        file_name = qid
+        group_name = df.loc[df.index[0], q_groups]        
+        path = target_dir + file_name +'.rst'
+        add_to_file('.. _'+ file_name +':', path) 
+        add_to_file('\n \n .. role:: raw-html(raw) \n        :format: html \n', path)
+        add_to_file(qid + ' ' + group_name + '\n'+ '='*len(qid + ' ' + group_name), path)
+        
+        if df[q_layout].all()== "open":
+            for i in df.index:
+                add_to_file(open_question.format(df.loc[i, q_text], df.loc[i, q_varname]),path)
+        
+        elif df[q_layout].all()== "multi":
+            add_to_file(header_question.format(df.loc[df.index[0], q_text]), path)
+            for i in df.index:
+                add_to_file(bool_entry.format(df.loc[i, q_sub_text], df.loc[i, q_varname]), path)
+        elif df[q_layout].all() in ["table","grid","cat"]:
+            add_to_file(header_question.format(df.loc[df.index[0], q_text]), path)
+            add_to_file(csv_entry.format(), path)
+            add_to_file(csv_columns.format(df.loc[df.index[0], q_categories]), path)
+            for i in df.index:
+                if df.loc[i, q_layout] == "grid":
+                    add_to_file(csv_row.format(df.loc[i, q_sub_text]," "), path)
+                else:
+                    items = df.loc[i, q_categories].count(",") 
+                    add_to_file(csv_row.format(df.loc[i, q_sub_text],(button + ",")*(items) + button), path)
+        else:
+            raise ValueError("Page format in codebook is not correctly defined.")
+                                
+        if idx == 0:
+            next_q = qids[idx+1]
+            add_to_file('\n\n:ref:`'+ next_q + '` :raw-html:`&rarr;`', path)
+
+        elif idx == (len(qids)-1):
+            previous_q = qids[idx-1]
+            add_to_file('\n\n:raw-html:`&larr;` :ref:`' + previous_q +'`', path)
+        else:
+            previous_q = qids[idx-1]
+            next_q = qids[idx+1]
+            add_to_file('\n\n:raw-html:`&larr;` :ref:`' + previous_q + '` | :ref:`' + next_q + '` :raw-html:`&rarr;`', path)
+
 
 
 def add_to_file(msg, path):
@@ -58,7 +113,7 @@ def create_topic_folders(codebook, q_topics, target_dir):
         os.mkdir(path)
         
         
-def create_group_file(codebook, q_topics, q_groups, q_type, q_label, q_categories, q_varname, target_dir):
+def create_group_file(codebook, q_topics, q_groups, q_type, q_label, q_categories, q_varname, target_dir, sort_topic=False):
     """ Create reStructuredText files for all groups specified in q_groups. Each file holds all questions that belong to a respective group.
     """
     
@@ -74,8 +129,12 @@ def create_group_file(codebook, q_topics, q_groups, q_type, q_label, q_categorie
         # Create rst-file.
         file_name = group
         file_name = ''.join(file_name.split())
-        path = target_dir + topic + "/" + file_name +".rst"
- 
+        
+        if sort_topic==True:
+            path = target_dir + topic + "/" + file_name +".rst"
+        else:
+            path = target_dir + file_name +".rst"
+            
         # Write header with anchor, group name and add role to use raw-html.                                             
         add_to_file(".. _"+ file_name +":", path) 
         add_to_file("\n \n .. role:: raw-html(raw) \n        :format: html \n", path)
@@ -97,12 +156,12 @@ def create_group_file(codebook, q_topics, q_groups, q_type, q_label, q_categorie
         if idx == 0:
             next_group = group_list[idx+1]
             next_group = ''.join(next_group.split())
-            add_to_file("\n :ref:`"+ next_group + "` :raw-html:`&rarr;`", path)
+            add_to_file("\n\n:ref:`"+ next_group + "` :raw-html:`&rarr;`", path)
 
         elif idx == (len(group_list)-1):
             previous_group = group_list[idx-1]
             previous_group = ''.join(previous_group.split())
-            add_to_file("\n :raw-html:`&larr;` :ref:`" + previous_group +"`", path)
+            add_to_file("\n\n:raw-html:`&larr;` :ref:`" + previous_group +"`", path)
         else:
             previous_group = group_list[idx-1]
             previous_group = ''.join(previous_group.split())

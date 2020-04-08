@@ -1,0 +1,29 @@
+.. _q12:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+q12 Reasons for Disobeying a Curfew
+===================================
+
+For what reasons would you not stay at home?
+Multiple answers possible.
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – I am unwilling to accept such drastic restrictions of my freedoms. ``disobey_bc_freedom``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – I am not afraid of being fined ``disobey_bc_not_punish``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – I do not think the reduction in risk warrants such drastic restrictions. ``disobey_bc_unjustified``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – I do not think following the restrictions would slow the transmission tangibly ``disobey_bc_ineffective``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – I do not think I will be affected by the outbreak. ``disobey_bc_unaffected``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – I feel I have obligations that justify disobeying such orders. ``disobey_bc_obligations``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Staying home all the time would be too boring. ``disobey_bc_bored``
+
+
+
+:raw-html:`&larr;` :ref:`q11` | :ref:`q14` :raw-html:`&rarr;`

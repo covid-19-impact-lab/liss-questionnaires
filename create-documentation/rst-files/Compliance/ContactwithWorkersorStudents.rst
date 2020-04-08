@@ -16,4 +16,4 @@ How often do you have personal social contacts with people who now work or study
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 
-:raw-html:`&larr;` :ref:`CompliancewithCurfew` | :ref:`ContactwiththeElderly` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`ExpectedComplianceofOthers` | :ref:`ContactwiththeElderly` :raw-html:`&rarr;`

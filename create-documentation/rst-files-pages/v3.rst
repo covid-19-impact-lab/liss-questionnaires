@@ -1,0 +1,19 @@
+.. _v3:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+v3 House Prices
+===============
+
+At what level will house prices in 12 months be compared to house prices in February (ie before the coronavirus outbreak)?
+
+
+.. csv-table::
+
+       ,House prices will be lower, House prices will be the same, House prices will be higher
+           nan,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
+
+
+:raw-html:`&larr;` :ref:`v2` | :ref:`v4` :raw-html:`&rarr;`

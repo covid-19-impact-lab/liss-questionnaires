@@ -11,4 +11,4 @@ What is the probability that the Coronavirus crisis will lead to a situation whe
 
 
 
-:raw-html:`&larr;` :ref:`ProbabilitiesofEconomicRepercussions` | :ref:`UseofOne-TimeAllowance` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`EconomicCopingStrategies` | :ref:`EmployerProspects` :raw-html:`&rarr;`

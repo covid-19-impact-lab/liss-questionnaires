@@ -6,15 +6,15 @@
 
 Consumption Plans
 =================
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Do you intend to do the following things in response to the spread of the coronavirus? Save more to have something to fall back on when things get worse ``intend_save_more``
-
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Do you intend to do the following things in response to the spread of the coronavirus? Postpone purchases of durable goods, such as a car, technical appliances or furniture, for the foreseeable future ``intend_postpone_purchase``
-
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Do you intend to do the following things in response to the spread of the coronavirus? Postpone the purchase of a house or apartment ``intend_postpone_house``
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Do you intend to do the following things in response to the spread of the coronavirus? Selling shares ``intend_sell_shares``
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Do you intend to do the following things in response to the spread of the coronavirus? Moving to a smaller house or apartment ``intend_reduce_housing``
 
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Do you intend to do the following things in response to the spread of the coronavirus? Selling shares ``intend_sell_shares``
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Do you intend to do the following things in response to the spread of the coronavirus? Postpone the purchase of a house or apartment ``intend_postpone_house``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Do you intend to do the following things in response to the spread of the coronavirus? Postpone purchases of durable goods, such as a car, technical appliances or furniture, for the foreseeable future ``intend_postpone_purchase``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Do you intend to do the following things in response to the spread of the coronavirus? Save more to have something to fall back on when things get worse ``intend_save_more``
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Do you intend to do the following things in response to the spread of the coronavirus? Buying shares ``intend_buy_shares``
 
@@ -22,4 +22,4 @@ Consumption Plans
 
 
 
-:raw-html:`&larr;` :ref:`ChildcareAdjustments` | :ref:`ReasonsforNotWorkingAmongEmployees` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`ContactwiththeElderly` | :ref:`ReasonsforWorkingLessAmongEmployees` :raw-html:`&rarr;`

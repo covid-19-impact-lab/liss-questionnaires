@@ -1,0 +1,19 @@
+.. _q18:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+q18 Contact with Workers or Students
+====================================
+
+How often do you currently have personal social contacts with people who work or study?
+
+
+.. csv-table::
+
+       ,Never, once a week, several times a week, every day
+           nan,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
+
+
+:raw-html:`&larr;` :ref:`q17` | :ref:`q21` :raw-html:`&rarr;`

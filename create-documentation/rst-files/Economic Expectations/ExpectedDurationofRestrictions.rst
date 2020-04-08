@@ -16,4 +16,4 @@ Until when dou you think that the limitations that exist now will remain in effe
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 
-:raw-html:`&larr;` :ref:`Employment` | :ref:`HousePrices` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`DurationoftheEconomicCrisis` | :ref:`SubjectiveRisks` :raw-html:`&rarr;`

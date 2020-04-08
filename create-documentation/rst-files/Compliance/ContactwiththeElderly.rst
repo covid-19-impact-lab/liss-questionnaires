@@ -16,4 +16,4 @@ Have you had personal, social contact with older people in the past seven days? 
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 
-:raw-html:`&larr;` :ref:`ContactwithWorkersorStudents` | :ref:`ExpectedComplianceofOthers` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`ContactwithWorkersorStudents` | :ref:`ConsumptionPlans` :raw-html:`&rarr;`

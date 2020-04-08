@@ -48,4 +48,4 @@ How big do you think the chances are that an 75 year old with diabetes and chron
             :raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
 
 
-:raw-html:`&larr;` :ref:`SubjectiveRisks` | :ref:`Vignettes:RiskofHospitalization` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`Vignettes:RiskofHospitalization` | :ref:`SubjectiveEffectivenessofHealthBehaviors` :raw-html:`&rarr;`

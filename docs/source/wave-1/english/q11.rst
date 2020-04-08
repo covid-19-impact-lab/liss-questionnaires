@@ -1,0 +1,29 @@
+.. _q11:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+q11 Reasons for Complying with Curfew
+=====================================
+
+For what reasons would you stay home?
+Multiple answers possible.
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – It is my civic duty ``comply_bc_civic``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – For fear of a fine ``comply_bc_fear_punished``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – To avoid getting infected ``comply_bc_protect_self``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – To avoid infecting my loved ones ``comply_bc_protect_close``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – To avoid infecting others ``comply_bc_protect_all``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – To avoid infecting vulnerable groups (e.g., the elderly) ``comply_bc_high_risk``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – I would comply with a curfew for another reason. ``comply_bc_other``
+
+
+
+:raw-html:`&larr;` :ref:`q10` | :ref:`q12` :raw-html:`&rarr;`

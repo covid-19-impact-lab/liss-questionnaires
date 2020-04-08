@@ -1,0 +1,19 @@
+.. _q5:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+q5 Contact with the Elderly
+===========================
+
+Have you had personal, social contact with older people in the past seven days?
+
+
+.. csv-table::
+
+       ,Not at all, hardly, some contact, much contact, very much contact
+           nan,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
+
+
+:raw-html:`&larr;` :ref:`q4` | :ref:`q6` :raw-html:`&rarr;`
