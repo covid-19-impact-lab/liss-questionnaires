@@ -20,5 +20,7 @@ Why are you working less now? Multiple answers possible
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Less business activity of the company I work for ``less_work_lessbusiness``
 
 
+.. image:: ../_screenshots/q16.png
+
 
 :raw-html:`&larr;` :ref:`q15` | :ref:`q17` :raw-html:`&rarr;`

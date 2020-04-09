@@ -22,5 +22,7 @@ Which of these recommendations did you follow during the past week? Please check
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Keep your distance from others (1.5m) ``maintain_distance``
 
 
+.. image:: ../_screenshots/q3.png
+
 
 :raw-html:`&larr;` :ref:`q2` | :ref:`q4` :raw-html:`&rarr;`

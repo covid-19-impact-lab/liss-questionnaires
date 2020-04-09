@@ -12,10 +12,11 @@ csv_row = "           {}{}"
 bool_entry = ":raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – {} ``{}``\n"
 open_question = "\n{}  .............. ``{}`` \n"
 header_question = "\n{}\n"
+insert_image = "\n.. image:: {}"
 
 
 
-def create_pages(codebook, q_ids, q_groups, q_layout, q_text, q_sub_text, q_categories, q_varname, target_dir):
+def create_pages(codebook, q_ids, q_groups, q_layout, q_text, q_sub_text, q_categories, q_varname, target_dir, image_path):
     """ Create reStructuredText files for all groups specified in q_groups. Each file holds all questions that belong to a respective group.
     """
     
@@ -59,11 +60,13 @@ def create_pages(codebook, q_ids, q_groups, q_layout, q_text, q_sub_text, q_cate
                     items = df.loc[i, q_categories].count(',') 
                     add_to_file(csv_row.format("",(button + "|")*(items) + button), path)
                 else:
-                    items = df.loc[i, q_categories].count(',') 
+                    items = df.loc[i, q_categories].count(',')                     
                     add_to_file(csv_row.format(df.loc[i, q_sub_text]+"|",(button + "|")*(items) + button), path)
         else:
             raise ValueError("Page format in codebook is not correctly defined.")
-                                
+        
+        add_to_file(insert_image.format(image_path + qid + ".png"),path)
+        
         if idx == 0:
             next_q = qids[idx+1]
             add_to_file("\n\n:ref:`"+ next_q + "` :raw-html:`&rarr;`", path)

@@ -20,5 +20,7 @@ Given the spread of the pandemic today, do you disagree or agree with the follow
            Everyone who does not work in a crucial professional group (for example, people who work in healthcare, public transport, the food chain) has to stay at home except to do basic shopping or because urgent medical care is required.|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
            People aged 70 and over or with a medical condition have to stay at home except to do basic shopping or because urgent medical attention is required.|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
 
+.. image:: ../_screenshots/q8.png
+
 
 :raw-html:`&larr;` :ref:`q7` | :ref:`q9` :raw-html:`&rarr;`

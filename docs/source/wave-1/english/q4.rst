@@ -24,5 +24,7 @@ In your opinion, how effective are the following actions for keeping you safe fr
            Avoiding hospitals and clinics|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
            Avoiding restaurants|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
 
+.. image:: ../_screenshots/q4.png
+
 
 :raw-html:`&larr;` :ref:`q3` | :ref:`q5` :raw-html:`&rarr;`

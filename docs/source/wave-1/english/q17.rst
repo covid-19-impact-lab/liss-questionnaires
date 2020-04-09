@@ -18,5 +18,7 @@ Why are you not working less or not at the moment? Multiple answers possible.
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – I need to take care of people (children, parents) who depend on me ``selfempl_less_care``
 
 
+.. image:: ../_screenshots/q17.png
+
 
 :raw-html:`&larr;` :ref:`q16` | :ref:`q18` :raw-html:`&rarr;`

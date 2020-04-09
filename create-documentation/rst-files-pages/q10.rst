@@ -15,5 +15,7 @@ Would you stay at home?
 
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
 
+.. image:: ../_screenshots/q10.png
+
 
 :raw-html:`&larr;` :ref:`q9` | :ref:`q11` :raw-html:`&rarr;`

@@ -18,5 +18,7 @@ On average, how many hours per week did you work at the workplace and from home 
            Hours at from home before the pandemic| 
            Hours at workplace before the pandemic| 
 
+.. image:: ../_screenshots/q14.png
+
 
 :raw-html:`&larr;` :ref:`q12` | :ref:`q15` :raw-html:`&rarr;`

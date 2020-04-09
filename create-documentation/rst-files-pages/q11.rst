@@ -24,5 +24,7 @@ For what reasons would you stay home? Multiple answers possible.
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – I would comply with a curfew for another reason. ``comply_bc_other``
 
 
+.. image:: ../_screenshots/q11.png
+
 
 :raw-html:`&larr;` :ref:`q10` | :ref:`q12` :raw-html:`&rarr;`

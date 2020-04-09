@@ -10,5 +10,7 @@ q9 Expected Compliance of Others
 If the government mandates tomorrow that everybody who does not work in a critical occupation needs to stay home except for basic shopping needs, how many individuals out of 100 would do so in your opinion?  .............. ``comply_curfew_others`` 
 
 
+.. image:: ../_screenshots/q9.png
+
 
 :raw-html:`&larr;` :ref:`q8` | :ref:`q10` :raw-html:`&rarr;`

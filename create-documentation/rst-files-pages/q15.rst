@@ -22,5 +22,7 @@ Why are you not working right now? Multiple answers possible
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Less business activity of the company I work for ``not_work_lessbusiness``
 
 
+.. image:: ../_screenshots/q15.png
+
 
 :raw-html:`&larr;` :ref:`q14` | :ref:`q16` :raw-html:`&rarr;`

@@ -15,5 +15,7 @@ Have you had personal, social contact with older people in the past seven days?
 
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
 
+.. image:: ../_screenshots/q5.png
+
 
 :raw-html:`&larr;` :ref:`q4` | :ref:`q6` :raw-html:`&rarr;`

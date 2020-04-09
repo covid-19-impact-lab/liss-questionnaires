@@ -20,5 +20,7 @@ Given the spread of the pandemic today, how effective do you think are the follo
            Close all Shops except for supermarkets and pharmacies|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
            Close Cafes and restaurants|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
 
+.. image:: ../_screenshots/q6.png
+
 
 :raw-html:`&larr;` :ref:`q5` | :ref:`q7` :raw-html:`&rarr;`

@@ -24,5 +24,7 @@ For what reasons would you not stay at home? Multiple answers possible.
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Staying home all the time would be too boring. ``disobey_bc_bored``
 
 
+.. image:: ../_screenshots/q12.png
+
 
 :raw-html:`&larr;` :ref:`q11` | :ref:`q14` :raw-html:`&rarr;`

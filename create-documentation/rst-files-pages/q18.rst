@@ -11,5 +11,11 @@ How often do you currently have personal social contacts with people who work or
 
 .. csv-table::
    :delim: |
-   :header: ,Never, once a week, several times a week, every day
+   :header: Never, once a week, several times a week, every day
 
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+
+.. image:: ../_screenshots/q18.png
+
+
+:raw-html:`&larr;` :ref:`q17` | :ref:`q21` :raw-html:`&rarr;`

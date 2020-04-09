@@ -24,5 +24,7 @@ How big do you think the chances are that the following people infected with the
            an otherwise healthy 30 year old will have to go to the hospital|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
            an otherwise healthy 5 year old will have to go to the hospital|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
 
+.. image:: ../_screenshots/q2.png
+
 
 :raw-html:`&larr;` :ref:`q1` | :ref:`q3` :raw-html:`&rarr;`
