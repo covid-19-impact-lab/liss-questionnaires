@@ -8,7 +8,7 @@ csv_header ="\n{} ``{}``\n"
 csv_entry = ".. csv-table::"
 csv_columns = "   :header: {}{}\n"
 csv_delim ="   :delim: |"
-csv_row = "           {}|{}"
+csv_row = "           {}{}"
 bool_entry = ":raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – {} ``{}``\n"
 open_question = "\n{}  .............. ``{}`` \n"
 header_question = "\n{}\n"
@@ -48,16 +48,19 @@ def create_pages(codebook, q_ids, q_groups, q_layout, q_text, q_sub_text, q_cate
             add_to_file(csv_entry.format(), path)
             add_to_file(csv_delim.format(), path)
             if df[q_layout].all() == "cat":
-                add_to_file(csv_columns.format("",df.loc[df.index[0], q_categories]), path)
+                add_to_file(csv_columns.format("", df.loc[df.index[0], q_categories]), path)
             else:
                 add_to_file(csv_columns.format(",",df.loc[df.index[0], q_categories]), path)
             
             for i in df.index:
                 if df.loc[i, q_layout] == "grid":
-                    add_to_file(csv_row.format(df.loc[i, q_sub_text]," "), path)
+                    add_to_file(csv_row.format(df.loc[i, q_sub_text]+"|"," "), path)
+                elif df.loc[i, q_layout] == "cat":
+                    items = df.loc[i, q_categories].count(',') 
+                    add_to_file(csv_row.format("",(button + "|")*(items) + button), path)
                 else:
                     items = df.loc[i, q_categories].count(',') 
-                    add_to_file(csv_row.format(df.loc[i, q_sub_text],(button + "|")*(items) + button), path)
+                    add_to_file(csv_row.format(df.loc[i, q_sub_text]+"|",(button + "|")*(items) + button), path)
         else:
             raise ValueError("Page format in codebook is not correctly defined.")
                                 

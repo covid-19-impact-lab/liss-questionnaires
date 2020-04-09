@@ -13,7 +13,7 @@ For how long do you think that the restrictions in place now (in everyday life) 
    :delim: |
    :header: until April 6, btw. April 6 and 2 months, btw. 2 and 4 months, btw. 4 and 8 months, btw. 8 and 12 months, for more than 1 year
 
-           nan|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
 
 
 :raw-html:`&larr;` :ref:`q6` | :ref:`q8` :raw-html:`&rarr;`

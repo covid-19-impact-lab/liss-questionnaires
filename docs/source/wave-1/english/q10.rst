@@ -13,7 +13,7 @@ Would you stay at home?
    :delim: |
    :header: Yes, No, I work in an essential occupation
 
-           nan|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
 
 
 :raw-html:`&larr;` :ref:`q9` | :ref:`q11` :raw-html:`&rarr;`
