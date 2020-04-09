@@ -7,9 +7,7 @@
 q23 Childcare Adjustments
 =========================
 
-How do you deal with closure of school and / or childcare because of the corona
-virus?
-Multiple answers possible
+How do you deal with closure of school and / or childcare because of the corona virus? Multiple answers possible
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Otherwise ``cc_other``
 

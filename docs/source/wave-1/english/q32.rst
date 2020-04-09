@@ -7,13 +7,13 @@
 q32 Trust in Government
 =======================
 
-What is your general level of trust in the government?
-
+Do you think that the government is taking too few or too many measures to combat thecoronavirus crisis in the following areas?
 
 .. csv-table::
+   :delim: |
+   :header: 1 no confidence at all, 2, 3, 4, 5 very confident
 
-       ,1 no confidence at all, 2, 3, 4, 5 very confident
-           nan,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
+           nan|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
 
 
 :raw-html:`&larr;` :ref:`q31` | :ref:`q33` :raw-html:`&rarr;`

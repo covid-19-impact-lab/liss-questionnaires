@@ -7,13 +7,11 @@
 q21 Consumption Plans
 =====================
 
-Do you intend to do the following things in response to the spread of the coronavirus?
-Multiple answers possible
+Do you intend to do the following things in response to the spread of the coronavirus? Multiple answers possible
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Save more to have something to fall back on when things get worse ``intend_save_more``
 
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Postpone the purchase of durable goods, such as a car, technical appliances or furniture, for the
-foreseeable future ``intend_postpone_purchase``
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Postpone the purchase of durable goods, such as a car, technical appliances or furniture, for the foreseeable future ``intend_postpone_purchase``
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Postpone the purchase of a house or apartment ``intend_postpone_house``
 

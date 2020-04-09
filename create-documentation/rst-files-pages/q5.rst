@@ -9,11 +9,11 @@ q5 Contact with the Elderly
 
 Have you had personal, social contact with older people in the past seven days?
 
-
 .. csv-table::
+   :delim: |
+   :header: Not at all, hardly, some contact, much contact, very much contact
 
-       ,Not at all, hardly, some contact, much contact, very much contact
-           nan,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`,:raw-html:`&#10063;`
+           nan|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
 
 
 :raw-html:`&larr;` :ref:`q4` | :ref:`q6` :raw-html:`&rarr;`

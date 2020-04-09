@@ -7,13 +7,8 @@
 q29 Economic Coping Strategies
 ==============================
 
-If the crisis leads to a situation where you have no income or where the income is lower than what
-you need to cover basic needs and outstanding payment obligations, how do you or your household
-deal with this?
-Basic needs and payment obligations include basic food, utility bills, insurance, mortgage and other
-loans, medical expenses, etc.
-This concerns the total income of your household.
-Multiple answers possible
+If the crisis leads to a situation where you have no income or where the income is lower than what you need to cover basic needs and outstanding payment obligations, how do you or your household deal with this? Basic needs and payment obligations include basic food, utility bills, insurance, mortgage and other
+loans, medical expenses, etc. This concerns the total income of your household. Multiple answers possible
 I will / we will …
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – must rely on social assistance ``cope_soc_assist``

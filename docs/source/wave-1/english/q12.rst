@@ -7,8 +7,7 @@
 q12 Reasons for Disobeying a Curfew
 ===================================
 
-For what reasons would you not stay at home?
-Multiple answers possible.
+For what reasons would you not stay at home? Multiple answers possible.
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – I am unwilling to accept such drastic restrictions of my freedoms. ``disobey_bc_freedom``
 

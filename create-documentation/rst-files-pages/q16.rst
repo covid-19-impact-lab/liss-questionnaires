@@ -7,8 +7,7 @@
 q16 Reasons for Working Less Among Employees
 ============================================
 
-Why are you working less now?
-Multiple answers possible
+Why are you working less now? Multiple answers possible
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Another reason. ``less_work_other``
 
