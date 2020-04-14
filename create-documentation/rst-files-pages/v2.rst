@@ -13,11 +13,11 @@ How likely is it that the following economic effects of the coronavirus crisis w
    :delim: |
    :header: ,very unlikely, unlikely, probably, very likely
 
-           I will struggle to repay debtsp_struggle_debts|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           My assets will drop in valuep_drop_in_assets|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           Loss of my job as an employeep_job_loss_empl|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           No more assignments as an independent entrepreneurp_job_loss_selfempl|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
            My bank will go bankruptp_bank_bancrupt|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           I will struggle to repay debtsp_struggle_debts|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           Loss of my job as an employeep_job_loss_empl|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           My assets will drop in valuep_drop_in_assets|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           No more assignments as an independent entrepreneurp_job_loss_selfempl|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
            Shortening my pensionp_shorten_pension|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
 
 .. image:: ../_screenshots/v2.png

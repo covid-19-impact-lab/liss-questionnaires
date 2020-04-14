@@ -12,12 +12,12 @@ On March 17, the United States government announced that every citizen will rece
 .. csv-table::
    :delim: |
            To cover costs of basic needs and outstanding payments, which I would otherwise not be able to pay (basic food, energy bill, insurance, mortgage and other loans, medical costs, etc.)eur_1k_basic_needs| 
+           Give financial support to family and / or friendseur_1k_support_others| 
            To cover the costs of expenses that I normally have, but which are not basic needs and which I would otherwise not be able to afford (eg home delivery of groceries, video streaming subscriptions, buying books, etc.)eur_1k_expenses| 
            The purchase of durable goods, such as a car, technical appliances or furniture in the near futureeur_1k_durables| 
            Savings (leave in my checking or savings account, buy shares, etc.)eur_1k_savings| 
-           Give financial support to family and / or friendseur_1k_support_others| 
 
 .. image:: ../_screenshots/q_heli.png
 
 
-:raw-html:`&larr;` :ref:`q21` | :ref:`q23` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`q21` | :ref:`q22` :raw-html:`&rarr;`

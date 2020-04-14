@@ -13,11 +13,11 @@ On average, how many hours per week did you work at the workplace and from home 
 .. csv-table::
    :delim: |
            Hours at workplace before the pandemicworkplace_h_before| 
-           Hours at from home before the pandemichome_h_before| 
-           Hours at from home in the past seven dayshome_h_after| 
            Hours at workplace in the past seven daysworkplace_h_after| 
+           Hours at from home in the past seven dayshome_h_after| 
+           Hours at from home before the pandemichome_h_before| 
 
 .. image:: ../_screenshots/q14.png
 
 
-:raw-html:`&larr;` :ref:`q12` | :ref:`q15` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`q13` | :ref:`q15` :raw-html:`&rarr;`

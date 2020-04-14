@@ -1,0 +1,16 @@
+.. _q22:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+q22 Young Children in Household
+===============================
+
+How many children under 12 are living in your household?  .............. ``nr_children_hh`` 
+
+
+.. image:: ../_screenshots/q22.png
+
+
+:raw-html:`&larr;` :ref:`q_heli` | :ref:`q23` :raw-html:`&rarr;`

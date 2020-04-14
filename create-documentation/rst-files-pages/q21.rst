@@ -9,19 +9,19 @@ q21 Consumption Plans
 
 Do you intend to do the following things in response to the spread of the coronavirus? Multiple answers possible
 
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Postpone the purchase of a house or apartment ``intend_postpone_house``
-
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Save more to have something to fall back on when things get worse ``intend_save_more``
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Selling stocks ``intend_sell_shares``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Postpone the purchase of a house or apartment ``intend_postpone_house``
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Buying stocks ``intend_buy_shares``
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – none of the above ``intend_none``
 
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Moving to a smaller house or apartment ``intend_reduce_housing``
-
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Postpone the purchase of durable goods, such as a car, technical appliances or furniture, for the foreseeable future ``intend_postpone_purchase``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Moving to a smaller house or apartment ``intend_reduce_housing``
 
 
 .. image:: ../_screenshots/q21.png

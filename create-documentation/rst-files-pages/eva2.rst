@@ -4,8 +4,8 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-eva2 questionnaire
-==================
+eva2 Questionnaire Feedback
+===========================
 
 Finally. What did you think of this questionnaire?
 

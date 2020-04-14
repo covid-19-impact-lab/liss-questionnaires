@@ -4,8 +4,8 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-q20 Skip
-========
+q20 Availability to Help
+========================
 Routing to the question depends on answer in: :ref:`q19`
 
 Suppose healthcare is overloaded by patients infected with the coronavirus. To what extent are you willing to volunteer in hospitals or retirement homes and care for people who are very ill from the coronavirus, even if that means that you are likely to contract the virus yourself?prepared_to_help

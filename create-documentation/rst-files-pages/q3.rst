@@ -11,13 +11,15 @@ Which of these recommendations did you follow during the past week? Please check
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – None of the above ``no_health_behaviors``
 
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Quarantine yourself if you have symptoms ``quarantine_symptoms``
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Quarantine yourself even if you do not have symptoms ``quarantine_no_symptoms``
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Change school or work arrangements ``adjust_school_work``
 
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Avoid crowded places ``avoid_busy_places``
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Quarantine yourself if you have symptoms ``quarantine_symptoms``
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Avoid public places ``avoid_public_places``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Avoid crowded places ``avoid_busy_places``
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Keep your distance from others (1.5m) ``maintain_distance``
 
