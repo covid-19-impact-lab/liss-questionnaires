@@ -4,13 +4,6 @@
 Questions Wave 1
 ==================
 
-.. toctree::
-   :maxdepth: 1
-   
-   q_intro
-   q_heli
-   q_break
-
 
 All Questions in order of appearance
 -------------------------------------
@@ -36,6 +29,7 @@ All Questions in order of appearance
 	- :ref:`q19`
 	- :ref:`q20`
 	- :ref:`q21`
+	- :ref:`q_heli`
 	- :ref:`q22`
 	- :ref:`q23`
 	- :ref:`q24`
@@ -48,11 +42,12 @@ All Questions in order of appearance
 	- :ref:`q31`
 	- :ref:`q32`
 	- :ref:`q33`
-	- :ref:`q_heli`
+	- :ref:`q_break`
 	- :ref:`v1`
 	- :ref:`v2`
 	- :ref:`v3`
 	- :ref:`v4`
 	- :ref:`v5`
+	- :ref:`eva2`
 
    

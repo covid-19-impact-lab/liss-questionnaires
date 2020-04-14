@@ -7,10 +7,10 @@
 v3 House Prices
 ===============
 
-At what level will house prices in 12 months be compared to house prices in February (ie before the coronavirus outbreak)?
+At what level will house prices in 12 months be compared to house prices in February (ie before the coronavirus outbreak)? ``exp_house_prices_direction``
 
 .. csv-table::
-   :delim: |
+   :delim: | 
    :header: House prices will be lower, House prices will be the same, House prices will be higher
 
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

@@ -6,12 +6,12 @@
 
 q18 Contact with Workers or Students
 ====================================
-Routing to the question depends on answer in: :ref:`q13`
+*Routing to the question depends on answer in:* :ref:`q13`
 
-How often do you currently have personal social contacts with people who work or study?contact_workers
+How often do you currently have personal social contacts with people who work or study? ``contact_workers``
 
 .. csv-table::
-   :delim: |
+   :delim: | 
    :header: Never, once a week, several times a week, every day
 
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

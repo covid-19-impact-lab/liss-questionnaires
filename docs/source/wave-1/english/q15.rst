@@ -6,16 +6,17 @@
 
 q15 Reasons for Not Working Among Employees
 ===========================================
+*Routing to the question depends on answer in:* :ref:`q14`
 
 Why are you not working right now? Multiple answers possible
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – I do not go to my workplace because I am afraid of being infected by the coronavirus and I cannot do the work I do at home ``not_work_fear_infection``
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Another reason. ``not_work_other``
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – I got fired ``not_work_fired``
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Because of the risk of infection, my employer postponed work ``not_work_employer``
-
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – I do not go to my workplace because I am afraid of being infected by the coronavirus and I cannot do the work I do at home ``not_work_fear_infection``
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – I need to take care of people (children, parents) who depend on me ``not_work_care``
 

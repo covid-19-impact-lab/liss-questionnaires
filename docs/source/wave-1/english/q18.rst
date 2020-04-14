@@ -6,11 +6,12 @@
 
 q18 Contact with Workers or Students
 ====================================
+*Routing to the question depends on answer in:* :ref:`q13`
 
-How often do you currently have personal social contacts with people who work or study?
+How often do you currently have personal social contacts with people who work or study? ``contact_workers``
 
 .. csv-table::
-   :delim: |
+   :delim: | 
    :header: Never, once a week, several times a week, every day
 
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
@@ -18,4 +19,4 @@ How often do you currently have personal social contacts with people who work or
 .. image:: ../_screenshots/q18.png
 
 
-:raw-html:`&larr;` :ref:`q17` | :ref:`q21` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`q17` | :ref:`q19` :raw-html:`&rarr;`

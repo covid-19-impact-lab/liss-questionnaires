@@ -7,10 +7,10 @@
 q10 Compliance with Curfew
 ==========================
 
-Would you stay at home?
+Would you stay at home? ``comply_curfew_self``
 
 .. csv-table::
-   :delim: |
+   :delim: | 
    :header: Yes, No, I work in an essential occupation
 
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

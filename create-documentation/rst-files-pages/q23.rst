@@ -6,7 +6,7 @@
 
 q23 Childcare Adjustments
 =========================
-Routing to the question depends on answer in: :ref:`q22`
+*Routing to the question depends on answer in:* :ref:`q22`
 
 How do you deal with closure of school and / or childcare because of the corona virus? Multiple answers possible
 

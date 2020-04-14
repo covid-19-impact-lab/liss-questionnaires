@@ -10,19 +10,19 @@ q2 Vignettes: Risk of Death
 How big do you think the chances are that the following people infected with the coronavirus will have to go to the hospital or will die in the next two months because of the coronavirus?
 
 .. csv-table::
-   :delim: |
+   :delim: | 
    :header: ,not at all likely, very unlikely, rather unlikely, moderately likely, rather likely, very likely, certain
 
-           A 30 year old with diabetes and chronic cardiovascular disease will diep_die_preexist_30|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           an otherwise healthy 75 year old will diep_die_healthy_75|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           an otherwise healthy 30 year old will diep_die_healthy_30|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           an otherwise healthy 5 year old will diep_die_healthy_5|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           A 75 year old with diabetes and chronic cardiovascular disease will diep_die_preexist_75|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           30 year old with diabetes and chronic cardiovascular disease will have to go to the hospitalp_hospital_preexist_30|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           an otherwise healthy 75 year old will have to go to the hospitalp_hospital_healthy_75|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           an otherwise healthy 30 year old will have to go to the hospitalp_hospital_healthy_30|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           an otherwise healthy 5 year old will have to go to the hospitalp_hospital_healthy_5|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           75 year old with diabetes and chronic cardiovascular disease will have to go to the hospitalp_hospital_preexist_75|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           A 30 year old with diabetes and chronic cardiovascular disease will die ``p_die_preexist_30`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           an otherwise healthy 75 year old will die ``p_die_healthy_75`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           an otherwise healthy 30 year old will die ``p_die_healthy_30`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           an otherwise healthy 5 year old will die ``p_die_healthy_5`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           A 75 year old with diabetes and chronic cardiovascular disease will die ``p_die_preexist_75`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           30 year old with diabetes and chronic cardiovascular disease will have to go to the hospital ``p_hospital_preexist_30`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           an otherwise healthy 75 year old will have to go to the hospital ``p_hospital_healthy_75`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           an otherwise healthy 30 year old will have to go to the hospital ``p_hospital_healthy_30`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           an otherwise healthy 5 year old will have to go to the hospital ``p_hospital_healthy_5`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           75 year old with diabetes and chronic cardiovascular disease will have to go to the hospital ``p_hospital_preexist_75`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
 
 .. image:: ../_screenshots/q2.png
 

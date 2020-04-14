@@ -8,7 +8,7 @@ An overview of all the variables can be found under :ref:`variable_overview`. Th
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    variable_overview
    english/index

@@ -6,7 +6,7 @@
 
 q16 Reasons for Working Less Among Employees
 ============================================
-Routing to the question depends on answer in: :ref:`q14`
+*Routing to the question depends on answer in:* :ref:`q14`
 
 Why are you working less now? Multiple answers possible
 
