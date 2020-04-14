@@ -10,7 +10,8 @@ q2 Vignettes: Risk of Death
 How big do you think the chances are that the following people infected with the coronavirus will have to go to the hospital or will die in the next two months because of the coronavirus?
 
 .. csv-table::
-   :delim: | 
+   :delim: |
+
    :header: ,not at all likely, very unlikely, rather unlikely, moderately likely, rather likely, very likely, certain
 
            A 30 year old with diabetes and chronic cardiovascular disease will die ``p_die_preexist_30`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

@@ -10,7 +10,8 @@ v2 Probabilities of Economic Repercussions
 How likely is it that the following economic effects of the coronavirus crisis will occur to you in the next 12 months?
 
 .. csv-table::
-   :delim: | 
+   :delim: |
+
    :header: ,very unlikely, unlikely, probably, very likely
 
            My bank will go bankrupt ``p_bank_bancrupt`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

@@ -11,7 +11,8 @@ q14 Working Hours
 On average, how many hours per week did you work at the workplace and from home in early March (or before the coronavirus affected your work)? And in the past seven days? If you always work from home, fill in all hours at 'from home'. Enter zero (0) if you never work at your workplace or at home.
 
 .. csv-table::
-   :delim: | 
+   :delim: |
+
            Hours at workplace before the pandemic ``workplace_h_before`` |  
            Hours at workplace in the past seven days ``workplace_h_after`` |  
            Hours at from home in the past seven days ``home_h_after`` |  

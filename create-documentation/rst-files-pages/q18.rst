@@ -11,7 +11,8 @@ q18 Contact with Workers or Students
 How often do you currently have personal social contacts with people who work or study? ``contact_workers``
 
 .. csv-table::
-   :delim: | 
+   :delim: |
+
    :header: Never, once a week, several times a week, every day
 
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

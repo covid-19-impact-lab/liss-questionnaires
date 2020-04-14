@@ -10,7 +10,8 @@ q13 Work Status Beginning of March
 Which of the following options describes your work situation at the beginning of March 2020 best? ``labor_status_liss``
 
 .. csv-table::
-   :delim: | 
+   :delim: |
+
    :header: employed, self-emplyed, unemployed, retired, social assistance, student or trainee, homemaker
 
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

@@ -10,7 +10,8 @@ v6 Government Action
 The government has taken measures to prevent infections and has put in place a large package to limit the economic consequences of the coronavirus outbreak. Do you agree with the following statements?
 
 .. csv-table::
-   :delim: | 
+   :delim: |
+
    :header: ,totally disagree, disagree, neither/nore, agree, totally agree
 
            I think the measures taken are insufficient ``gov_action_insuff`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

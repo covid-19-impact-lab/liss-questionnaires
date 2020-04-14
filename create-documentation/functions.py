@@ -7,7 +7,7 @@ button = ":raw-html:`&#10063;`"
 csv_header ="\n{} ``{}``\n"
 csv_entry = ".. csv-table::"
 csv_columns = "   :header: {}{}\n"
-csv_delim ="   :delim: | "
+csv_delim ="   :delim: |\n"
 csv_row = "           {} ``{}`` | {}"
 csv_singlerow = "           {}"
 bool_entry = ":raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – {} ``{}``\n"
@@ -82,13 +82,14 @@ def insert_table_question(df, path, q_text, q_sub_text, q_categories, q_varname)
     add_to_file(csv_columns.format(",",df.loc[df.index[0], q_categories]), path)
     for i in df.index:
         items = df.loc[i, q_categories].count(',')                     
-        add_to_file(csv_row.format(df.loc[i, q_sub_text], df.loc[i, q_varname],(button + "|")*(items) + button), path)        
+        add_to_file(csv_row.format(df.loc[i, q_sub_text], df.loc[i, q_varname],(button + "|")*(items) + button), path) 
+        
 def insert_grid_question(df, path, q_text, q_sub_text, q_categories, q_varname):    
     add_to_file(header_question.format(df.loc[df.index[0], q_text]), path)
     add_to_file(csv_entry.format(), path)
     add_to_file(csv_delim.format(), path)
     for i in df.index:
-        add_to_file(csv_row.format(df.loc[i, q_sub_text], df.loc[i, q_varname]," "), path)
+        add_to_file(csv_row.format(df.loc[i, q_sub_text], df.loc[i, q_varname], " "), path)
                     
 def insert_cat_question(df, path, q_text, q_categories, q_varname):    
     add_to_file(header_question_varname.format(df.loc[df.index[0], q_text], df.loc[df.index[0], q_varname]), path)

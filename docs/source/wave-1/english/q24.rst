@@ -11,7 +11,8 @@ q24 Emergency Childcare
 Are you well helped with this emergency (child) care? ``cc_emergency_helpful``
 
 .. csv-table::
-   :delim: | 
+   :delim: |
+
    :header: 1 no not at all, 2, 3, 4, 5 yes very good
 
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

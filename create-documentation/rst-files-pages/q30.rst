@@ -11,7 +11,8 @@ The next question is about how you have felt in the past seven days. Please give
 reflects your feelings. The past seven days …
 
 .. csv-table::
-   :delim: | 
+   :delim: |
+
    :header: ,never, rarely, sometimes, often, mostly, constantly
 
            I felt happy ``happy`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

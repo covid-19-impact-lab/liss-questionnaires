@@ -10,7 +10,8 @@ q8 Support for Policies
 Given the spread of the pandemic today, do you disagree or agree with the following policy measures (whether they are implemented or not at present)?
 
 .. csv-table::
-   :delim: | 
+   :delim: |
+
    :header: ,totally disagree, disagree, neither/nore, agree, totally agree
 
            No visitors in hospitals and elderly homes. ``supp_no_visitors`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

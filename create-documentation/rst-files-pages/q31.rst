@@ -10,7 +10,8 @@ q31 Economic Concerns
 When you think about the next four weeks, how concerned are you about the following?
 
 .. csv-table::
-   :delim: | 
+   :delim: |
+
    :header: ,1 not concerned at all, 2, 3, 4, 5 very concerned
 
            That my favorite restaurant / cafe is going bankrupt ``concern_fav_shop_bancrupt`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

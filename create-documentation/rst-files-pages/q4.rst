@@ -10,7 +10,8 @@ q4 Subjective Effectiveness of Social Distancing
 In your opinion, how effective are the following actions for keeping you safe from the coronavirus? Please check all that apply.
 
 .. csv-table::
-   :delim: | 
+   :delim: |
+
    :header: ,not effective at all, hardly effective, somewhat effective, effective, very effective
 
            Avoiding restaurants ``effect_avoid_gastro`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
