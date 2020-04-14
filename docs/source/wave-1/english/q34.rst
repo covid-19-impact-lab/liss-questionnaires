@@ -7,14 +7,15 @@
 q34 Comment
 ===========
 
-Would you like to comment on the coronavirus outbreak? For example about things that you find important and about which we have not asked questions, or about which you would like to provide more information?
+Would you like to comment on the coronavirus outbreak? For example about things that you find important and about which we have not asked questions, or about which you would like to provide more information? ``note_survey``
 
 .. csv-table::
    :delim: |
+   :header: Yes , Nothing 
 
-           nan ``note_survey`` |  
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`
 
 .. image:: ../_screenshots/q34.png
 
 
-:raw-html:`&larr;` :ref:`q33` | :ref:`q_break` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`q33` | :ref:`v1` :raw-html:`&rarr;`
