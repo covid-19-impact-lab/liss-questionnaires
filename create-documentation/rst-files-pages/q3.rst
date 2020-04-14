@@ -15,9 +15,9 @@ Which of these recommendations did you follow during the past week? Please check
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Change school or work arrangements ``adjust_school_work``
 
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Avoid public places ``avoid_public_places``
-
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Avoid crowded places ``avoid_busy_places``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Avoid public places ``avoid_public_places``
 
 :raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Keep your distance from others (1.5m) ``maintain_distance``
 

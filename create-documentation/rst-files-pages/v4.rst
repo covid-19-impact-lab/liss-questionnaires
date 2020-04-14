@@ -6,8 +6,9 @@
 
 v4 House Prices
 ===============
+Routing to the question depends on answer in: :ref:`v3`
 
-How many percent ?
+How many percent ?exp_house_prices_percent
 
 .. csv-table::
    :delim: |

@@ -1,151 +1,151 @@
-,Name,Question ID,Question Group,Variable Type
-0,p_infected,q1,Subjective Risks,Categorical
-1,p_acquaintance_infected,q1,Subjective Risks,Categorical
-2,p_hospital_if_infect_self,q1,Subjective Risks,Categorical
-4,p_infected_and_pass_on,q1,Subjective Risks,Categorical
-14,p_die_preexist_75,q2,Vignettes: Risk of Death,Categorical
-13,p_die_preexist_30,q2,Vignettes: Risk of Death,Categorical
-12,p_die_healthy_75,q2,Vignettes: Risk of Death,Categorical
-11,p_die_healthy_30,q2,Vignettes: Risk of Death,Categorical
-10,p_die_healthy_5,q2,Vignettes: Risk of Death,Categorical
-9,p_hospital_preexist_75,q2,Vignettes: Risk of Hospitalization,Categorical
-8,p_hospital_preexist_30,q2,Vignettes: Risk of Hospitalization,Categorical
-7,p_hospital_healthy_75,q2,Vignettes: Risk of Hospitalization,Categorical
-6,p_hospital_healthy_30,q2,Vignettes: Risk of Hospitalization,Categorical
-5,p_hospital_healthy_5,q2,Vignettes: Risk of Hospitalization,Categorical
-21,no_health_behaviors,q3,Social Distancing,bool
-19,quarantine_symptoms,q3,Social Distancing,bool
-18,adjust_school_work,q3,Social Distancing,bool
-16,avoid_public_places,q3,Social Distancing,bool
-15,avoid_busy_places,q3,Social Distancing,bool
-17,maintain_distance,q3,Social Distancing,bool
-61,effect_avoid_public_transp,q4,Subjective Effectiveness of Social Distancing,Categorical
-52,effect_mask,q4,Subjective Effectiveness of Health Behaviors,Categorical
-53,effect_pray,q4,Subjective Effectiveness of Health Behaviors,Categorical
-54,effect_wash_hands,q4,Subjective Effectiveness of Health Behaviors,Categorical
-55,effect_doctor_ill,q4,Subjective Effectiveness of Health Behaviors,Categorical
-56,effect_doctor_healthy,q4,Subjective Effectiveness of Health Behaviors,Categorical
-57,effect_avoid_public,q4,Subjective Effectiveness of Social Distancing,Categorical
-58,effect_avoid_high_risk,q4,Subjective Effectiveness of Social Distancing,Categorical
-59,effect_avoid_hospital,q4,Subjective Effectiveness of Social Distancing,Categorical
-60,effect_avoid_gastro,q4,Subjective Effectiveness of Social Distancing,Categorical
-62,contact_older_people,q5,Contact with the Elderly,Categorical
-22,effect_close_schools,q6,Subjective Effectiveness of Policies,Categorical
-28,effect_curfew_non_crucial,q6,Subjective Effectiveness of Policies,Categorical
-27,effect_curfew_high_risk,q6,Subjective Effectiveness of Policies,Categorical
-26,effect_forbid_hospital_visits,q6,Subjective Effectiveness of Policies,Categorical
-25,effect_close_most_stores,q6,Subjective Effectiveness of Policies,Categorical
-24,effect_close_food_service,q6,Subjective Effectiveness of Policies,Categorical
-69,duration_restrictions,q7,Expected Duration of Restrictions,Categorical
-64,supp_close_cafes,q8,Support for Policies,Categorical
-65,supp_close_most_shops,q8,Support for Policies,Categorical
-66,supp_no_visitors,q8,Support for Policies,Categorical
-63,supp_close_schools,q8,Support for Policies,Categorical
-68,supp_curfew_non_crucial,q8,Support for Policies,Categorical
-67,supp_curfew_high_risk,q8,Support for Policies,Categorical
-70,comply_curfew_others,q9,Expected Compliance of Others,int
-29,comply_curfew_self,q10,Compliance with Curfew,Categorical
-71,comply_bc_civic,q11,Reasons for Complying with Curfew,bool
-72,comply_bc_fear_punished,q11,Reasons for Complying with Curfew,bool
-73,comply_bc_protect_self,q11,Reasons for Complying with Curfew,bool
-74,comply_bc_protect_close,q11,Reasons for Complying with Curfew,bool
-75,comply_bc_protect_all,q11,Reasons for Complying with Curfew,bool
-76,comply_bc_high_risk,q11,Reasons for Complying with Curfew,bool
-77,comply_bc_other,q11,Reasons for Complying with Curfew,bool
-79,disobey_bc_freedom,q12,Reasons for Disobeying a Curfew,bool
-80,disobey_bc_not_punish,q12,Reasons for Disobeying a Curfew,bool
-81,disobey_bc_unjustified,q12,Reasons for Disobeying a Curfew,bool
-83,disobey_bc_ineffective,q12,Reasons for Disobeying a Curfew,bool
-84,disobey_bc_unaffected,q12,Reasons for Disobeying a Curfew,bool
-82,disobey_bc_obligations,q12,Reasons for Disobeying a Curfew,bool
-85,disobey_bc_bored,q12,Reasons for Disobeying a Curfew,bool
-89,workplace_h_after,q14,Working Hours,int
-91,home_h_after,q14,Working Hours,int
-90,home_h_before,q14,Working Hours,int
-88,workplace_h_before,q14,Working Hours,int
-97,not_work_other,q15,Reasons for Not Working Among Employees,bool
-96,not_work_fired,q15,Reasons for Not Working Among Employees,bool
-95,not_work_employer,q15,Reasons for Not Working Among Employees,bool
-94,not_work_fear_infection,q15,Reasons for Not Working Among Employees,bool
-93,not_work_care,q15,Reasons for Not Working Among Employees,bool
-92,not_work_lessbusiness,q15,Reasons for Not Working Among Employees,bool
-103,less_work_other,q16,Reasons for Working Less Among Employees,bool
-102,less_work_employer,q16,Reasons for Working Less Among Employees,bool
-101,less_work_fear_infection,q16,Reasons for Working Less Among Employees,bool
-100,less_work_care,q16,Reasons for Working Less Among Employees,bool
-99,less_work_lessbusiness,q16,Reasons for Working Less Among Employees,bool
-105,selfempl_less_business,q17,Reasons for Working Not Or Less Among the Self-Employed,bool
-107,selfempl_less_closure,q17,Reasons for Working Not Or Less Among the Self-Employed,bool
-108,selfempl_less_other,q17,Reasons for Working Not Or Less Among the Self-Employed,bool
-106,selfempl_less_care,q17,Reasons for Working Not Or Less Among the Self-Employed,bool
-110,contact_workers,q18,Contact with Workers or Students,Categorical
-113,intend_save_more,q21,Consumption Plans,bool
-114,intend_postpone_purchase,q21,Consumption Plans,bool
-115,intend_postpone_house,q21,Consumption Plans,bool
-116,intend_reduce_housing,q21,Consumption Plans,bool
-117,intend_sell_shares,q21,Consumption Plans,bool
-118,intend_buy_shares,q21,Consumption Plans,bool
-119,intend_none,q21,Consumption Plans,bool
-120,eur_1k_basic_needs,q_heli,Use of One-Time Allowance,int
-121,eur_1k_expenses,q_heli,Use of One-Time Allowance,int
-123,eur_1k_savings,q_heli,Use of One-Time Allowance,int
-124,eur_1k_support_others,q_heli,Use of One-Time Allowance,int
-122,eur_1k_durables,q_heli,Use of One-Time Allowance,int
-46,cc_other,q23,Childcare Adjustments,bool
-45,cc_home_alone,q23,Childcare Adjustments,bool
-44,cc_ex_partner,q23,Childcare Adjustments,bool
-43,cc_state,q23,Childcare Adjustments,bool
-42,cc_share_neighbors,q23,Childcare Adjustments,bool
-41,cc_other_relatives,q23,Childcare Adjustments,bool
-40,cc_grand_parents,q23,Childcare Adjustments,bool
-37,cc_self_home,q23,Childcare Adjustments,bool
-38,cc_partner_home,q23,Childcare Adjustments,bool
-39,cc_older_siblings,q23,Childcare Adjustments,bool
-176,p_employed_other,q26,Employment Among Employees,int
-175,p_employed_lost,q26,Employment Among Employees,int
-173,p_employed_keep,q26,Employment Among Employees,int
-174,p_employed_keep_gov,q26,Employment Among Employees,int
-128,p_selfempl_shutdown_no_gov,q27,Employment Among the Self-Employed,int
-127,p_selfempl_shutdown_gov,q27,Employment Among the Self-Employed,int
-129,p_selfempl_other,q27,Employment Among the Self-Employed,int
-125,p_selfempl_as_normal,q27,Employment Among the Self-Employed,int
-126,p_selfempl_fewer,q27,Employment Among the Self-Employed,int
-130,p_severe_financial_distress,q28,Probability of Period With Low Income,int
-136,cope_soc_assist,q29,Economic Coping Strategies,bool
-131,cope_savings,q29,Economic Coping Strategies,bool
-132,cope_loan,q29,Economic Coping Strategies,bool
-133,cope_family,q29,Economic Coping Strategies,bool
-134,cope_unemp,q29,Economic Coping Strategies,bool
-135,cope_retire,q29,Economic Coping Strategies,bool
-142,gloomy,q30,Mental Health in the Past Week,Categorical
-143,happy,q30,Mental Health in the Past Week,Categorical
-141,calm,q30,Mental Health in the Past Week,Categorical
-139,nervous,q30,Mental Health in the Past Week,Categorical
-140,depressed,q30,Mental Health in the Past Week,Categorical
-144,concern_bored,q31,Health Concerns,Categorical
-145,concern_serious_ill,q31,Health Concerns,Categorical
-146,concern_infect_others,q31,Health Concerns,Categorical
-147,concern_loved_ill,q31,Health Concerns,Categorical
-148,concern_unemp,q31,Economic Concerns,Categorical
-151,concern_food,q31,Economic Concerns,Categorical
-152,concern_health_care,q31,Health Concerns,Categorical
-153,concern_fav_shop_bancrupt,q31,Economic Concerns,Categorical
-34,trust_gov,q32,Trust in Government,Categorical
-31,approp_gov_restrict_public_life,q33,Appropriateness of Policy Response,Categorical
-32,approp_gov_econ_mitigation,q33,Appropriateness of Policy Response,Categorical
-30,approp_gov_medical,q33,Appropriateness of Policy Response,Categorical
-33,approp_gov_communication,q33,Appropriateness of Policy Response,Categorical
-154,duration_econ_crisis,v1,Duration of the Economic Crisis,Categorical
-155,p_job_loss_empl,v2,Probabilities of Economic Repercussions,Categorical
-158,p_drop_in_assets,v2,Probabilities of Economic Repercussions,Categorical
-159,p_bank_bancrupt,v2,Probabilities of Economic Repercussions,Categorical
-160,p_struggle_debts,v2,Probabilities of Economic Repercussions,Categorical
-156,p_job_loss_selfempl,v2,Probabilities of Economic Repercussions,Categorical
-157,p_shorten_pension,v2,Probabilities of Economic Repercussions,Categorical
-161,exp_house_prices_direction,v3,House Prices,Categorical
-162,exp_house_prices_percent,v4,House Prices,Categorical
-163,exp_spend_less,v5,Consumption Plans Next 12 Months,Categorical
-164,exp_work_more,v5,Consumption Plans Next 12 Months,Categorical
-165,exp_work_less,v5,Consumption Plans Next 12 Months,Categorical
-166,exp_borrow,v5,Consumption Plans Next 12 Months,Categorical
-167,exp_postpone_house,v5,Consumption Plans Next 12 Months,Categorical
+Name,Qid,Sub-Qid,Route,Full Question,Type
+p_infected,q1,q1a,,:ref:`q1`,Categorical
+p_acquaintance_infected,q1,q1b,,:ref:`q1`,Categorical
+p_hospital_if_infect_self,q1,q1c,,:ref:`q1`,Categorical
+p_infected_and_pass_on,q1,q1e,,:ref:`q1`,Categorical
+p_die_preexist_75,q2,q2j1,,:ref:`q2`,Categorical
+p_die_preexist_30,q2,q2h1,,:ref:`q2`,Categorical
+p_die_healthy_75,q2,q2d1,,:ref:`q2`,Categorical
+p_die_healthy_30,q2,q2b,,:ref:`q2`,Categorical
+p_die_healthy_5,q2,q2f1,,:ref:`q2`,Categorical
+p_hospital_preexist_75,q2,q2i1,,:ref:`q2`,Categorical
+p_hospital_preexist_30,q2,q2g1,,:ref:`q2`,Categorical
+p_hospital_healthy_75,q2,q2c1,,:ref:`q2`,Categorical
+p_hospital_healthy_30,q2,q2a,,:ref:`q2`,Categorical
+p_hospital_healthy_5,q2,q2e1,,:ref:`q2`,Categorical
+no_health_behaviors,q3,,,:ref:`q3`,bool
+quarantine_symptoms,q3,,,:ref:`q3`,bool
+adjust_school_work,q3,,,:ref:`q3`,bool
+avoid_public_places,q3,,,:ref:`q3`,bool
+avoid_busy_places,q3,,,:ref:`q3`,bool
+maintain_distance,q3,,,:ref:`q3`,bool
+effect_avoid_public_transp,q4,q4j,,:ref:`q4`,Categorical
+effect_mask,q4,q4a,,:ref:`q4`,Categorical
+effect_pray,q4,q4b,,:ref:`q4`,Categorical
+effect_wash_hands,q4,q4c,,:ref:`q4`,Categorical
+effect_doctor_ill,q4,q4d,,:ref:`q4`,Categorical
+effect_doctor_healthy,q4,q4e,,:ref:`q4`,Categorical
+effect_avoid_public,q4,q4f,,:ref:`q4`,Categorical
+effect_avoid_high_risk,q4,q4g,,:ref:`q4`,Categorical
+effect_avoid_hospital,q4,q4h,,:ref:`q4`,Categorical
+effect_avoid_gastro,q4,q4i,,:ref:`q4`,Categorical
+contact_older_people,q5,,,:ref:`q5`,Categorical
+effect_close_schools,q6,q6a,,:ref:`q6`,Categorical
+effect_curfew_non_crucial,q6,q6g,,:ref:`q6`,Categorical
+effect_curfew_high_risk,q6,q6f,,:ref:`q6`,Categorical
+effect_forbid_hospital_visits,q6,q6e,,:ref:`q6`,Categorical
+effect_close_most_stores,q6,q6d,,:ref:`q6`,Categorical
+effect_close_food_service,q6,q6c,,:ref:`q6`,Categorical
+duration_restrictions,q7,,,:ref:`q7`,Categorical
+supp_close_cafes,q8,q8b,,:ref:`q8`,Categorical
+supp_close_most_shops,q8,q8c,,:ref:`q8`,Categorical
+supp_no_visitors,q8,q8d,,:ref:`q8`,Categorical
+supp_close_schools,q8,q8a,,:ref:`q8`,Categorical
+supp_curfew_non_crucial,q8,q8f,,:ref:`q8`,Categorical
+supp_curfew_high_risk,q8,q8e,,:ref:`q8`,Categorical
+comply_curfew_others,q9,,,:ref:`q9`,int
+comply_curfew_self,q10,,,:ref:`q10`,Categorical
+comply_bc_civic,q11,,q10,:ref:`q11`,bool
+comply_bc_fear_punished,q11,,q10,:ref:`q11`,bool
+comply_bc_protect_self,q11,,q10,:ref:`q11`,bool
+comply_bc_protect_close,q11,,q10,:ref:`q11`,bool
+comply_bc_protect_all,q11,,q10,:ref:`q11`,bool
+comply_bc_high_risk,q11,,q10,:ref:`q11`,bool
+comply_bc_other,q11,,q10,:ref:`q11`,bool
+disobey_bc_freedom,q12,,q10,:ref:`q12`,bool
+disobey_bc_not_punish,q12,,q10,:ref:`q12`,bool
+disobey_bc_unjustified,q12,,q10,:ref:`q12`,bool
+disobey_bc_ineffective,q12,,q10,:ref:`q12`,bool
+disobey_bc_unaffected,q12,,q10,:ref:`q12`,bool
+disobey_bc_obligations,q12,,q10,:ref:`q12`,bool
+disobey_bc_bored,q12,,q10,:ref:`q12`,bool
+workplace_h_after,q14,q14bwork,q13,:ref:`q14`,int
+home_h_after,q14,q14bhuis,q13,:ref:`q14`,int
+home_h_before,q14,q14ahuis,q13,:ref:`q14`,int
+workplace_h_before,q14,q14awork,q13,:ref:`q14`,int
+not_work_other,q15,,q14,:ref:`q15`,bool
+not_work_fired,q15,,q14,:ref:`q15`,bool
+not_work_employer,q15,,q14,:ref:`q15`,bool
+not_work_fear_infection,q15,,q14,:ref:`q15`,bool
+not_work_care,q15,,q14,:ref:`q15`,bool
+not_work_lessbusiness,q15,,q14,:ref:`q15`,bool
+less_work_other,q16,,q14,:ref:`q16`,bool
+less_work_employer,q16,,q14,:ref:`q16`,bool
+less_work_fear_infection,q16,,q14,:ref:`q16`,bool
+less_work_care,q16,,q14,:ref:`q16`,bool
+less_work_lessbusiness,q16,,q14,:ref:`q16`,bool
+selfempl_less_business,q17,,q14,:ref:`q17`,bool
+selfempl_less_closure,q17,,q14,:ref:`q17`,bool
+selfempl_less_other,q17,,q14,:ref:`q17`,bool
+selfempl_less_care,q17,,q14,:ref:`q17`,bool
+contact_workers,q18,,q13,:ref:`q18`,Categorical
+intend_save_more,q21,,,:ref:`q21`,bool
+intend_postpone_purchase,q21,,,:ref:`q21`,bool
+intend_postpone_house,q21,,,:ref:`q21`,bool
+intend_reduce_housing,q21,,,:ref:`q21`,bool
+intend_sell_shares,q21,,,:ref:`q21`,bool
+intend_buy_shares,q21,,,:ref:`q21`,bool
+intend_none,q21,,,:ref:`q21`,bool
+eur_1k_basic_needs,q_heli,,,:ref:`q_heli`,int
+eur_1k_expenses,q_heli,,,:ref:`q_heli`,int
+eur_1k_savings,q_heli,,,:ref:`q_heli`,int
+eur_1k_support_others,q_heli,,,:ref:`q_heli`,int
+eur_1k_durables,q_heli,,,:ref:`q_heli`,int
+cc_other,q23,,q22,:ref:`q23`,bool
+cc_home_alone,q23,,q22,:ref:`q23`,bool
+cc_ex_partner,q23,,q22,:ref:`q23`,bool
+cc_state,q23,,q22,:ref:`q23`,bool
+cc_share_neighbors,q23,,q22,:ref:`q23`,bool
+cc_other_relatives,q23,,q22,:ref:`q23`,bool
+cc_grand_parents,q23,,q22,:ref:`q23`,bool
+cc_self_home,q23,,q22,:ref:`q23`,bool
+cc_partner_home,q23,,q22,:ref:`q23`,bool
+cc_older_siblings,q23,,q22,:ref:`q23`,bool
+p_employed_other,q26,,,:ref:`q26`,int
+p_employed_lost,q26,,,:ref:`q26`,int
+p_employed_keep,q26,,,:ref:`q26`,int
+p_employed_keep_gov,q26,,,:ref:`q26`,int
+p_selfempl_shutdown_no_gov,q27,,q13,:ref:`q27`,int
+p_selfempl_shutdown_gov,q27,,q13,:ref:`q27`,int
+p_selfempl_other,q27,,q13,:ref:`q27`,int
+p_selfempl_as_normal,q27,,q13,:ref:`q27`,int
+p_selfempl_fewer,q27,,q13,:ref:`q27`,int
+p_severe_financial_distress,q28,,,:ref:`q28`,int
+cope_soc_assist,q29,,,:ref:`q29`,bool
+cope_savings,q29,,,:ref:`q29`,bool
+cope_loan,q29,,,:ref:`q29`,bool
+cope_family,q29,,,:ref:`q29`,bool
+cope_unemp,q29,,,:ref:`q29`,bool
+cope_retire,q29,,,:ref:`q29`,bool
+gloomy,q30,q30d,,:ref:`q30`,Categorical
+happy,q30,q30e,,:ref:`q30`,Categorical
+calm,q30,q30c,,:ref:`q30`,Categorical
+nervous,q30,q30a,,:ref:`q30`,Categorical
+depressed,q30,q30b,,:ref:`q30`,Categorical
+concern_bored,q31,q31a,,:ref:`q31`,Categorical
+concern_serious_ill,q31,q31b,,:ref:`q31`,Categorical
+concern_infect_others,q31,q31c,,:ref:`q31`,Categorical
+concern_loved_ill,q31,q31d,,:ref:`q31`,Categorical
+concern_unemp,q31,q31e1,,:ref:`q31`,Categorical
+concern_food,q31,q31f,,:ref:`q31`,Categorical
+concern_health_care,q31,q31g,,:ref:`q31`,Categorical
+concern_fav_shop_bancrupt,q31,q31h,,:ref:`q31`,Categorical
+trust_gov,q32,,,:ref:`q32`,Categorical
+approp_gov_restrict_public_life,q33,q33b,,:ref:`q33`,Categorical
+approp_gov_econ_mitigation,q33,q33c,,:ref:`q33`,Categorical
+approp_gov_medical,q33,q33a,,:ref:`q33`,Categorical
+approp_gov_communication,q33,q33d,,:ref:`q33`,Categorical
+duration_econ_crisis,v1,,,:ref:`v1`,Categorical
+p_job_loss_empl,v2,v2a,,:ref:`v2`,Categorical
+p_drop_in_assets,v2,v2d,,:ref:`v2`,Categorical
+p_bank_bancrupt,v2,v2e,,:ref:`v2`,Categorical
+p_struggle_debts,v2,v2f,,:ref:`v2`,Categorical
+p_job_loss_selfempl,v2,v2b,,:ref:`v2`,Categorical
+p_shorten_pension,v2,v2c,,:ref:`v2`,Categorical
+exp_house_prices_direction,v3,,,:ref:`v3`,Categorical
+exp_house_prices_percent,v4,,v3,:ref:`v4`,Categorical
+exp_spend_less,v5,v5a,,:ref:`v5`,Categorical
+exp_work_more,v5,v5b,,:ref:`v5`,Categorical
+exp_work_less,v5,v5c,,:ref:`v5`,Categorical
+exp_borrow,v5,v5d,,:ref:`v5`,Categorical
+exp_postpone_house,v5,v5e,,:ref:`v5`,Categorical

@@ -7,16 +7,16 @@
 q33 Appropriateness of Policy Response
 ======================================
 
-Do you think that the government is taking too few or too many measures to combat thecoronavirus crisis in the following areas?
+Do you think that the government is taking too few or too many measures to combat the coronavirus crisis in the following areas?
 
 .. csv-table::
    :delim: |
    :header: ,too few, rather too few, right amount, rather too many, too many 
 
-           Limiting social contacts, e.g., by closing public spaces and shops|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           Reducing its economic impact|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           Guaranteeing medical care|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           Communication with the population|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           Limiting social contacts, e.g., by closing public spaces and shopsapprop_gov_restrict_public_life|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           Guaranteeing medical careapprop_gov_medical|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           Communication with the populationapprop_gov_communication|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           Reducing its economic impactapprop_gov_econ_mitigation|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
 
 .. image:: ../_screenshots/q33.png
 

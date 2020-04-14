@@ -6,18 +6,17 @@
 
 q27 Employment Among the Self-Employed
 ======================================
+Routing to the question depends on answer in: :ref:`q13`
 
 How likely do you think the following situations will be in early June? You can answer this question on a scale from 0 to 100, where 0 stands for certainly not and 100 stands for certainly. Please note, your answers must add up to 100.
 
 .. csv-table::
    :delim: |
-   :header: ,Probability [0-100]
-
-           My company will have to shut down, at least temporarily, and I will not get enough support from the government| 
-           My business would have to shut down, at least temporarily, but government support will help me keep it alive (eg by easing tax deferral or supplemental living support [the examples are 2 specific programmes announced just before the questionnaire])| 
-           Something else is happening| 
-           My company will continue to run as usual| 
-           My company will have fewer activities, but will not need government support| 
+           My company will have to shut down, at least temporarily, and I will not get enough support from the governmentp_selfempl_shutdown_no_gov| 
+           My company will continue to run as usualp_selfempl_as_normal| 
+           My company will have fewer activities, but will not need government supportp_selfempl_fewer| 
+           My business would have to shut down, at least temporarily, but government support will help me keep it alive (eg by easing tax deferral or supplemental living support [the examples are 2 specific programmes announced just before the questionnaire])p_selfempl_shutdown_gov| 
+           Something else is happeningp_selfempl_other| 
 
 .. image:: ../_screenshots/q27.png
 

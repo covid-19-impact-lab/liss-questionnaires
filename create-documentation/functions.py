@@ -8,15 +8,16 @@ csv_header ="\n{} ``{}``\n"
 csv_entry = ".. csv-table::"
 csv_columns = "   :header: {}{}\n"
 csv_delim ="   :delim: |"
-csv_row = "           {}{}"
+csv_row = "           {}{}{}"
 bool_entry = ":raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – {} ``{}``\n"
 open_question = "\n{}  .............. ``{}`` \n"
 header_question = "\n{}\n"
+header_question_varname = "\n{}{}\n"
 insert_image = "\n.. image:: {}"
 
 
 
-def create_pages(codebook, q_ids, q_groups, q_layout, q_text, q_sub_text, q_categories, q_varname, target_dir, image_path):
+def create_pages(codebook, q_ids, q_fiter, q_groups, q_layout, q_text, q_sub_text, q_categories, q_varname, target_dir, image_path):
     """ Create reStructuredText files for all groups specified in q_groups. Each file holds all questions that belong to a respective group.
     """
     
@@ -34,37 +35,31 @@ def create_pages(codebook, q_ids, q_groups, q_layout, q_text, q_sub_text, q_cate
         path = target_dir + file_name +".rst"
         add_to_file(".. _"+ file_name +":", path) 
         add_to_file("\n \n .. role:: raw-html(raw) \n        :format: html \n", path)
-        add_to_file(qid + " " + group_name + "\n"+ "="*len(qid + " " + group_name), path)
+        add_to_file(qid + " " + group_name + "\n"+ "="*len(qid + " " + group_name), path)     
+        
+        # Add routing if present:
+        if df.loc[df.index[0], q_fiter] != "-":
+            add_to_file("Routing to the question depends on answer in: :ref:`"+ str(df.loc[df.index[0], q_fiter]) +"`", path)
+        else:
+            pass
+        
         
         if df[q_layout].all()== "open":
             for i in df.index:
                 add_to_file(open_question.format(df.loc[i, q_text], df.loc[i, q_varname]),path)
-        
         elif df[q_layout].all()== "multi":
             add_to_file(header_question.format(df.loc[df.index[0], q_text]), path)
             for i in df.index:
                 add_to_file(bool_entry.format(df.loc[i, q_sub_text], df.loc[i, q_varname]), path)
-        elif df[q_layout].all() in ["table","grid","cat"]:
-            add_to_file(header_question.format(df.loc[df.index[0], q_text]), path)
-            add_to_file(csv_entry.format(), path)
-            add_to_file(csv_delim.format(), path)
-            if df[q_layout].all() == "cat":
-                add_to_file(csv_columns.format("", df.loc[df.index[0], q_categories]), path)
-            else:
-                add_to_file(csv_columns.format(",",df.loc[df.index[0], q_categories]), path)
-            
-            for i in df.index:
-                if df.loc[i, q_layout] == "grid":
-                    add_to_file(csv_row.format(df.loc[i, q_sub_text]+"|"," "), path)
-                elif df.loc[i, q_layout] == "cat":
-                    items = df.loc[i, q_categories].count(',') 
-                    add_to_file(csv_row.format("",(button + "|")*(items) + button), path)
-                else:
-                    items = df.loc[i, q_categories].count(',')                     
-                    add_to_file(csv_row.format(df.loc[i, q_sub_text]+"|",(button + "|")*(items) + button), path)
+        elif df[q_layout].all() == "table":
+            insert_table_question(df,path, q_text, q_sub_text, q_categories, q_varname)
+        elif df[q_layout].all() == "grid":
+            insert_grid_question(df,path, q_text, q_sub_text, q_categories, q_varname)
+        elif df[q_layout].all() == "cat":
+            insert_cat_question(df, path, q_text, q_categories, q_varname)
         else:
             raise ValueError("Page format in codebook is not correctly defined.")
-        
+    
         add_to_file(insert_image.format(image_path + qid + ".png"),path)
         
         if idx == 0:
@@ -78,9 +73,31 @@ def create_pages(codebook, q_ids, q_groups, q_layout, q_text, q_sub_text, q_cate
             previous_q = qids[idx-1]
             next_q = qids[idx+1]
             add_to_file("\n\n:raw-html:`&larr;` :ref:`" + previous_q + "` | :ref:`" + next_q + "` :raw-html:`&rarr;`", path)
-
-
-
+            
+def insert_table_question(df, path, q_text, q_sub_text, q_categories, q_varname):
+    add_to_file(header_question.format(df.loc[df.index[0], q_text]), path)
+    add_to_file(csv_entry.format(), path)
+    add_to_file(csv_delim.format(), path)
+    add_to_file(csv_columns.format(",",df.loc[df.index[0], q_categories]), path)
+    for i in df.index:
+        items = df.loc[i, q_categories].count(',')                     
+        add_to_file(csv_row.format(df.loc[i, q_sub_text], df.loc[i, q_varname] +"|",(button + "|")*(items) + button), path)        
+def insert_grid_question(df, path, q_text, q_sub_text, q_categories, q_varname):    
+    add_to_file(header_question.format(df.loc[df.index[0], q_text]), path)
+    add_to_file(csv_entry.format(), path)
+    add_to_file(csv_delim.format(), path)
+    for i in df.index:
+        add_to_file(csv_row.format(df.loc[i, q_sub_text], df.loc[i, q_varname] +"|"," "), path)
+                    
+def insert_cat_question(df, path, q_text, q_categories, q_varname):    
+    add_to_file(header_question_varname.format(df.loc[df.index[0], q_text], df.loc[df.index[0], q_varname]), path)
+    add_to_file(csv_entry.format(), path)
+    add_to_file(csv_delim.format(), path)
+    add_to_file(csv_columns.format("", df.loc[df.index[0], q_categories]), path)
+    for i in df.index:
+        items = df.loc[i, q_categories].count(',') 
+        add_to_file(csv_row.format("","",(button + "|")*(items) + button), path)            
+                    
 def add_to_file(msg, path):
     """ Adds line to file specified in path."""
     with open(path, "a") as f:

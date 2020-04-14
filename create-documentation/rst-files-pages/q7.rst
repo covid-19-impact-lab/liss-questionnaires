@@ -7,7 +7,7 @@
 q7 Expected Duration of Restrictions
 ====================================
 
-For how long do you think that the restrictions in place now (in everyday life) will remain in effect?
+For how long do you think that the restrictions in place now (in everyday life) will remain in effect?duration_restrictions
 
 .. csv-table::
    :delim: |

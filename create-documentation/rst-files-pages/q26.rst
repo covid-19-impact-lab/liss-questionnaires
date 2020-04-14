@@ -11,12 +11,10 @@ How likely do you think the following situations will happen in early June? You 
 
 .. csv-table::
    :delim: |
-   :header: ,Probability [0-100]
-
-           Something else is happening| 
-            I will have lost my job or the number of hours will have been reduced to 0 indefinitely (e.g., forced unpaid leave, I am paid per hour in a restaurant …)| 
-            I will keep my job because my employer / company is not financially affected by the corona virus or is financially healthy enough to continue to pay wages| 
-           I will keep my job because the government provides help to my employer / company (eg by paying wages)| 
+            I will have lost my job or the number of hours will have been reduced to 0 indefinitely (e.g., forced unpaid leave, I am paid per hour in a restaurant …)p_employed_lost| 
+           I will keep my job because the government provides help to my employer / company (eg by paying wages)p_employed_keep_gov| 
+            I will keep my job because my employer / company is not financially affected by the corona virus or is financially healthy enough to continue to pay wagesp_employed_keep| 
+           Something else is happeningp_employed_other| 
 
 .. image:: ../_screenshots/q26.png
 
