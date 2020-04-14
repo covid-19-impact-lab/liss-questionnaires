@@ -11,7 +11,6 @@ Given the spread of the pandemic today, how effective do you think are the follo
 
 .. csv-table::
    :delim: |
-
    :header: ,not effective at all, hardly effective, somewhat effective, effective, very effective
 
            Obligation that everyone who does not work in a crucial professional group (for example, people who work in healthcare, public transport, the food chain) stays at home except to do basic shopping or because urgent medical care is required ``effect_curfew_non_crucial`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

@@ -11,11 +11,10 @@ The government has taken measures to prevent infections and has put in place a l
 
 .. csv-table::
    :delim: |
-
    :header: ,totally disagree, disagree, neither/nore, agree, totally agree
 
-           I think the measures taken are insufficient ``gov_action_insuff`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
            The government must be prepared to save banks ``save_banks`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           I think the measures taken are insufficient ``gov_action_insuff`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
            I think the government's action is appropriate ``gov_action_approp`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
            Pension funds need to be helped ``help_pension_funds`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
 

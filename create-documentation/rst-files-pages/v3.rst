@@ -11,7 +11,6 @@ At what level will house prices in 12 months be compared to house prices in Febr
 
 .. csv-table::
    :delim: |
-
    :header: House prices will be lower, House prices will be the same, House prices will be higher
 
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

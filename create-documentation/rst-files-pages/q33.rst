@@ -11,7 +11,6 @@ Do you think that the government is taking too few or too many measures to comba
 
 .. csv-table::
    :delim: |
-
    :header: ,too few, rather too few, right amount, rather too many, too many 
 
            Reducing its economic impact ``approp_gov_econ_mitigation`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
@@ -22,4 +21,4 @@ Do you think that the government is taking too few or too many measures to comba
 .. image:: ../_screenshots/q33.png
 
 
-:raw-html:`&larr;` :ref:`q32` | :ref:`v1` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`q32` | :ref:`q34` :raw-html:`&rarr;`

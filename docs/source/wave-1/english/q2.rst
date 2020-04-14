@@ -11,7 +11,6 @@ How big do you think the chances are that the following people infected with the
 
 .. csv-table::
    :delim: |
-
    :header: ,not at all likely, very unlikely, rather unlikely, moderately likely, rather likely, very likely, certain
 
            A 30 year old with diabetes and chronic cardiovascular disease will die ``p_die_preexist_30`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

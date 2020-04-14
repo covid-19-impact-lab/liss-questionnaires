@@ -11,7 +11,6 @@ Given the spread of the pandemic today, do you disagree or agree with the follow
 
 .. csv-table::
    :delim: |
-
    :header: ,totally disagree, disagree, neither/nore, agree, totally agree
 
            No visitors in hospitals and elderly homes. ``supp_no_visitors`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

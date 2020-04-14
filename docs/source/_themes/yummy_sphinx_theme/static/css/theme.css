@@ -3613,7 +3613,8 @@ a:link {
 .markdown-body table{
 	display:block;
 	width:100%;
-	overflow:auto
+	overflow:auto;
+	font-size: small
 }
 .markdown-body table th{
 	font-weight:600;

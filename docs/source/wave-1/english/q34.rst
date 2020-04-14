@@ -1,0 +1,19 @@
+.. _q34:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+q34 Comment
+===========
+
+Would you like to comment on the coronavirus outbreak? For example about things that you find important and about which we have not asked questions, or about which you would like to provide more information?
+
+.. csv-table::
+   :delim: |
+           nan ``note_survey`` |  
+
+.. image:: ../_screenshots/q34.png
+
+
+:raw-html:`&larr;` :ref:`q33` | :ref:`q_break` :raw-html:`&rarr;`

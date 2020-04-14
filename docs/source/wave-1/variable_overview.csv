@@ -166,8 +166,8 @@ gov_action_insuff,v6,v6b,-,:ref:`v6`,Categorical
 save_banks,v6,v6e,-,:ref:`v6`,Categorical
 gov_action_approp,v6,v6a,-,:ref:`v6`,Categorical
 help_pension_funds,v6,v6f,-,:ref:`v6`,Categorical
-questionnaire_interesting,eva2,eva2t4,-,:ref:`eva2`,float
-questionnaire_difficult,eva2,eva2t1,-,:ref:`eva2`,float
-questionnaire_clear,eva2,eva2t2,-,:ref:`eva2`,float
-questionnaire_thinking,eva2,eva2t3,-,:ref:`eva2`,float
-questionnaire_enjoy,eva2,eva2t5,-,:ref:`eva2`,float
+questionnaire_interesting,eva2,eva2t4,-,:ref:`eva2`,Categorical
+questionnaire_difficult,eva2,eva2t1,-,:ref:`eva2`,Categorical
+questionnaire_clear,eva2,eva2t2,-,:ref:`eva2`,Categorical
+questionnaire_thinking,eva2,eva2t3,-,:ref:`eva2`,Categorical
+questionnaire_enjoy,eva2,eva2t5,-,:ref:`eva2`,Categorical

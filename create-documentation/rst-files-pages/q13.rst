@@ -11,7 +11,6 @@ Which of the following options describes your work situation at the beginning of
 
 .. csv-table::
    :delim: |
-
    :header: employed, self-emplyed, unemployed, retired, social assistance, student or trainee, homemaker
 
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

@@ -12,7 +12,6 @@ How many percent ? ``exp_house_prices_percent``
 
 .. csv-table::
    :delim: |
-
    :header: less than 2%, 2% to 5%, 5% to 10%, 10% to 20%, 30% or more
 
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

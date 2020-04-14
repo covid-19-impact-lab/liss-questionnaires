@@ -66,8 +66,8 @@
 35,labor_status_liss,q13,,-,Work Status Beginning of March,Categorical
 88,workplace_h_before,q14,q14awork,q13,Working Hours,int
 89,workplace_h_after,q14,q14bwork,q13,Working Hours,int
-91,home_h_after,q14,q14bhuis,q13,Working Hours,int
 90,home_h_before,q14,q14ahuis,q13,Working Hours,int
+91,home_h_after,q14,q14bhuis,q13,Working Hours,int
 94,not_work_fear_infection,q15,,q14,Reasons for Not Working Among Employees,bool
 97,not_work_other,q15,,q14,Reasons for Not Working Among Employees,bool
 96,not_work_fired,q15,,q14,Reasons for Not Working Among Employees,bool
@@ -128,9 +128,9 @@
 135,cope_retire,q29,,-,Economic Coping Strategies,bool
 136,cope_soc_assist,q29,,-,Economic Coping Strategies,bool
 137,cope_other,q29,,-,Economic Coping Strategies,bool
-143,happy,q30,q30e,-,Mental Health in the Past Week,Categorical
-141,calm,q30,q30c,-,Mental Health in the Past Week,Categorical
 142,gloomy,q30,q30d,-,Mental Health in the Past Week,Categorical
+141,calm,q30,q30c,-,Mental Health in the Past Week,Categorical
+143,happy,q30,q30e,-,Mental Health in the Past Week,Categorical
 139,nervous,q30,q30a,-,Mental Health in the Past Week,Categorical
 140,depressed,q30,q30b,-,Mental Health in the Past Week,Categorical
 153,concern_fav_shop_bancrupt,q31,q31h,-,Economic Concerns,Categorical
@@ -148,13 +148,14 @@
 30,approp_gov_medical,q33,q33a,-,Appropriateness of Policy Response,Categorical
 33,approp_gov_communication,q33,q33d,-,Appropriateness of Policy Response,Categorical
 31,approp_gov_restrict_public_life,q33,q33b,-,Appropriateness of Policy Response,Categorical
+178,note_survey,q34,,-,Comment,str
 154,duration_econ_crisis,v1,,-,Duration of the Economic Crisis,Categorical
-159,p_bank_bancrupt,v2,v2e,-,Probabilities of Economic Repercussions,Categorical
 160,p_struggle_debts,v2,v2f,-,Probabilities of Economic Repercussions,Categorical
 155,p_job_loss_empl,v2,v2a,-,Probabilities of Economic Repercussions,Categorical
-158,p_drop_in_assets,v2,v2d,-,Probabilities of Economic Repercussions,Categorical
 156,p_job_loss_selfempl,v2,v2b,-,Probabilities of Economic Repercussions,Categorical
+159,p_bank_bancrupt,v2,v2e,-,Probabilities of Economic Repercussions,Categorical
 157,p_shorten_pension,v2,v2c,-,Probabilities of Economic Repercussions,Categorical
+158,p_drop_in_assets,v2,v2d,-,Probabilities of Economic Repercussions,Categorical
 161,exp_house_prices_direction,v3,,-,House Prices,Categorical
 162,exp_house_prices_percent,v4,,v3,House Prices,Categorical
 163,exp_spend_less,v5,v5a,-,Consumption Plans Next 12 Months,Categorical
@@ -162,12 +163,12 @@
 165,exp_work_less,v5,v5c,-,Consumption Plans Next 12 Months,Categorical
 166,exp_borrow,v5,v5d,-,Consumption Plans Next 12 Months,Categorical
 167,exp_postpone_house,v5,v5e,-,Consumption Plans Next 12 Months,Categorical
-169,gov_action_insuff,v6,v6b,-,Government Action,Categorical
 170,save_banks,v6,v6e,-,Government Action,Categorical
+169,gov_action_insuff,v6,v6b,-,Government Action,Categorical
 168,gov_action_approp,v6,v6a,-,Government Action,Categorical
 171,help_pension_funds,v6,v6f,-,Government Action,Categorical
-182,questionnaire_interesting,eva2,eva2t4,-,Questionnaire Feedback,float
-179,questionnaire_difficult,eva2,eva2t1,-,Questionnaire Feedback,float
-180,questionnaire_clear,eva2,eva2t2,-,Questionnaire Feedback,float
-181,questionnaire_thinking,eva2,eva2t3,-,Questionnaire Feedback,float
-183,questionnaire_enjoy,eva2,eva2t5,-,Questionnaire Feedback,float
+182,questionnaire_interesting,eva2,eva2t4,-,Questionnaire Feedback,Categorical
+179,questionnaire_difficult,eva2,eva2t1,-,Questionnaire Feedback,Categorical
+180,questionnaire_clear,eva2,eva2t2,-,Questionnaire Feedback,Categorical
+181,questionnaire_thinking,eva2,eva2t3,-,Questionnaire Feedback,Categorical
+183,questionnaire_enjoy,eva2,eva2t5,-,Questionnaire Feedback,Categorical

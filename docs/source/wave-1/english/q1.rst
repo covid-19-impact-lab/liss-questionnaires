@@ -11,7 +11,6 @@ How likely do you think that the following events will happen in the light of th
 
 .. csv-table::
    :delim: |
-
    :header: ,not at all likely, very unlikely, rather unlikely, moderately likely, rather likely, very likely, certain, has already happened
 
            You will be infected ``p_infected`` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`

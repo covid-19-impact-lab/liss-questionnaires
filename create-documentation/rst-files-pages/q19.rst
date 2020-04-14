@@ -12,7 +12,6 @@ Do you have a background or skill that can be immediately used by hospitals or h
 
 .. csv-table::
    :delim: |
-
    :header: No unable, no lacking skills, medical training, social work training, organizational skills
 
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
