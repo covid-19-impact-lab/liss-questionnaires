@@ -1,0 +1,22 @@
+.. _q19:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+q19 Skills to Help
+==================
+*Routing to the question depends on answer in:* :ref:`q13`
+
+Do you have a background or skill that can be immediately used by hospitals or healthcare to fight the coronavirus? ``health_skills``
+
+.. csv-table::
+   :delim: |
+   :header: No unable, no lacking skills, medical training, social work training, organizational skills
+
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+
+.. image:: ../_screenshots/q19.png
+
+
+:raw-html:`&larr;` :ref:`q18` | :ref:`q20` :raw-html:`&rarr;`

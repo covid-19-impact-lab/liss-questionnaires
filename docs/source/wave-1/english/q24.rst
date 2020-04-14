@@ -1,0 +1,22 @@
+.. _q24:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+q24 Emergency Childcare
+=======================
+*Routing to the question depends on answer in:* :ref:`q23`
+
+Are you well helped with this emergency (child) care? ``cc_emergency_helpful``
+
+.. csv-table::
+   :delim: |
+   :header: 1 no not at all, 2, 3, 4, 5 yes very good
+
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+
+.. image:: ../_screenshots/q24.png
+
+
+:raw-html:`&larr;` :ref:`q23` | :ref:`q25` :raw-html:`&rarr;`

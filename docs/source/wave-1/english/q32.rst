@@ -1,0 +1,21 @@
+.. _q32:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+q32 Trust in Government
+=======================
+
+In general, how confident are you in the government? ``trust_gov``
+
+.. csv-table::
+   :delim: |
+   :header: 1 no confidence at all, 2, 3, 4, 5 very confident
+
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+
+.. image:: ../_screenshots/q32.png
+
+
+:raw-html:`&larr;` :ref:`q31` | :ref:`q33` :raw-html:`&rarr;`

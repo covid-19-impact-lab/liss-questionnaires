@@ -1,0 +1,27 @@
+.. _q16:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+q16 Reasons for Working Less Among Employees
+============================================
+*Routing to the question depends on answer in:* :ref:`q14`
+
+Why are you working less now? Multiple answers possible
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Another reason. ``less_work_other``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Because of the risk of infection, my employer has decided that less work will be done ``less_work_employer``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – I go to my workplace less because I am afraid of being infected by the corona virus ``less_work_fear_infection``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – I need to care of people (children, parents) who depend on me ``less_work_care``
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Less business activity of the company I work for ``less_work_lessbusiness``
+
+
+.. image:: ../_screenshots/q16.png
+
+
+:raw-html:`&larr;` :ref:`q15` | :ref:`q17` :raw-html:`&rarr;`
