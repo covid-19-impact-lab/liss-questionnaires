@@ -87,7 +87,7 @@ def insert_table_question(df, path, q_text, q_sub_text, q_categories, q_varname)
 def insert_grid_question(df, path, q_text, q_sub_text, q_categories, q_varname):    
     add_to_file(header_question.format(df.loc[df.index[0], q_text]), path)
     add_to_file(csv_entry.format(), path)
-    add_to_file(csv_delim.format(), path)
+    add_to_file(csv_delim.format() + "\n", path)
     for i in df.index:
         add_to_file(csv_row.format(df.loc[i, q_sub_text], df.loc[i, q_varname], " "), path)
                     

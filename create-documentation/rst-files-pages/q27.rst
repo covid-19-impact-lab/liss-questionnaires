@@ -12,6 +12,7 @@ How likely do you think the following situations will be in early June? You can 
 
 .. csv-table::
    :delim: |
+
            Something else is happening ``p_selfempl_other`` |  
            My business would have to shut down, at least temporarily, but government support will help me keep it alive (eg by easing tax deferral or supplemental living support [the examples are 2 specific programmes announced just before the questionnaire]) ``p_selfempl_shutdown_gov`` |  
            My company will have to shut down, at least temporarily, and I will not get enough support from the government ``p_selfempl_shutdown_no_gov`` |  
