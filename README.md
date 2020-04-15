@@ -1,4 +1,4 @@
-# [LISS CoViD-19 Questionnaire Documentation](https://liss-questionnaires.readthedocs.io/en/create-docs/) 
+# [LISS CoViD-19 Questionnaires Documentation](https://liss-covid-19-questionnaires-documentation.readthedocs.io/en/latest/) 
 
 Repository for documentation of the LISS questionnaires on the coronavirus pandemic. 
 
