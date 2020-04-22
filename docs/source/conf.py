@@ -55,10 +55,14 @@ html_static_path = ['_static']
 
 
 html_theme_options = {
-
+    'navs': {
+        'CoViD-19 Impact Lab': 'https://covid-19-impact-lab.readthedocs.io/en/latest/',
+		'Explore Data': 'https://covid-19-impact-lab.iza.org/app'
+    },
     'service': 'GitHub',
     'user': 'covid-19-impact-lab',
     'repo': 'liss-questionnaires',
+    'twitter_url': 'https://twitter.com/CovidImpactLab',
 }
 
 html_logo = '_static/images/ose_logo.ico'
