@@ -14,5 +14,6 @@ The results from the surveys can be explored in an `interactive dashboard <https
    :maxdepth: 3
 
    wave-1/index
+   wave-2/index
 
 For access to the full data, please refer to the information provided by CentERdata `here <https://www.lissdata.nl/access-data>`_.

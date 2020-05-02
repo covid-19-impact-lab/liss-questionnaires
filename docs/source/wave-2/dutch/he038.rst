@@ -1,0 +1,21 @@
+.. _he038:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+he038 Alcohol Consumption
+=========================
+
+Hebt u in de afgelopen zeven dagen (zonder vandaag) een drank met alcohol gedronken? ````
+
+.. csv-table::
+   :delim: |
+   :header: Ja, Nee
+
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`
+
+.. image:: ../_screenshots/he038.png
+
+
+:raw-html:`&larr;` :ref:`he036d` | :ref:`he039` :raw-html:`&rarr;`

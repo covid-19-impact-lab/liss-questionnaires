@@ -1,0 +1,39 @@
+.. _q23:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+q23 Childcare Adjustments
+=========================
+*Routing to the question depends on answer in:* :ref:`q22`
+
+Hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Deze kinderen blijven alleen thuis ````
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Anders, namelijk: ````
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Mijn ex-partner zorgt voor ^fill_kids2 ````
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Ik regel de kinderopvang samen met vrienden/buren (afwisselend de kinderen
+Opvangen) ````
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Ikzelf en/of mijn partner horen tot de cruciale beroepsgroep en er is daarom
+nood(kinder)opvang beschikbaar ````
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – De grootouders zorgen voor ^fill_kids2 ````
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Oudere broer(s) of zus(sen) zorgen voor ^fill_kids2 ````
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Mijn partner blijft thuis om voor ^fill_kids2, te zorgen ````
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Ik blijf thuis om voor ^fill_kids2, te zorgen ````
+
+:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – Andere familieleden of vrienden zorgen voor ^fill_kids2 ````
+
+
+.. image:: ../_screenshots/q23.png
+
+
+:raw-html:`&larr;` :ref:`q22` | :ref:`q23and` :raw-html:`&rarr;`

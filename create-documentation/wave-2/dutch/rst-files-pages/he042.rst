@@ -1,0 +1,25 @@
+.. _he042:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+he042 Drug Intake Last Month
+============================
+*Routing to the question depends on answer in:* :ref:`he041`
+
+Hoe vaak hebt u deze middelen in de afgelopen maand gebruikt?
+
+.. csv-table::
+   :delim: |
+
+           hard drugs (zoals pepmiddelen, cocaïne en heroïne) ```` |  
+           XTC ```` |  
+           bewustzijnsverruimende middelen (zoals LSD en paddo ́s) ```` |  
+           kalmerende middelen (zoals valium) ```` |  
+           soft drugs (zoals hasj, wiet en marihuana) ```` |  
+
+.. image:: ../_screenshots/he042.png
+
+
+:raw-html:`&larr;` :ref:`he041` | :ref:`loneliness` :raw-html:`&rarr;`

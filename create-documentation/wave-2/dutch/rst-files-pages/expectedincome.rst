@@ -1,0 +1,22 @@
+.. _expectedincome:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+expectedincome Expected Income Next Years
+=========================================
+
+We willen graag weten wat u verwacht dat het gezamenljke bruto jaarinkomen van uw huishouden voor 2020, 2021, en 2022 zal zijn. Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.  Geeft u aan wat u verwachtte dat het gezamenljke inkomen van uw huishouden zou zijn, vóórdat er sprake was van de uitbraak van het coronavirus. Dus, wat u verwacht dat het gezamenljke inkomen van uw huishouden zou zijn zonder de uitbraak van het coronavirus. Daarnaast wat u nu verwacht dat in deze jaren dat het inkomen zal  Zijn. Geeft u de verwachtingen van het gezamenlijke bruto jaarinkomen van uw huishouden met en zonder de uitbraak van het coronavirus.
+
+.. csv-table::
+   :delim: |
+
+           Voor het jaar 2022 ```` |  
+           Voor dit jaar (dus ook voor de maanden januari, februari en maart) ```` |  
+           Voor het jaar 2021 ```` |  
+
+.. image:: ../_screenshots/expectedincome.png
+
+
+:raw-html:`&larr;` :ref:`income` | :ref:`ExpUnempl_before` :raw-html:`&rarr;`

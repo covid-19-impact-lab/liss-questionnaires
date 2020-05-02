@@ -1,0 +1,24 @@
+.. _he040b:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+he040b Strong Beer Consumption
+==============================
+*Routing to the question depends on answer in:* :ref:`he040`
+
+Geeft u aan hoeveel sterk bier (speciale bieren met 6% alcohol of meer), u op die dag hebt gedronken.
+
+.. csv-table::
+   :delim: |
+
+           Aantal glazen (reken grote glazen voor 2) ```` |  
+           Aantal glazen van een halve liter (pints) ```` |  
+           Aantal halve liter blikken of flesjes ```` |  
+           Aantal kleine blikjes of flesjes ```` |  
+
+.. image:: ../_screenshots/he040b.png
+
+
+:raw-html:`&larr;` :ref:`he040a` | :ref:`he040c` :raw-html:`&rarr;`

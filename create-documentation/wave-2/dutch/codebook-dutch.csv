@@ -1,159 +1,257 @@
-new_name;page;qid;id;layout;filter;group_english;question_dutch;subquestion_dutch;veel meer nu;ordered;type;group_english;nice_name_english
-;1;intro;;open;-;;Deze maand krijgt u opnieuw een vragenlijst over het coronavirus. Afgelopen maand is de vragenlijst over het coronavirus door ruim 5400 panelleden ingevuld. En dat is heel fijn, want zo krijgen onderzoekers een goed beeld van hoe in Nederland met de uitbraak wordt Omgegaan. Premier Rutte zei het al: dit raakt ons allemaal en is een van de zwaarste periodes in onze geschiedenis buiten oorlogstijd. Het is daarom belangrijk dat er veel onderzoek wordt gedaan. Deze keer hebben we onder andere vragen over hoe u zich voelt, over eventueel rooken drinkgedrag, en stellen we een aantal vragen opnieuw. Dat doen we om te kijken of er iets is veranderd in uw situatie of uw mening. U krijgt ook vragen over hoe u dacht over een aantal financiële zaken voordat het virus uitbrak en hoe u daar nu over denkt. In de komende periode krijgt u nog enkele vragenlijsten over het coronavirus.;;;;none;;
-;2;q01;;cat;;InfectionDiagnosed;Heeft een huisarts of een ander medisch deskundige bij u de diagnose gesteld dat u besmet bent met het coronavirus (Covid-19)?;;Ja die diagnose is bij mij gesteld, Nee, Het is nog niet zeker;1;Categorical;;
-;3;q02;;cat;;SelfPerceivedInfection;Denkt u zelf dat u besmet bent met het coronavirus (Covid-19)?;;Ja, Nee, Ik weet het niet;1;Categorical;;
-;4;q1;q1a;grid;;Subjective Risks;"Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maanden
-Gebeuren? U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";u wordt besmet;;;float;;
-;4;q1;q1b;grid;;Subjective Risks;"Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maanden
-Gebeuren? U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";iemand in uw directe omgeving (familie, vrienden, collega’s) wordt besmet;;;float;;
-;4;q1;q1c;grid;;Subjective Risks;"Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maanden
-Gebeuren? U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";u moet naar het ziekenhuis als u wordt besmet;;;float;;
-;4;q1;q1d;grid;;Subjective Risks;"Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maanden
-Gebeuren? U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";u wordt besmet en u besmet iemand anders;;;float;;
-;5;q7;;cat;;Expected Duration of Restrictions;"De regering heeft een aantal maatregelen genomen. Tot hoe lang denkt u dat de
-beperkingen die er nu zijn (in het alledaagse leven) van kracht zullen blijven?";;tot en met uiterlijk 28 april, zoals aangekondigd op 31 maart, minstens tot en met 28 april, maar tot minder dan 2 maanden vanaf vandaag, tussen 2 en 4 maanden vanaf vandaag, tussen 4 en 8 maanden vanaf vandaag, voor langer dan 12 maanden;1;Category;;
-;6;rook;;cat;;Smoking;Nu volgen er enkele vragen over roken en drankgebruik. Rookt u op dit moment?;;ja, nee ik ben gestopt, nee ik heb nooit gerookt;1;Category;;
-;7;he035;;multi;rook;Smoking Type;"Wat ^f_rook; u? Meerdere antwoorden mogelijk.";sigaretten (inclusief shag);;;bool;;
-;7;he035;;multi;rook;Smoking Type;"Wat ^f_rook; u? Meerdere antwoorden mogelijk.";pijp;;;bool;;
-;7;he035;;multi;rook;Smoking Type;"Wat ^f_rook; u? Meerdere antwoorden mogelijk.";sigaartjes of sigaren;;;bool;;
-;7;he035;;multi;rook;Smoking Type;"Wat ^f_rook; u? Meerdere antwoorden mogelijk.";E-sigaretten;;;bool;;
-;8;he036a;;open;he035;Cigarette Consumption;"Hoeveel sigaretten (inclusief shag) ^f_rook; u gemiddeld per dag?";;;;int;;
-;9;he036b;;open;he035;Pipes Consumption;"Hoeveel pijpen ^f_rook; u gemiddeld per dag?";;;;int;;
-;10;he036c;;open;he035;Cigar Consumption;"Hoeveel sigaartjes of sigaren ^f_rook; u gemiddeld per dag?";;;;int;;
-;11;he036d;;open;he035;E-Cigarette Consumption;"Hoeveel milliliter vloeistof ^damp; u gemiddeld per dag bij gebruik van de e-sigaret?";;;;int;;
-;12;he038;;cat;;Alcohol Consumption;Hebt u in de afgelopen zeven dagen (zonder vandaag) een drank met alcohol gedronken?;;Ja, Nee;1;Categorical;;
-;13;he039;;cat;he038;Days Alcohol Consumption;Op hoeveel dagen van de afgelopen zeven dagen hebt u een alcoholische drank gedronken?;;1,2,3,4,5,6,7;1;Categorical;;
+new_name;page;qid;id;layout;filter;group_english;question_dutch;subquestion_dutch;category_dutch;ordered;type;nice_name_english
+;1;intro;;open;-;Intro;Deze maand krijgt u opnieuw een vragenlijst over het coronavirus. Afgelopen maand is de vragenlijst over het coronavirus door ruim 5400 panelleden ingevuld. En dat is heel fijn, want zo krijgen onderzoekers een goed beeld van hoe in Nederland met de uitbraak wordt Omgegaan. Premier Rutte zei het al: dit raakt ons allemaal en is een van de zwaarste periodes in onze geschiedenis buiten oorlogstijd. Het is daarom belangrijk dat er veel onderzoek wordt gedaan. Deze keer hebben we onder andere vragen over hoe u zich voelt, over eventueel rooken drinkgedrag, en stellen we een aantal vragen opnieuw. Dat doen we om te kijken of er iets is veranderd in uw situatie of uw mening. U krijgt ook vragen over hoe u dacht over een aantal financiële zaken voordat het virus uitbrak en hoe u daar nu over denkt. In de komende periode krijgt u nog enkele vragenlijsten over het coronavirus.;;;;none;
+;2;InfectionDiagnosed;;cat;-;InfectionDiagnosed;Heeft een huisarts of een ander medisch deskundige bij u de diagnose gesteld dat u besmet bent met het coronavirus (Covid-19)?;;Ja die diagnose is bij mij gesteld, Nee, Het is nog niet zeker;1;Categorical;
+;3;SelfPerceivedInfection;;cat;-;SelfPerceivedInfection;Denkt u zelf dat u besmet bent met het coronavirus (Covid-19)?;;Ja, Nee, Ik weet het niet;1;Categorical;
+;4;q1header;q1a;grid;-;Subjective Risks;"Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maanden
+Gebeuren? U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";u wordt besmet;;;float;
+;4;q1header;q1b;grid;-;Subjective Risks;"Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maanden
+Gebeuren? U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";iemand in uw directe omgeving (familie, vrienden, collega’s) wordt besmet;;;float;
+s;4;q1header;q1c;grid;-;Subjective Risks;"Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maanden
+Gebeuren? U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";u moet naar het ziekenhuis als u wordt besmet;;;float;
+;4;q1header;q1d;grid;-;Subjective Risks;"Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maanden
+Gebeuren? U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";u wordt besmet en u besmet iemand anders;;;float;
+;5;q7;;cat;-;Expected Duration of Restrictions;"De regering heeft een aantal maatregelen genomen. Tot hoe lang denkt u dat de
+beperkingen die er nu zijn (in het alledaagse leven) van kracht zullen blijven?";;tot en met uiterlijk 28 april, zoals aangekondigd op 31 maart, minstens tot en met 28 april, maar tot minder dan 2 maanden vanaf vandaag, tussen 2 en 4 maanden vanaf vandaag, tussen 4 en 8 maanden vanaf vandaag, voor langer dan 12 maanden;1;Category;
+;6;rook;;cat;-;Smoking;Nu volgen er enkele vragen over roken en drankgebruik. Rookt u op dit moment?;;ja, nee ik ben gestopt, nee ik heb nooit gerookt;1;Category;
+;7;he035;;multi;rook;Smoking Type;Wat rook u? Meerdere antwoorden mogelijk.;sigaretten (inclusief shag);;;bool;
+;7;he035;;multi;rook;Smoking Type;Wat rook u? Meerdere antwoorden mogelijk.;pijp;;;bool;
+;7;he035;;multi;rook;Smoking Type;Wat rook u? Meerdere antwoorden mogelijk.;sigaartjes of sigaren;;;bool;
+;7;he035;;multi;rook;Smoking Type;Wat rook u? Meerdere antwoorden mogelijk.;E-sigaretten;;;bool;
+;8;he036a;;open;he035;Cigarette Consumption;Hoeveel sigaretten (inclusief shag) rook u gemiddeld per dag?;;;;int;
+;9;he036b;;open;he035;Pipes Consumption;Hoeveel pijpen rook u gemiddeld per dag?;;;;int;
+;10;he036c;;open;he035;Cigar Consumption;Hoeveel sigaartjes of sigaren rook u gemiddeld per dag?;;;;int;
+;11;he036d;;open;he035;E-Cigarette Consumption;Hoeveel milliliter vloeistof u gemiddeld per dag bij gebruik van de e-sigaret?;;;;int;
+;12;he038;;cat;-;Alcohol Consumption;Hebt u in de afgelopen zeven dagen (zonder vandaag) een drank met alcohol gedronken?;;Ja, Nee;1;Categorical;
+;13;he039;;cat;he038;Days Alcohol Consumption;Op hoeveel dagen van de afgelopen zeven dagen hebt u een alcoholische drank gedronken?;;1,2,3,4,5,6,7;1;Categorical;
 ;14;he040;;multi;he038;Alcohol Type;Denkt u nu aan die dag in de afgelopen week waarop u de meeste dranken met alcohol hebt gedronken. (Als u op meerdere dagen precies evenveel hebt gedronken, antwoordt u dan over de dag die het kortst geleden is.) Wilt u hieronder aangeven welke soort alcoholische dranken u op die dag hebt gedronken? Niet-alcoholische of alcohol-arme dranken hier niet vermelden.;"bier van normale sterkte met minder dan 6% alcohol, zoals pils, wit bier, donker bier
-(geen malt bier, Radler)";;;bool;;
-;14;he040;;multi;he038;Alcohol Type;Denkt u nu aan die dag in de afgelopen week waarop u de meeste dranken met alcohol hebt gedronken. (Als u op meerdere dagen precies evenveel hebt gedronken, antwoordt u dan over de dag die het kortst geleden is.) Wilt u hieronder aangeven welke soort alcoholische dranken u op die dag hebt gedronken? Niet-alcoholische of alcohol-arme dranken hier niet vermelden.;sterk bier met 6% alcohol of meer, zoals speciale bieren;;;bool;;
-;14;he040;;multi;he038;Alcohol Type;Denkt u nu aan die dag in de afgelopen week waarop u de meeste dranken met alcohol hebt gedronken. (Als u op meerdere dagen precies evenveel hebt gedronken, antwoordt u dan over de dag die het kortst geleden is.) Wilt u hieronder aangeven welke soort alcoholische dranken u op die dag hebt gedronken? Niet-alcoholische of alcohol-arme dranken hier niet vermelden.;sterke drank of likeur, zoals gin, whisky, rum, brandy, wodka of cocktails;;;bool;;
-;14;he040;;multi;he038;Alcohol Type;Denkt u nu aan die dag in de afgelopen week waarop u de meeste dranken met alcohol hebt gedronken. (Als u op meerdere dagen precies evenveel hebt gedronken, antwoordt u dan over de dag die het kortst geleden is.) Wilt u hieronder aangeven welke soort alcoholische dranken u op die dag hebt gedronken? Niet-alcoholische of alcohol-arme dranken hier niet vermelden.;sherry of martini (inclusief port, vermouth, cinzano, dubonet);;;bool;;
-;14;he040;;multi;he038;Alcohol Type;Denkt u nu aan die dag in de afgelopen week waarop u de meeste dranken met alcohol hebt gedronken. (Als u op meerdere dagen precies evenveel hebt gedronken, antwoordt u dan over de dag die het kortst geleden is.) Wilt u hieronder aangeven welke soort alcoholische dranken u op die dag hebt gedronken? Niet-alcoholische of alcohol-arme dranken hier niet vermelden.;wijn (inclusief champagne);;;bool;;
-;14;he040;;multi;he038;Alcohol Type;Denkt u nu aan die dag in de afgelopen week waarop u de meeste dranken met alcohol hebt gedronken. (Als u op meerdere dagen precies evenveel hebt gedronken, antwoordt u dan over de dag die het kortst geleden is.) Wilt u hieronder aangeven welke soort alcoholische dranken u op die dag hebt gedronken? Niet-alcoholische of alcohol-arme dranken hier niet vermelden.;premixen, alcoholpops, blasters en shooters, zoals Bacardi Breezer, Smirnoff Ice;;;bool;;
-;14;he040;;multi;he038;Alcohol Type;Denkt u nu aan die dag in de afgelopen week waarop u de meeste dranken met alcohol hebt gedronken. (Als u op meerdere dagen precies evenveel hebt gedronken, antwoordt u dan over de dag die het kortst geleden is.) Wilt u hieronder aangeven welke soort alcoholische dranken u op die dag hebt gedronken? Niet-alcoholische of alcohol-arme dranken hier niet vermelden.;andere soorten dranken met alcohol;;;bool;;
-;15;he40and;he040and_v1_f1;grid;he040;Alcohol Type;Welke andere soorten dranken met alcohol bedoelt u? U kunt er maximaal twee noemen.;ander soort alcoholische drank;;;string;;
-;15;he40and;he040and_v2_f1;grid;he040;Alcohol Type;Welke andere soorten dranken met alcohol bedoelt u? U kunt er maximaal twee noemen.;ander soort alcoholische drank;;;string;;
+(geen malt bier, Radler)";;;bool;
+;14;he040;;multi;he038;Alcohol Type;Denkt u nu aan die dag in de afgelopen week waarop u de meeste dranken met alcohol hebt gedronken. (Als u op meerdere dagen precies evenveel hebt gedronken, antwoordt u dan over de dag die het kortst geleden is.) Wilt u hieronder aangeven welke soort alcoholische dranken u op die dag hebt gedronken? Niet-alcoholische of alcohol-arme dranken hier niet vermelden.;sterk bier met 6% alcohol of meer, zoals speciale bieren;;;bool;
+;14;he040;;multi;he038;Alcohol Type;Denkt u nu aan die dag in de afgelopen week waarop u de meeste dranken met alcohol hebt gedronken. (Als u op meerdere dagen precies evenveel hebt gedronken, antwoordt u dan over de dag die het kortst geleden is.) Wilt u hieronder aangeven welke soort alcoholische dranken u op die dag hebt gedronken? Niet-alcoholische of alcohol-arme dranken hier niet vermelden.;sterke drank of likeur, zoals gin, whisky, rum, brandy, wodka of cocktails;;;bool;
+;14;he040;;multi;he038;Alcohol Type;Denkt u nu aan die dag in de afgelopen week waarop u de meeste dranken met alcohol hebt gedronken. (Als u op meerdere dagen precies evenveel hebt gedronken, antwoordt u dan over de dag die het kortst geleden is.) Wilt u hieronder aangeven welke soort alcoholische dranken u op die dag hebt gedronken? Niet-alcoholische of alcohol-arme dranken hier niet vermelden.;sherry of martini (inclusief port, vermouth, cinzano, dubonet);;;bool;
+;14;he040;;multi;he038;Alcohol Type;Denkt u nu aan die dag in de afgelopen week waarop u de meeste dranken met alcohol hebt gedronken. (Als u op meerdere dagen precies evenveel hebt gedronken, antwoordt u dan over de dag die het kortst geleden is.) Wilt u hieronder aangeven welke soort alcoholische dranken u op die dag hebt gedronken? Niet-alcoholische of alcohol-arme dranken hier niet vermelden.;wijn (inclusief champagne);;;bool;
+;14;he040;;multi;he038;Alcohol Type;Denkt u nu aan die dag in de afgelopen week waarop u de meeste dranken met alcohol hebt gedronken. (Als u op meerdere dagen precies evenveel hebt gedronken, antwoordt u dan over de dag die het kortst geleden is.) Wilt u hieronder aangeven welke soort alcoholische dranken u op die dag hebt gedronken? Niet-alcoholische of alcohol-arme dranken hier niet vermelden.;premixen, alcoholpops, blasters en shooters, zoals Bacardi Breezer, Smirnoff Ice;;;bool;
+;14;he040;;multi;he038;Alcohol Type;Denkt u nu aan die dag in de afgelopen week waarop u de meeste dranken met alcohol hebt gedronken. (Als u op meerdere dagen precies evenveel hebt gedronken, antwoordt u dan over de dag die het kortst geleden is.) Wilt u hieronder aangeven welke soort alcoholische dranken u op die dag hebt gedronken? Niet-alcoholische of alcohol-arme dranken hier niet vermelden.;andere soorten dranken met alcohol;;;bool;
+;15;he40and;he040and_v1_f1;grid;he040;Alcohol Type;Welke andere soorten dranken met alcohol bedoelt u? U kunt er maximaal twee noemen.;ander soort alcoholische drank;;;string;
+;15;he40and;he040and_v2_f1;grid;he040;Alcohol Type;Welke andere soorten dranken met alcohol bedoelt u? U kunt er maximaal twee noemen.;ander soort alcoholische drank;;;string;
 ;16;he040a;he040a_v1_f1;grid;he040;Beer Consumption;"Geeft u aan hoeveel bier (van normale sterkte, pils, wit bier, donker bier, met minder dan
-6% alcohol) u op die dag hebt gedronken.";Aantal glazen (reken grote glazen voor 2);;;int;;
+6% alcohol) u op die dag hebt gedronken.";Aantal glazen (reken grote glazen voor 2);;;int;
 ;16;he040a;he040a_v2_f1;grid;he040;Beer Consumption;"Geeft u aan hoeveel bier (van normale sterkte, pils, wit bier, donker bier, met minder dan
-6% alcohol) u op die dag hebt gedronken.";Aantal glazen van een halve liter (pints);;;int;;
+6% alcohol) u op die dag hebt gedronken.";Aantal glazen van een halve liter (pints);;;int;
 ;16;he040a;he040a_v3_f1;grid;he040;Beer Consumption;"Geeft u aan hoeveel bier (van normale sterkte, pils, wit bier, donker bier, met minder dan
-6% alcohol) u op die dag hebt gedronken.";Aantal halve liter blikken of flesjes;;;int;;
+6% alcohol) u op die dag hebt gedronken.";Aantal halve liter blikken of flesjes;;;int;
 ;16;he040a;he040a_v4_f1;grid;he040;Beer Consumption;"Geeft u aan hoeveel bier (van normale sterkte, pils, wit bier, donker bier, met minder dan
-6% alcohol) u op die dag hebt gedronken.";Aantal kleine blikjes of flesjes;;;int;;
-;17;he040b;he040b_v1_f1;grid;he040;Strong Beer Consumption;Geeft u aan hoeveel sterk bier (speciale bieren met 6% alcohol of meer), u op die dag hebt gedronken.;Aantal glazen (reken grote glazen voor 2);;;int;;
-;17;he040b;he040b_v2_f1;grid;he040;Strong Beer Consumption;Geeft u aan hoeveel sterk bier (speciale bieren met 6% alcohol of meer), u op die dag hebt gedronken.;Aantal glazen van een halve liter (pints);;;int;;
-;17;he040b;he040b_v3_f1;grid;he040;Strong Beer Consumption;Geeft u aan hoeveel sterk bier (speciale bieren met 6% alcohol of meer), u op die dag hebt gedronken.;Aantal halve liter blikken of flesjes;;;int;;
-;17;he040b;he040b_v4_f1;grid;he040;Strong Beer Consumption;Geeft u aan hoeveel sterk bier (speciale bieren met 6% alcohol of meer), u op die dag hebt gedronken.;Aantal kleine blikjes of flesjes;;;int;;
-;18;he040c;he040c_v1_f1;grid;he040;Strong Alcohol Consumption;Geeft u aan hoeveel van deze alcoholische drank u op die dag hebt gedronken. (Reken grote glazen voor 2.);sterke drank of likeur, zoals gin, whisky, rum, brandy, wodka of cocktails;;;int;;
-;18;he040c;he040c_v2_f1;grid;he040;Strong Alcohol Consumption;Geeft u aan hoeveel van deze alcoholische drank u op die dag hebt gedronken. (Reken grote glazen voor 2.);sherry of martini (inclusief port, vermouth, cinzano, dubonet);;;int;;
-;18;he040c;he040c_v3_f1;grid;he040;Strong Alcohol Consumption;Geeft u aan hoeveel van deze alcoholische drank u op die dag hebt gedronken. (Reken grote glazen voor 2.);wijn (inclusief champagne);;;int;;
+6% alcohol) u op die dag hebt gedronken.";Aantal kleine blikjes of flesjes;;;int;
+;17;he040b;he040b_v1_f1;grid;he040;Strong Beer Consumption;Geeft u aan hoeveel sterk bier (speciale bieren met 6% alcohol of meer), u op die dag hebt gedronken.;Aantal glazen (reken grote glazen voor 2);;;int;
+;17;he040b;he040b_v2_f1;grid;he040;Strong Beer Consumption;Geeft u aan hoeveel sterk bier (speciale bieren met 6% alcohol of meer), u op die dag hebt gedronken.;Aantal glazen van een halve liter (pints);;;int;
+;17;he040b;he040b_v3_f1;grid;he040;Strong Beer Consumption;Geeft u aan hoeveel sterk bier (speciale bieren met 6% alcohol of meer), u op die dag hebt gedronken.;Aantal halve liter blikken of flesjes;;;int;
+;17;he040b;he040b_v4_f1;grid;he040;Strong Beer Consumption;Geeft u aan hoeveel sterk bier (speciale bieren met 6% alcohol of meer), u op die dag hebt gedronken.;Aantal kleine blikjes of flesjes;;;int;
+;18;he040c;he040c_v1_f1;grid;he040;Strong Alcohol Consumption;Geeft u aan hoeveel van deze alcoholische drank u op die dag hebt gedronken. (Reken grote glazen voor 2.);sterke drank of likeur, zoals gin, whisky, rum, brandy, wodka of cocktails;;;int;
+;18;he040c;he040c_v2_f1;grid;he040;Strong Alcohol Consumption;Geeft u aan hoeveel van deze alcoholische drank u op die dag hebt gedronken. (Reken grote glazen voor 2.);sherry of martini (inclusief port, vermouth, cinzano, dubonet);;;int;
+;18;he040c;he040c_v3_f1;grid;he040;Strong Alcohol Consumption;Geeft u aan hoeveel van deze alcoholische drank u op die dag hebt gedronken. (Reken grote glazen voor 2.);wijn (inclusief champagne);;;int;
 ;19;he040d;;open;he040;Mixed Alcohol Consumption;"Geeft u aan hoeveel kleine blikjes of flesjes aan premixen, alcoholpops, blasters en
-shooters (zoals Bacardi Breezer, Smirnoff Ice) u op die dag hebt gedronken.";;;;int;;
-;20;he040e;;open ;he040;Other Alcohol 1 Consumption;"Geeft u aan hoeveel hoeveel glazen ^alco1; u op die dag hebt gedronken.
-(Reken grote glazen voor 2.)";;;;int;;
+shooters (zoals Bacardi Breezer, Smirnoff Ice) u op die dag hebt gedronken.";;;;int;
+;20;he040e;;open;he040;Other Alcohol 1 Consumption;"Geeft u aan hoeveel hoeveel glazen deze alcoholische drank u op die dag hebt gedronken.
+(Reken grote glazen voor 2.)";;;;int;
 ;21;he040f;;open;he040;Other Alcohol 2 Consumption;"Geeft u aan hoeveel van deze alcoholische drank u op die dag hebt gedronken.
-(Reken grote glazen voor 2.)";;;;int;;
-;22;he041;he041v1;table ;;Drug Intake;"Hebt u gedurende de afgelopen maand wel eens één of meer van de volgende middelen
-Gebruikt?";kalmerende middelen (zoals valium);nooit, soms, regelmatig;;Categorical;;
-;22;he041;he041v2;table ;;Drug Intake;"Hebt u gedurende de afgelopen maand wel eens één of meer van de volgende middelen
-Gebruikt?";soft drugs (zoals hasj, wiet en marihuana);nooit, soms, regelmatig;;Categorical;;
-;22;he041;he041v3;table ;;Drug Intake;"Hebt u gedurende de afgelopen maand wel eens één of meer van de volgende middelen
-Gebruikt?";XTC;nooit, soms, regelmatig;;Categorical;;
-;22;he041;he041v4;table ;;Drug Intake;"Hebt u gedurende de afgelopen maand wel eens één of meer van de volgende middelen
-Gebruikt?";bewustzijnsverruimende middelen (zoals LSD en paddo ́s);nooit, soms, regelmatig;;Categorical;;
-;22;he041;he041v5;table ;;Drug Intake;"Hebt u gedurende de afgelopen maand wel eens één of meer van de volgende middelen
-Gebruikt?";hard drugs (zoals pepmiddelen, cocaïne en heroïne);nooit, soms, regelmatig;;Categorical;;
-;23;he042;he042_v1_f1;grid;he041;Drug Intake Last Month;Hoe vaak hebt u deze middelen in de afgelopen maand gebruikt?;kalmerende middelen (zoals valium);;;int;;
-;23;he042;he042_v2_f1;grid;he041;Drug Intake Last Month;Hoe vaak hebt u deze middelen in de afgelopen maand gebruikt?;soft drugs (zoals hasj, wiet en marihuana);;;int;;
-;23;he042;he042_v2_f2;grid;he041;Drug Intake Last Month;Hoe vaak hebt u deze middelen in de afgelopen maand gebruikt?;XTC;;;int;;
-;23;he042;he042_v2_f3;grid;he041;Drug Intake Last Month;Hoe vaak hebt u deze middelen in de afgelopen maand gebruikt?;bewustzijnsverruimende middelen (zoals LSD en paddo ́s);;;int;;
-;23;he042;he042_v2_f4;grid;he041;Drug Intake Last Month;Hoe vaak hebt u deze middelen in de afgelopen maand gebruikt?;hard drugs (zoals pepmiddelen, cocaïne en heroïne);;;int;;
-;24;loneliness;cs12e284;table ;;Loneliness;Wilt u voor elke uitspraak aangeven in hoeverre die op u van toepassing is, op basis van hoe u zich nu voelt?;ik ervaar een leegte om me heen;ja, min of meer, nee;;Categorical;;
-;24;loneliness;cs12e285;table ;;Loneliness;Wilt u voor elke uitspraak aangeven in hoeverre die op u van toepassing is, op basis van hoe u zich nu voelt?;er zijn genoeg mensen waarop ik in geval van narigheid kan terugvallen;ja, min of meer, nee;;Categorical;;
-;24;loneliness;cs12e286;table ;;Loneliness;Wilt u voor elke uitspraak aangeven in hoeverre die op u van toepassing is, op basis van hoe u zich nu voelt?;ik ken veel mensen op wie ik volledig kan vertrouwen;ja, min of meer, nee;;Categorical;;
-;24;loneliness;cs12e287;table ;;Loneliness;Wilt u voor elke uitspraak aangeven in hoeverre die op u van toepassing is, op basis van hoe u zich nu voelt?;er zijn voldoende mensen met wie ik mij nauw verbonden voel;ja, min of meer, nee;;Categorical;;
-;24;loneliness;cs12e288;table ;;Loneliness;Wilt u voor elke uitspraak aangeven in hoeverre die op u van toepassing is, op basis van hoe u zich nu voelt?;ik mis mensen om me heen;ja, min of meer, nee;;Categorical;;
-;24;loneliness;cs12e289;table ;;Loneliness;Wilt u voor elke uitspraak aangeven in hoeverre die op u van toepassing is, op basis van hoe u zich nu voelt?;vaak voel ik me in de steek gelaten;ja, min of meer, nee;;Categorical;;
-;25;socialcontact_hd;;grid;;Contacts past 7 Days;"We willen graag iets weten over de contacten die u de afgelopen zeven dagen hebt gehad,
-persoonlijk of op afstand (online of telefonisch), en die ten minste vijf minuten duurden. Met hoeveel verschillende personen hebt u zo’n contact gehad in de afgelopen zeven dagen?";persoonlijk:;;;int;;
-;25;socialcontact_hd;;grid;;Contacts past 7 Days;"We willen graag iets weten over de contacten die u de afgelopen zeven dagen hebt gehad,
-persoonlijk of op afstand (online of telefonisch), en die ten minste vijf minuten duurden. Met hoeveel verschillende personen hebt u zo’n contact gehad in de afgelopen zeven dagen?";op afstand (telefonisch, online enz.):;;;int;;
-;26;socialcontact_vrg_hd;;table ;;Contacts Normally;Als u dat vergelijkt met een normale week, dus vóór de uitbraak van het coronavirus, hebt u dan nu minder of meer persoonlijk contact of contact via de telefoon / online?;persoonlijk:;veel minder nu, minder nu, ongeveer hetzelfde, meer nu, veel meer nu;;Categorical;;
-;26;socialcontact_vrg_hd;;table ;;Contacts Normally;Als u dat vergelijkt met een normale week, dus vóór de uitbraak van het coronavirus, hebt u dan nu minder of meer persoonlijk contact of contact via de telefoon / online?;op afstand (telefonisch, online enz.):;veel minder nu, minder nu, ongeveer hetzelfde, meer nu, veel meer nu;;Categorical;;
-;27;q22;;open;;Young Children in Household;Hoeveel kinderen jonger dan 12 jaar zijn er in uw huishouden?;;;;int;;
-;28;q23;;multi;q22;Childcare Adjustments;"Voor ^fill_kids;, hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?";Ik blijf thuis om voor ^fill_kids2, te zorgen;;;bool;;
-;28;q23;;multi;q22;Childcare Adjustments;"Voor ^fill_kids;, hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?";Mijn partner blijft thuis om voor ^fill_kids2, te zorgen;;;bool;;
-;28;q23;;multi;q22;Childcare Adjustments;"Voor ^fill_kids;, hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?";Oudere broer(s) of zus(sen) zorgen voor ^fill_kids2;;;bool;;
-;28;q23;;multi;q22;Childcare Adjustments;"Voor ^fill_kids;, hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?";De grootouders zorgen voor ^fill_kids2;;;bool;;
-;28;q23;;multi;q22;Childcare Adjustments;"Voor ^fill_kids;, hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?";Andere familieleden of vrienden zorgen voor ^fill_kids2;;;bool;;
-;28;q23;;multi;q22;Childcare Adjustments;"Voor ^fill_kids;, hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?";"Ik regel de kinderopvang samen met vrienden/buren (afwisselend de kinderen
-Opvangen)";;;bool;;
-;28;q23;;multi;q22;Childcare Adjustments;"Voor ^fill_kids;, hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?";"Ikzelf en/of mijn partner horen tot de cruciale beroepsgroep en er is daarom
-nood(kinder)opvang beschikbaar";;;bool;;
-;28;q23;;multi;q22;Childcare Adjustments;"Voor ^fill_kids;, hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?";Mijn ex-partner zorgt voor ^fill_kids2;;;bool;;
-;28;q23;;multi;q22;Childcare Adjustments;"Voor ^fill_kids;, hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?";"^fill_kidsblijven; alleen thuis";;;bool;;
-;28;q23;;multi;q22;Childcare Adjustments;"Voor ^fill_kids;, hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?";Anders, namelijk:;;;string;;
-;28;q23and;;open;q22;Childcare Adjustments;"Voor ^fill_kids;, hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?";Anders, namelijk:;;;string;;
-;29;q13;;cat;;Work Status Beginning of March;"Voor ^fill_kids;, hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?";;k verrichtte betaald werk in loondienst ( full-time of part-time), Ik was zelfstandig ondernemer, Ik was werkloos en was op zoek naar werk, Ik was (vervroegd) gepensioneerd, Ik ontving een arbeidsongeschiktheidsuitkering of sociale bijstand en was niet op zoek naar werk, Ik was leerling / student / stagiair en kreeg alleen een onkostenvergoeding, Ik deed het huishouden;;Categorical;;
+(Reken grote glazen voor 2.)";;;;int;
+;22;he041;he041v1;table;-;Drug Intake;"Hebt u gedurende de afgelopen maand wel eens één of meer van de volgende middelen
+Gebruikt?";kalmerende middelen (zoals valium);nooit, soms, regelmatig;;Categorical;
+;22;he041;he041v2;table;-;Drug Intake;"Hebt u gedurende de afgelopen maand wel eens één of meer van de volgende middelen
+Gebruikt?";soft drugs (zoals hasj, wiet en marihuana);nooit, soms, regelmatig;;Categorical;
+;22;he041;he041v3;table;-;Drug Intake;"Hebt u gedurende de afgelopen maand wel eens één of meer van de volgende middelen
+Gebruikt?";XTC;nooit, soms, regelmatig;;Categorical;
+;22;he041;he041v4;table;-;Drug Intake;"Hebt u gedurende de afgelopen maand wel eens één of meer van de volgende middelen
+Gebruikt?";bewustzijnsverruimende middelen (zoals LSD en paddo ́s);nooit, soms, regelmatig;;Categorical;
+;22;he041;he041v5;table;-;Drug Intake;"Hebt u gedurende de afgelopen maand wel eens één of meer van de volgende middelen
+Gebruikt?";hard drugs (zoals pepmiddelen, cocaïne en heroïne);nooit, soms, regelmatig;;Categorical;
+;23;he042;he042_v1_f1;grid;he041;Drug Intake Last Month;Hoe vaak hebt u deze middelen in de afgelopen maand gebruikt?;kalmerende middelen (zoals valium);;;int;
+;23;he042;he042_v2_f1;grid;he041;Drug Intake Last Month;Hoe vaak hebt u deze middelen in de afgelopen maand gebruikt?;soft drugs (zoals hasj, wiet en marihuana);;;int;
+;23;he042;he042_v2_f2;grid;he041;Drug Intake Last Month;Hoe vaak hebt u deze middelen in de afgelopen maand gebruikt?;XTC;;;int;
+;23;he042;he042_v2_f3;grid;he041;Drug Intake Last Month;Hoe vaak hebt u deze middelen in de afgelopen maand gebruikt?;bewustzijnsverruimende middelen (zoals LSD en paddo ́s);;;int;
+;23;he042;he042_v2_f4;grid;he041;Drug Intake Last Month;Hoe vaak hebt u deze middelen in de afgelopen maand gebruikt?;hard drugs (zoals pepmiddelen, cocaïne en heroïne);;;int;
+;24;loneliness;cs12e284;table;-;Loneliness;Wilt u voor elke uitspraak aangeven in hoeverre die op u van toepassing is, op basis van hoe u zich nu voelt?;ik ervaar een leegte om me heen;ja, min of meer, nee;;Categorical;
+;24;loneliness;cs12e285;table;-;Loneliness;Wilt u voor elke uitspraak aangeven in hoeverre die op u van toepassing is, op basis van hoe u zich nu voelt?;er zijn genoeg mensen waarop ik in geval van narigheid kan terugvallen;ja, min of meer, nee;;Categorical;
+;24;loneliness;cs12e286;table;-;Loneliness;Wilt u voor elke uitspraak aangeven in hoeverre die op u van toepassing is, op basis van hoe u zich nu voelt?;ik ken veel mensen op wie ik volledig kan vertrouwen;ja, min of meer, nee;;Categorical;
+;24;loneliness;cs12e287;table;-;Loneliness;Wilt u voor elke uitspraak aangeven in hoeverre die op u van toepassing is, op basis van hoe u zich nu voelt?;er zijn voldoende mensen met wie ik mij nauw verbonden voel;ja, min of meer, nee;;Categorical;
+;24;loneliness;cs12e288;table;-;Loneliness;Wilt u voor elke uitspraak aangeven in hoeverre die op u van toepassing is, op basis van hoe u zich nu voelt?;ik mis mensen om me heen;ja, min of meer, nee;;Categorical;
+;24;loneliness;cs12e289;table;-;Loneliness;Wilt u voor elke uitspraak aangeven in hoeverre die op u van toepassing is, op basis van hoe u zich nu voelt?;vaak voel ik me in de steek gelaten;ja, min of meer, nee;;Categorical;
+;25;socialcontact_hd;;grid;-;Contacts past 7 Days;"We willen graag iets weten over de contacten die u de afgelopen zeven dagen hebt gehad,
+persoonlijk of op afstand (online of telefonisch), en die ten minste vijf minuten duurden. Met hoeveel verschillende personen hebt u zo’n contact gehad in de afgelopen zeven dagen?";persoonlijk:;;;int;
+;25;socialcontact_hd;;grid;-;Contacts past 7 Days;"We willen graag iets weten over de contacten die u de afgelopen zeven dagen hebt gehad,
+persoonlijk of op afstand (online of telefonisch), en die ten minste vijf minuten duurden. Met hoeveel verschillende personen hebt u zo’n contact gehad in de afgelopen zeven dagen?";op afstand (telefonisch, online enz.):;;;int;
+;26;socialcontact_vrg_hd;;table;-;Contacts Normally;Als u dat vergelijkt met een normale week, dus vóór de uitbraak van het coronavirus, hebt u dan nu minder of meer persoonlijk contact of contact via de telefoon / online?;persoonlijk:;veel minder nu, minder nu, ongeveer hetzelfde, meer nu, veel meer nu;;Categorical;
+;26;socialcontact_vrg_hd;;table ;-;Contacts Normally;Als u dat vergelijkt met een normale week, dus vóór de uitbraak van het coronavirus, hebt u dan nu minder of meer persoonlijk contact of contact via de telefoon / online?;op afstand (telefonisch, online enz.):;veel minder nu, minder nu, ongeveer hetzelfde, meer nu, veel meer nu;;Categorical;
+;27;q22;;open;-;Young Children in Household;Hoeveel kinderen jonger dan 12 jaar zijn er in uw huishouden?;;;;int;
+;28;q23;;multi;q22;Childcare Adjustments;Hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?;Ik blijf thuis om voor ^fill_kids2, te zorgen;;;bool;
+;28;q23;;multi;q22;Childcare Adjustments;Hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?;Mijn partner blijft thuis om voor ^fill_kids2, te zorgen;;;bool;
+;28;q23;;multi;q22;Childcare Adjustments;Hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?;Oudere broer(s) of zus(sen) zorgen voor ^fill_kids2;;;bool;
+;28;q23;;multi;q22;Childcare Adjustments;Hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?;De grootouders zorgen voor ^fill_kids2;;;bool;
+;28;q23;;multi;q22;Childcare Adjustments;Hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?;Andere familieleden of vrienden zorgen voor ^fill_kids2;;;bool;
+;28;q23;;multi;q22;Childcare Adjustments;Hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?;"Ik regel de kinderopvang samen met vrienden/buren (afwisselend de kinderen
+Opvangen)";;;bool;
+;28;q23;;multi;q22;Childcare Adjustments;Hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?;"Ikzelf en/of mijn partner horen tot de cruciale beroepsgroep en er is daarom
+nood(kinder)opvang beschikbaar";;;bool;
+;28;q23;;multi;q22;Childcare Adjustments;Hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?;Mijn ex-partner zorgt voor ^fill_kids2;;;bool;
+;28;q23;;multi;q22;Childcare Adjustments;Hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?;Deze kinderen blijven alleen thuis;;;bool;
+;28;q23;;multi;q22;Childcare Adjustments;Hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?;Anders, namelijk:;;;string;
+;28;q23and;;open;q22;Childcare Adjustments;Hoe gaat u om met sluiting van school en/of kinderopvang vanwege het Coronavirus?;Anders, namelijk:;;;string;
+;29;q13;;cat;-;Work Status Beginning of March;Welke van de volgende opties beschrijft voor begin maart (of voordat het coronavirus invloed had op uw werk) uw situatie het best? Als er meer opties mogelijk zijn, kiest u dan de hoofdactiviteit of -baan.;;k verrichtte betaald werk in loondienst ( full-time of part-time), Ik was zelfstandig ondernemer, Ik was werkloos en was op zoek naar werk, Ik was (vervroegd) gepensioneerd, Ik ontving een arbeidsongeschiktheidsuitkering of sociale bijstand en was niet op zoek naar werk, Ik was leerling / student / stagiair en kreeg alleen een onkostenvergoeding, Ik deed het huishouden;;Categorical;
 ;30;Q14header_1;;grid;q13;Working Hours;"Hoeveel uur per week werkte u begin maart (of voordat het coronavirus invloed had op uw
-werk) gemiddeld op uw werkplek en vanuit huis? En in de afgelopen zeven dagen?Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Werk vóór de pandemie;;;int;;
+werk) gemiddeld op uw werkplek en vanuit huis? En in de afgelopen zeven dagen?Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Werk vóór de pandemie;;;int;
 ;30;Q14header_1;;grid;q13;Working Hours;"Hoeveel uur per week werkte u begin maart (of voordat het coronavirus invloed had op uw
-werk) gemiddeld op uw werkplek en vanuit huis? En in de afgelopen zeven dagen?Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Thuis vóór de pandemie;;;int;;
+werk) gemiddeld op uw werkplek en vanuit huis? En in de afgelopen zeven dagen?Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Thuis vóór de pandemie;;;int;
 ;30;Q14header_1;;grid;q13;Working Hours;"Hoeveel uur per week werkte u begin maart (of voordat het coronavirus invloed had op uw
-werk) gemiddeld op uw werkplek en vanuit huis? En in de afgelopen zeven dagen?Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Werk de afgelopen zeven dagen;;;int;;
+werk) gemiddeld op uw werkplek en vanuit huis? En in de afgelopen zeven dagen?Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Werk de afgelopen zeven dagen;;;int;
 ;30;Q14header_1;;grid;q13;Working Hours;"Hoeveel uur per week werkte u begin maart (of voordat het coronavirus invloed had op uw
-werk) gemiddeld op uw werkplek en vanuit huis? En in de afgelopen zeven dagen?Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Thuis de afgelopen zeven dagen;;;int;;
-;31;q14header;;grid;q13;Working Hours Extended;"Op ^DatumB; hebt u laten weten hoeveel uur u toen werkte in die week. Hoeveel uur per
-week werkte u in de afgelopen zeven dagen op uw werkplek en vanuit huis? Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Werk vóór de uitbraak van het coronavirus;;;int;;
-;31;q14header;;grid;q13;Working Hours Extended;"Op ^DatumB; hebt u laten weten hoeveel uur u toen werkte in die week. Hoeveel uur per
-week werkte u in de afgelopen zeven dagen op uw werkplek en vanuit huis? Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Werk van ^DatumB_min7 tot en met ^DatumB_min1;;;int;;
-;31;q14header;;grid;q13;Working Hours Extended;"Op ^DatumB; hebt u laten weten hoeveel uur u toen werkte in die week. Hoeveel uur per
-week werkte u in de afgelopen zeven dagen op uw werkplek en vanuit huis? Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Werk in de afgelopen zeven dagen;;;int;;
-;31;q14header;;grid;q13;Working Hours Extended;"Op ^DatumB; hebt u laten weten hoeveel uur u toen werkte in die week. Hoeveel uur per
-week werkte u in de afgelopen zeven dagen op uw werkplek en vanuit huis? Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Thuis vóór de uitbraak van het coronavirus;;;int;;
-;31;q14header;;grid;q13;Working Hours Extended;"Op ^DatumB; hebt u laten weten hoeveel uur u toen werkte in die week. Hoeveel uur per
-week werkte u in de afgelopen zeven dagen op uw werkplek en vanuit huis? Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Thuis van ^DatumB_min7 tot en met ^DatumB_min1;;;int;;
-;31;q14header;;grid;q13;Working Hours Extended;"Op ^DatumB; hebt u laten weten hoeveel uur u toen werkte in die week. Hoeveel uur per
-week werkte u in de afgelopen zeven dagen op uw werkplek en vanuit huis? Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Thuis in de afgelopen zeven dagen;;;int;;
+werk) gemiddeld op uw werkplek en vanuit huis? En in de afgelopen zeven dagen?Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Thuis de afgelopen zeven dagen;;;int;
+;31;q14header;;grid;q13;Working Hours Extended;Op DatumB hebt u laten weten hoeveel uur u toen werkte in die week. Hoeveel uur per week werkte u in de afgelopen zeven dagen op uw werkplek en vanuit huis? Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.;Werk vóór de uitbraak van het coronavirus;;;int;
+;31;q14header;;grid;q13;Working Hours Extended;Op DatumB hebt u laten weten hoeveel uur u toen werkte in die week. Hoeveel uur per week werkte u in de afgelopen zeven dagen op uw werkplek en vanuit huis? Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.;Werk van ^DatumB_min7 tot en met ^DatumB_min1;;;int;
+;31;q14header;;grid;q13;Working Hours Extended;Op DatumB hebt u laten weten hoeveel uur u toen werkte in die week. Hoeveel uur per week werkte u in de afgelopen zeven dagen op uw werkplek en vanuit huis? Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.;Werk in de afgelopen zeven dagen;;;int;
+;31;q14header;;grid;q13;Working Hours Extended;Op DatumB hebt u laten weten hoeveel uur u toen werkte in die week. Hoeveel uur per week werkte u in de afgelopen zeven dagen op uw werkplek en vanuit huis? Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.;Thuis vóór de uitbraak van het coronavirus;;;int;
+;31;q14header;;grid;q13;Working Hours Extended;Op DatumB hebt u laten weten hoeveel uur u toen werkte in die week. Hoeveel uur per week werkte u in de afgelopen zeven dagen op uw werkplek en vanuit huis? Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.;Thuis van ^DatumB_min7 tot en met ^DatumB_min1;;;int;
+;31;q14header;;grid;q13;Working Hours Extended;Op DatumB hebt u laten weten hoeveel uur u toen werkte in die week. Hoeveel uur per week werkte u in de afgelopen zeven dagen op uw werkplek en vanuit huis? Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.;Thuis in de afgelopen zeven dagen;;;int;
 ;32;q15;;multi;q14_header;Reasons for Not Working Among Employees;Waarom werkte u de afgelopen zeven dagen niet? Meerdere antwoorden mogelijk;"Minder zakelijke activiteit in het bedrijf waar ik werk vanwege economische
-Omstandigheden";;;bool;;
+Omstandigheden";;;bool;
 ;32;q15;;multi;q14_header;Reasons for Not Working Among Employees;Waarom werkte u de afgelopen zeven dagen niet? Meerdere antwoorden mogelijk;"Vanwege het besmettingsgevaar heeft de overheid besloten dat mijn werkplek voorlopig
-moet sluiten";;;bool;;
-;32;q15;;multi;q14_header;Reasons for Not Working Among Employees;Waarom werkte u de afgelopen zeven dagen niet? Meerdere antwoorden mogelijk;Vanwege het besmettingsgevaar stelde mijn werkgever het werk vrijwillig uit;;;bool;;
-;32;q15;;multi;q14_header;Reasons for Not Working Among Employees;Waarom werkte u de afgelopen zeven dagen niet? Meerdere antwoorden mogelijk;Ik moet zorgen voor mensen (kinderen, ouders) die van mij afhankelijk zijn;;;bool;;
+moet sluiten";;;bool;
+;32;q15;;multi;q14_header;Reasons for Not Working Among Employees;Waarom werkte u de afgelopen zeven dagen niet? Meerdere antwoorden mogelijk;Vanwege het besmettingsgevaar stelde mijn werkgever het werk vrijwillig uit;;;bool;
+;32;q15;;multi;q14_header;Reasons for Not Working Among Employees;Waarom werkte u de afgelopen zeven dagen niet? Meerdere antwoorden mogelijk;Ik moet zorgen voor mensen (kinderen, ouders) die van mij afhankelijk zijn;;;bool;
 ;32;q15;;multi;q14_header;Reasons for Not Working Among Employees;Waarom werkte u de afgelopen zeven dagen niet? Meerdere antwoorden mogelijk;"Ik ga niet naar mijn werkplek omdat ik bang ben te worden besmet door het coronavirus
-en ik kan het werk dat ik doe niet thuis doen";;;bool;;
-;32;q15;;multi;q14_header;Reasons for Not Working Among Employees;Waarom werkte u de afgelopen zeven dagen niet? Meerdere antwoorden mogelijk;Ik was ziek / in quarantaine;;;bool;;
-;32;q15;;multi;q14_header;Reasons for Not Working Among Employees;Waarom werkte u de afgelopen zeven dagen niet? Meerdere antwoorden mogelijk;Ik heb vakantiedagen opgenomen;;;bool;;
-;32;q15;;multi;q14_header;Reasons for Not Working Among Employees;Waarom werkte u de afgelopen zeven dagen niet? Meerdere antwoorden mogelijk;Ik werd ontslagen;;;bool;;
-;32;q15;;multi;q14_header;Reasons for Not Working Among Employees;Waarom werkte u de afgelopen zeven dagen niet? Meerdere antwoorden mogelijk;Anders, namelijk:;;;bool;;
+en ik kan het werk dat ik doe niet thuis doen";;;bool;
+;32;q15;;multi;q14_header;Reasons for Not Working Among Employees;Waarom werkte u de afgelopen zeven dagen niet? Meerdere antwoorden mogelijk;Ik was ziek / in quarantaine;;;bool;
+;32;q15;;multi;q14_header;Reasons for Not Working Among Employees;Waarom werkte u de afgelopen zeven dagen niet? Meerdere antwoorden mogelijk;Ik heb vakantiedagen opgenomen;;;bool;
+;32;q15;;multi;q14_header;Reasons for Not Working Among Employees;Waarom werkte u de afgelopen zeven dagen niet? Meerdere antwoorden mogelijk;Ik werd ontslagen;;;bool;
+;32;q15;;multi;q14_header;Reasons for Not Working Among Employees;Waarom werkte u de afgelopen zeven dagen niet? Meerdere antwoorden mogelijk;Anders, namelijk:;;;bool;
 ;33;q16;;multi;q14_header;Reasons for Working Less Among Employees;Waarom werkte u minder de afgelopen zeven dagen? Meerdere antwoorden mogelijk;"Minder zakelijke activiteit in het bedrijf waar ik werk vanwege economische
-Omstandigheden";;;bool;;
-;33;q16;;multi;q14_header;Reasons for Working Less Among Employees;Waarom werkte u minder de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Vanwege het besmettingsgevaar heeft de overheid besloten dat er voorlopig minder gewerkt moet worden op mijn werkplek;;;bool;;
-;33;q16;;multi;q14_header;Reasons for Working Less Among Employees;Waarom werkte u minder de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Vanwege het besmettingsgevaar heeft mijn werkgever vrijwillig besloten dat er minder gewerkt wordt;;;bool;;
-;33;q16;;multi;q14_header;Reasons for Working Less Among Employees;Waarom werkte u minder de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Ik moet zorgen voor mensen (kinderen, ouders) die van mij afhankelijk zijn;;;bool;;
-;33;q16;;multi;q14_header;Reasons for Working Less Among Employees;Waarom werkte u minder de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Ik ga minder naar mijn werkplek omdat ik bang ben te worden besmet door het coronavirus;;;bool;;
-;33;q16;;multi;q14_header;Reasons for Working Less Among Employees;Waarom werkte u minder de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Ik was ziek / in quarantaine;;;bool;;
-;33;q16;;multi;q14_header;Reasons for Working Less Among Employees;Waarom werkte u minder de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Ik heb vakantiedagen opgenomen;;;bool;;
-;33;q16;;multi;q14_header;Reasons for Working Less Among Employees;Waarom werkte u minder de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Geen speciale reden, geen reden die te maken heeft met het coronavirus;;;bool;;
-;33;q16;;multi;q14_header;Reasons for Working Less Among Employees;Waarom werkte u minder de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Anders, namelijk:;;;bool;;
-;34;q17;;multi;q14_header;Reasons for Working Not Or Less Among the Self-Employed;Waarom werkte u minder of helemaal niet in de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Minder zakelijke activiteit in mijn bedrijf vanwege economische omstandigheden;;;bool;;
-;34;q17;;multi;q14_header;Reasons for Working Not Or Less Among the Self-Employed;Waarom werkte u minder of helemaal niet in de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Vanwege het besmettingsgevaar heeft de overheid besloten dat mijn bedrijf voorlopig moet sluiten;;;bool;;
-;34;q17;;multi;q14_header;Reasons for Working Not Or Less Among the Self-Employed;Waarom werkte u minder of helemaal niet in de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Vanwege het besmettingsgevaar hebben we het bedrijf voorlopig gesloten;;;bool;;
-;34;q17;;multi;q14_header;Reasons for Working Not Or Less Among the Self-Employed;Waarom werkte u minder of helemaal niet in de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Ik moet zorgen voor mensen (kinderen, ouders) die van mij afhankelijk zijn;;;bool;;
-;34;q17;;multi;q14_header;Reasons for Working Not Or Less Among the Self-Employed;Waarom werkte u minder of helemaal niet in de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Ik was ziek / in quarantaine;;;bool;;
-;34;q17;;multi;q14_header;Reasons for Working Not Or Less Among the Self-Employed;Waarom werkte u minder of helemaal niet in de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Ik heb vakantiedagen opgenomen;;;bool;;
-;34;q17;;multi;q14_header;Reasons for Working Not Or Less Among the Self-Employed;Waarom werkte u minder of helemaal niet in de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Geen speciale reden, geen reden die te maken heeft met het coronavirus;;;bool;;
-;34;q17;;multi;q14_header;Reasons for Working Not Or Less Among the Self-Employed;Waarom werkte u minder of helemaal niet in de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Anders, namelijk:;;;bool;;
-;35;cruciaal;;cat;q14_header;Crucial Profession Among Employed;Valt uw beroep onder de cruciale beroepsgroep?;;Ja, Nee;TRUE;Categorical;;
-;36;cruciaal_notempl;;cat;q14_header;Crucial Former Profession Among Unemployed;Valt het beroep dat u hebt uitgeoefend onder de cruciale beroepsgroep? Als u nooit gewerkt hebt, kunt u 'niet van toepassing' antwoorden.;;Ja, Nee, Weet ik niet/Niet van toepassing;TRUE;Categorical;;
-;37;income;inc_jan;grid;;Income Last Three Months;Wat was in de afgelopen drie maanden ^f_inc1? Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz. Als u het niet precies weet geeft u dan uw beste inschatting. Vult u alleen cijfers (hele euro's) in, dus zonder punten en komma’s.;inkomen in januari:;;;int;;
-;37;income;inc_feb;grid;;Income Last Three Months;"Wat was in de afgelopen drie maanden ^f_inc1;? Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz. Als u het niet precies weet geeft u dan uw beste inschatting. Vult u alleen cijfers (hele euro's) in, dus zonder punten en komma’s.";inkomen in februari:;;;int;;
-;37;income;inc_mrt;grid;;Income Last Three Months;"Wat was in de afgelopen drie maanden ^f_inc1;? Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz. Als u het niet precies weet geeft u dan uw beste inschatting. Vult u alleen cijfers (hele euro's) in, dus zonder punten en komma’s.";inkomen in maart:;;;int;;
-;38;expectedincome;expinc2020;grid;;Expected Income Next Years;"We willen graag weten wat u verwacht dat ^f_inc2 voor 2020, 2021, en 2022 zal zijn. Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.  Geeft u aan wat u verwachtte dat ^f_inc3; zou zijn, vóórdat er sprake was van de uitbraak van het coronavirus. Dus, wat u verwacht dat ^f_inc3; zou zijn zonder de uitbraak van
-het coronavirus. Daarnaast wat u nu verwacht dat in deze jaren ^f_inc4; inkomen zal  Zijn. Geeft u de verwachtingen van ^f_inc5";Voor dit jaar (dus ook voor de maanden januari, februari en maart);;;int;;
-;38;expectedincome;expinc2021;grid;;Expected Income Next Years;"We willen graag weten wat u verwacht dat ^f_inc2 voor 2020, 2021, en 2022 zal zijn. Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.  Geeft u aan wat u verwachtte dat ^f_inc3; zou zijn, vóórdat er sprake was van de uitbraak van het coronavirus. Dus, wat u verwacht dat ^f_inc3; zou zijn zonder de uitbraak van
-het coronavirus. Daarnaast wat u nu verwacht dat in deze jaren ^f_inc4; inkomen zal  Zijn. Geeft u de verwachtingen van ^f_inc6";Voor het jaar 2021;;;int;;
-;38;expectedincome;expinc2022;grid;;Expected Income Next Years;"We willen graag weten wat u verwacht dat ^f_inc2 voor 2020, 2021, en 2022 zal zijn. Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.  Geeft u aan wat u verwachtte dat ^f_inc3; zou zijn, vóórdat er sprake was van de uitbraak van het coronavirus. Dus, wat u verwacht dat ^f_inc3; zou zijn zonder de uitbraak van
-het coronavirus. Daarnaast wat u nu verwacht dat in deze jaren ^f_inc4; inkomen zal  Zijn. Geeft u de verwachtingen van ^f_inc7";Voor het jaar 2022;;;int;;
+Omstandigheden";;;bool;
+;33;q16;;multi;q14_header;Reasons for Working Less Among Employees;Waarom werkte u minder de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Vanwege het besmettingsgevaar heeft de overheid besloten dat er voorlopig minder gewerkt moet worden op mijn werkplek;;;bool;
+;33;q16;;multi;q14_header;Reasons for Working Less Among Employees;Waarom werkte u minder de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Vanwege het besmettingsgevaar heeft mijn werkgever vrijwillig besloten dat er minder gewerkt wordt;;;bool;
+;33;q16;;multi;q14_header;Reasons for Working Less Among Employees;Waarom werkte u minder de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Ik moet zorgen voor mensen (kinderen, ouders) die van mij afhankelijk zijn;;;bool;
+;33;q16;;multi;q14_header;Reasons for Working Less Among Employees;Waarom werkte u minder de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Ik ga minder naar mijn werkplek omdat ik bang ben te worden besmet door het coronavirus;;;bool;
+;33;q16;;multi;q14_header;Reasons for Working Less Among Employees;Waarom werkte u minder de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Ik was ziek / in quarantaine;;;bool;
+;33;q16;;multi;q14_header;Reasons for Working Less Among Employees;Waarom werkte u minder de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Ik heb vakantiedagen opgenomen;;;bool;
+;33;q16;;multi;q14_header;Reasons for Working Less Among Employees;Waarom werkte u minder de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Geen speciale reden, geen reden die te maken heeft met het coronavirus;;;bool;
+;33;q16;;multi;q14_header;Reasons for Working Less Among Employees;Waarom werkte u minder de afgelopen zeven dagen? Meerdere antwoorden mogelijk;Anders, namelijk:;;;bool;
+;34;q17;;multi;q14_header;Reasons for Working Not Or Less Among the Self-Employed;Waarom werkte u minder of helemaal niet in de afgelopen zeven dagen Meerdere antwoorden mogelijk;Minder zakelijke activiteit in mijn bedrijf vanwege economische omstandigheden;;;bool;
+;34;q17;;multi;q14_header;Reasons for Working Not Or Less Among the Self-Employed;Waarom werkte u minder of helemaal niet in de afgelopen zeven dagen Meerdere antwoorden mogelijk;Vanwege het besmettingsgevaar heeft de overheid besloten dat mijn bedrijf voorlopig moet sluiten;;;bool;
+;34;q17;;multi;q14_header;Reasons for Working Not Or Less Among the Self-Employed;Waarom werkte u minder of helemaal niet in de afgelopen zeven dagen Meerdere antwoorden mogelijk;Vanwege het besmettingsgevaar hebben we het bedrijf voorlopig gesloten;;;bool;
+;34;q17;;multi;q14_header;Reasons for Working Not Or Less Among the Self-Employed;Waarom werkte u minder of helemaal niet in de afgelopen zeven dagen Meerdere antwoorden mogelijk;Ik moet zorgen voor mensen (kinderen, ouders) die van mij afhankelijk zijn;;;bool;
+;34;q17;;multi;q14_header;Reasons for Working Not Or Less Among the Self-Employed;Waarom werkte u minder of helemaal niet in de afgelopen zeven dagen Meerdere antwoorden mogelijk;Ik was ziek / in quarantaine;;;bool;
+;34;q17;;multi;q14_header;Reasons for Working Not Or Less Among the Self-Employed;Waarom werkte u minder of helemaal niet in de afgelopen zeven dagen Meerdere antwoorden mogelijk;Ik heb vakantiedagen opgenomen;;;bool;
+;34;q17;;multi;q14_header;Reasons for Working Not Or Less Among the Self-Employed;Waarom werkte u minder of helemaal niet in de afgelopen zeven dagen Meerdere antwoorden mogelijk;Geen speciale reden, geen reden die te maken heeft met het coronavirus;;;bool;
+;34;q17;;multi;q14_header;Reasons for Working Not Or Less Among the Self-Employed;Waarom werkte u minder of helemaal niet in de afgelopen zeven dagen Meerdere antwoorden mogelijk;Anders, namelijk:;;;bool;
+;35;cruciaal;;cat;q14_header;Crucial Profession Among Employed;Valt uw beroep onder de cruciale beroepsgroep?;;Ja, Nee;TRUE;Categorical;
+;36;cruciaal_notempl;;cat;q14_header;Crucial Former Profession Among Unemployed;Valt het beroep dat u hebt uitgeoefend onder de cruciale beroepsgroep? Als u nooit gewerkt hebt, kunt u 'niet van toepassing' antwoorden.;;Ja, Nee, Weet ik niet/Niet van toepassing;TRUE;Categorical;
+;37;income;inc_jan;grid;-;Income Last Three Months;Wat was in de afgelopen drie maanden het gezamenljke bruto maandinkomen van uw huishouden? Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz. Als u het niet precies weet geeft u dan uw beste inschatting. Vult u alleen cijfers (hele euro's) in, dus zonder punten en komma’s.;inkomen in januari:;;;int;
+;37;income;inc_feb;grid;-;Income Last Three Months;Wat was in de afgelopen drie maanden het gezamenljke bruto maandinkomen van uw huishouden? Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz. Als u het niet precies weet geeft u dan uw beste inschatting. Vult u alleen cijfers (hele euro's) in, dus zonder punten en komma’s.;inkomen in februari:;;;int;
+;37;income;inc_mrt;grid;-;Income Last Three Months;Wat was in de afgelopen drie maanden het gezamenljke bruto maandinkomen van uw huishouden? Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz. Als u het niet precies weet geeft u dan uw beste inschatting. Vult u alleen cijfers (hele euro's) in, dus zonder punten en komma’s.;inkomen in maart:;;;int;
+;38;expectedincome;expinc2020;grid;-;Expected Income Next Years;We willen graag weten wat u verwacht dat het gezamenljke bruto jaarinkomen van uw huishouden voor 2020, 2021, en 2022 zal zijn. Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.  Geeft u aan wat u verwachtte dat het gezamenljke inkomen van uw huishouden zou zijn, vóórdat er sprake was van de uitbraak van het coronavirus. Dus, wat u verwacht dat het gezamenljke inkomen van uw huishouden zou zijn zonder de uitbraak van het coronavirus. Daarnaast wat u nu verwacht dat in deze jaren dat het inkomen zal  Zijn. Geeft u de verwachtingen van het gezamenlijke bruto jaarinkomen van uw huishouden met en zonder de uitbraak van het coronavirus.;Voor dit jaar (dus ook voor de maanden januari, februari en maart);"Vóórdat er sprake was van de
+uitbraak van het coronavirus, Onder de omstandigheden
+van dit moment";;int;
+;38;expectedincome;expinc2021;grid;-;Expected Income Next Years;We willen graag weten wat u verwacht dat het gezamenljke bruto jaarinkomen van uw huishouden voor 2020, 2021, en 2022 zal zijn. Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.  Geeft u aan wat u verwachtte dat het gezamenljke inkomen van uw huishouden zou zijn, vóórdat er sprake was van de uitbraak van het coronavirus. Dus, wat u verwacht dat het gezamenljke inkomen van uw huishouden zou zijn zonder de uitbraak van het coronavirus. Daarnaast wat u nu verwacht dat in deze jaren dat het inkomen zal  Zijn. Geeft u de verwachtingen van het gezamenlijke bruto jaarinkomen van uw huishouden met en zonder de uitbraak van het coronavirus.;Voor het jaar 2021;"Vóórdat er sprake was van de
+uitbraak van het coronavirus, Onder de omstandigheden
+van dit moment";;int;
+;38;expectedincome;expinc2022;grid;-;Expected Income Next Years;We willen graag weten wat u verwacht dat het gezamenljke bruto jaarinkomen van uw huishouden voor 2020, 2021, en 2022 zal zijn. Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.  Geeft u aan wat u verwachtte dat het gezamenljke inkomen van uw huishouden zou zijn, vóórdat er sprake was van de uitbraak van het coronavirus. Dus, wat u verwacht dat het gezamenljke inkomen van uw huishouden zou zijn zonder de uitbraak van het coronavirus. Daarnaast wat u nu verwacht dat in deze jaren dat het inkomen zal  Zijn. Geeft u de verwachtingen van het gezamenlijke bruto jaarinkomen van uw huishouden met en zonder de uitbraak van het coronavirus.;Voor het jaar 2022;"Vóórdat er sprake was van de
+uitbraak van het coronavirus, Onder de omstandigheden
+van dit moment";;int;
+;39;ExpUnempl_before;ExpUnempl_before2020;table;-;Expected Unemployment Before;We willen graag weten wat u verwachtte dat het werkloosheidscijfer in Nederland zou zijn, en of de gevolgen van het coronavirus deze verwachting zal veranderen. Het werkloosheidspercentage was in de periode 2017-2019 ongeveer 4% per jaar. Eerst vragen we wat u vóórdat er sprak was van de uitbraak van het coronavirus verwachtte dat het werkloosheidspercentage zou worden in 2020, 2021 en 2022. Daarna vragen we u wat u nu verwacht dat het werkloosheidspercentage zal worden voor die jaren. Uw verwachtingen over het werkloosheidspercentage vóórdat er sprake was van de uitbraak van het coronavirus:;2020;minder dan 3.0%, 3.0% tot 6.0%, 6.0% tot 9.0%, 9.0% tot 12.0%, 12.0% of hoger;TRUE;Categorical;
+;39;ExpUnempl_before;ExpUnempl_before2021;table;-;Expected Unemployment Before;We willen graag weten wat u verwachtte dat het werkloosheidscijfer in Nederland zou zijn, en of de gevolgen van het coronavirus deze verwachting zal veranderen. Het werkloosheidspercentage was in de periode 2017-2019 ongeveer 4% per jaar. Eerst vragen we wat u vóórdat er sprak was van de uitbraak van het coronavirus verwachtte dat het werkloosheidspercentage zou worden in 2020, 2021 en 2022. Daarna vragen we u wat u nu verwacht dat het werkloosheidspercentage zal worden voor die jaren. Uw verwachtingen over het werkloosheidspercentage vóórdat er sprake was van de uitbraak van het coronavirus:;2021;minder dan 3.0%, 3.0% tot 6.0%, 6.0% tot 9.0%, 9.0% tot 12.0%, 12.0% of hoger;TRUE;Categorical;
+;39;ExpUnempl_before;ExpUnempl_before2021;table;-;Expected Unemployment Before;We willen graag weten wat u verwachtte dat het werkloosheidscijfer in Nederland zou zijn, en of de gevolgen van het coronavirus deze verwachting zal veranderen. Het werkloosheidspercentage was in de periode 2017-2019 ongeveer 4% per jaar. Eerst vragen we wat u vóórdat er sprak was van de uitbraak van het coronavirus verwachtte dat het werkloosheidspercentage zou worden in 2020, 2021 en 2022. Daarna vragen we u wat u nu verwacht dat het werkloosheidspercentage zal worden voor die jaren. Uw verwachtingen over het werkloosheidspercentage vóórdat er sprake was van de uitbraak van het coronavirus:;2022;minder dan 3.0%, 3.0% tot 6.0%, 6.0% tot 9.0%, 9.0% tot 12.0%, 12.0% of hoger;TRUE;Categorical;
+;40;ExpUnempl_today;ExpUnempl_today2020;table;-;Expected Unemployment Today;"En wat zijn uw verwachtingen over het werkloosheidspercentage onder de
+omstandigheden van dit moment:
+(Het werkloosheidspercentage was in de periode 2017-2019 ongeveer 4% per jaar.)";2020;minder dan 3.0%, 3.0% tot 6.0%, 6.0% tot 9.0%, 9.0% tot 12.0%, 12.0% of hoger;TRUE;Categorical;
+;40;ExpUnempl_today;ExpUnempl_today2021;table;-;Expected Unemployment Today;"En wat zijn uw verwachtingen over het werkloosheidspercentage onder de
+omstandigheden van dit moment:
+(Het werkloosheidspercentage was in de periode 2017-2019 ongeveer 4% per jaar.)";2021;minder dan 3.0%, 3.0% tot 6.0%, 6.0% tot 9.0%, 9.0% tot 12.0%, 12.0% of hoger;TRUE;Categorical;
+;40;ExpUnempl_today;ExpUnempl_today2022;table;-;Expected Unemployment Today;"En wat zijn uw verwachtingen over het werkloosheidspercentage onder de
+omstandigheden van dit moment:
+(Het werkloosheidspercentage was in de periode 2017-2019 ongeveer 4% per jaar.)";2022;minder dan 3.0%, 3.0% tot 6.0%, 6.0% tot 9.0%, 9.0% tot 12.0%, 12.0% of hoger;TRUE;Categorical;
+;41;ExpEcGrowth_before;ExpEcGr_before2020;table;-;Expected Economic Growth Before;"We willen graag weten wat u verwachtte dat de groei van de economie in Nederland zou zijn, en of de gevolgen van het coronavirus deze verwachting zal veranderen. De economische groei, dat wil zeggen, de verandering van de hoeveelheid goederen en diensten die Nederland kan gebruiken, was in de periode 2017-2019 ongeveer 2,5% per jaar.
+
+Eerst vragen we wat u vóórdat er sprake was van de uitbraak van het coronavirus verwachtte dat de economische groei zou worden in 2020, 2021 en 2022.
+
+Daarna vragen we u wat u nu verwacht dat de economische groei zal worden voor die jaren.
+
+Uw verwachtingen over de economische groei vóórdat er sprake was van de uitbraak van het coronavirus:";2020;minder dan -4%, -4% tot -2%, -2% tot 0%, 0% tot 2%,  2% tot 4%,  4% of hoger;TRUE;Categorical;
+;41;ExpEcGrowth_before;ExpEcGr_before2021;table;-;Expected Economic Growth Before;"We willen graag weten wat u verwachtte dat de groei van de economie in Nederland zou zijn, en of de gevolgen van het coronavirus deze verwachting zal veranderen. De economische groei, dat wil zeggen, de verandering van de hoeveelheid goederen en diensten die Nederland kan gebruiken, was in de periode 2017-2019 ongeveer 2,5% per jaar.
+
+Eerst vragen we wat u vóórdat er sprake was van de uitbraak van het coronavirus verwachtte dat de economische groei zou worden in 2020, 2021 en 2022.
+
+Daarna vragen we u wat u nu verwacht dat de economische groei zal worden voor die jaren.
+
+Uw verwachtingen over de economische groei vóórdat er sprake was van de uitbraak van het coronavirus:";2021;minder dan -4%, -4% tot -2%, -2% tot 0%, 0% tot 2%,  2% tot 4%,  4% of hoger;TRUE;Categorical;
+;41;ExpEcGrowth_before;ExpEcGr_before2022;table;-;Expected Economic Growth Before;"We willen graag weten wat u verwachtte dat de groei van de economie in Nederland zou zijn, en of de gevolgen van het coronavirus deze verwachting zal veranderen. De economische groei, dat wil zeggen, de verandering van de hoeveelheid goederen en diensten die Nederland kan gebruiken, was in de periode 2017-2019 ongeveer 2,5% per jaar.
+
+Eerst vragen we wat u vóórdat er sprake was van de uitbraak van het coronavirus verwachtte dat de economische groei zou worden in 2020, 2021 en 2022.
+
+Daarna vragen we u wat u nu verwacht dat de economische groei zal worden voor die jaren.
+
+Uw verwachtingen over de economische groei vóórdat er sprake was van de uitbraak van het coronavirus:";2022;minder dan -4%, -4% tot -2%, -2% tot 0%, 0% tot 2%,  2% tot 4%,  4% of hoger;TRUE;Categorical;
+;42;ExpEcGrowth_today;ExpEcGrowth_today;table;-;Expected Economic Growth Today;"En wat zijn uw verwachtingen over de economische groei onder de
+omstandigheden van dit moment: (De economische groei was in de periode 2017-2019 ongeveer 2,5% per jaar.)
+Let op, de antwoorden zijn veranderd.";2020;minder dan -10%, -10% tot -5%,  -5% tot 0%, 0% tot 5%, 5% tot 10%,  10% of hoger;TRUE;Categorical;
+;42;ExpEcGrowth_today;ExpEcGrowth_today;table;-;Expected Economic Growth Today;"En wat zijn uw verwachtingen over de economische groei onder de
+omstandigheden van dit moment: (De economische groei was in de periode 2017-2019 ongeveer 2,5% per jaar.)
+Let op, de antwoorden zijn veranderd.";2021;minder dan -10%, -10% tot -5%,  -5% tot 0%, 0% tot 5%, 5% tot 10%,  10% of hoger;TRUE;Categorical;
+;42;ExpEcGrowth_today;ExpEcGrowth_today;table;-;Expected Economic Growth Today;"En wat zijn uw verwachtingen over de economische groei onder de
+omstandigheden van dit moment: (De economische groei was in de periode 2017-2019 ongeveer 2,5% per jaar.)
+Let op, de antwoorden zijn veranderd.";2022;minder dan -10%, -10% tot -5%,  -5% tot 0%, 0% tot 5%, 5% tot 10%,  10% of hoger;TRUE;Categorical;
+;43;ExpInfl_before;ExpInfl_before2020;table;-;Expected Inflation Before;We willen graag weten wat u verwachtte dat de prijsverandering (verandering van de cosumptieprijzen, inflatie) in Nederland zou zijn, en of de gevolgen van het coronavirus deze verwachting zal veranderen. De inflatie was in de periode 2017-2019 ongeveer 1,8% per jaar. Eerst vragen we wat u vóórdat er sprake was van de uitbraak van het coronavirus verwachtte dat de inflatie zou worden in 2020, 2021 en 2022. Daarna vragen we u wat u nu verwacht dat de inflatie zal worden voor die jaren. Uw verwachtingen over de inflatie (een negatief percentage betekent dat prijzen dalen) vóórdat er sprake was van de uitbraak van het coronavirus:;2020;minder dan -2%, -2% tot 0%, 0% tot 2%,  2% tot 4%, 4% tot 6%,  6% of hoger;TRUE;Categorical;
+;43;ExpInfl_before;ExpInfl_before2021;table;-;Expected Inflation Before;We willen graag weten wat u verwachtte dat de prijsverandering (verandering van de cosumptieprijzen, inflatie) in Nederland zou zijn, en of de gevolgen van het coronavirus deze verwachting zal veranderen. De inflatie was in de periode 2017-2019 ongeveer 1,8% per jaar. Eerst vragen we wat u vóórdat er sprake was van de uitbraak van het coronavirus verwachtte dat de inflatie zou worden in 2020, 2021 en 2022. Daarna vragen we u wat u nu verwacht dat de inflatie zal worden voor die jaren. Uw verwachtingen over de inflatie (een negatief percentage betekent dat prijzen dalen) vóórdat er sprake was van de uitbraak van het coronavirus:;2021;minder dan -2%, -2% tot 0%, 0% tot 2%,  2% tot 4%, 4% tot 6%,  6% of hoger;TRUE;Categorical;
+;43;ExpInfl_before;ExpInfl_before2022;table;-;Expected Inflation Before;We willen graag weten wat u verwachtte dat de prijsverandering (verandering van de cosumptieprijzen, inflatie) in Nederland zou zijn, en of de gevolgen van het coronavirus deze verwachting zal veranderen. De inflatie was in de periode 2017-2019 ongeveer 1,8% per jaar. Eerst vragen we wat u vóórdat er sprake was van de uitbraak van het coronavirus verwachtte dat de inflatie zou worden in 2020, 2021 en 2022. Daarna vragen we u wat u nu verwacht dat de inflatie zal worden voor die jaren. Uw verwachtingen over de inflatie (een negatief percentage betekent dat prijzen dalen) vóórdat er sprake was van de uitbraak van het coronavirus:;2022;minder dan -2%, -2% tot 0%, 0% tot 2%,  2% tot 4%, 4% tot 6%,  6% of hoger;TRUE;Categorical;
+;44;ExpInfl_today;ExpInfl_today2020;table;-;Expected Inflation Today;"En wat zijn uw verwachtingen over de inflatie (een negatief percentage betekent
+dat prijzen dalen) onder de omstandigheden van dit moment:
+(De inflatie was in de periode 2017-2019 ongeveer 1,8% per jaar.)";2020;minder dan -2%, -2% tot 0%, 0% tot 2%,  2% tot 4%, 4% tot 6%,  6% of hoger;TRUE;Categorical;
+;44;ExpInfl_today;ExpInfl_today2021;table;-;Expected Inflation Today;"En wat zijn uw verwachtingen over de inflatie (een negatief percentage betekent
+dat prijzen dalen) onder de omstandigheden van dit moment:
+(De inflatie was in de periode 2017-2019 ongeveer 1,8% per jaar.)";2021;minder dan -2%, -2% tot 0%, 0% tot 2%,  2% tot 4%, 4% tot 6%,  6% of hoger;TRUE;Categorical;
+;44;ExpInfl_today;ExpInfl_today2022;table;-;Expected Inflation Today;"En wat zijn uw verwachtingen over de inflatie (een negatief percentage betekent
+dat prijzen dalen) onder de omstandigheden van dit moment:
+(De inflatie was in de periode 2017-2019 ongeveer 1,8% per jaar.)";2022;minder dan -2%, -2% tot 0%, 0% tot 2%,  2% tot 4%, 4% tot 6%,  6% of hoger;TRUE;Categorical;
+;45;StockTrading;;multi;-;Stock Trading;We willen graag weten wat u met uw (eventuele) spaarvermogen hebt gedaan in de afgelopen maanden. Kiest u het antwoord dat het beste bij uw situatie past. Sinds half februari… ;heb ik helemaal geen risicovolle bezittingen zoals aandelen, bedrijfsobligaties, investeringen in beleggingsfondsen enz.;;TRUE;bool;
+;45;StockTrading;;multi;-;Stock Trading;We willen graag weten wat u met uw (eventuele) spaarvermogen hebt gedaan in de afgelopen maanden. Kiest u het antwoord dat het beste bij uw situatie past. Sinds half februari… ;heb ik risicovolle bezittingen zoals aandelen, bedrijfsobligaties, investeringen in beleggingsfondsen enz., maar heb ik geen aankoop of verkoop gedaan.;;TRUE;bool;
+;45;StockTrading;;multi;-;Stock Trading;We willen graag weten wat u met uw (eventuele) spaarvermogen hebt gedaan in de afgelopen maanden. Kiest u het antwoord dat het beste bij uw situatie past. Sinds half februari… ;heb ik risicovolle bezittingen zoals aandelen, bedrijfsobligaties, investeringen in beleggingsfondsen enz. gekocht, maar heb ik niets verkocht.;;TRUE;bool;
+;45;StockTrading;;multi;-;Stock Trading;We willen graag weten wat u met uw (eventuele) spaarvermogen hebt gedaan in de afgelopen maanden. Kiest u het antwoord dat het beste bij uw situatie past. Sinds half februari… ;heb ik risicovolle bezittingen zoals aandelen, bedrijfsobligaties, investeringen in beleggingsfondsen enz. verkocht, maar heb ik niets gekocht.;;TRUE;bool;
+;45;StockTrading;;multi;-;Stock Trading;We willen graag weten wat u met uw (eventuele) spaarvermogen hebt gedaan in de afgelopen maanden. Kiest u het antwoord dat het beste bij uw situatie past. Sinds half februari… ;heb ik risicovolle bezittingen zoals aandelen, bedrijfsobligaties, investeringen in beleggingsfondsen enz. gekocht en verkocht.;;TRUE;bool;
+;46;Stock3;;cat;StockTrading;Amount Bought Among Buyers;In vergelijking met een normale periode van twee maanden in de afgelopen jaren, hebt u dan minder of meer uitgegeven aan aandelen, bedrijfsobligaties, investeringen in beleggingsfondsen enz.?;;veel minder, minder, ongeveer hetzelfde, meer, veel meer;TRUE;Categorical;
+;47;Stock4;;cat;StockTrading;Amount Sold Among Sellers;In vergelijking met een normale periode van twee maanden in de afgelopen jaren, hebt u dan minder of meer van uw aandelen, bedrijfsobligaties, investeringen in beleggingsfondsen enz. verkocht?;;veel minder, minder, ongeveer hetzelfde, meer, veel meer;TRUE;Categorical;
+;48;Stock5;;cat;StockTrading;Amount Bought Among Those who Bought And Sold;In vergelijking met een normale periode van twee maanden in de afgelopen jaren, hebt u dan minder of meer van uw aandelen, bedrijfsobligaties, investeringen in beleggingsfondsen enz. gekocht?;;veel minder, minder, ongeveer hetzelfde, meer, veel meer;TRUE;Categorical;
+;49;Stock6;;cat;StockTrading;Amount Sold Among Those who Bought And Sold;In vergelijking met een normale periode van twee maanden in de afgelopen jaren, hebt u dan minder of meer van uw aandelen, bedrijfsobligaties, investeringen in beleggingsfondsen enz. verkocht?;;veel minder, minder, ongeveer hetzelfde, meer, veel meer;TRUE;Categorical;
+;50;q31header;q31a;table;-;Concerns;"Tot slot.
+Als u denkt aan de komende vier weken, hoe bezorgd bent u dan over het volgende?";Dat ik me heel erg ga vervelen;Helemaal niet bezorgd, , , ,Heel erg bezorgd;TRUE;Categorical;
+;50;q31header;q31b;table;-;Concerns;"Tot slot.
+Als u denkt aan de komende vier weken, hoe bezorgd bent u dan over het volgende?";Dat ik besmet word met het coronavirus en heel erg ziek word of dood ga;Helemaal niet bezorgd, , , ,Heel erg bezorgd;TRUE;Categorical;
+;50;q31header;q31c;table;-;Concerns;"Tot slot.
+Als u denkt aan de komende vier weken, hoe bezorgd bent u dan over het volgende?";Dat ik besmet word met het coronavirus en anderen besmet;Helemaal niet bezorgd, , , ,Heel erg bezorgd;TRUE;Categorical;
+;50;q31header;q31d;table;-;Concerns;"Tot slot.
+Als u denkt aan de komende vier weken, hoe bezorgd bent u dan over het volgende?";Dat dierbaren besmet worden met het coronavirus en heel ziek worden of dood gaan;Helemaal niet bezorgd, , , ,Heel erg bezorgd;TRUE;Categorical;
+;50;q31header;q31e;table;-;Concerns;"Tot slot.
+Als u denkt aan de komende vier weken, hoe bezorgd bent u dan over het volgende?";Dat ik mijn baan zal verliezen ;Helemaal niet bezorgd, , , ,Heel erg bezorgd;TRUE;Categorical;
+;50;q31header;q31f;table;-;Concerns;"Tot slot.
+Als u denkt aan de komende vier weken, hoe bezorgd bent u dan over het volgende?";Dat ik niet in staat ben voldoende eten te kopen;Helemaal niet bezorgd, , , ,Heel erg bezorgd;TRUE;Categorical;
+;50;q31header;q31g;table;-;Concerns;"Tot slot.
+Als u denkt aan de komende vier weken, hoe bezorgd bent u dan over het volgende?";Dat ik geen goede gezondheidszorg zal krijgen;Helemaal niet bezorgd, , , ,Heel erg bezorgd;TRUE;Categorical;
+;50;q31header;q31h;table;-;Concerns;"Tot slot.
+Als u denkt aan de komende vier weken, hoe bezorgd bent u dan over het volgende?";Dat mijn favoriete restaurant/café failliet gaat;Helemaal niet bezorgd, , , ,Heel erg bezorgd;TRUE;Categorical;
+;51;eva2h;eva2t1;table;-;Liked Questionnaire;"NB: Maakt u alstublieft de vragenlijst af totdat u weer bij het beginscherm komt. Pas dan registreert het systeem de vragenlijst als volledig ingevuld. Tot slot. Wat vond u van deze vragenlijst:
+";Vond u het moeilijk om de vragen te beantwoorden?;"1 = beslist niet, 2, 3, 4, 5 = beslist wel
+
+";TRUE;Categorical;
+;51;eva2h;eva2t2;table;-;Liked Questionnaire;"NB: Maakt u alstublieft de vragenlijst af totdat u weer bij het beginscherm komt. Pas dan registreert het systeem de vragenlijst als volledig ingevuld. Tot slot. Wat vond u van deze vragenlijst:
+";Vond u de vragen duidelijk?;"1 = beslist niet, 2, 3, 4, 5 = beslist wel
+
+";TRUE;Categorical;
+;51;eva2h;eva2t3;table;-;Liked Questionnaire;"1 = beslist niet, 2, 3, 4, 5 = beslist wel
+
+";Heeft de vragenlijst u aan het denken gezet?;"1 = beslist niet, 2, 3, 4, 5 = beslist wel
+
+";TRUE;Categorical;
+;51;eva2h;eva2t4;table;-;Liked Questionnaire;"NB: Maakt u alstublieft de vragenlijst af totdat u weer bij het beginscherm komt. Pas dan registreert het systeem de vragenlijst als volledig ingevuld. Tot slot. Wat vond u van deze vragenlijst:
+"; Vond u het onderwerp interessant?;"1 = beslist niet, 2, 3, 4, 5 = beslist wel
+
+";TRUE;Categorical;
+;51;eva2h;eva2t5;table;-;Liked Questionnaire;"NB: Maakt u alstublieft de vragenlijst af totdat u weer bij het beginscherm komt. Pas dan registreert het systeem de vragenlijst als volledig ingevuld. Tot slot. Wat vond u van deze vragenlijst:
+"; Vond u het plezierig om de vragen in te vullen?;"1 = beslist niet, 2, 3, 4, 5 = beslist wel
+
+";TRUE;Categorical;
+;52;opm;;cat;-;Comments on Questionnaire;Hebt u nog opmerkingen over de vragenlijst?;;Ja, Nee;TRUE;Categorical;

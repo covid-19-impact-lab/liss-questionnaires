@@ -1,0 +1,17 @@
+.. _he036b:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+he036b Pipes Consumption
+========================
+*Routing to the question depends on answer in:* :ref:`he035`
+
+Hoeveel pijpen rook u gemiddeld per dag? ```` 
+
+
+.. image:: ../_screenshots/he036b.png
+
+
+:raw-html:`&larr;` :ref:`he036a` | :ref:`he036c` :raw-html:`&rarr;`

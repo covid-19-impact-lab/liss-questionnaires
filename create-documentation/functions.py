@@ -11,7 +11,7 @@ csv_delim ="   :delim: |"
 csv_row = "           {} ``{}`` | {}"
 csv_singlerow = "           {}"
 bool_entry = ":raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – {} ``{}``\n"
-open_question = "\n{}  .............. ``{}`` \n"
+open_question = "\n{} ``{}`` \n"
 header_question = "\n{}\n"
 header_question_varname = "\n{} ``{}``\n"
 insert_image = "\n.. image:: {}"
@@ -59,6 +59,7 @@ def create_pages(codebook, q_ids, q_fiter, q_groups, q_layout, q_text, q_sub_tex
         elif df[q_layout].all() == "cat":
             insert_cat_question(df, path, q_text, q_categories, q_varname)
         else:
+            print(df[q_layout])
             raise ValueError("Page format in codebook is not correctly defined.")
     
         add_to_file(insert_image.format(image_path + qid + ".png"),path)
@@ -105,7 +106,6 @@ def add_to_file(msg, path):
     with open(path, "a") as f:
         f.write(msg + "\n")
         
-
 def get_rst_names(name_list):
     """ Get list of group .rst-file names. """
     files =[]
@@ -115,8 +115,7 @@ def get_rst_names(name_list):
         files.append(file_name)
         
     return files
-
-        
+     
 def insert_question(df, idx, q_type, q_label, q_categories, q_varname, path):
     """ Inserts question based on question type using q_label as question title."""
     
