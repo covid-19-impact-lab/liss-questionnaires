@@ -2,8 +2,12 @@
 Documentation - Wave 2
 ======================
 
+This is the documentation of the LISS Panel questionnaire on the CoViD-19 pandemic that was fielded in April 2020.
+
+The questions are documented in Dutch and English under :ref:`wave1_questions_dutch` and :ref:`wave1_questions_english` respectively. Each page contains the question and a screenshot from the questionnaire as it was shown to respondents.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   index_pages
+   questions_english
+   questions_dutch

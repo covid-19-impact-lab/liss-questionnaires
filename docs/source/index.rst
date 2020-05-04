@@ -11,7 +11,7 @@ This page contains the documentation of questionnaires created by the `CoViD-19 
 The results from the surveys can be explored in an `interactive dashboard <https://covid-19-impact-lab.iza.org/app>`_.
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    wave-1/index
    wave-2/index

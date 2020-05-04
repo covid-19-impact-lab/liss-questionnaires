@@ -1,0 +1,22 @@
+.. _w2d-he039:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+`he039` – Days Alcohol Consumption
+==============================
+*Routing to the question depends on answer in:* :ref:`he038`
+
+Op hoeveel dagen van de afgelopen zeven dagen hebt u een alcoholische drank gedronken?
+
+.. csv-table::
+   :delim: |
+   :header: 1,2,3,4,5,6,7
+
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+
+.. image:: ../_screenshots/w2-he039.png
+
+
+:raw-html:`&larr;` :ref:`w2d-he038` | :ref:`w2d-he040` :raw-html:`&rarr;`

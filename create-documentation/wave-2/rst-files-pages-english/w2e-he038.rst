@@ -1,0 +1,21 @@
+.. _w2e-he038:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+`he038` – Alcohol Consumption
+=========================
+
+Have you had a drink with alcohol in the past seven days (without today)?
+
+.. csv-table::
+   :delim: |
+   :header: Yes, No 
+
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`
+
+.. image:: ../_screenshots/w2-he038.png
+
+
+:raw-html:`&larr;` :ref:`w2e-he036d` | :ref:`w2e-he039` :raw-html:`&rarr;`

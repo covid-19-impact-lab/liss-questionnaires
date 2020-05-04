@@ -18,7 +18,7 @@ insert_image = "\n.. image:: {}"
 
 
 
-def create_pages(codebook, q_ids, q_fiter, q_groups, q_layout, q_text, q_sub_text, q_categories, q_varname, target_dir, image_path):
+def create_pages(codebook, waveid, lanid, q_ids, q_fiter, q_groups, q_layout, q_text, q_sub_text, q_categories, q_varname, target_dir, image_path):
     """ Create reStructuredText files for all groups specified in q_groups. Each file holds all questions that belong to a respective group.
     """
     
@@ -31,7 +31,7 @@ def create_pages(codebook, q_ids, q_fiter, q_groups, q_layout, q_text, q_sub_tex
         
         df = data[data.index.get_level_values(q_ids) == qid]
         # Create rst-file.
-        file_name = qid
+        file_name = waveid + lanid + '-' + qid
         group_name = df.loc[df.index[0], q_groups]        
         path = target_dir + file_name +".rst"
         add_to_file(".. _"+ file_name +":", path) 
@@ -62,18 +62,18 @@ def create_pages(codebook, q_ids, q_fiter, q_groups, q_layout, q_text, q_sub_tex
             print(df[q_layout])
             raise ValueError("Page format in codebook is not correctly defined.")
     
-        add_to_file(insert_image.format(image_path + qid + ".png"),path)
+        add_to_file(insert_image.format(image_path + waveid + "-" + qid + ".png"),path)
         
         if idx == 0:
-            next_q = qids[idx+1]
+            next_q = waveid + lanid + '-' + qids[idx+1]
             add_to_file("\n\n:ref:`"+ next_q + "` :raw-html:`&rarr;`", path)
 
         elif idx == (len(qids)-1):
-            previous_q = qids[idx-1]
+            previous_q = waveid + lanid + '-' + qids[idx-1]
             add_to_file("\n\n:raw-html:`&larr;` :ref:`" + previous_q +"`", path)
         else:
-            previous_q = qids[idx-1]
-            next_q = qids[idx+1]
+            previous_q = waveid + lanid + '-' + qids[idx-1]
+            next_q = waveid + lanid + '-' + qids[idx+1]
             add_to_file("\n\n:raw-html:`&larr;` :ref:`" + previous_q + "` | :ref:`" + next_q + "` :raw-html:`&rarr;`", path)
             
 def insert_table_question(df, path, q_text, q_sub_text, q_categories, q_varname):

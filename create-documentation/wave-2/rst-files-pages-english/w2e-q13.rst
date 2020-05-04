@@ -1,0 +1,21 @@
+.. _w2e-q13:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+`q13` – Work Status Beginning of March
+==================================
+
+Which of the following options describes your work situation at the beginning of March 2020 best?
+
+.. csv-table::
+   :delim: |
+   :header: employed, self-emplyed, unemployed, retired, social assistance, student or trainee, homemaker
+
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+
+.. image:: ../_screenshots/w2-q13.png
+
+
+:raw-html:`&larr;` :ref:`w2e-q23` | :ref:`w2e-Q14header_1` :raw-html:`&rarr;`
