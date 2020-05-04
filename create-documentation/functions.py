@@ -36,7 +36,7 @@ def create_pages(codebook, q_ids, q_fiter, q_groups, q_layout, q_text, q_sub_tex
         path = target_dir + file_name +".rst"
         add_to_file(".. _"+ file_name +":", path) 
         add_to_file("\n \n .. role:: raw-html(raw) \n        :format: html \n", path)
-        add_to_file("`" + qid + "` " + group_name + "\n"+ "="*len(qid + " " + group_name), path)     
+        add_to_file("`" + qid + "` – " + group_name + "\n"+ "="*len(qid + " " + group_name), path)     
         
         # Add routing if present:
         if df.loc[df.index[0], q_fiter] != "-":
