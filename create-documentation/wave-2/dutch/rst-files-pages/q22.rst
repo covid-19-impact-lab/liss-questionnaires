@@ -4,10 +4,10 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-q22 Young Children in Household
+`q22` Young Children in Household
 ===============================
 
-Hoeveel kinderen jonger dan 12 jaar zijn er in uw huishouden? ```` 
+Hoeveel kinderen jonger dan 12 jaar zijn er in uw huishouden? 
 
 
 .. image:: ../_screenshots/q22.png

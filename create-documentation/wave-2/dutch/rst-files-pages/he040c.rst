@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-he040c Strong Alcohol Consumption
+`he040c` Strong Alcohol Consumption
 =================================
 *Routing to the question depends on answer in:* :ref:`he040`
 
@@ -13,9 +13,9 @@ Geeft u aan hoeveel van deze alcoholische drank u op die dag hebt gedronken. (Re
 .. csv-table::
    :delim: |
 
-           wijn (inclusief champagne) ```` |  
-           sterke drank of likeur, zoals gin, whisky, rum, brandy, wodka of cocktails ```` |  
-           sherry of martini (inclusief port, vermouth, cinzano, dubonet) ```` |  
+           sterke drank of likeur, zoals gin, whisky, rum, brandy, wodka of cocktails | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           sherry of martini (inclusief port, vermouth, cinzano, dubonet) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           wijn (inclusief champagne) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
 
 .. image:: ../_screenshots/he040c.png
 

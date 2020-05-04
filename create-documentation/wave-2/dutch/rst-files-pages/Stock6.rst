@@ -4,11 +4,11 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-Stock6 Amount Sold Among Those who Bought And Sold
+`Stock6` Amount Sold Among Those who Bought And Sold
 ==================================================
 *Routing to the question depends on answer in:* :ref:`StockTrading`
 
-In vergelijking met een normale periode van twee maanden in de afgelopen jaren, hebt u dan minder of meer van uw aandelen, bedrijfsobligaties, investeringen in beleggingsfondsen enz. verkocht? ````
+In vergelijking met een normale periode van twee maanden in de afgelopen jaren, hebt u dan minder of meer van uw aandelen, bedrijfsobligaties, investeringen in beleggingsfondsen enz. verkocht?
 
 .. csv-table::
    :delim: |

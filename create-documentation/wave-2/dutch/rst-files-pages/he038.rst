@@ -4,10 +4,10 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-he038 Alcohol Consumption
+`he038` Alcohol Consumption
 =========================
 
-Hebt u in de afgelopen zeven dagen (zonder vandaag) een drank met alcohol gedronken? ````
+Hebt u in de afgelopen zeven dagen (zonder vandaag) een drank met alcohol gedronken?
 
 .. csv-table::
    :delim: |

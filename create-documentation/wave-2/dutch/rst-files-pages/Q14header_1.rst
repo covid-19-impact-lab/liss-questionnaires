@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-Q14header_1 Working Hours
+`Q14header_1` Working Hours
 =========================
 *Routing to the question depends on answer in:* :ref:`q13`
 
@@ -14,10 +14,10 @@ werk) gemiddeld op uw werkplek en vanuit huis? En in de afgelopen zeven dagen?Al
 .. csv-table::
    :delim: |
 
-           Werk de afgelopen zeven dagen ```` |  
-           Werk vóór de pandemie ```` |  
-           Thuis vóór de pandemie ```` |  
-           Thuis de afgelopen zeven dagen ```` |  
+           Werk de afgelopen zeven dagen | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Thuis de afgelopen zeven dagen | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Werk vóór de pandemie | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Thuis vóór de pandemie | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
 
 .. image:: ../_screenshots/Q14header_1.png
 

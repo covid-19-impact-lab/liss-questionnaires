@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-socialcontact_vrg_hd Contacts Normally
+`socialcontact_vrg_hd` Contacts Normally
 ======================================
 
 Als u dat vergelijkt met een normale week, dus vóór de uitbraak van het coronavirus, hebt u dan nu minder of meer persoonlijk contact of contact via de telefoon / online?
@@ -13,8 +13,8 @@ Als u dat vergelijkt met een normale week, dus vóór de uitbraak van het corona
    :delim: |
    :header: ,veel minder nu, minder nu, ongeveer hetzelfde, meer nu, veel meer nu
 
-           op afstand (telefonisch, online enz.): ```` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           persoonlijk: ```` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           persoonlijk: | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           op afstand (telefonisch, online enz.): | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
 
 .. image:: ../_screenshots/socialcontact_vrg_hd.png
 

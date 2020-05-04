@@ -4,11 +4,11 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-he036c Cigar Consumption
+`he036c` Cigar Consumption
 ========================
 *Routing to the question depends on answer in:* :ref:`he035`
 
-Hoeveel sigaartjes of sigaren rook u gemiddeld per dag? ```` 
+Hoeveel sigaartjes of sigaren rook u gemiddeld per dag? 
 
 
 .. image:: ../_screenshots/he036c.png

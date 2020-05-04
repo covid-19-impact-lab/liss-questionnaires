@@ -4,11 +4,11 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-cruciaal Crucial Profession Among Employed
+`cruciaal` Crucial Profession Among Employed
 ==========================================
-*Routing to the question depends on answer in:* :ref:`q14_header`
+*Routing to the question depends on answer in:* :ref:`q14header`
 
-Valt uw beroep onder de cruciale beroepsgroep? ````
+Valt uw beroep onder de cruciale beroepsgroep?
 
 .. csv-table::
    :delim: |

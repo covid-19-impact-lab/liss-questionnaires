@@ -4,11 +4,11 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-he036a Cigarette Consumption
+`he036a` Cigarette Consumption
 ============================
 *Routing to the question depends on answer in:* :ref:`he035`
 
-Hoeveel sigaretten (inclusief shag) rook u gemiddeld per dag? ```` 
+Hoeveel sigaretten (inclusief shag) rook u gemiddeld per dag? 
 
 
 .. image:: ../_screenshots/he036a.png

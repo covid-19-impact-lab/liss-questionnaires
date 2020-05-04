@@ -4,11 +4,11 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-Stock4 Amount Sold Among Sellers
+`Stock4` Amount Sold Among Sellers
 ================================
 *Routing to the question depends on answer in:* :ref:`StockTrading`
 
-In vergelijking met een normale periode van twee maanden in de afgelopen jaren, hebt u dan minder of meer van uw aandelen, bedrijfsobligaties, investeringen in beleggingsfondsen enz. verkocht? ````
+In vergelijking met een normale periode van twee maanden in de afgelopen jaren, hebt u dan minder of meer van uw aandelen, bedrijfsobligaties, investeringen in beleggingsfondsen enz. verkocht?
 
 .. csv-table::
    :delim: |

@@ -4,10 +4,10 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-SelfPerceivedInfection SelfPerceivedInfection
+`SelfPerceivedInfection` SelfPerceivedInfection
 =============================================
 
-Denkt u zelf dat u besmet bent met het coronavirus (Covid-19)? ````
+Denkt u zelf dat u besmet bent met het coronavirus (Covid-19)?
 
 .. csv-table::
    :delim: |

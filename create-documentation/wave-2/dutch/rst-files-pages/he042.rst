@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-he042 Drug Intake Last Month
+`he042` Drug Intake Last Month
 ============================
 *Routing to the question depends on answer in:* :ref:`he041`
 
@@ -13,11 +13,11 @@ Hoe vaak hebt u deze middelen in de afgelopen maand gebruikt?
 .. csv-table::
    :delim: |
 
-           hard drugs (zoals pepmiddelen, cocaïne en heroïne) ```` |  
-           XTC ```` |  
-           bewustzijnsverruimende middelen (zoals LSD en paddo ́s) ```` |  
-           kalmerende middelen (zoals valium) ```` |  
-           soft drugs (zoals hasj, wiet en marihuana) ```` |  
+           kalmerende middelen (zoals valium) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           soft drugs (zoals hasj, wiet en marihuana) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           XTC | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           bewustzijnsverruimende middelen (zoals LSD en paddo ́s) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           hard drugs (zoals pepmiddelen, cocaïne en heroïne) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
 
 .. image:: ../_screenshots/he042.png
 

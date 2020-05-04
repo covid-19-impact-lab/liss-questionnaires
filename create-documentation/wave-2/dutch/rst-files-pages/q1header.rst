@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-q1header Subjective Risks
+`q1header` Subjective Risks
 =========================
 
 Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maanden
@@ -13,10 +13,10 @@ Gebeuren? U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waa
 .. csv-table::
    :delim: |
 
-           u wordt besmet ```` |  
-           iemand in uw directe omgeving (familie, vrienden, collega’s) wordt besmet ```` |  
-           u moet naar het ziekenhuis als u wordt besmet ```` |  
-           u wordt besmet en u besmet iemand anders ```` |  
+           u wordt besmet | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           iemand in uw directe omgeving (familie, vrienden, collega’s) wordt besmet | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           u moet naar het ziekenhuis als u wordt besmet | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           u wordt besmet en u besmet iemand anders | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
 
 .. image:: ../_screenshots/q1header.png
 

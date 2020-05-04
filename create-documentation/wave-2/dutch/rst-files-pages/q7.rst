@@ -4,11 +4,11 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-q7 Expected Duration of Restrictions
+`q7` Expected Duration of Restrictions
 ====================================
 
 De regering heeft een aantal maatregelen genomen. Tot hoe lang denkt u dat de
-beperkingen die er nu zijn (in het alledaagse leven) van kracht zullen blijven? ````
+beperkingen die er nu zijn (in het alledaagse leven) van kracht zullen blijven?
 
 .. csv-table::
    :delim: |

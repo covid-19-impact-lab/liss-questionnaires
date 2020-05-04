@@ -4,19 +4,19 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-he035 Smoking Type
+`he035` Smoking Type
 ==================
 *Routing to the question depends on answer in:* :ref:`rook`
 
 Wat rook u? Meerdere antwoorden mogelijk.
 
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – E-sigaretten ````
+:raw-html:`&#10063;` – sigaretten (inclusief shag)
 
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – sigaartjes of sigaren ````
+:raw-html:`&#10063;` – pijp
 
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – pijp ````
+:raw-html:`&#10063;` – sigaartjes of sigaren
 
-:raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – sigaretten (inclusief shag) ````
+:raw-html:`&#10063;` – E-sigaretten
 
 
 .. image:: ../_screenshots/he035.png

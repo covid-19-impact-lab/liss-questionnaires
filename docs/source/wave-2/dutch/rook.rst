@@ -4,10 +4,10 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-rook Smoking
+`rook` Smoking
 ============
 
-Nu volgen er enkele vragen over roken en drankgebruik. Rookt u op dit moment? ````
+Nu volgen er enkele vragen over roken en drankgebruik. Rookt u op dit moment?
 
 .. csv-table::
    :delim: |

@@ -4,11 +4,11 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-cruciaal_notempl Crucial Former Profession Among Unemployed
+`cruciaal_notempl` Crucial Former Profession Among Unemployed
 ===========================================================
-*Routing to the question depends on answer in:* :ref:`q14_header`
+*Routing to the question depends on answer in:* :ref:`q14header`
 
-Valt het beroep dat u hebt uitgeoefend onder de cruciale beroepsgroep? Als u nooit gewerkt hebt, kunt u 'niet van toepassing' antwoorden. ````
+Valt het beroep dat u hebt uitgeoefend onder de cruciale beroepsgroep? Als u nooit gewerkt hebt, kunt u 'niet van toepassing' antwoorden.
 
 .. csv-table::
    :delim: |

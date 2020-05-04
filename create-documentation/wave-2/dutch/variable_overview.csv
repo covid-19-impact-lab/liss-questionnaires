@@ -1,45 +1,43 @@
 ,new_name,qid,id,filter,group_english,type
 0,,intro,,-,Intro,none
 1,,InfectionDiagnosed,,-,InfectionDiagnosed,Categorical
-2,,"SelfPerceivedInfection
-",,-,SelfPerceivedInfection,Categorical
-3,,"q1header
-",q1a,-,Subjective Risks,float
+2,,SelfPerceivedInfection,,-,SelfPerceivedInfection,Categorical
+3,,q1header,q1a,-,Subjective Risks,float
 4,,q1header,q1b,-,Subjective Risks,float
 5,,q1header,q1c,-,Subjective Risks,float
 6,,q1header,q1d,-,Subjective Risks,float
 7,,q7,,-,Expected Duration of Restrictions,Category
 8,,rook,,-,Smoking,Category
-12,,he035,,rook,Smoking Type,bool
-11,,he035,,rook,Smoking Type,bool
-10,,he035,,rook,Smoking Type,bool
 9,,he035,,rook,Smoking Type,bool
+10,,he035,,rook,Smoking Type,bool
+11,,he035,,rook,Smoking Type,bool
+12,,he035,,rook,Smoking Type,bool
 13,,he036a,,he035,Cigarette Consumption,int
 14,,he036b,,he035,Pipes Consumption,int
 15,,he036c,,he035,Cigar Consumption,int
 16,,he036d,,he035,E-Cigarette Consumption,int
 17,,he038,,-,Alcohol Consumption,Categorical
 18,,he039,,he038,Days Alcohol Consumption,Categorical
-25,,he040,,he038,Alcohol Type,bool
-24,,he040,,he038,Alcohol Type,bool
-23,,he040,,he038,Alcohol Type,bool
 19,,he040,,he038,Alcohol Type,bool
-21,,he040,,he038,Alcohol Type,bool
 20,,he040,,he038,Alcohol Type,bool
+21,,he040,,he038,Alcohol Type,bool
 22,,he040,,he038,Alcohol Type,bool
+23,,he040,,he038,Alcohol Type,bool
+24,,he040,,he038,Alcohol Type,bool
+25,,he040,,he038,Alcohol Type,bool
 26,,he40and,he040and_v1_f1,he040,Alcohol Type,string
 27,,he40and,he040and_v2_f1,he040,Alcohol Type,string
-30,,he040a,he040a_v3_f1,he040,Beer Consumption,int
 31,,he040a,he040a_v4_f1,he040,Beer Consumption,int
-28,,he040a,he040a_v1_f1,he040,Beer Consumption,int
+30,,he040a,he040a_v3_f1,he040,Beer Consumption,int
 29,,he040a,he040a_v2_f1,he040,Beer Consumption,int
+28,,he040a,he040a_v1_f1,he040,Beer Consumption,int
 32,,he040b,he040b_v1_f1,he040,Strong Beer Consumption,int
 33,,he040b,he040b_v2_f1,he040,Strong Beer Consumption,int
 34,,he040b,he040b_v3_f1,he040,Strong Beer Consumption,int
 35,,he040b,he040b_v4_f1,he040,Strong Beer Consumption,int
-38,,he040c,he040c_v3_f1,he040,Strong Alcohol Consumption,int
 36,,he040c,he040c_v1_f1,he040,Strong Alcohol Consumption,int
 37,,he040c,he040c_v2_f1,he040,Strong Alcohol Consumption,int
+38,,he040c,he040c_v3_f1,he040,Strong Alcohol Consumption,int
 39,,he040d,,he040,Mixed Alcohol Consumption,int
 40,,he040e,,he040,Other Alcohol 1 Consumption,int
 41,,he040f,,he040,Other Alcohol 2 Consumption,int
@@ -48,116 +46,115 @@
 44,,he041,he041v3,-,Drug Intake,Categorical
 45,,he041,he041v4,-,Drug Intake,Categorical
 46,,he041,he041v5,-,Drug Intake,Categorical
-51,,he042,he042_v2_f4,he041,Drug Intake Last Month,int
-49,,he042,he042_v2_f2,he041,Drug Intake Last Month,int
-50,,he042,he042_v2_f3,he041,Drug Intake Last Month,int
 47,,he042,he042_v1_f1,he041,Drug Intake Last Month,int
 48,,he042,he042_v2_f1,he041,Drug Intake Last Month,int
+49,,he042,he042_v2_f2,he041,Drug Intake Last Month,int
+50,,he042,he042_v2_f3,he041,Drug Intake Last Month,int
+51,,he042,he042_v2_f4,he041,Drug Intake Last Month,int
 52,,loneliness,cs12e284,-,Loneliness,Categorical
 53,,loneliness,cs12e285,-,Loneliness,Categorical
 54,,loneliness,cs12e286,-,Loneliness,Categorical
 55,,loneliness,cs12e287,-,Loneliness,Categorical
 56,,loneliness,cs12e288,-,Loneliness,Categorical
 57,,loneliness,cs12e289,-,Loneliness,Categorical
-58,,socialcontact_hd,,-,Contacts past 7 Days,int
 59,,socialcontact_hd,,-,Contacts past 7 Days,int
-61,,socialcontact_vrg_hd,,-,Contacts Normally,Categorical
+58,,socialcontact_hd,,-,Contacts past 7 Days,int
 60,,socialcontact_vrg_hd,,-,Contacts Normally,Categorical
+61,,socialcontact_vrg_hd,s,-,Contacts Normally,Categorical
 62,,q22,,-,Young Children in Household,int
-71,,q23,,q22,Childcare Adjustments,bool
-73,,q23and,,q22,Childcare Adjustments,string
-72,,q23,,q22,Childcare Adjustments,string
-70,,q23,,q22,Childcare Adjustments,bool
+63,,q23,,q22,Childcare Adjustments,bool
+64,,q23,,q22,Childcare Adjustments,bool
+65,,q23,,q22,Childcare Adjustments,bool
+66,,q23,,q22,Childcare Adjustments,bool
+67,,q23,,q22,Childcare Adjustments,bool
 68,,q23,,q22,Childcare Adjustments,bool
 69,,q23,,q22,Childcare Adjustments,bool
-66,,q23,,q22,Childcare Adjustments,bool
-65,,q23,,q22,Childcare Adjustments,bool
-64,,q23,,q22,Childcare Adjustments,bool
-63,,q23,,q22,Childcare Adjustments,bool
-67,,q23,,q22,Childcare Adjustments,bool
-74,,q13,,-,Work Status Beginning of March,Categorical
-77,,Q14header_1,,q13,Working Hours,int
-75,,Q14header_1,,q13,Working Hours,int
+70,,q23,,q22,Childcare Adjustments,bool
+71,,q23,,q22,Childcare Adjustments,bool
+72,,q23,,q22,Childcare Adjustments,string
+73,,q13,,-,Work Status Beginning of March,Categorical
 76,,Q14header_1,,q13,Working Hours,int
-78,,Q14header_1,,q13,Working Hours,int
-83,,q14header,,q13,Working Hours Extended,int
-84,,q14header,,q13,Working Hours Extended,int
-82,,q14header,,q13,Working Hours Extended,int
+77,,Q14header_1,,q13,Working Hours,int
+74,,Q14header_1,,q13,Working Hours,int
+75,,Q14header_1,,q13,Working Hours,int
+78,,q14header,,q13,Working Hours Extended,int
 79,,q14header,,q13,Working Hours Extended,int
 80,,q14header,,q13,Working Hours Extended,int
 81,,q14header,,q13,Working Hours Extended,int
-85,,q15,,q14_header,Reasons for Not Working Among Employees,bool
-86,,q15,,q14_header,Reasons for Not Working Among Employees,bool
-87,,q15,,q14_header,Reasons for Not Working Among Employees,bool
-88,,q15,,q14_header,Reasons for Not Working Among Employees,bool
-89,,q15,,q14_header,Reasons for Not Working Among Employees,bool
-90,,q15,,q14_header,Reasons for Not Working Among Employees,bool
-91,,q15,,q14_header,Reasons for Not Working Among Employees,bool
-92,,q15,,q14_header,Reasons for Not Working Among Employees,bool
-93,,q15,,q14_header,Reasons for Not Working Among Employees,bool
-102,,q16,,q14_header,Reasons for Working Less Among Employees,bool
-100,,q16,,q14_header,Reasons for Working Less Among Employees,bool
-99,,q16,,q14_header,Reasons for Working Less Among Employees,bool
-98,,q16,,q14_header,Reasons for Working Less Among Employees,bool
-101,,q16,,q14_header,Reasons for Working Less Among Employees,bool
-96,,q16,,q14_header,Reasons for Working Less Among Employees,bool
-95,,q16,,q14_header,Reasons for Working Less Among Employees,bool
-94,,q16,,q14_header,Reasons for Working Less Among Employees,bool
-97,,q16,,q14_header,Reasons for Working Less Among Employees,bool
-110,,q17,,q14_header,Reasons for Working Not Or Less Among the Self-Employed,bool
-108,,q17,,q14_header,Reasons for Working Not Or Less Among the Self-Employed,bool
-107,,q17,,q14_header,Reasons for Working Not Or Less Among the Self-Employed,bool
-109,,q17,,q14_header,Reasons for Working Not Or Less Among the Self-Employed,bool
-105,,q17,,q14_header,Reasons for Working Not Or Less Among the Self-Employed,bool
-104,,q17,,q14_header,Reasons for Working Not Or Less Among the Self-Employed,bool
-103,,q17,,q14_header,Reasons for Working Not Or Less Among the Self-Employed,bool
-106,,q17,,q14_header,Reasons for Working Not Or Less Among the Self-Employed,bool
-111,,cruciaal,,q14_header,Crucial Profession Among Employed,Categorical
-112,,cruciaal_notempl,,q14_header,Crucial Former Profession Among Unemployed,Categorical
-113,,income,inc_jan,-,Income Last Three Months,int
-114,,income,inc_feb,-,Income Last Three Months,int
-115,,income,inc_mrt,-,Income Last Three Months,int
-118,,expectedincome,expinc2022,-,Expected Income Next Years,int
-116,,expectedincome,expinc2020,-,Expected Income Next Years,int
-117,,expectedincome,expinc2021,-,Expected Income Next Years,int
+82,,q14header,,q13,Working Hours Extended,int
+83,,q14header,,q13,Working Hours Extended,int
+84,,q15,,q14header,Reasons for Not Working Among Employees,bool
+85,,q15,,q14header,Reasons for Not Working Among Employees,bool
+86,,q15,,q14header,Reasons for Not Working Among Employees,bool
+87,,q15,,q14header,Reasons for Not Working Among Employees,bool
+88,,q15,,q14header,Reasons for Not Working Among Employees,bool
+89,,q15,,q14header,Reasons for Not Working Among Employees,bool
+90,,q15,,q14header,Reasons for Not Working Among Employees,bool
+91,,q15,,q14header,Reasons for Not Working Among Employees,bool
+92,,q15,,q14header,Reasons for Not Working Among Employees,bool
+93,,q16,,q14header,Reasons for Working Less Among Employees,bool
+94,,q16,,q14header,Reasons for Working Less Among Employees,bool
+95,,q16,,q14header,Reasons for Working Less Among Employees,bool
+96,,q16,,q14header,Reasons for Working Less Among Employees,bool
+97,,q16,,q14header,Reasons for Working Less Among Employees,bool
+98,,q16,,q14header,Reasons for Working Less Among Employees,bool
+99,,q16,,q14header,Reasons for Working Less Among Employees,bool
+100,,q16,,q14header,Reasons for Working Less Among Employees,bool
+101,,q16,,q14header,Reasons for Working Less Among Employees,bool
+102,,q17,,q14header,Reasons for Working Not Or Less Among the Self-Employed,bool
+103,,q17,,q14header,Reasons for Working Not Or Less Among the Self-Employed,bool
+104,,q17,,q14header,Reasons for Working Not Or Less Among the Self-Employed,bool
+105,,q17,,q14header,Reasons for Working Not Or Less Among the Self-Employed,bool
+106,,q17,,q14header,Reasons for Working Not Or Less Among the Self-Employed,bool
+107,,q17,,q14header,Reasons for Working Not Or Less Among the Self-Employed,bool
+108,,q17,,q14header,Reasons for Working Not Or Less Among the Self-Employed,bool
+109,,q17,,q14header,Reasons for Working Not Or Less Among the Self-Employed,bool
+110,,cruciaal,,q14header,Crucial Profession Among Employed,Categorical
+111,,cruciaal_notempl,,q14header,Crucial Former Profession Among Unemployed,Categorical
+112,,income,inc_jan,-,Income Last Three Months,int
+113,,income,inc_feb,-,Income Last Three Months,int
+114,,income,inc_mrt,-,Income Last Three Months,int
+115,,expectedincome,expinc2020,-,Expected Income Next Years,int
+116,,expectedincome,expinc2021,-,Expected Income Next Years,int
+117,,expectedincome,expinc2022,-,Expected Income Next Years,int
 120,,ExpUnempl_before,ExpUnempl_before2021,-,Expected Unemployment Before,Categorical
-121,,ExpUnempl_before,ExpUnempl_before2021,-,Expected Unemployment Before,Categorical
-119,,ExpUnempl_before,ExpUnempl_before2020,-,Expected Unemployment Before,Categorical
-122,,ExpUnempl_today,ExpUnempl_today2020,-,Expected Unemployment Today,Categorical
-123,,ExpUnempl_today,ExpUnempl_today2021,-,Expected Unemployment Today,Categorical
-124,,ExpUnempl_today,ExpUnempl_today2022,-,Expected Unemployment Today,Categorical
-125,,ExpEcGrowth_before,ExpEcGr_before2020,-,Expected Economic Growth Before,Categorical
-126,,ExpEcGrowth_before,ExpEcGr_before2021,-,Expected Economic Growth Before,Categorical
-127,,ExpEcGrowth_before,ExpEcGr_before2022,-,Expected Economic Growth Before,Categorical
-130,,ExpEcGrowth_today,ExpEcGrowth_today,-,Expected Economic Growth Today,Categorical
-129,,ExpEcGrowth_today,ExpEcGrowth_today,-,Expected Economic Growth Today,Categorical
+119,,ExpUnempl_before,ExpUnempl_before2021,-,Expected Unemployment Before,Categorical
+118,,ExpUnempl_before,ExpUnempl_before2020,-,Expected Unemployment Before,Categorical
+121,,ExpUnempl_today,ExpUnempl_today2020,-,Expected Unemployment Today,Categorical
+122,,ExpUnempl_today,ExpUnempl_today2021,-,Expected Unemployment Today,Categorical
+123,,ExpUnempl_today,ExpUnempl_today2022,-,Expected Unemployment Today,Categorical
+124,,ExpEcGrowth_before,ExpEcGr_before2020,-,Expected Economic Growth Before,Categorical
+125,,ExpEcGrowth_before,ExpEcGr_before2021,-,Expected Economic Growth Before,Categorical
+126,,ExpEcGrowth_before,ExpEcGr_before2022,-,Expected Economic Growth Before,Categorical
 128,,ExpEcGrowth_today,ExpEcGrowth_today,-,Expected Economic Growth Today,Categorical
-131,,ExpInfl_before,ExpInfl_before2020,-,Expected Inflation Before,Categorical
-132,,ExpInfl_before,ExpInfl_before2021,-,Expected Inflation Before,Categorical
-133,,ExpInfl_before,ExpInfl_before2022,-,Expected Inflation Before,Categorical
-134,,ExpInfl_today,ExpInfl_today2020,-,Expected Inflation Today,Categorical
-135,,ExpInfl_today,ExpInfl_today2021,-,Expected Inflation Today,Categorical
-136,,ExpInfl_today,ExpInfl_today2022,-,Expected Inflation Today,Categorical
-141,,StockTrading,,-,Stock Trading,bool
-140,,StockTrading,,-,Stock Trading,bool
-138,,StockTrading,,-,Stock Trading,bool
+129,,ExpEcGrowth_today,ExpEcGrowth_today,-,Expected Economic Growth Today,Categorical
+127,,ExpEcGrowth_today,ExpEcGrowth_today,-,Expected Economic Growth Today,Categorical
+130,,ExpInfl_before,ExpInfl_before2020,-,Expected Inflation Before,Categorical
+131,,ExpInfl_before,ExpInfl_before2021,-,Expected Inflation Before,Categorical
+132,,ExpInfl_before,ExpInfl_before2022,-,Expected Inflation Before,Categorical
+133,,ExpInfl_today,ExpInfl_today2020,-,Expected Inflation Today,Categorical
+134,,ExpInfl_today,ExpInfl_today2021,-,Expected Inflation Today,Categorical
+135,,ExpInfl_today,ExpInfl_today2022,-,Expected Inflation Today,Categorical
+136,,StockTrading,,-,Stock Trading,bool
 137,,StockTrading,,-,Stock Trading,bool
+138,,StockTrading,,-,Stock Trading,bool
 139,,StockTrading,,-,Stock Trading,bool
-142,,Stock3,,StockTrading,Amount Bought Among Buyers,Categorical
-143,,Stock4,,StockTrading,Amount Sold Among Sellers,Categorical
-144,,Stock5,,StockTrading,Amount Bought Among Those who Bought And Sold,Categorical
-145,,Stock6,,StockTrading,Amount Sold Among Those who Bought And Sold,Categorical
-146,,q31header,q31a,-,Concerns,Categorical
-147,,q31header,q31b,-,Concerns,Categorical
-148,,q31header,q31c,-,Concerns,Categorical
-149,,q31header,q31d,-,Concerns,Categorical
-150,,q31header,q31e,-,Concerns,Categorical
-151,,q31header,q31f,-,Concerns,Categorical
-152,,q31header,q31g,-,Concerns,Categorical
-153,,q31header,q31h,-,Concerns,Categorical
-157,,eva2h,eva2t4,-,Liked Questionnaire,Categorical
-156,,eva2h,eva2t3,-,Liked Questionnaire,Categorical
-158,,eva2h,eva2t5,-,Liked Questionnaire,Categorical
-154,,eva2h,eva2t1,-,Liked Questionnaire,Categorical
-155,,eva2h,eva2t2,-,Liked Questionnaire,Categorical
-159,,opm,,-,Comments on Questionnaire,Categorical
+140,,StockTrading,,-,Stock Trading,bool
+141,,Stock3,,StockTrading,Amount Bought Among Buyers,Categorical
+142,,Stock4,,StockTrading,Amount Sold Among Sellers,Categorical
+143,,Stock5,,StockTrading,Amount Bought Among Those who Bought And Sold,Categorical
+144,,Stock6,,StockTrading,Amount Sold Among Those who Bought And Sold,Categorical
+145,,q31header,q31a,-,Concerns,Categorical
+146,,q31header,q31b,-,Concerns,Categorical
+147,,q31header,q31c,-,Concerns,Categorical
+148,,q31header,q31d,-,Concerns,Categorical
+149,,q31header,q31e,-,Concerns,Categorical
+150,,q31header,q31f,-,Concerns,Categorical
+151,,q31header,q31g,-,Concerns,Categorical
+152,,q31header,q31h,-,Concerns,Categorical
+153,,eva2h,eva2t1,-,Liked Questionnaire,Categorical
+154,,eva2h,eva2t2,-,Liked Questionnaire,Categorical
+155,,eva2h,eva2t3,-,Liked Questionnaire,Categorical
+156,,eva2h,eva2t4,-,Liked Questionnaire,Categorical
+157,,eva2h,eva2t5,-,Liked Questionnaire,Categorical
+158,,opm,,-,Comments on Questionnaire,Categorical

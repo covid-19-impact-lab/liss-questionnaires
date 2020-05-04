@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-he040b Strong Beer Consumption
+`he040b` Strong Beer Consumption
 ==============================
 *Routing to the question depends on answer in:* :ref:`he040`
 
@@ -13,10 +13,10 @@ Geeft u aan hoeveel sterk bier (speciale bieren met 6% alcohol of meer), u op di
 .. csv-table::
    :delim: |
 
-           Aantal glazen (reken grote glazen voor 2) ```` |  
-           Aantal glazen van een halve liter (pints) ```` |  
-           Aantal halve liter blikken of flesjes ```` |  
-           Aantal kleine blikjes of flesjes ```` |  
+           Aantal glazen (reken grote glazen voor 2) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Aantal glazen van een halve liter (pints) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Aantal halve liter blikken of flesjes | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Aantal kleine blikjes of flesjes | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
 
 .. image:: ../_screenshots/he040b.png
 

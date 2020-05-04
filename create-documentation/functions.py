@@ -4,16 +4,16 @@ import pandas as pd
 import numpy as np
 
 button = ":raw-html:`&#10063;`"
-csv_header ="\n{} ``{}``\n"
+csv_header ="\n{}`\n"
 csv_entry = ".. csv-table::"
 csv_columns = "   :header: {}{}\n"
 csv_delim ="   :delim: |"
-csv_row = "           {} ``{}`` | {}"
+csv_row = "           {} | {}"
 csv_singlerow = "           {}"
-bool_entry = ":raw-html:`&#10063;` Yes :raw-html:`&#10063;` No – {} ``{}``\n"
-open_question = "\n{} ``{}`` \n"
+bool_entry = ":raw-html:`&#10063;` – {}\n"
+open_question = "\n{} \n"
 header_question = "\n{}\n"
-header_question_varname = "\n{} ``{}``\n"
+header_question_varname = "\n{}\n"
 insert_image = "\n.. image:: {}"
 
 
@@ -36,7 +36,7 @@ def create_pages(codebook, q_ids, q_fiter, q_groups, q_layout, q_text, q_sub_tex
         path = target_dir + file_name +".rst"
         add_to_file(".. _"+ file_name +":", path) 
         add_to_file("\n \n .. role:: raw-html(raw) \n        :format: html \n", path)
-        add_to_file(qid + " " + group_name + "\n"+ "="*len(qid + " " + group_name), path)     
+        add_to_file("`" + qid + "` " + group_name + "\n"+ "="*len(qid + " " + group_name), path)     
         
         # Add routing if present:
         if df.loc[df.index[0], q_fiter] != "-":
@@ -83,17 +83,17 @@ def insert_table_question(df, path, q_text, q_sub_text, q_categories, q_varname)
     add_to_file(csv_columns.format(",",df.loc[df.index[0], q_categories]), path)
     for i in df.index:
         items = df.loc[i, q_categories].count(',')                     
-        add_to_file(csv_row.format(df.loc[i, q_sub_text], df.loc[i, q_varname],(button + "|")*(items) + button), path) 
+        add_to_file(csv_row.format(df.loc[i, q_sub_text],(button + "|")*(items) + button), path) 
         
 def insert_grid_question(df, path, q_text, q_sub_text, q_categories, q_varname):    
     add_to_file(header_question.format(df.loc[df.index[0], q_text]), path)
     add_to_file(csv_entry.format(), path)
     add_to_file(csv_delim.format() + "\n", path)
     for i in df.index:
-        add_to_file(csv_row.format(df.loc[i, q_sub_text], df.loc[i, q_varname], " "), path)
+        add_to_file(csv_row.format(df.loc[i, q_sub_text], ':raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`'), path)
                     
 def insert_cat_question(df, path, q_text, q_categories, q_varname):    
-    add_to_file(header_question_varname.format(df.loc[df.index[0], q_text], df.loc[df.index[0], q_varname]), path)
+    add_to_file(header_question_varname.format(df.loc[df.index[0], q_text]), path)
     add_to_file(csv_entry.format(), path)
     add_to_file(csv_delim.format(), path)
     add_to_file(csv_columns.format("", df.loc[df.index[0], q_categories]), path)

@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-ExpInfl_today Expected Inflation Today
+`ExpInfl_today` Expected Inflation Today
 ======================================
 
 En wat zijn uw verwachtingen over de inflatie (een negatief percentage betekent
@@ -15,9 +15,9 @@ dat prijzen dalen) onder de omstandigheden van dit moment:
    :delim: |
    :header: ,minder dan -2%, -2% tot 0%, 0% tot 2%,  2% tot 4%, 4% tot 6%,  6% of hoger
 
-           2020 ```` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           2021 ```` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           2022 ```` | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           2020 | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           2021 | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           2022 | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
 
 .. image:: ../_screenshots/ExpInfl_today.png
 

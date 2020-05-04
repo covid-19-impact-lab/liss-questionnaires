@@ -4,11 +4,11 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-he039 Days Alcohol Consumption
+`he039` Days Alcohol Consumption
 ==============================
 *Routing to the question depends on answer in:* :ref:`he038`
 
-Op hoeveel dagen van de afgelopen zeven dagen hebt u een alcoholische drank gedronken? ````
+Op hoeveel dagen van de afgelopen zeven dagen hebt u een alcoholische drank gedronken?
 
 .. csv-table::
    :delim: |
