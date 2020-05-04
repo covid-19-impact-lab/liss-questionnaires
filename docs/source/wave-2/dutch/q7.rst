@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`q7` Expected Duration of Restrictions
+`q7` – Expected Duration of Restrictions
 ====================================
 
 De regering heeft een aantal maatregelen genomen. Tot hoe lang denkt u dat de

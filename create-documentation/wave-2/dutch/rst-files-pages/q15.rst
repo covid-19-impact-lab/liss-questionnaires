@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`q15` Reasons for Not Working Among Employees
+`q15` – Reasons for Not Working Among Employees
 ===========================================
 *Routing to the question depends on answer in:* :ref:`q14header`
 

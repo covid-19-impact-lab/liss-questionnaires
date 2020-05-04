@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`socialcontact_hd` Contacts past 7 Days
+`socialcontact_hd` – Contacts past 7 Days
 =====================================
 
 We willen graag iets weten over de contacten die u de afgelopen zeven dagen hebt gehad,

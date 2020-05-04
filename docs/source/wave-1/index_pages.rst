@@ -5,7 +5,7 @@ Questions Wave 1
 ==================
 
 
-All Questions in order of appearance
+All Questions in Order of Appearance
 -------------------------------------
 	- :ref:`q_intro`
 	- :ref:`q1`

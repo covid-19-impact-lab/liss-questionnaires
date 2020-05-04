@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`he040e` Other Alcohol 1 Consumption
+`he040e` – Other Alcohol 1 Consumption
 ==================================
 *Routing to the question depends on answer in:* :ref:`he040`
 

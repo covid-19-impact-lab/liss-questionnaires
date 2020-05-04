@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`ExpEcGrowth_before` Expected Economic Growth Before
+`ExpEcGrowth_before` – Expected Economic Growth Before
 ==================================================
 
 We willen graag weten wat u verwachtte dat de groei van de economie in Nederland zou zijn, en of de gevolgen van het coronavirus deze verwachting zal veranderen. De economische groei, dat wil zeggen, de verandering van de hoeveelheid goederen en diensten die Nederland kan gebruiken, was in de periode 2017-2019 ongeveer 2,5% per jaar.

@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`Q14header_1` Working Hours
+`Q14header_1` – Working Hours
 =========================
 *Routing to the question depends on answer in:* :ref:`q13`
 

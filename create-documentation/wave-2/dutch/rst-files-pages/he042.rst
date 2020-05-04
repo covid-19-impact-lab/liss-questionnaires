@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`he042` Drug Intake Last Month
+`he042` – Drug Intake Last Month
 ============================
 *Routing to the question depends on answer in:* :ref:`he041`
 

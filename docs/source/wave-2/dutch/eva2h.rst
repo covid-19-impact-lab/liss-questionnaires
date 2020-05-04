@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`eva2h` Liked Questionnaire
+`eva2h` – Liked Questionnaire
 =========================
 
 NB: Maakt u alstublieft de vragenlijst af totdat u weer bij het beginscherm komt. Pas dan registreert het systeem de vragenlijst als volledig ingevuld. Tot slot. Wat vond u van deze vragenlijst:

@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`ExpUnempl_today` Expected Unemployment Today
+`ExpUnempl_today` – Expected Unemployment Today
 ===========================================
 
 En wat zijn uw verwachtingen over het werkloosheidspercentage onder de

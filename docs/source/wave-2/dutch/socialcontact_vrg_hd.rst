@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`socialcontact_vrg_hd` Contacts Normally
+`socialcontact_vrg_hd` – Contacts Normally
 ======================================
 
 Als u dat vergelijkt met een normale week, dus vóór de uitbraak van het coronavirus, hebt u dan nu minder of meer persoonlijk contact of contact via de telefoon / online?

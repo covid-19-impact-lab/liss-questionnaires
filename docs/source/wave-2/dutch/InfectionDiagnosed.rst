@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`InfectionDiagnosed` InfectionDiagnosed
+`InfectionDiagnosed` – InfectionDiagnosed
 =====================================
 
 Heeft een huisarts of een ander medisch deskundige bij u de diagnose gesteld dat u besmet bent met het coronavirus (Covid-19)?

@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`StockTrading` Stock Trading
+`StockTrading` – Stock Trading
 ==========================
 
 We willen graag weten wat u met uw (eventuele) spaarvermogen hebt gedaan in de afgelopen maanden. Kiest u het antwoord dat het beste bij uw situatie past. Sinds half februari… 

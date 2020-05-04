@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`Stock4` Amount Sold Among Sellers
+`Stock4` – Amount Sold Among Sellers
 ================================
 *Routing to the question depends on answer in:* :ref:`StockTrading`
 

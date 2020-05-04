@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`opm` Comments on Questionnaire
+`opm` – Comments on Questionnaire
 =============================
 
 Hebt u nog opmerkingen over de vragenlijst?

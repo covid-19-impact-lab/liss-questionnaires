@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`q23` Childcare Adjustments
+`q23` – Childcare Adjustments
 =========================
 *Routing to the question depends on answer in:* :ref:`q22`
 

@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`cruciaal` Crucial Profession Among Employed
+`cruciaal` – Crucial Profession Among Employed
 ==========================================
 *Routing to the question depends on answer in:* :ref:`q14header`
 

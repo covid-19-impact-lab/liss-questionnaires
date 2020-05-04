@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`he039` Days Alcohol Consumption
+`he039` – Days Alcohol Consumption
 ==============================
 *Routing to the question depends on answer in:* :ref:`he038`
 

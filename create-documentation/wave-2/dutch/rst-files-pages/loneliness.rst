@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`loneliness` Loneliness
+`loneliness` – Loneliness
 =====================
 
 Wilt u voor elke uitspraak aangeven in hoeverre die op u van toepassing is, op basis van hoe u zich nu voelt?

@@ -11,5 +11,5 @@ An overview of all the variables can be found under :ref:`variable_overview`. Th
    :maxdepth: 2
 
    variable_overview
-   english/index
+   index_pages
    

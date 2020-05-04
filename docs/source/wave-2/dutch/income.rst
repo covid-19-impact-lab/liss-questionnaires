@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`income` Income Last Three Months
+`income` – Income Last Three Months
 ===============================
 
 Wat was in de afgelopen drie maanden het gezamenljke bruto maandinkomen van uw huishouden? Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz. Als u het niet precies weet geeft u dan uw beste inschatting. Vult u alleen cijfers (hele euro's) in, dus zonder punten en komma’s.

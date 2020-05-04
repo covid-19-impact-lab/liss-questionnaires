@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`ExpEcGrowth_today` Expected Economic Growth Today
+`ExpEcGrowth_today` – Expected Economic Growth Today
 ================================================
 
 En wat zijn uw verwachtingen over de economische groei onder de

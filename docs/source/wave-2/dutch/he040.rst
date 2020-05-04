@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`he040` Alcohol Type
+`he040` – Alcohol Type
 ==================
 *Routing to the question depends on answer in:* :ref:`he038`
 

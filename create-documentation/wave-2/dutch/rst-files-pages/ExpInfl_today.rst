@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`ExpInfl_today` Expected Inflation Today
+`ExpInfl_today` – Expected Inflation Today
 ======================================
 
 En wat zijn uw verwachtingen over de inflatie (een negatief percentage betekent
