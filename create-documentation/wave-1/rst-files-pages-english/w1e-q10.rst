@@ -1,0 +1,21 @@
+.. _w1e-q10:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+`q10` – Compliance with Curfew
+==========================
+
+Would you stay at home?
+
+.. csv-table::
+   :delim: |
+   :header: Yes, No, I work in an essential occupation
+
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+
+.. image:: ../_screenshots/w1-q10.png
+
+
+:raw-html:`&larr;` :ref:`w1e-q9` | :ref:`w1e-q11` :raw-html:`&rarr;`
