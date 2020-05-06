@@ -1,0 +1,23 @@
+.. _w1e-q26:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+`q26` – Employment Among Employees
+==============================
+
+How likely do you think the following situations will happen in early June? You can answer these questions on a scale from 0 to 100, where 0 stands for certainly not and 100 stands for certainly. Please note, your answers must add up to 100.
+
+.. csv-table::
+   :delim: |
+
+            I will keep my job because my employer / company is not financially affected by the corona virus or is financially healthy enough to continue to pay wages | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           I will keep my job because the government provides help to my employer / company (eg by paying wages) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+            I will have lost my job or the number of hours will have been reduced to 0 indefinitely (e.g., forced unpaid leave, I am paid per hour in a restaurant …) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Something else is happening | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+
+.. image:: ../_screenshots/w1-q26.png
+
+
+:raw-html:`&larr;` :ref:`w1e-q25` | :ref:`w1e-q27` :raw-html:`&rarr;`

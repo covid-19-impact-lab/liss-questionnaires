@@ -1,0 +1,17 @@
+.. _he036a:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+`he036a` – Cigarette Consumption
+============================
+*Routing to the question depends on answer in:* :ref:`he035`
+
+How many cigarettes (including rolling tobacco) do you smoke on average per day? 
+
+
+.. image:: ../_screenshots/he036a.png
+
+
+:raw-html:`&larr;` :ref:`he035` | :ref:`he036b` :raw-html:`&rarr;`

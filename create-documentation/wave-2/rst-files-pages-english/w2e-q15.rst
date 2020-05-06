@@ -1,0 +1,35 @@
+.. _w2e-q15:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+`q15` – Reasons for Not Working Among Employees
+===========================================
+*Routing to the question depends on answer in:* :ref:`q14header`
+
+Why are you not working right now? Multiple answers possible
+
+:raw-html:`&#10063;` – Less business activity in the company where I work because of economic circumstances
+
+:raw-html:`&#10063;` – Due to the risk of contamination, the government has decided that my workplace should close for the time being
+
+:raw-html:`&#10063;` – Because of the risk of infection, my employer voluntarily postponed the work
+
+:raw-html:`&#10063;` – I have to take care of people (children, parents) who depend on me
+
+:raw-html:`&#10063;` – I do not go to my workplace because I am afraid of being infected by the coronavirus and I cannot do the work I do at home
+
+:raw-html:`&#10063;` – I was ill / quarantined
+
+:raw-html:`&#10063;` – I have taken vacation days
+
+:raw-html:`&#10063;` – I got fired
+
+:raw-html:`&#10063;` – Otherwise, namely:
+
+
+.. image:: ../_screenshots/w2-q15.png
+
+
+:raw-html:`&larr;` :ref:`w2e-q14header` | :ref:`w2e-q16` :raw-html:`&rarr;`

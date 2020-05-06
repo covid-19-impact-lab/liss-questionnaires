@@ -1,0 +1,37 @@
+.. _q23:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+`q23` – Childcare Adjustments
+=========================
+*Routing to the question depends on answer in:* :ref:`q22`
+
+How do you deal with closure of school and / or childcare because of the corona virus? Multiple answers possible
+
+:raw-html:`&#10063;` – I stay at home.
+
+:raw-html:`&#10063;` – My partner stays at home.
+
+:raw-html:`&#10063;` – The older siblings care for the younger children.
+
+:raw-html:`&#10063;` – The grandparents care for the children.
+
+:raw-html:`&#10063;` – Other relatives or friends care for the children.
+
+:raw-html:`&#10063;` – I organize child care with friends / neighbors together.
+
+:raw-html:`&#10063;` – The state organizes child care for my profession.
+
+:raw-html:`&#10063;` – My ex-partner cares for the children.
+
+:raw-html:`&#10063;` – The child(ren) stay(s) at home alone.
+
+:raw-html:`&#10063;` – Otherwise, namely:
+
+
+.. image:: ../_screenshots/q23.png
+
+
+:raw-html:`&larr;` :ref:`q22` | :ref:`q13` :raw-html:`&rarr;`

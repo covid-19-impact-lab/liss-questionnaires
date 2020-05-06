@@ -1,0 +1,16 @@
+.. _w2e-q22:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+`q22` – Young Children in Household
+===============================
+
+How many children under 12 are in your household? 
+
+
+.. image:: ../_screenshots/w2-q22.png
+
+
+:raw-html:`&larr;` :ref:`w2e-socialcontact_vrg_hd` | :ref:`w2e-q23` :raw-html:`&rarr;`
