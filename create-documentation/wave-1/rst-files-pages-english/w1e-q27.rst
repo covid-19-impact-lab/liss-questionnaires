@@ -5,8 +5,12 @@
         :format: html 
 
 `q27` – Employment Among the Self-Employed
-======================================
-*Routing to the question depends on answer in:* :ref:`q13`
+==========================================
+
+
+:raw-html:`&larr;` :ref:`w1e-q26` | :ref:`w1e-q28` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w1e-q13`
 
 How likely do you think the following situations will be in early June? You can answer this question on a scale from 0 to 100, where 0 stands for certainly not and 100 stands for certainly. Please note, your answers must add up to 100.
 
@@ -22,4 +26,5 @@ How likely do you think the following situations will be in early June? You can 
 .. image:: ../_screenshots/w1-q27.png
 
 
-:raw-html:`&larr;` :ref:`w1e-q26` | :ref:`w1e-q28` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-q26` | :ref:`w1e-q28` :raw-html:`&rarr;` 
+

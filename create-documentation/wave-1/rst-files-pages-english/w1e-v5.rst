@@ -5,7 +5,11 @@
         :format: html 
 
 `v5` – Consumption Plans Next 12 Months
-===================================
+=======================================
+
+
+:raw-html:`&larr;` :ref:`w1e-v4` | :ref:`w1e-v6` :raw-html:`&rarr;` 
+
 
 If you think about the coronavirus outbreak at this moment and then look ahead to the next 12 months, do you agree with the following statements (on a scale from 0 to 10 where 0 means “completely disagree” and 10 means “completely agree”)?
 
@@ -22,4 +26,5 @@ If you think about the coronavirus outbreak at this moment and then look ahead t
 .. image:: ../_screenshots/w1-v5.png
 
 
-:raw-html:`&larr;` :ref:`w1e-v4` | :ref:`w1e-v6` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-v4` | :ref:`w1e-v6` :raw-html:`&rarr;` 
+

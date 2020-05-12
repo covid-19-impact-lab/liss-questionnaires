@@ -5,7 +5,11 @@
         :format: html 
 
 `v1` – Duration of the Economic Crisis
-==================================
+======================================
+
+
+:raw-html:`&larr;` :ref:`w1e-q34` | :ref:`w1e-v2` :raw-html:`&rarr;` 
+
 
 How long do you think the economic crisis will last? We understand that this question is difficult to answer, but we are interested in your initial assessment.
 
@@ -18,4 +22,5 @@ How long do you think the economic crisis will last? We understand that this que
 .. image:: ../_screenshots/w1-v1.png
 
 
-:raw-html:`&larr;` :ref:`w1e-q34` | :ref:`w1e-v2` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-q34` | :ref:`w1e-v2` :raw-html:`&rarr;` 
+

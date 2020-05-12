@@ -5,7 +5,11 @@
         :format: html 
 
 `q7` – Expected Duration of Restrictions
-====================================
+========================================
+
+
+:raw-html:`&larr;` :ref:`w2e-q1header` | :ref:`w2e-rook` :raw-html:`&rarr;` 
+
 
 The government has adopted a number of measures … For how long do you think that the restrictions in place now (in everyday life) will remain in effect?
 
@@ -18,4 +22,5 @@ The government has adopted a number of measures … For how long do you think th
 .. image:: ../_screenshots/w2-q7.png
 
 
-:raw-html:`&larr;` :ref:`w2e-q1header` | :ref:`w2e-rook` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-q1header` | :ref:`w2e-rook` :raw-html:`&rarr;` 
+

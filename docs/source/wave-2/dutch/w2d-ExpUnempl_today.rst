@@ -5,7 +5,11 @@
         :format: html 
 
 `ExpUnempl_today` – Expected Unemployment Today
-===========================================
+===============================================
+
+
+:raw-html:`&larr;` :ref:`w2d-ExpUnempl_before` | :ref:`w2d-ExpEcGrowth_before` :raw-html:`&rarr;` 
+
 
 En wat zijn uw verwachtingen over het werkloosheidspercentage onder de
 omstandigheden van dit moment:
@@ -22,4 +26,5 @@ omstandigheden van dit moment:
 .. image:: ../_screenshots/w2-ExpUnempl_today.png
 
 
-:raw-html:`&larr;` :ref:`w2d-ExpUnempl_before` | :ref:`w2d-ExpEcGrowth_before` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-ExpUnempl_before` | :ref:`w2d-ExpEcGrowth_before` :raw-html:`&rarr;` 
+

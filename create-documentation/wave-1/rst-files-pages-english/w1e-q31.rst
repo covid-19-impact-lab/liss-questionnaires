@@ -5,7 +5,11 @@
         :format: html 
 
 `q31` – Health Concerns
-===================
+=======================
+
+
+:raw-html:`&larr;` :ref:`w1e-q30` | :ref:`w1e-q33` :raw-html:`&rarr;` 
+
 
 When you think about the next four weeks, how concerned are you about the following?
 
@@ -27,4 +31,5 @@ When you think about the next four weeks, how concerned are you about the follow
 .. image:: ../_screenshots/w1-q31.png
 
 
-:raw-html:`&larr;` :ref:`w1e-q30` | :ref:`w1e-q33` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-q30` | :ref:`w1e-q33` :raw-html:`&rarr;` 
+

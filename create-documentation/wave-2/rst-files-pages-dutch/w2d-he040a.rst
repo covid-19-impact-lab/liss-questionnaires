@@ -5,8 +5,12 @@
         :format: html 
 
 `he040a` – Beer Consumption
-=======================
-*Routing to the question depends on answer in:* :ref:`he040`
+===========================
+
+
+:raw-html:`&larr;` :ref:`w2d-he40and` | :ref:`w2d-he040b` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2d-he040`
 
 Geeft u aan hoeveel bier (van normale sterkte, pils, wit bier, donker bier, met minder dan
 6% alcohol) u op die dag hebt gedronken.
@@ -22,4 +26,5 @@ Geeft u aan hoeveel bier (van normale sterkte, pils, wit bier, donker bier, met 
 .. image:: ../_screenshots/w2-he040a.png
 
 
-:raw-html:`&larr;` :ref:`w2d-he40and` | :ref:`w2d-he040b` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-he40and` | :ref:`w2d-he040b` :raw-html:`&rarr;` 
+

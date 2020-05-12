@@ -5,7 +5,11 @@
         :format: html 
 
 `q31header` – Concerns
-==================
+======================
+
+
+:raw-html:`&larr;` :ref:`w2d-Stock6` | :ref:`w2d-eva2h` :raw-html:`&rarr;` 
+
 
 Tot slot.
 Als u denkt aan de komende vier weken, hoe bezorgd bent u dan over het volgende?
@@ -26,4 +30,5 @@ Als u denkt aan de komende vier weken, hoe bezorgd bent u dan over het volgende?
 .. image:: ../_screenshots/w2-q31header.png
 
 
-:raw-html:`&larr;` :ref:`w2d-Stock6` | :ref:`w2d-eva2h` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-Stock6` | :ref:`w2d-eva2h` :raw-html:`&rarr;` 
+

@@ -5,7 +5,11 @@
         :format: html 
 
 `socialcontact_vrg_hd` – Contacts Normally
-======================================
+==========================================
+
+
+:raw-html:`&larr;` :ref:`w2d-socialcontact_hd` | :ref:`w2d-q22` :raw-html:`&rarr;` 
+
 
 Als u dat vergelijkt met een normale week, dus vóór de uitbraak van het coronavirus, hebt u dan nu minder of meer persoonlijk contact of contact via de telefoon / online?
 
@@ -19,4 +23,5 @@ Als u dat vergelijkt met een normale week, dus vóór de uitbraak van het corona
 .. image:: ../_screenshots/w2-socialcontact_vrg_hd.png
 
 
-:raw-html:`&larr;` :ref:`w2d-socialcontact_hd` | :ref:`w2d-q22` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-socialcontact_hd` | :ref:`w2d-q22` :raw-html:`&rarr;` 
+

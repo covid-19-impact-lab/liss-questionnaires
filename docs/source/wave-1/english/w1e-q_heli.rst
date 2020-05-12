@@ -5,7 +5,11 @@
         :format: html 
 
 `q_heli` – Use of One-Time Allowance
-================================
+====================================
+
+
+:raw-html:`&larr;` :ref:`w1e-q21` | :ref:`w1e-q22` :raw-html:`&rarr;` 
+
 
 On March 17, the United States government announced that every citizen will receive a sum of money. If the Dutch government today announced such a measure and you would receive 1000 euros next week, what would you use that money for? You can use the money for one of the following goals or divide the money over several goals. The amount must add up to 1000 euros.
 
@@ -21,4 +25,5 @@ On March 17, the United States government announced that every citizen will rece
 .. image:: ../_screenshots/w1-q_heli.png
 
 
-:raw-html:`&larr;` :ref:`w1e-q21` | :ref:`w1e-q22` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-q21` | :ref:`w1e-q22` :raw-html:`&rarr;` 
+

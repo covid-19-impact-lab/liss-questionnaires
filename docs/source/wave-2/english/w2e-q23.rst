@@ -5,8 +5,12 @@
         :format: html 
 
 `q23` – Childcare Adjustments
-=========================
-*Routing to the question depends on answer in:* :ref:`q22`
+=============================
+
+
+:raw-html:`&larr;` :ref:`w2e-q22` | :ref:`w2e-q13` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2e-q22`
 
 How do you deal with closure of school and / or childcare because of the corona virus? Multiple answers possible
 
@@ -34,4 +38,5 @@ How do you deal with closure of school and / or childcare because of the corona 
 .. image:: ../_screenshots/w2-q23.png
 
 
-:raw-html:`&larr;` :ref:`w2e-q22` | :ref:`w2e-q13` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-q22` | :ref:`w2e-q13` :raw-html:`&rarr;` 
+

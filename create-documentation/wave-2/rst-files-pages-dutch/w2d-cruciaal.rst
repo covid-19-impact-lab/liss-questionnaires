@@ -5,8 +5,12 @@
         :format: html 
 
 `cruciaal` – Crucial Profession Among Employed
-==========================================
-*Routing to the question depends on answer in:* :ref:`q14header`
+==============================================
+
+
+:raw-html:`&larr;` :ref:`w2d-q17` | :ref:`w2d-cruciaal_notempl` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2d-q14header`
 
 Valt uw beroep onder de cruciale beroepsgroep?
 
@@ -19,4 +23,5 @@ Valt uw beroep onder de cruciale beroepsgroep?
 .. image:: ../_screenshots/w2-cruciaal.png
 
 
-:raw-html:`&larr;` :ref:`w2d-q17` | :ref:`w2d-cruciaal_notempl` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-q17` | :ref:`w2d-cruciaal_notempl` :raw-html:`&rarr;` 
+

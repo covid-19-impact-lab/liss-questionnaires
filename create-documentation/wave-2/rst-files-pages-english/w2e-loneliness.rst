@@ -5,7 +5,11 @@
         :format: html 
 
 `loneliness` – Loneliness
-=====================
+=========================
+
+
+:raw-html:`&larr;` :ref:`w2e-he042` | :ref:`w2e-socialcontact_hd` :raw-html:`&rarr;` 
+
 
 For each statement, please indicate to what extent it applies to you, based on how you feel now?
 
@@ -25,4 +29,5 @@ For each statement, please indicate to what extent it applies to you, based on h
 .. image:: ../_screenshots/w2-loneliness.png
 
 
-:raw-html:`&larr;` :ref:`w2e-he042` | :ref:`w2e-socialcontact_hd` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-he042` | :ref:`w2e-socialcontact_hd` :raw-html:`&rarr;` 
+

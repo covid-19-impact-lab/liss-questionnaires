@@ -5,7 +5,11 @@
         :format: html 
 
 `socialcontact_hd` – Contacts past 7 Days
-=====================================
+=========================================
+
+
+:raw-html:`&larr;` :ref:`w2d-loneliness` | :ref:`w2d-socialcontact_vrg_hd` :raw-html:`&rarr;` 
+
 
 We willen graag iets weten over de contacten die u de afgelopen zeven dagen hebt gehad,
 persoonlijk of op afstand (online of telefonisch), en die ten minste vijf minuten duurden. Met hoeveel verschillende personen hebt u zo’n contact gehad in de afgelopen zeven dagen?
@@ -19,4 +23,5 @@ persoonlijk of op afstand (online of telefonisch), en die ten minste vijf minute
 .. image:: ../_screenshots/w2-socialcontact_hd.png
 
 
-:raw-html:`&larr;` :ref:`w2d-loneliness` | :ref:`w2d-socialcontact_vrg_hd` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-loneliness` | :ref:`w2d-socialcontact_vrg_hd` :raw-html:`&rarr;` 
+

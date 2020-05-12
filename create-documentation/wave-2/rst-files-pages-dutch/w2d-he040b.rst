@@ -5,8 +5,12 @@
         :format: html 
 
 `he040b` – Strong Beer Consumption
-==============================
-*Routing to the question depends on answer in:* :ref:`he040`
+==================================
+
+
+:raw-html:`&larr;` :ref:`w2d-he040a` | :ref:`w2d-he040c` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2d-he040`
 
 Geeft u aan hoeveel sterk bier (speciale bieren met 6% alcohol of meer), u op die dag hebt gedronken.
 
@@ -21,4 +25,5 @@ Geeft u aan hoeveel sterk bier (speciale bieren met 6% alcohol of meer), u op di
 .. image:: ../_screenshots/w2-he040b.png
 
 
-:raw-html:`&larr;` :ref:`w2d-he040a` | :ref:`w2d-he040c` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-he040a` | :ref:`w2d-he040c` :raw-html:`&rarr;` 
+

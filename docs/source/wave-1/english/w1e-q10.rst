@@ -5,7 +5,11 @@
         :format: html 
 
 `q10` – Compliance with Curfew
-==========================
+==============================
+
+
+:raw-html:`&larr;` :ref:`w1e-q9` | :ref:`w1e-q11` :raw-html:`&rarr;` 
+
 
 Would you stay at home?
 
@@ -18,4 +22,5 @@ Would you stay at home?
 .. image:: ../_screenshots/w1-q10.png
 
 
-:raw-html:`&larr;` :ref:`w1e-q9` | :ref:`w1e-q11` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-q9` | :ref:`w1e-q11` :raw-html:`&rarr;` 
+

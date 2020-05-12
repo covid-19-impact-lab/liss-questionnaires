@@ -5,8 +5,12 @@
         :format: html 
 
 `he035` – Smoking Type
-==================
-*Routing to the question depends on answer in:* :ref:`rook`
+======================
+
+
+:raw-html:`&larr;` :ref:`w2e-rook` | :ref:`w2e-he036a` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2e-rook`
 
 What do you smoke? Multiple answers possible
 
@@ -22,4 +26,5 @@ What do you smoke? Multiple answers possible
 .. image:: ../_screenshots/w2-he035.png
 
 
-:raw-html:`&larr;` :ref:`w2e-rook` | :ref:`w2e-he036a` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-rook` | :ref:`w2e-he036a` :raw-html:`&rarr;` 
+

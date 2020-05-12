@@ -5,8 +5,12 @@
         :format: html 
 
 `he040c` – Strong Alcohol Consumption
-=================================
-*Routing to the question depends on answer in:* :ref:`he040`
+=====================================
+
+
+:raw-html:`&larr;` :ref:`w2e-he040b` | :ref:`w2e-he040d` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2e-he040`
 
 Can you indicate below how many of these alcoholic beverages you drank that day? 
 
@@ -20,4 +24,5 @@ Can you indicate below how many of these alcoholic beverages you drank that day?
 .. image:: ../_screenshots/w2-he040c.png
 
 
-:raw-html:`&larr;` :ref:`w2e-he040b` | :ref:`w2e-he040d` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-he040b` | :ref:`w2e-he040d` :raw-html:`&rarr;` 
+

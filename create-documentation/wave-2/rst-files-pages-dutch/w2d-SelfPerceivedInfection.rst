@@ -5,7 +5,11 @@
         :format: html 
 
 `SelfPerceivedInfection` – SelfPerceivedInfection
-=============================================
+=================================================
+
+
+:raw-html:`&larr;` :ref:`w2d-InfectionDiagnosed` | :ref:`w2d-q1header` :raw-html:`&rarr;` 
+
 
 Denkt u zelf dat u besmet bent met het coronavirus (Covid-19)?
 
@@ -18,4 +22,5 @@ Denkt u zelf dat u besmet bent met het coronavirus (Covid-19)?
 .. image:: ../_screenshots/w2-SelfPerceivedInfection.png
 
 
-:raw-html:`&larr;` :ref:`w2d-InfectionDiagnosed` | :ref:`w2d-q1header` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-InfectionDiagnosed` | :ref:`w2d-q1header` :raw-html:`&rarr;` 
+

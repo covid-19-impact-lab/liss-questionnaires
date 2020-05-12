@@ -5,7 +5,11 @@
         :format: html 
 
 `q7` – Expected Duration of Restrictions
-====================================
+========================================
+
+
+:raw-html:`&larr;` :ref:`w1e-q6` | :ref:`w1e-q8` :raw-html:`&rarr;` 
+
 
 For how long do you think that the restrictions in place now (in everyday life) will remain in effect?
 
@@ -18,4 +22,5 @@ For how long do you think that the restrictions in place now (in everyday life) 
 .. image:: ../_screenshots/w1-q7.png
 
 
-:raw-html:`&larr;` :ref:`w1e-q6` | :ref:`w1e-q8` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-q6` | :ref:`w1e-q8` :raw-html:`&rarr;` 
+

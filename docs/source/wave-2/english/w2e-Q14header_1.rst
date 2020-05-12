@@ -5,8 +5,12 @@
         :format: html 
 
 `Q14header_1` – Working Hours
-=========================
-*Routing to the question depends on answer in:* :ref:`q13`
+=============================
+
+
+:raw-html:`&larr;` :ref:`w2e-q13` | :ref:`w2e-q14header` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2e-q13`
 
 On average, how many hours per week did you work at the workplace and from home in early March (or before the coronavirus affected your work)? And in the past seven days? If you always work from home, fill in all hours at 'from home'. Enter zero (0) if you never work at your workplace or at home.
 
@@ -21,4 +25,5 @@ On average, how many hours per week did you work at the workplace and from home 
 .. image:: ../_screenshots/w2-Q14header_1.png
 
 
-:raw-html:`&larr;` :ref:`w2e-q13` | :ref:`w2e-q14header` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-q13` | :ref:`w2e-q14header` :raw-html:`&rarr;` 
+

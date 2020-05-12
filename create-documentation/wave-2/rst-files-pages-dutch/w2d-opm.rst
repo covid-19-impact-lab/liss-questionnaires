@@ -5,7 +5,11 @@
         :format: html 
 
 `opm` – Comments on Questionnaire
-=============================
+=================================
+
+
+:raw-html:`&larr;` :ref:`w2d-eva2h` 
+
 
 Hebt u nog opmerkingen over de vragenlijst?
 
@@ -18,4 +22,5 @@ Hebt u nog opmerkingen over de vragenlijst?
 .. image:: ../_screenshots/w2-opm.png
 
 
-:raw-html:`&larr;` :ref:`w2d-eva2h`
+:raw-html:`&larr;` :ref:`w2d-eva2h` 
+

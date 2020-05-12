@@ -5,8 +5,12 @@
         :format: html 
 
 `cruciaal_notempl` – Crucial Former Profession Among Unemployed
-===========================================================
-*Routing to the question depends on answer in:* :ref:`q14header`
+===============================================================
+
+
+:raw-html:`&larr;` :ref:`w2e-cruciaal` | :ref:`w2e-income` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2e-q14header`
 
 
 Does your last job (if unemployed) to be a crucial profession?
@@ -20,4 +24,5 @@ Does your last job (if unemployed) to be a crucial profession?
 .. image:: ../_screenshots/w2-cruciaal_notempl.png
 
 
-:raw-html:`&larr;` :ref:`w2e-cruciaal` | :ref:`w2e-income` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-cruciaal` | :ref:`w2e-income` :raw-html:`&rarr;` 
+

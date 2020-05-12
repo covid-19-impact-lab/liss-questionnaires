@@ -5,7 +5,11 @@
         :format: html 
 
 `income` – Income Last Three Months
-===============================
+===================================
+
+
+:raw-html:`&larr;` :ref:`w2e-cruciaal_notempl` | :ref:`w2e-expectedincome` :raw-html:`&rarr;` 
+
 
 What was your household’s total monthly gross income such as earnings, business income, pensions, unemployment insurance payments, etc., before taxes in each of the past three months? If you do not know exactly, please give your best estimate.
 
@@ -20,4 +24,5 @@ What was your household’s total monthly gross income such as earnings, busines
 .. image:: ../_screenshots/w2-income.png
 
 
-:raw-html:`&larr;` :ref:`w2e-cruciaal_notempl` | :ref:`w2e-expectedincome` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-cruciaal_notempl` | :ref:`w2e-expectedincome` :raw-html:`&rarr;` 
+

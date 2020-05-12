@@ -5,7 +5,11 @@
         :format: html 
 
 `ExpEcGrowth_today` – Expected Economic Growth Today
-================================================
+====================================================
+
+
+:raw-html:`&larr;` :ref:`w2e-ExpEcGrowth_before` | :ref:`w2e-ExpInfl_before` :raw-html:`&rarr;` 
+
 
 Second, we would like to know the growth rates of the Dutch economy that you expect for the years 2020, 2021, and 2022 as of today. Careful: The categories have changed!
 
@@ -20,4 +24,5 @@ Second, we would like to know the growth rates of the Dutch economy that you exp
 .. image:: ../_screenshots/w2-ExpEcGrowth_today.png
 
 
-:raw-html:`&larr;` :ref:`w2e-ExpEcGrowth_before` | :ref:`w2e-ExpInfl_before` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-ExpEcGrowth_before` | :ref:`w2e-ExpInfl_before` :raw-html:`&rarr;` 
+

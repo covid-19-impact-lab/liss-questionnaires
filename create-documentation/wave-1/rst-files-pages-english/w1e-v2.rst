@@ -5,7 +5,11 @@
         :format: html 
 
 `v2` – Probabilities of Economic Repercussions
-==========================================
+==============================================
+
+
+:raw-html:`&larr;` :ref:`w1e-v1` | :ref:`w1e-v3` :raw-html:`&rarr;` 
+
 
 How likely is it that the following economic effects of the coronavirus crisis will occur to you in the next 12 months?
 
@@ -23,4 +27,5 @@ How likely is it that the following economic effects of the coronavirus crisis w
 .. image:: ../_screenshots/w1-v2.png
 
 
-:raw-html:`&larr;` :ref:`w1e-v1` | :ref:`w1e-v3` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-v1` | :ref:`w1e-v3` :raw-html:`&rarr;` 
+

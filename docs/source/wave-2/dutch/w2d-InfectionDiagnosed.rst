@@ -5,7 +5,11 @@
         :format: html 
 
 `InfectionDiagnosed` – InfectionDiagnosed
-=====================================
+=========================================
+
+
+:raw-html:`&larr;` :ref:`w2d-intro` | :ref:`w2d-SelfPerceivedInfection` :raw-html:`&rarr;` 
+
 
 Heeft een huisarts of een ander medisch deskundige bij u de diagnose gesteld dat u besmet bent met het coronavirus (Covid-19)?
 
@@ -18,4 +22,5 @@ Heeft een huisarts of een ander medisch deskundige bij u de diagnose gesteld dat
 .. image:: ../_screenshots/w2-InfectionDiagnosed.png
 
 
-:raw-html:`&larr;` :ref:`w2d-intro` | :ref:`w2d-SelfPerceivedInfection` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-intro` | :ref:`w2d-SelfPerceivedInfection` :raw-html:`&rarr;` 
+

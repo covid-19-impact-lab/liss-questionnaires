@@ -5,8 +5,12 @@
         :format: html 
 
 `he040` – Alcohol Type
-==================
-*Routing to the question depends on answer in:* :ref:`he038`
+======================
+
+
+:raw-html:`&larr;` :ref:`w2e-he039` | :ref:`w2e-he40and` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2e-he038`
 
 Please think of the one day during the last week on which you drank the most amount of drinks containing alcohol. (If there are more days than one on which you drank exactly the same amount, answer the question with reference to the most recent day). Please indicate below what kind of alcoholic drink you drank that day. Do not mention any nonalcoholic or reduced alcoholic drinks).
 
@@ -30,4 +34,5 @@ Smirnoff Ice
 .. image:: ../_screenshots/w2-he040.png
 
 
-:raw-html:`&larr;` :ref:`w2e-he039` | :ref:`w2e-he40and` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-he039` | :ref:`w2e-he40and` :raw-html:`&rarr;` 
+

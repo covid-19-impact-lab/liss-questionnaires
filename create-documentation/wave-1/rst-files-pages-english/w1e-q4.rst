@@ -5,7 +5,11 @@
         :format: html 
 
 `q4` – Subjective Effectiveness of Health Behaviors
-===============================================
+===================================================
+
+
+:raw-html:`&larr;` :ref:`w1e-q3` | :ref:`w1e-q5` :raw-html:`&rarr;` 
+
 
 In your opinion, how effective are the following actions for keeping you safe from the coronavirus? Please check all that apply.
 
@@ -27,4 +31,5 @@ In your opinion, how effective are the following actions for keeping you safe fr
 .. image:: ../_screenshots/w1-q4.png
 
 
-:raw-html:`&larr;` :ref:`w1e-q3` | :ref:`w1e-q5` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-q3` | :ref:`w1e-q5` :raw-html:`&rarr;` 
+

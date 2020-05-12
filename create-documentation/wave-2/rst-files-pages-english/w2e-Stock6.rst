@@ -5,8 +5,12 @@
         :format: html 
 
 `Stock6` – Amount Sold Among Those who Bought And Sold
-==================================================
-*Routing to the question depends on answer in:* :ref:`StockTrading`
+======================================================
+
+
+:raw-html:`&larr;` :ref:`w2e-Stock5` | :ref:`w2e-q31header` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2e-StockTrading`
 
 Compared to a typical two months-period of in recent years, which amount of risky assets such as stocks / mutual funds / corporate bonds did you sell?
 
@@ -19,4 +23,5 @@ Compared to a typical two months-period of in recent years, which amount of risk
 .. image:: ../_screenshots/w2-Stock6.png
 
 
-:raw-html:`&larr;` :ref:`w2e-Stock5` | :ref:`w2e-q31header` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-Stock5` | :ref:`w2e-q31header` :raw-html:`&rarr;` 
+

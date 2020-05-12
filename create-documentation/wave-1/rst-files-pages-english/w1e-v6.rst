@@ -5,7 +5,11 @@
         :format: html 
 
 `v6` – Government Action
-====================
+========================
+
+
+:raw-html:`&larr;` :ref:`w1e-v5` | :ref:`w1e-eva2` :raw-html:`&rarr;` 
+
 
 The government has taken measures to prevent infections and has put in place a large package to limit the economic consequences of the coronavirus outbreak. Do you agree with the following statements?
 
@@ -21,4 +25,5 @@ The government has taken measures to prevent infections and has put in place a l
 .. image:: ../_screenshots/w1-v6.png
 
 
-:raw-html:`&larr;` :ref:`w1e-v5` | :ref:`w1e-eva2` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-v5` | :ref:`w1e-eva2` :raw-html:`&rarr;` 
+

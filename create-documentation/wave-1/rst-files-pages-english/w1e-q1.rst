@@ -5,7 +5,11 @@
         :format: html 
 
 `q1` – Subjective Risks
-===================
+=======================
+
+
+:raw-html:`&larr;` :ref:`w1e-intro` | :ref:`w1e-q2` :raw-html:`&rarr;` 
+
 
 How likely do you think that the following events will happen in the light of the current coronavirus Outbreak?
 
@@ -22,4 +26,5 @@ How likely do you think that the following events will happen in the light of th
 .. image:: ../_screenshots/w1-q1.png
 
 
-:raw-html:`&larr;` :ref:`w1e-intro` | :ref:`w1e-q2` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-intro` | :ref:`w1e-q2` :raw-html:`&rarr;` 
+

@@ -5,7 +5,11 @@
         :format: html 
 
 `eva2h` – Liked Questionnaire
-=========================
+=============================
+
+
+:raw-html:`&larr;` :ref:`w2d-q31header` | :ref:`w2d-opm` :raw-html:`&rarr;` 
+
 
 NB: Maakt u alstublieft de vragenlijst af totdat u weer bij het beginscherm komt. Pas dan registreert het systeem de vragenlijst als volledig ingevuld. Tot slot. Wat vond u van deze vragenlijst:
 
@@ -24,4 +28,5 @@ NB: Maakt u alstublieft de vragenlijst af totdat u weer bij het beginscherm komt
 .. image:: ../_screenshots/w2-eva2h.png
 
 
-:raw-html:`&larr;` :ref:`w2d-q31header` | :ref:`w2d-opm` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-q31header` | :ref:`w2d-opm` :raw-html:`&rarr;` 
+

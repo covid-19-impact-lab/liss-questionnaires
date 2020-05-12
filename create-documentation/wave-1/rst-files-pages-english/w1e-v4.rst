@@ -5,8 +5,12 @@
         :format: html 
 
 `v4` – House Prices
-===============
-*Routing to the question depends on answer in:* :ref:`v3`
+===================
+
+
+:raw-html:`&larr;` :ref:`w1e-v3` | :ref:`w1e-v5` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w1e-v3`
 
 How many percent ?
 
@@ -19,4 +23,5 @@ How many percent ?
 .. image:: ../_screenshots/w1-v4.png
 
 
-:raw-html:`&larr;` :ref:`w1e-v3` | :ref:`w1e-v5` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-v3` | :ref:`w1e-v5` :raw-html:`&rarr;` 
+

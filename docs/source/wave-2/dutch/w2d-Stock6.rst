@@ -5,8 +5,12 @@
         :format: html 
 
 `Stock6` – Amount Sold Among Those who Bought And Sold
-==================================================
-*Routing to the question depends on answer in:* :ref:`StockTrading`
+======================================================
+
+
+:raw-html:`&larr;` :ref:`w2d-Stock5` | :ref:`w2d-q31header` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2d-StockTrading`
 
 In vergelijking met een normale periode van twee maanden in de afgelopen jaren, hebt u dan minder of meer van uw aandelen, bedrijfsobligaties, investeringen in beleggingsfondsen enz. verkocht?
 
@@ -19,4 +23,5 @@ In vergelijking met een normale periode van twee maanden in de afgelopen jaren, 
 .. image:: ../_screenshots/w2-Stock6.png
 
 
-:raw-html:`&larr;` :ref:`w2d-Stock5` | :ref:`w2d-q31header` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-Stock5` | :ref:`w2d-q31header` :raw-html:`&rarr;` 
+

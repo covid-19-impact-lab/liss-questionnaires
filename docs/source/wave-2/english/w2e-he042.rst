@@ -5,8 +5,12 @@
         :format: html 
 
 `he042` – Drug Intake Last Month
-============================
-*Routing to the question depends on answer in:* :ref:`he041`
+================================
+
+
+:raw-html:`&larr;` :ref:`w2e-he041` | :ref:`w2e-loneliness` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2e-he041`
 
 How often did you use these substances over the past month?
 
@@ -22,4 +26,5 @@ How often did you use these substances over the past month?
 .. image:: ../_screenshots/w2-he042.png
 
 
-:raw-html:`&larr;` :ref:`w2e-he041` | :ref:`w2e-loneliness` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-he041` | :ref:`w2e-loneliness` :raw-html:`&rarr;` 
+

@@ -1,62 +1,99 @@
 .. _wave2_questions_english:
 
 
-Questions Wave 2 (English)
-=========================
+Overview Questions Wave 2 (English)
+=====================================
 
+Introduction & Infection
+--------------------------
 
-All Questions in Order of Appearance
--------------------------------------
+.. toctree::
+   :maxdepth: 1
 
-   - :ref:`w2e-intro`
-   - :ref:`w2e-InfectionDiagnosed`
-   - :ref:`w2e-SelfPerceivedInfection`
-   - :ref:`w2e-q1header`
-   - :ref:`w2e-q7`
-   - :ref:`w2e-rook`
-   - :ref:`w2e-he035`
-   - :ref:`w2e-he036a`
-   - :ref:`w2e-he036b`
-   - :ref:`w2e-he036c`
-   - :ref:`w2e-he036d`
-   - :ref:`w2e-he038`
-   - :ref:`w2e-he039`
-   - :ref:`w2e-he040`
-   - :ref:`w2e-he40and`
-   - :ref:`w2e-he040a`
-   - :ref:`w2e-he040b`
-   - :ref:`w2e-he040c`
-   - :ref:`w2e-he040d`
-   - :ref:`w2e-he040e`
-   - :ref:`w2e-he040f`
-   - :ref:`w2e-he041`
-   - :ref:`w2e-he042`
-   - :ref:`w2e-loneliness`
-   - :ref:`w2e-socialcontact_hd`
-   - :ref:`w2e-socialcontact_vrg_hd`
-   - :ref:`w2e-q22`
-   - :ref:`w2e-q23`
-   - :ref:`w2e-q13`
-   - :ref:`w2e-Q14header_1`
-   - :ref:`w2e-q14header`
-   - :ref:`w2e-q15`
-   - :ref:`w2e-q16`
-   - :ref:`w2e-q17`
-   - :ref:`w2e-cruciaal`
-   - :ref:`w2e-cruciaal_notempl`
-   - :ref:`w2e-income`
-   - :ref:`w2e-expectedincome`
-   - :ref:`w2e-ExpUnempl_before`
-   - :ref:`w2e-ExpUnempl_today`
-   - :ref:`w2e-ExpEcGrowth_before`
-   - :ref:`w2e-ExpEcGrowth_today`
-   - :ref:`w2e-ExpInfl_before`
-   - :ref:`w2e-ExpInfl_today`
-   - :ref:`w2e-StockTrading`
-   - :ref:`w2e-Stock3`
-   - :ref:`w2e-Stock4`
-   - :ref:`w2e-Stock5`
-   - :ref:`w2e-Stock6`
-   - :ref:`w2e-q31header`
-   - :ref:`w2e-eva2h`
-   - :ref:`w2e-opm`
+   english/w2e-intro
+   english/w2e-InfectionDiagnosed
+   english/w2e-SelfPerceivedInfection
+   english/w2e-q1header
+   english/w2e-q7
+   
+Smoking & Alcohol Consumption
+------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   english/w2e-rook
+   english/w2e-he035
+   english/w2e-he036a
+   english/w2e-he036b
+   english/w2e-he036c
+   english/w2e-he036d
+   english/w2e-he038
+   english/w2e-he039
+   english/w2e-he040
+   english/w2e-he40and
+   english/w2e-he040a
+   english/w2e-he040b
+   english/w2e-he040c
+   english/w2e-he040d
+   english/w2e-he040e
+   english/w2e-he040f
+   english/w2e-he041
+   english/w2e-he042
+
+Loneliness & Social Contacts
+------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   english/w2e-loneliness
+   english/w2e-socialcontact_hd
+   english/w2e-socialcontact_vrg_hd
+
+Work and Childcare
+-------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   english/w2e-q22
+   english/w2e-q23
+   english/w2e-q13
+   english/w2e-Q14header_1
+   english/w2e-q14header
+   english/w2e-q15
+   english/w2e-q16
+   english/w2e-q17
+   english/w2e-cruciaal
+   english/w2e-cruciaal_notempl
+   english/w2e-income
+
+Economics Expectations & Investments
+---------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   english/w2e-expectedincome
+   english/w2e-ExpUnempl_before
+   english/w2e-ExpUnempl_today
+   english/w2e-ExpEcGrowth_before
+   english/w2e-ExpEcGrowth_today
+   english/w2e-ExpInfl_before
+   english/w2e-ExpInfl_today
+   english/w2e-StockTrading
+   english/w2e-Stock3
+   english/w2e-Stock4
+   english/w2e-Stock5
+   english/w2e-Stock6
+
+Concerns & Evaluation
+-----------------------
+
+.. toctree::
+   :maxdepth: 1
+   
+   english/w2e-q31header
+   english/w2e-eva2h
+   english/w2e-opm

@@ -5,8 +5,12 @@
         :format: html 
 
 `Stock3` – Amount Bought Among Buyers
-=================================
-*Routing to the question depends on answer in:* :ref:`StockTrading`
+=====================================
+
+
+:raw-html:`&larr;` :ref:`w2d-StockTrading` | :ref:`w2d-Stock4` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2d-StockTrading`
 
 In vergelijking met een normale periode van twee maanden in de afgelopen jaren, hebt u dan minder of meer uitgegeven aan aandelen, bedrijfsobligaties, investeringen in beleggingsfondsen enz.?
 
@@ -19,4 +23,5 @@ In vergelijking met een normale periode van twee maanden in de afgelopen jaren, 
 .. image:: ../_screenshots/w2-Stock3.png
 
 
-:raw-html:`&larr;` :ref:`w2d-StockTrading` | :ref:`w2d-Stock4` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-StockTrading` | :ref:`w2d-Stock4` :raw-html:`&rarr;` 
+

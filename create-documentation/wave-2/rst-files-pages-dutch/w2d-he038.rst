@@ -5,7 +5,11 @@
         :format: html 
 
 `he038` – Alcohol Consumption
-=========================
+=============================
+
+
+:raw-html:`&larr;` :ref:`w2d-he036d` | :ref:`w2d-he039` :raw-html:`&rarr;` 
+
 
 Hebt u in de afgelopen zeven dagen (zonder vandaag) een drank met alcohol gedronken?
 
@@ -18,4 +22,5 @@ Hebt u in de afgelopen zeven dagen (zonder vandaag) een drank met alcohol gedron
 .. image:: ../_screenshots/w2-he038.png
 
 
-:raw-html:`&larr;` :ref:`w2d-he036d` | :ref:`w2d-he039` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-he036d` | :ref:`w2d-he039` :raw-html:`&rarr;` 
+

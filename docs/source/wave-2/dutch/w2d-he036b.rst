@@ -5,8 +5,12 @@
         :format: html 
 
 `he036b` – Pipes Consumption
-========================
-*Routing to the question depends on answer in:* :ref:`he035`
+============================
+
+
+:raw-html:`&larr;` :ref:`w2d-he036a` | :ref:`w2d-he036c` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2d-he035`
 
 Hoeveel pijpen rook u gemiddeld per dag? 
 
@@ -14,4 +18,5 @@ Hoeveel pijpen rook u gemiddeld per dag?
 .. image:: ../_screenshots/w2-he036b.png
 
 
-:raw-html:`&larr;` :ref:`w2d-he036a` | :ref:`w2d-he036c` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-he036a` | :ref:`w2d-he036c` :raw-html:`&rarr;` 
+

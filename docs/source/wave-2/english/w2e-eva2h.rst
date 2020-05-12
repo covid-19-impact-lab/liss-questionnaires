@@ -5,7 +5,11 @@
         :format: html 
 
 `eva2h` – Liked Questionnaire
-=========================
+=============================
+
+
+:raw-html:`&larr;` :ref:`w2e-q31header` | :ref:`w2e-opm` :raw-html:`&rarr;` 
+
 
 Note: Please complete the questionnaire until you are returned to the home screen. Only then will the system register the questionnaire as completed. Finally. What did you think of this questionnaire?
 
@@ -23,4 +27,5 @@ Note: Please complete the questionnaire until you are returned to the home scree
 .. image:: ../_screenshots/w2-eva2h.png
 
 
-:raw-html:`&larr;` :ref:`w2e-q31header` | :ref:`w2e-opm` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-q31header` | :ref:`w2e-opm` :raw-html:`&rarr;` 
+

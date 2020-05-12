@@ -36,11 +36,13 @@ def create_pages(codebook, waveid, lanid, q_ids, q_fiter, q_groups, q_layout, q_
         path = target_dir + file_name +".rst"
         add_to_file(".. _"+ file_name +":", path) 
         add_to_file("\n \n .. role:: raw-html(raw) \n        :format: html \n", path)
-        add_to_file("`" + qid + "` – " + group_name + "\n"+ "="*len(qid + " " + group_name), path)     
         
+        add_to_file("`" + qid + "` – " + group_name + "\n"+ "="*len(file_name + " " + group_name), path)     
+        # Insert arrows to next & pervious
+        insert_arrows(waveid, lanid, qids, idx, path)
         # Add routing if present:
         if df.loc[df.index[0], q_fiter] != "-":
-            add_to_file("*Routing to the question depends on answer in:* :ref:`"+ str(df.loc[df.index[0], q_fiter]) +"`", path)
+            add_to_file("*Routing to the question depends on answer in:* :ref:`"+ waveid + lanid + '-' + str(df.loc[df.index[0], q_fiter]) +"`", path)
         else:
             pass
         
@@ -63,19 +65,23 @@ def create_pages(codebook, waveid, lanid, q_ids, q_fiter, q_groups, q_layout, q_
             raise ValueError("Page format in codebook is not correctly defined.")
     
         add_to_file(insert_image.format(image_path + waveid + "-" + qid + ".png"),path)
+        # Insert arrows to next & pervious
+        insert_arrows(waveid, lanid, qids, idx, path)
         
-        if idx == 0:
-            next_q = waveid + lanid + '-' + qids[idx+1]
-            add_to_file("\n\n:ref:`"+ next_q + "` :raw-html:`&rarr;`", path)
+        
+def insert_arrows(waveid, lanid, qids, idx, path):
+    if idx == 0:
+        next_q = waveid + lanid + '-' + qids[idx+1]
+        add_to_file("\n\n:ref:`"+ next_q + "` :raw-html:`&rarr;` \n", path)
 
-        elif idx == (len(qids)-1):
-            previous_q = waveid + lanid + '-' + qids[idx-1]
-            add_to_file("\n\n:raw-html:`&larr;` :ref:`" + previous_q +"`", path)
-        else:
-            previous_q = waveid + lanid + '-' + qids[idx-1]
-            next_q = waveid + lanid + '-' + qids[idx+1]
-            add_to_file("\n\n:raw-html:`&larr;` :ref:`" + previous_q + "` | :ref:`" + next_q + "` :raw-html:`&rarr;`", path)
-            
+    elif idx == (len(qids)-1):
+        previous_q = waveid + lanid + '-' + qids[idx-1]
+        add_to_file("\n\n:raw-html:`&larr;` :ref:`" + previous_q +"` \n", path)
+    else:
+        previous_q = waveid + lanid + '-' + qids[idx-1]
+        next_q = waveid + lanid + '-' + qids[idx+1]
+        add_to_file("\n\n:raw-html:`&larr;` :ref:`" + previous_q + "` | :ref:`" + next_q + "` :raw-html:`&rarr;` \n", path)
+
 def insert_table_question(df, path, q_text, q_sub_text, q_categories, q_varname):
     add_to_file(header_question.format(df.loc[df.index[0], q_text]), path)
     add_to_file(csv_entry.format(), path)

@@ -5,8 +5,12 @@
         :format: html 
 
 `he040e` – Other Alcohol 1 Consumption
-==================================
-*Routing to the question depends on answer in:* :ref:`he040`
+======================================
+
+
+:raw-html:`&larr;` :ref:`w2d-he040d` | :ref:`w2d-he040f` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2d-he040`
 
 Geeft u aan hoeveel hoeveel glazen deze alcoholische drank u op die dag hebt gedronken.
 (Reken grote glazen voor 2.) 
@@ -15,4 +19,5 @@ Geeft u aan hoeveel hoeveel glazen deze alcoholische drank u op die dag hebt ged
 .. image:: ../_screenshots/w2-he040e.png
 
 
-:raw-html:`&larr;` :ref:`w2d-he040d` | :ref:`w2d-he040f` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-he040d` | :ref:`w2d-he040f` :raw-html:`&rarr;` 
+

@@ -5,7 +5,11 @@
         :format: html 
 
 `StockTrading` – Stock Trading
-==========================
+==============================
+
+
+:raw-html:`&larr;` :ref:`w2d-ExpInfl_today` | :ref:`w2d-Stock3` :raw-html:`&rarr;` 
+
 
 We willen graag weten wat u met uw (eventuele) spaarvermogen hebt gedaan in de afgelopen maanden. Kiest u het antwoord dat het beste bij uw situatie past. Sinds half februari… 
 
@@ -23,4 +27,5 @@ We willen graag weten wat u met uw (eventuele) spaarvermogen hebt gedaan in de a
 .. image:: ../_screenshots/w2-StockTrading.png
 
 
-:raw-html:`&larr;` :ref:`w2d-ExpInfl_today` | :ref:`w2d-Stock3` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-ExpInfl_today` | :ref:`w2d-Stock3` :raw-html:`&rarr;` 
+

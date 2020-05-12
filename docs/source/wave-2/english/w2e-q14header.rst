@@ -5,8 +5,12 @@
         :format: html 
 
 `q14header` – Working Hours Extended
-================================
-*Routing to the question depends on answer in:* :ref:`q13`
+====================================
+
+
+:raw-html:`&larr;` :ref:`w2e-Q14header_1` | :ref:`w2e-q15` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2e-q13`
 
 On [date of March survey], you filled in the following hours of work. Please complete the last row, i.e., how many hours per week you have worked at the workplace and from home in the past seven days?
 
@@ -27,4 +31,5 @@ Enter zero (0) if you never work at your workplace or at home.
 .. image:: ../_screenshots/w2-q14header.png
 
 
-:raw-html:`&larr;` :ref:`w2e-Q14header_1` | :ref:`w2e-q15` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-Q14header_1` | :ref:`w2e-q15` :raw-html:`&rarr;` 
+

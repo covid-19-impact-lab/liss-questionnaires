@@ -5,7 +5,11 @@
         :format: html 
 
 `q7` – Expected Duration of Restrictions
-====================================
+========================================
+
+
+:raw-html:`&larr;` :ref:`w2d-q1header` | :ref:`w2d-rook` :raw-html:`&rarr;` 
+
 
 De regering heeft een aantal maatregelen genomen. Tot hoe lang denkt u dat de
 beperkingen die er nu zijn (in het alledaagse leven) van kracht zullen blijven?
@@ -19,4 +23,5 @@ beperkingen die er nu zijn (in het alledaagse leven) van kracht zullen blijven?
 .. image:: ../_screenshots/w2-q7.png
 
 
-:raw-html:`&larr;` :ref:`w2d-q1header` | :ref:`w2d-rook` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-q1header` | :ref:`w2d-rook` :raw-html:`&rarr;` 
+

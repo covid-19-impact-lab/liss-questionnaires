@@ -5,7 +5,11 @@
         :format: html 
 
 `q8` – Support for Policies
-=======================
+===========================
+
+
+:raw-html:`&larr;` :ref:`w1e-q7` | :ref:`w1e-q9` :raw-html:`&rarr;` 
+
 
 Given the spread of the pandemic today, do you disagree or agree with the following policy measures (whether they are implemented or not at present)?
 
@@ -23,4 +27,5 @@ Given the spread of the pandemic today, do you disagree or agree with the follow
 .. image:: ../_screenshots/w1-q8.png
 
 
-:raw-html:`&larr;` :ref:`w1e-q7` | :ref:`w1e-q9` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-q7` | :ref:`w1e-q9` :raw-html:`&rarr;` 
+

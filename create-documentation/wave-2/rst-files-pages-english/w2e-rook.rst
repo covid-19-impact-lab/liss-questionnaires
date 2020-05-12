@@ -5,7 +5,11 @@
         :format: html 
 
 `rook` – Smoking
-============
+================
+
+
+:raw-html:`&larr;` :ref:`w2e-q7` | :ref:`w2e-he035` :raw-html:`&rarr;` 
+
 
 The next few questions are about smoking and drinking. Do you currently smoke?
 
@@ -18,4 +22,5 @@ The next few questions are about smoking and drinking. Do you currently smoke?
 .. image:: ../_screenshots/w2-rook.png
 
 
-:raw-html:`&larr;` :ref:`w2e-q7` | :ref:`w2e-he035` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-q7` | :ref:`w2e-he035` :raw-html:`&rarr;` 
+

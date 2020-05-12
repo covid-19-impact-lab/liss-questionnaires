@@ -5,7 +5,11 @@
         :format: html 
 
 `q1header` – Subjective Risks
-=========================
+=============================
+
+
+:raw-html:`&larr;` :ref:`w2e-SelfPerceivedInfection` | :ref:`w2e-q7` :raw-html:`&rarr;` 
+
 
 On a scale of 0 to 100 percent, how likely do you think that the following events will happen in the the next three months?
 
@@ -20,4 +24,5 @@ On a scale of 0 to 100 percent, how likely do you think that the following event
 .. image:: ../_screenshots/w2-q1header.png
 
 
-:raw-html:`&larr;` :ref:`w2e-SelfPerceivedInfection` | :ref:`w2e-q7` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-SelfPerceivedInfection` | :ref:`w2e-q7` :raw-html:`&rarr;` 
+

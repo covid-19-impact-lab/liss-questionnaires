@@ -5,7 +5,11 @@
         :format: html 
 
 `q3` – Social Distancing
-====================
+========================
+
+
+:raw-html:`&larr;` :ref:`w1e-q2` | :ref:`w1e-q4` :raw-html:`&rarr;` 
+
 
 Which of these recommendations did you follow during the past week? Please check all that apply
 
@@ -27,4 +31,5 @@ Which of these recommendations did you follow during the past week? Please check
 .. image:: ../_screenshots/w1-q3.png
 
 
-:raw-html:`&larr;` :ref:`w1e-q2` | :ref:`w1e-q4` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-q2` | :ref:`w1e-q4` :raw-html:`&rarr;` 
+

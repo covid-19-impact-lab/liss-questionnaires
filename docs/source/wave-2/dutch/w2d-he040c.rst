@@ -5,8 +5,12 @@
         :format: html 
 
 `he040c` – Strong Alcohol Consumption
-=================================
-*Routing to the question depends on answer in:* :ref:`he040`
+=====================================
+
+
+:raw-html:`&larr;` :ref:`w2d-he040b` | :ref:`w2d-he040d` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2d-he040`
 
 Geeft u aan hoeveel van deze alcoholische drank u op die dag hebt gedronken. (Reken grote glazen voor 2.)
 
@@ -20,4 +24,5 @@ Geeft u aan hoeveel van deze alcoholische drank u op die dag hebt gedronken. (Re
 .. image:: ../_screenshots/w2-he040c.png
 
 
-:raw-html:`&larr;` :ref:`w2d-he040b` | :ref:`w2d-he040d` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-he040b` | :ref:`w2d-he040d` :raw-html:`&rarr;` 
+

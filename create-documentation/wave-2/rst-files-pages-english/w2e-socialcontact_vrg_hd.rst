@@ -5,7 +5,11 @@
         :format: html 
 
 `socialcontact_vrg_hd` – Contacts Normally
-======================================
+==========================================
+
+
+:raw-html:`&larr;` :ref:`w2e-socialcontact_hd` | :ref:`w2e-q22` :raw-html:`&rarr;` 
+
 
 Compared to a usual week prior to the coronavirus pandemic, how have the number of people with whom you had in-person and remote interactions changed?
 
@@ -20,4 +24,5 @@ Compared to a usual week prior to the coronavirus pandemic, how have the number 
 .. image:: ../_screenshots/w2-socialcontact_vrg_hd.png
 
 
-:raw-html:`&larr;` :ref:`w2e-socialcontact_hd` | :ref:`w2e-q22` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-socialcontact_hd` | :ref:`w2e-q22` :raw-html:`&rarr;` 
+

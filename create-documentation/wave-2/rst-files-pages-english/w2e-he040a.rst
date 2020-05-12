@@ -5,8 +5,12 @@
         :format: html 
 
 `he040a` – Beer Consumption
-=======================
-*Routing to the question depends on answer in:* :ref:`he040`
+===========================
+
+
+:raw-html:`&larr;` :ref:`w2e-he40and` | :ref:`w2e-he040b` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2e-he040`
 
 Can you indicate below how much beer (of normal strength, pilsner, white beer, dark
 beer, containing less than 6% alcohol) you drank that day?
@@ -22,4 +26,5 @@ beer, containing less than 6% alcohol) you drank that day?
 .. image:: ../_screenshots/w2-he040a.png
 
 
-:raw-html:`&larr;` :ref:`w2e-he40and` | :ref:`w2e-he040b` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-he40and` | :ref:`w2e-he040b` :raw-html:`&rarr;` 
+

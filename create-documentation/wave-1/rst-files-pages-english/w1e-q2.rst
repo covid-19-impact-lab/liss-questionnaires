@@ -5,7 +5,11 @@
         :format: html 
 
 `q2` – Vignettes: Risk of Hospitalization
-=====================================
+=========================================
+
+
+:raw-html:`&larr;` :ref:`w1e-q1` | :ref:`w1e-q3` :raw-html:`&rarr;` 
+
 
 How big do you think the chances are that the following people infected with the coronavirus will have to go to the hospital or will die in the next two months because of the coronavirus?
 
@@ -27,4 +31,5 @@ How big do you think the chances are that the following people infected with the
 .. image:: ../_screenshots/w1-q2.png
 
 
-:raw-html:`&larr;` :ref:`w1e-q1` | :ref:`w1e-q3` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-q1` | :ref:`w1e-q3` :raw-html:`&rarr;` 
+

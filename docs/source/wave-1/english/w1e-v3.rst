@@ -5,7 +5,11 @@
         :format: html 
 
 `v3` – House Prices
-===============
+===================
+
+
+:raw-html:`&larr;` :ref:`w1e-v2` | :ref:`w1e-v4` :raw-html:`&rarr;` 
+
 
 At what level will house prices in 12 months be compared to house prices in February (ie before the coronavirus outbreak)?
 
@@ -18,4 +22,5 @@ At what level will house prices in 12 months be compared to house prices in Febr
 .. image:: ../_screenshots/w1-v3.png
 
 
-:raw-html:`&larr;` :ref:`w1e-v2` | :ref:`w1e-v4` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-v2` | :ref:`w1e-v4` :raw-html:`&rarr;` 
+

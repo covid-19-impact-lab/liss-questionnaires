@@ -5,7 +5,11 @@
         :format: html 
 
 `ExpEcGrowth_today` – Expected Economic Growth Today
-================================================
+====================================================
+
+
+:raw-html:`&larr;` :ref:`w2d-ExpEcGrowth_before` | :ref:`w2d-ExpInfl_before` :raw-html:`&rarr;` 
+
 
 En wat zijn uw verwachtingen over de economische groei onder de
 omstandigheden van dit moment: (De economische groei was in de periode 2017-2019 ongeveer 2,5% per jaar.)
@@ -22,4 +26,5 @@ Let op, de antwoorden zijn veranderd.
 .. image:: ../_screenshots/w2-ExpEcGrowth_today.png
 
 
-:raw-html:`&larr;` :ref:`w2d-ExpEcGrowth_before` | :ref:`w2d-ExpInfl_before` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-ExpEcGrowth_before` | :ref:`w2d-ExpInfl_before` :raw-html:`&rarr;` 
+

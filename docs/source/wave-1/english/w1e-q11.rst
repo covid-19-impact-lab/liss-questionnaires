@@ -5,8 +5,12 @@
         :format: html 
 
 `q11` – Reasons for Complying with Curfew
-=====================================
-*Routing to the question depends on answer in:* :ref:`q10`
+=========================================
+
+
+:raw-html:`&larr;` :ref:`w1e-q10` | :ref:`w1e-q12` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w1e-q10`
 
 For what reasons would you stay home? Multiple answers possible.
 
@@ -28,4 +32,5 @@ For what reasons would you stay home? Multiple answers possible.
 .. image:: ../_screenshots/w1-q11.png
 
 
-:raw-html:`&larr;` :ref:`w1e-q10` | :ref:`w1e-q12` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-q10` | :ref:`w1e-q12` :raw-html:`&rarr;` 
+

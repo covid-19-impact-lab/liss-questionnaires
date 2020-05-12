@@ -5,8 +5,12 @@
         :format: html 
 
 `he036a` – Cigarette Consumption
-============================
-*Routing to the question depends on answer in:* :ref:`he035`
+================================
+
+
+:raw-html:`&larr;` :ref:`w2d-he035` | :ref:`w2d-he036b` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2d-he035`
 
 Hoeveel sigaretten (inclusief shag) rook u gemiddeld per dag? 
 
@@ -14,4 +18,5 @@ Hoeveel sigaretten (inclusief shag) rook u gemiddeld per dag?
 .. image:: ../_screenshots/w2-he036a.png
 
 
-:raw-html:`&larr;` :ref:`w2d-he035` | :ref:`w2d-he036b` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-he035` | :ref:`w2d-he036b` :raw-html:`&rarr;` 
+

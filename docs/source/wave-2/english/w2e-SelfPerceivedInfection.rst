@@ -5,7 +5,11 @@
         :format: html 
 
 `SelfPerceivedInfection` – SelfPerceivedInfection
-=============================================
+=================================================
+
+
+:raw-html:`&larr;` :ref:`w2e-InfectionDiagnosed` | :ref:`w2e-q1header` :raw-html:`&rarr;` 
+
 
 Do you think you’ve been infected with the coronavirus (COVID-19)?
 
@@ -18,4 +22,5 @@ Do you think you’ve been infected with the coronavirus (COVID-19)?
 .. image:: ../_screenshots/w2-SelfPerceivedInfection.png
 
 
-:raw-html:`&larr;` :ref:`w2e-InfectionDiagnosed` | :ref:`w2e-q1header` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-InfectionDiagnosed` | :ref:`w2e-q1header` :raw-html:`&rarr;` 
+

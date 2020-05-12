@@ -5,7 +5,11 @@
         :format: html 
 
 `q5` – Contact with the Elderly
-===========================
+===============================
+
+
+:raw-html:`&larr;` :ref:`w1e-q4` | :ref:`w1e-q6` :raw-html:`&rarr;` 
+
 
 Have you had personal, social contact with older people in the past seven days?
 
@@ -18,4 +22,5 @@ Have you had personal, social contact with older people in the past seven days?
 .. image:: ../_screenshots/w1-q5.png
 
 
-:raw-html:`&larr;` :ref:`w1e-q4` | :ref:`w1e-q6` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-q4` | :ref:`w1e-q6` :raw-html:`&rarr;` 
+

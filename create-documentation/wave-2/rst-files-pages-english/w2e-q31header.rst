@@ -5,7 +5,11 @@
         :format: html 
 
 `q31header` – Concerns
-==================
+======================
+
+
+:raw-html:`&larr;` :ref:`w2e-Stock6` | :ref:`w2e-eva2h` :raw-html:`&rarr;` 
+
 
 When you think about the next four weeks, how concerned are you about the following?
 
@@ -25,4 +29,5 @@ When you think about the next four weeks, how concerned are you about the follow
 .. image:: ../_screenshots/w2-q31header.png
 
 
-:raw-html:`&larr;` :ref:`w2e-Stock6` | :ref:`w2e-eva2h` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-Stock6` | :ref:`w2e-eva2h` :raw-html:`&rarr;` 
+

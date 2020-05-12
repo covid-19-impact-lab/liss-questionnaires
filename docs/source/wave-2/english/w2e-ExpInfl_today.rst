@@ -5,7 +5,11 @@
         :format: html 
 
 `ExpInfl_today` – Expected Inflation Today
-======================================
+==========================================
+
+
+:raw-html:`&larr;` :ref:`w2e-ExpInfl_before` | :ref:`w2e-StockTrading` :raw-html:`&rarr;` 
+
 
 Second, we would like to know the inflation rate that you expect for the years 2020, 2021, and 2022 as of today.
 
@@ -20,4 +24,5 @@ Second, we would like to know the inflation rate that you expect for the years 2
 .. image:: ../_screenshots/w2-ExpInfl_today.png
 
 
-:raw-html:`&larr;` :ref:`w2e-ExpInfl_before` | :ref:`w2e-StockTrading` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-ExpInfl_before` | :ref:`w2e-StockTrading` :raw-html:`&rarr;` 
+

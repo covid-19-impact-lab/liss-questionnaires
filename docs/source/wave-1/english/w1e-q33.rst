@@ -5,7 +5,11 @@
         :format: html 
 
 `q33` – Appropriateness of Policy Response
-======================================
+==========================================
+
+
+:raw-html:`&larr;` :ref:`w1e-q31` | :ref:`w1e-q32` :raw-html:`&rarr;` 
+
 
 Do you think that the government is taking too few or too many measures to combat the coronavirus crisis in the following areas?
 
@@ -21,4 +25,5 @@ Do you think that the government is taking too few or too many measures to comba
 .. image:: ../_screenshots/w1-q33.png
 
 
-:raw-html:`&larr;` :ref:`w1e-q31` | :ref:`w1e-q32` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-q31` | :ref:`w1e-q32` :raw-html:`&rarr;` 
+

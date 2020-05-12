@@ -5,8 +5,12 @@
         :format: html 
 
 `q17` – Reasons for Working Not Or Less Among the Self-Employed
-===========================================================
-*Routing to the question depends on answer in:* :ref:`q14header`
+===============================================================
+
+
+:raw-html:`&larr;` :ref:`w2d-q16` | :ref:`w2d-cruciaal` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2d-q14header`
 
 Waarom werkte u minder of helemaal niet in de afgelopen zeven dagen Meerdere antwoorden mogelijk
 
@@ -30,4 +34,5 @@ Waarom werkte u minder of helemaal niet in de afgelopen zeven dagen Meerdere ant
 .. image:: ../_screenshots/w2-q17.png
 
 
-:raw-html:`&larr;` :ref:`w2d-q16` | :ref:`w2d-cruciaal` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-q16` | :ref:`w2d-cruciaal` :raw-html:`&rarr;` 
+

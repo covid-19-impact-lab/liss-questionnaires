@@ -5,8 +5,12 @@
         :format: html 
 
 `q14header` – Working Hours Extended
-================================
-*Routing to the question depends on answer in:* :ref:`q13`
+====================================
+
+
+:raw-html:`&larr;` :ref:`w2d-Q14header_1` | :ref:`w2d-q15` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2d-q13`
 
 Op DatumB hebt u laten weten hoeveel uur u toen werkte in die week. Hoeveel uur per week werkte u in de afgelopen zeven dagen op uw werkplek en vanuit huis? Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'. Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.
 
@@ -23,4 +27,5 @@ Op DatumB hebt u laten weten hoeveel uur u toen werkte in die week. Hoeveel uur 
 .. image:: ../_screenshots/w2-q14header.png
 
 
-:raw-html:`&larr;` :ref:`w2d-Q14header_1` | :ref:`w2d-q15` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-Q14header_1` | :ref:`w2d-q15` :raw-html:`&rarr;` 
+

@@ -5,7 +5,11 @@
         :format: html 
 
 `rook` – Smoking
-============
+================
+
+
+:raw-html:`&larr;` :ref:`w2d-q7` | :ref:`w2d-he035` :raw-html:`&rarr;` 
+
 
 Nu volgen er enkele vragen over roken en drankgebruik. Rookt u op dit moment?
 
@@ -18,4 +22,5 @@ Nu volgen er enkele vragen over roken en drankgebruik. Rookt u op dit moment?
 .. image:: ../_screenshots/w2-rook.png
 
 
-:raw-html:`&larr;` :ref:`w2d-q7` | :ref:`w2d-he035` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-q7` | :ref:`w2d-he035` :raw-html:`&rarr;` 
+

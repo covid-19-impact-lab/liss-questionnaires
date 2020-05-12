@@ -5,8 +5,12 @@
         :format: html 
 
 `q20` – Availability to Help
-========================
-*Routing to the question depends on answer in:* :ref:`q19`
+============================
+
+
+:raw-html:`&larr;` :ref:`w1e-q19` | :ref:`w1e-q21` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w1e-q19`
 
 Suppose healthcare is overloaded by patients infected with the coronavirus. To what extent are you willing to volunteer in hospitals or retirement homes and care for people who are very ill from the coronavirus, even if that means that you are likely to contract the virus yourself?
 
@@ -19,4 +23,5 @@ Suppose healthcare is overloaded by patients infected with the coronavirus. To w
 .. image:: ../_screenshots/w1-q20.png
 
 
-:raw-html:`&larr;` :ref:`w1e-q19` | :ref:`w1e-q21` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-q19` | :ref:`w1e-q21` :raw-html:`&rarr;` 
+

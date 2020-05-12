@@ -5,7 +5,11 @@
         :format: html 
 
 `ExpInfl_today` – Expected Inflation Today
-======================================
+==========================================
+
+
+:raw-html:`&larr;` :ref:`w2d-ExpInfl_before` | :ref:`w2d-StockTrading` :raw-html:`&rarr;` 
+
 
 En wat zijn uw verwachtingen over de inflatie (een negatief percentage betekent
 dat prijzen dalen) onder de omstandigheden van dit moment:
@@ -22,4 +26,5 @@ dat prijzen dalen) onder de omstandigheden van dit moment:
 .. image:: ../_screenshots/w2-ExpInfl_today.png
 
 
-:raw-html:`&larr;` :ref:`w2d-ExpInfl_before` | :ref:`w2d-StockTrading` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-ExpInfl_before` | :ref:`w2d-StockTrading` :raw-html:`&rarr;` 
+

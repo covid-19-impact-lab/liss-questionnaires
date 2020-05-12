@@ -5,8 +5,12 @@
         :format: html 
 
 `he40and` – Alcohol Type
-====================
-*Routing to the question depends on answer in:* :ref:`he040`
+========================
+
+
+:raw-html:`&larr;` :ref:`w2d-he040` | :ref:`w2d-he040a` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2d-he040`
 
 Welke andere soorten dranken met alcohol bedoelt u? U kunt er maximaal twee noemen.
 
@@ -19,4 +23,5 @@ Welke andere soorten dranken met alcohol bedoelt u? U kunt er maximaal twee noem
 .. image:: ../_screenshots/w2-he40and.png
 
 
-:raw-html:`&larr;` :ref:`w2d-he040` | :ref:`w2d-he040a` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-he040` | :ref:`w2d-he040a` :raw-html:`&rarr;` 
+

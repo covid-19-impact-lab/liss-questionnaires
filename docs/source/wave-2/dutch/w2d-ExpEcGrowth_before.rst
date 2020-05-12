@@ -5,7 +5,11 @@
         :format: html 
 
 `ExpEcGrowth_before` – Expected Economic Growth Before
-==================================================
+======================================================
+
+
+:raw-html:`&larr;` :ref:`w2d-ExpUnempl_today` | :ref:`w2d-ExpEcGrowth_today` :raw-html:`&rarr;` 
+
 
 We willen graag weten wat u verwachtte dat de groei van de economie in Nederland zou zijn, en of de gevolgen van het coronavirus deze verwachting zal veranderen. De economische groei, dat wil zeggen, de verandering van de hoeveelheid goederen en diensten die Nederland kan gebruiken, was in de periode 2017-2019 ongeveer 2,5% per jaar.
 
@@ -26,4 +30,5 @@ Uw verwachtingen over de economische groei vóórdat er sprake was van de uitbra
 .. image:: ../_screenshots/w2-ExpEcGrowth_before.png
 
 
-:raw-html:`&larr;` :ref:`w2d-ExpUnempl_today` | :ref:`w2d-ExpEcGrowth_today` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-ExpUnempl_today` | :ref:`w2d-ExpEcGrowth_today` :raw-html:`&rarr;` 
+

@@ -5,7 +5,11 @@
         :format: html 
 
 `InfectionDiagnosed` – InfectionDiagnosed
-=====================================
+=========================================
+
+
+:raw-html:`&larr;` :ref:`w2e-intro` | :ref:`w2e-SelfPerceivedInfection` :raw-html:`&rarr;` 
+
 
 Has a doctor or another healthcare professional diagnosed you with the coronavirus (COVID-19)?
 
@@ -18,4 +22,5 @@ Has a doctor or another healthcare professional diagnosed you with the coronavir
 .. image:: ../_screenshots/w2-InfectionDiagnosed.png
 
 
-:raw-html:`&larr;` :ref:`w2e-intro` | :ref:`w2e-SelfPerceivedInfection` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-intro` | :ref:`w2e-SelfPerceivedInfection` :raw-html:`&rarr;` 
+

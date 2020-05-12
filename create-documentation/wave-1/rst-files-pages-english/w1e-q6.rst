@@ -5,7 +5,11 @@
         :format: html 
 
 `q6` – Subjective Effectiveness of Policies
-=======================================
+===========================================
+
+
+:raw-html:`&larr;` :ref:`w1e-q5` | :ref:`w1e-q7` :raw-html:`&rarr;` 
+
 
 Given the spread of the pandemic today, how effective do you think are the following policy measures (whether they are implemented or not at present)?
 
@@ -24,4 +28,5 @@ Given the spread of the pandemic today, how effective do you think are the follo
 .. image:: ../_screenshots/w1-q6.png
 
 
-:raw-html:`&larr;` :ref:`w1e-q5` | :ref:`w1e-q7` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w1e-q5` | :ref:`w1e-q7` :raw-html:`&rarr;` 
+

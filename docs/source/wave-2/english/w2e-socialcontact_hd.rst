@@ -5,7 +5,11 @@
         :format: html 
 
 `socialcontact_hd` – Contacts past 7 Days
-=====================================
+=========================================
+
+
+:raw-html:`&larr;` :ref:`w2e-loneliness` | :ref:`w2e-socialcontact_vrg_hd` :raw-html:`&rarr;` 
+
 
 We are interested in the in-person or remote (online, phone) interactions you had over the past seven days that lasted at least five minutes. With how many different people did you have such contacts over the past seven days?
 
@@ -18,4 +22,5 @@ We are interested in the in-person or remote (online, phone) interactions you ha
 .. image:: ../_screenshots/w2-socialcontact_hd.png
 
 
-:raw-html:`&larr;` :ref:`w2e-loneliness` | :ref:`w2e-socialcontact_vrg_hd` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-loneliness` | :ref:`w2e-socialcontact_vrg_hd` :raw-html:`&rarr;` 
+

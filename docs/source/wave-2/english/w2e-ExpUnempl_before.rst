@@ -5,7 +5,11 @@
         :format: html 
 
 `ExpUnempl_before` – Expected Unemployment Before
-=============================================
+=================================================
+
+
+:raw-html:`&larr;` :ref:`w2e-expectedincome` | :ref:`w2e-ExpUnempl_today` :raw-html:`&rarr;` 
+
 
 We are also interested in your expectations of the rate of unemployment in the Netherlands, and how the impact of the corona virus has affected your expectations. Specifically, we would like to know what you think the unemployment rate would have been without the coronavirus pandemic and what it will likely be now with the pandemic.  The unemployment rate measures how many people out of 100 who would like to work do not have a job. On average, the unemployment rate was around 4% for the years 2017-2019. 
 
@@ -23,4 +27,5 @@ First, we would like to know the unemployment rates you expected for the years 2
 .. image:: ../_screenshots/w2-ExpUnempl_before.png
 
 
-:raw-html:`&larr;` :ref:`w2e-expectedincome` | :ref:`w2e-ExpUnempl_today` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-expectedincome` | :ref:`w2e-ExpUnempl_today` :raw-html:`&rarr;` 
+

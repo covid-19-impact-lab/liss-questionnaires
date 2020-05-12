@@ -5,8 +5,12 @@
         :format: html 
 
 `cruciaal_notempl` – Crucial Former Profession Among Unemployed
-===========================================================
-*Routing to the question depends on answer in:* :ref:`q14header`
+===============================================================
+
+
+:raw-html:`&larr;` :ref:`w2d-cruciaal` | :ref:`w2d-income` :raw-html:`&rarr;` 
+
+*Routing to the question depends on answer in:* :ref:`w2d-q14header`
 
 Valt het beroep dat u hebt uitgeoefend onder de cruciale beroepsgroep? Als u nooit gewerkt hebt, kunt u 'niet van toepassing' antwoorden.
 
@@ -19,4 +23,5 @@ Valt het beroep dat u hebt uitgeoefend onder de cruciale beroepsgroep? Als u noo
 .. image:: ../_screenshots/w2-cruciaal_notempl.png
 
 
-:raw-html:`&larr;` :ref:`w2d-cruciaal` | :ref:`w2d-income` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2d-cruciaal` | :ref:`w2d-income` :raw-html:`&rarr;` 
+

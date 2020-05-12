@@ -5,7 +5,11 @@
         :format: html 
 
 `ExpInfl_before` – Expected Inflation Before
-========================================
+============================================
+
+
+:raw-html:`&larr;` :ref:`w2e-ExpEcGrowth_today` | :ref:`w2e-ExpInfl_today` :raw-html:`&rarr;` 
+
 
 We are interested in your expectations of the inflation rate in the Netherlands (as measured by changes of the Consumer Price Index), and how the impact of the corona virus has affected your expectations. On average, consumer prices have grown by around 1.8% in the years 2017-2019. 
 
@@ -22,4 +26,5 @@ First, we would like to know the inflation rate that you expected for the years 
 .. image:: ../_screenshots/w2-ExpInfl_before.png
 
 
-:raw-html:`&larr;` :ref:`w2e-ExpEcGrowth_today` | :ref:`w2e-ExpInfl_today` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-ExpEcGrowth_today` | :ref:`w2e-ExpInfl_today` :raw-html:`&rarr;` 
+

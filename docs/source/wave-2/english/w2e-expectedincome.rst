@@ -5,7 +5,11 @@
         :format: html 
 
 `expectedincome` – Expected Income Next Years
-=========================================
+=============================================
+
+
+:raw-html:`&larr;` :ref:`w2e-income` | :ref:`w2e-ExpUnempl_before` :raw-html:`&rarr;` 
+
 
 Besides your monthly income in the last three months, we are also interested in your expectations of your household’s total annual gross income this year and in the next two years before taxes. By household’s total annual gross income  for the years 2020, 2021, and 2022 we mean all income such as earnings, business income, pensions, unemployment insurance payments, etc., that your household members may have before taxes in these years. 
 
@@ -23,4 +27,5 @@ Please state your expected total annual gross household income without and with 
 .. image:: ../_screenshots/w2-expectedincome.png
 
 
-:raw-html:`&larr;` :ref:`w2e-income` | :ref:`w2e-ExpUnempl_before` :raw-html:`&rarr;`
+:raw-html:`&larr;` :ref:`w2e-income` | :ref:`w2e-ExpUnempl_before` :raw-html:`&rarr;` 
+
