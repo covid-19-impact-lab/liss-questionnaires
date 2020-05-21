@@ -4,7 +4,7 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`Stock5` – Amount Bought Among Those who Bought And Sold
+`Stock5` – Amount Bought Among Those Who Bought And Sold
 ========================================================
 
 

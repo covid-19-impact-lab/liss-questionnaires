@@ -4,8 +4,8 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`cruciaal` – Crucial Profession Among Employed
-==============================================
+`cruciaal` – Essential Profession Among Employed
+================================================
 
 
 :raw-html:`&larr;` :ref:`w2d-q17` | :ref:`w2d-cruciaal_notempl` :raw-html:`&rarr;` 

@@ -8,7 +8,7 @@
 ===================================
 
 
-:raw-html:`&larr;` :ref:`w2d-socialcontact_vrg_hd` | :ref:`w2d-q23` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w2d-soccompt` | :ref:`w2d-q23` :raw-html:`&rarr;` 
 
 
 Hoeveel kinderen jonger dan 12 jaar zijn er in uw huishouden? 
@@ -17,5 +17,5 @@ Hoeveel kinderen jonger dan 12 jaar zijn er in uw huishouden?
 .. image:: ../_screenshots/w2-q22.png
 
 
-:raw-html:`&larr;` :ref:`w2d-socialcontact_vrg_hd` | :ref:`w2d-q23` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w2d-soccompt` | :ref:`w2d-q23` :raw-html:`&rarr;` 
 

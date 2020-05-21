@@ -4,8 +4,8 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`InfectionDiagnosed` – InfectionDiagnosed
-=========================================
+`InfectionDiagnosed` – Infection Diagnosed
+==========================================
 
 
 :raw-html:`&larr;` :ref:`w2e-intro` | :ref:`w2e-SelfPerceivedInfection` :raw-html:`&rarr;` 

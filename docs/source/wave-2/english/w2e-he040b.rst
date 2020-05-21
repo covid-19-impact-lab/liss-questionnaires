@@ -19,7 +19,7 @@ you drank that day
    :delim: |
 
            number of glasses (count large glasses as 2) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           6 number of half liter glasses (pints) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           number of half liter glasses (pints) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
            number of half liter cans or bottles | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
            number of small cans or bottles | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
 

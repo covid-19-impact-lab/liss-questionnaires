@@ -13,3 +13,5 @@ In this questionnaire, respondents were asked about their living situation durin
 
    questions_english
    questions_dutch
+   variable_overview_w2
+

@@ -14,16 +14,13 @@
 
 Why did you work are you not working less or not at all in the past seven daysthe moment? Multiple answers possible
 
-
 :raw-html:`&#10063;` – Less business activity of my company because of economic conditions
-
 
 :raw-html:`&#10063;` – Because of the risk of infection, the government shut down my company for the time being.
 
-:raw-html:`&#10063;` – Because of the risk of infection, we closed the entire company is closed for the time being due to the risk of contamination
+:raw-html:`&#10063;` – We closed the entire company for the time being due to the risk of contamination
 
 :raw-html:`&#10063;` – I need to take care of people (children, parents) who depend on me
-
 
 :raw-html:`&#10063;` – I have been sick / quarantined.
 

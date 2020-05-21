@@ -1,11 +1,11 @@
-.. _w2d-he40and:
+.. _w2d-he040and:
 
  
  .. role:: raw-html(raw) 
         :format: html 
 
-`he40and` – Alcohol Type
-========================
+`he040and` – Alcohol Type
+=========================
 
 
 :raw-html:`&larr;` :ref:`w2d-he040` | :ref:`w2d-he040a` :raw-html:`&rarr;` 
@@ -20,7 +20,7 @@ Welke andere soorten dranken met alcohol bedoelt u? U kunt er maximaal twee noem
            ander soort alcoholische drank | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
            ander soort alcoholische drank | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
 
-.. image:: ../_screenshots/w2-he40and.png
+.. image:: ../_screenshots/w2-he040and.png
 
 
 :raw-html:`&larr;` :ref:`w2d-he040` | :ref:`w2d-he040a` :raw-html:`&rarr;` 
