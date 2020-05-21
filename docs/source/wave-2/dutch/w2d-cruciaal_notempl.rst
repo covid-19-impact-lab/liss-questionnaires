@@ -4,8 +4,8 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`cruciaal_notempl` – Crucial Former Profession Among Unemployed
-===============================================================
+`cruciaal_notempl` – Essential Former Profession Among Unemployed
+=================================================================
 
 
 :raw-html:`&larr;` :ref:`w2d-cruciaal` | :ref:`w2d-income` :raw-html:`&rarr;` 

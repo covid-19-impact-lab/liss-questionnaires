@@ -31,7 +31,7 @@ Smoking & Alcohol Consumption
    dutch/w2d-he038
    dutch/w2d-he039
    dutch/w2d-he040
-   dutch/w2d-he40and
+   dutch/w2d-he040and
    dutch/w2d-he040a
    dutch/w2d-he040b
    dutch/w2d-he040c
@@ -48,8 +48,8 @@ Loneliness & Social Contacts
    :maxdepth: 1
 
    dutch/w2d-loneliness
-   dutch/w2d-socialcontact_hd
-   dutch/w2d-socialcontact_vrg_hd
+   dutch/w2d-soccont
+   dutch/w2d-soccompt
 
 Work and Childcare
 -------------------

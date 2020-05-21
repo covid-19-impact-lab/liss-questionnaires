@@ -1,11 +1,11 @@
-.. _w2e-he40and:
+.. _w2e-he040and:
 
  
  .. role:: raw-html(raw) 
         :format: html 
 
-`he40and` – Alcohol Type
-========================
+`he040and` – Alcohol Type
+=========================
 
 
 :raw-html:`&larr;` :ref:`w2e-he040` | :ref:`w2e-he040a` :raw-html:`&rarr;` 
@@ -20,7 +20,7 @@ What other types of drinks containing alcohol do you mean? You can list a maximu
            other type of alcoholic drink | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
            other type of alcoholic drink | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
 
-.. image:: ../_screenshots/w2-he40and.png
+.. image:: ../_screenshots/w2-he040and.png
 
 
 :raw-html:`&larr;` :ref:`w2e-he040` | :ref:`w2e-he040a` :raw-html:`&rarr;` 

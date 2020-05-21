@@ -31,7 +31,7 @@ Smoking & Alcohol Consumption
    english/w2e-he038
    english/w2e-he039
    english/w2e-he040
-   english/w2e-he40and
+   english/w2e-he040and
    english/w2e-he040a
    english/w2e-he040b
    english/w2e-he040c
@@ -48,9 +48,8 @@ Loneliness & Social Contacts
    :maxdepth: 1
 
    english/w2e-loneliness
-   english/w2e-socialcontact_hd
-   english/w2e-socialcontact_vrg_hd
-
+   english/w2e-soccont
+   english/w2e-soccompt
 Work and Childcare
 -------------------
 
@@ -69,7 +68,7 @@ Work and Childcare
    english/w2e-cruciaal_notempl
    english/w2e-income
 
-Economics Expectations & Investments
+Economic Expectations & Investments
 ---------------------------------------
 
 .. toctree::

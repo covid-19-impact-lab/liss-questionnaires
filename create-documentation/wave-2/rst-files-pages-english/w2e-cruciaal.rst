@@ -4,8 +4,8 @@
  .. role:: raw-html(raw) 
         :format: html 
 
-`cruciaal` – Crucial Profession Among Employed
-==============================================
+`cruciaal` – Essential Profession Among Employed
+================================================
 
 
 :raw-html:`&larr;` :ref:`w2e-q17` | :ref:`w2e-cruciaal_notempl` :raw-html:`&rarr;` 
@@ -13,7 +13,7 @@
 *Routing to the question depends on answer in:* :ref:`w2e-q14header`
 
 
-Does your job qualify to be a crucial profession?
+Does your job qualify to be an essential profession?
 
 .. csv-table::
    :delim: |

@@ -8,7 +8,7 @@
 =========================
 
 
-:raw-html:`&larr;` :ref:`w2d-he042` | :ref:`w2d-socialcontact_hd` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w2d-he042` | :ref:`w2d-soccont` :raw-html:`&rarr;` 
 
 
 Wilt u voor elke uitspraak aangeven in hoeverre die op u van toepassing is, op basis van hoe u zich nu voelt?
@@ -27,5 +27,5 @@ Wilt u voor elke uitspraak aangeven in hoeverre die op u van toepassing is, op b
 .. image:: ../_screenshots/w2-loneliness.png
 
 
-:raw-html:`&larr;` :ref:`w2d-he042` | :ref:`w2d-socialcontact_hd` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w2d-he042` | :ref:`w2d-soccont` :raw-html:`&rarr;` 
 
