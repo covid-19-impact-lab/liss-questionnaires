@@ -10,4 +10,4 @@ The table below shows an overview of the variable names in wave 1 and 2 as well 
 .. csv-table:: Overview of Variables Wave 1 & 2
    :file: variables.csv
    :header-rows: 1
-   :widths: 30 20 25 25
+   :widths: 20 20 20 20 20

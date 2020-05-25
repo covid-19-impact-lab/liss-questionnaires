@@ -10,4 +10,4 @@ The table below contains an overview of the variables in wave 1 and the question
 .. csv-table:: Overview of Variables Wave 1
    :file: variables-w1.csv
    :header-rows: 1
-   :widths: 40 30 30
+   :widths: 25 25 25 25
