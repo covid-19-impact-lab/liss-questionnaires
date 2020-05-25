@@ -19,3 +19,24 @@ Hoeveel kinderen jonger dan 12 jaar zijn er in uw huishouden?
 
 :raw-html:`&larr;` :ref:`w2d-soccompt` | :ref:`w2d-q23` :raw-html:`&rarr;` 
 
+.. _w2d-q22:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+`q22` – Young Children in Household
+===================================
+
+
+:raw-html:`&larr;` :ref:`w2d-soccompt` | :ref:`w2d-q23` :raw-html:`&rarr;` 
+
+
+Hoeveel kinderen jonger dan 12 jaar zijn er in uw huishouden? 
+
+
+.. image:: ../_screenshots/w2-q22.png
+
+
+:raw-html:`&larr;` :ref:`w2d-soccompt` | :ref:`w2d-q23` :raw-html:`&rarr;` 
+
