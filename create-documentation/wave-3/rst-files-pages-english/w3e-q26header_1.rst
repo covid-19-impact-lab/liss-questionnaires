@@ -8,7 +8,7 @@
 =====================================================
 
 
-:raw-html:`&larr;` :ref:`w3e-q26header` | :ref:`w3e-Q26header_1` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3e-q26header` | :ref:`w3e-q27header` :raw-html:`&rarr;` 
 
 *Routing to the question depends on answer in:* :ref:`w3e-EmploymentStatus`
 
@@ -20,9 +20,11 @@ In your opinion, what are the chances of the following situations occurring a ye
            I keep my job because my employer / company is not financially affected by the coronavirus or is financially healthy enough to continue to pay wages | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
            I keep my job because the government offers help to my employer / company (e.g. through an allowance for labour costs). | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
            I have a new job with another employer | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           I am unemployed / do not belong to the labour force anymore / retired / I have a disability pension | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Something else happens | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
 
 .. image:: ../_screenshots/w3-q26header_1.png
 
 
-:raw-html:`&larr;` :ref:`w3e-q26header` | :ref:`w3e-Q26header_1` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3e-q26header` | :ref:`w3e-q27header` :raw-html:`&rarr;` 
 

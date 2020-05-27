@@ -8,7 +8,7 @@
 =====================================================
 
 
-:raw-html:`&larr;` :ref:`w3e-Q26header_1` | :ref:`w3e-Q27header_1` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3e-q26header_1` | :ref:`w3e-Q27header_1` :raw-html:`&rarr;` 
 
 *Routing to the question depends on answer in:* :ref:`w3e-EmploymentStatus`
 
@@ -27,5 +27,5 @@ In your opinion, what are the chances of the following situations occurring in A
 .. image:: ../_screenshots/w3-q27header.png
 
 
-:raw-html:`&larr;` :ref:`w3e-Q26header_1` | :ref:`w3e-Q27header_1` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3e-q26header_1` | :ref:`w3e-Q27header_1` :raw-html:`&rarr;` 
 

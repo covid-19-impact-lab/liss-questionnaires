@@ -56,10 +56,8 @@ Employment & Retirement
    english/w3e-pens_later
    english/w3e-q26header
    english/w3e-q26header_1
-   english/w3e-Q26header_1
    english/w3e-q27header
    english/w3e-Q27header_1
-   english/w3e-q27_totaal_1 Totaal
    english/w3e-q27header_unempl
    english/w3e-pens_gekort
    english/w3e-korting
@@ -79,6 +77,8 @@ Activities & Economic Situation
 
 Children & School from Home
 -----------------------------
+
+Note: The number of questions in this section depends on the number of children named in :ref:`w3e-v0`. The questions :ref:`w3e-v2_bokind`, :ref:`w3e-v3_bokind`, :ref:`w3e-v4_bokind`, :ref:`w3e-v5_bokind`, and :ref:`w3e-v6_bokind` are repeated for each child.
 
 .. toctree::
    :maxdepth: 1

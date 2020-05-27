@@ -16,10 +16,11 @@ Hoeveel hebt u uitgegeven aan de volgende zaken voor de kind in april (toen de s
 
 .. csv-table::
    :delim: |
+   :header: ,April, Februari
 
-           Boeken (ook e-boeken en luisterboeken, maar geen schoolboeken) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Speelgoed met een educatief karakter | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Bijles (ook online) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Boeken (ook e-boeken en luisterboeken, maar geen schoolboeken) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Speelgoed met een educatief karakter | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Bijles (ook online) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
 
 .. image:: ../_screenshots/w3-v3_bokind.png
 

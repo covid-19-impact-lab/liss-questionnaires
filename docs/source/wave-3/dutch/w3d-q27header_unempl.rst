@@ -8,7 +8,7 @@
 =========================================================
 
 
-:raw-html:`&larr;` :ref:`w3d-q27_totaal_1 Totaal` | :ref:`w3d-pens_gekort` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3d-Q27header_1` | :ref:`w3d-pens_gekort` :raw-html:`&rarr;` 
 
 *Routing to the question depends on answer in:* :ref:`w3d-EmploymentStatus`
 
@@ -27,5 +27,5 @@ Hoe groot is volgens u de kans dat de volgende situaties zich in augustus voordo
 .. image:: ../_screenshots/w3-q27header_unempl.png
 
 
-:raw-html:`&larr;` :ref:`w3d-q27_totaal_1 Totaal` | :ref:`w3d-pens_gekort` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3d-Q27header_1` | :ref:`w3d-pens_gekort` :raw-html:`&rarr;` 
 

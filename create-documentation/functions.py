@@ -15,6 +15,7 @@ open_question = "\n{} \n"
 header_question = "\n{}\n"
 header_question_varname = "\n{}\n"
 insert_image = "\n.. image:: {}"
+empty_field =':raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`'
 
 
 
@@ -93,9 +94,17 @@ def insert_table_question(df, path, q_text, q_sub_text, q_categories, q_varname)
 def insert_grid_question(df, path, q_text, q_sub_text, q_categories, q_varname):    
     add_to_file(header_question.format(df.loc[df.index[0], q_text]), path)
     add_to_file(csv_entry.format(), path)
-    add_to_file(csv_delim.format() + "\n", path)
-    for i in df.index:
-        add_to_file(csv_row.format(df.loc[i, q_sub_text], ':raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`'), path)
+    
+    if  pd.isna(df.loc[df.index[0], q_categories]) == False:
+        add_to_file(csv_delim.format(), path)
+        add_to_file(csv_columns.format(",",df.loc[df.index[0], q_categories]), path)
+        for i in df.index:
+            items = df.loc[i, q_categories].count(',')
+            add_to_file(csv_row.format(df.loc[i, q_sub_text], (empty_field+"|")*items + empty_field), path)
+    else:
+        add_to_file(csv_delim.format() + "\n", path)
+        for i in df.index:
+            add_to_file(csv_row.format(df.loc[i, q_sub_text], empty_field), path)
                     
 def insert_cat_question(df, path, q_text, q_categories, q_varname):    
     add_to_file(header_question_varname.format(df.loc[df.index[0], q_text]), path)

@@ -56,10 +56,8 @@ Employment & Retirement
    dutch/w3d-pens_later
    dutch/w3d-q26header
    dutch/w3d-q26header_1
-   dutch/w3d-Q26header_1
    dutch/w3d-q27header
    dutch/w3d-Q27header_1
-   dutch/w3d-q27_totaal_1 Totaal
    dutch/w3d-q27header_unempl
    dutch/w3d-pens_gekort
    dutch/w3d-korting
@@ -79,6 +77,8 @@ Activities & Economic Situation
 
 Children & School from Home
 -----------------------------
+
+Note: The number of questions in this section depends on the number of children named in :ref:`w3d-v0`. The questions :ref:`w3d-v2_bokind`, :ref:`w3d-v3_bokind`, :ref:`w3d-v4_bokind`, :ref:`w3d-v5_bokind`, and :ref:`w3d-v6_bokind` are repeated for each child.
 
 .. toctree::
    :maxdepth: 1

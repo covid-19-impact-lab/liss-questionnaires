@@ -18,10 +18,11 @@ Please fill in an amount in whole euros. If you can't remember exactly, please g
 
 .. csv-table::
    :delim: |
+   :header: ,April, February
 
-           Books (also e-books and audiobooks, but no schoolbooks) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Toys with an educational character | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Tutoring (also online) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Books (also e-books and audiobooks, but no schoolbooks) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Toys with an educational character | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Tutoring (also online) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
 
 .. image:: ../_screenshots/w3-v3_bokind.png
 

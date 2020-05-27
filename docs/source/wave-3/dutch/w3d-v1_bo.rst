@@ -16,12 +16,13 @@ Wij vragen om de voornaam van uw ^f_kindkinderen; zodat u de juiste vraag over h
 
 .. csv-table::
    :delim: |
+   :header: ,naam, geslacht, geboortejaar
 
-           Eerste kind op de basisschool | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Tweede kind op de basisschool | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Derde kind op de basisschool | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Vierde kind op de basisschool | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Vijfde kind op de basisschool | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Eerste kind op de basisschool | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Tweede kind op de basisschool | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Derde kind op de basisschool | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Vierde kind op de basisschool | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Vijfde kind op de basisschool | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
 
 .. image:: ../_screenshots/w3-v1_bo.png
 

@@ -8,7 +8,7 @@
 ==========================================================
 
 
-:raw-html:`&larr;` :ref:`w3d-q27header` | :ref:`w3d-q27_totaal_1 Totaal` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3d-q27header` | :ref:`w3d-q27header_unempl` :raw-html:`&rarr;` 
 
 *Routing to the question depends on answer in:* :ref:`w3d-EmploymentStatus`
 
@@ -22,9 +22,10 @@ Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu 
            Mijn bedrijf zal minder werkzaamheden hebben dan voor de coronavirus crisis en zal alleen overleven door steun van de overheid (bv. door de versoepeling uitstel van belastingbetaling of de aanvullende inkomensondersteuning voor levensonderhoud) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
            Mijn bedrijf zal minder werkzaamheden hebben dan voor de coronavirus crisis en zal moeten sluiten | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
            ets anders gebeurt | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           nan | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
 
 .. image:: ../_screenshots/w3-Q27header_1.png
 
 
-:raw-html:`&larr;` :ref:`w3d-q27header` | :ref:`w3d-q27_totaal_1 Totaal` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3d-q27header` | :ref:`w3d-q27header_unempl` :raw-html:`&rarr;` 
 

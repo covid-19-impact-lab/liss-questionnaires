@@ -21,18 +21,19 @@ A week consists of 168 hours. Do you want to divide the entire 168 hours between
 
 .. csv-table::
    :delim: |
+   :header: ,Number of (whole) hours spent in a normal week when the school was closed, Number of (whole) hours spent in a normal week before the school was closed on March 16
 
-           At school / after-school care | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Watching television, gaming, smartphone, laptop, computer, etc. (digital activities) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Engaged in learning activities, such as doing school and homework, but not at school | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           earning activities, such as school and homework, accompanied by an adult (not at school) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Reading books yourself (not at school) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           To be read aloud by an adult (not at school) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Free play/other indoor and outdoor activities (not at school) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Free play/other indoor and outdoor activities supervised by an adult (not at school) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Domestic chores/ taking care of younger siblings | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Sleep and rest (e.g. also lazing, thinking, being sick, etc.) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Other activities (e.g. eating, showering, chatting) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           At school / after-school care | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Watching television, gaming, smartphone, laptop, computer, etc. (digital activities) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Engaged in learning activities, such as doing school and homework, but not at school | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           earning activities, such as school and homework, accompanied by an adult (not at school) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Reading books yourself (not at school) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           To be read aloud by an adult (not at school) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Free play/other indoor and outdoor activities (not at school) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Free play/other indoor and outdoor activities supervised by an adult (not at school) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Domestic chores/ taking care of younger siblings | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Sleep and rest (e.g. also lazing, thinking, being sick, etc.) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Other activities (e.g. eating, showering, chatting) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
 
 .. image:: ../_screenshots/w3-v2_bokind.png
 

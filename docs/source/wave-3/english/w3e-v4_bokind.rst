@@ -18,12 +18,12 @@ Please take a good look at the following statements and indicate whether you agr
 
 .. csv-table::
    :delim: |
-   :header: ,Strongly disagree,Disagree,Disagree / Disagree, Agree,Strongly agree
+   :header: ,Strongly disagree,Disagree,Neither agree nor disagree Agree,Strongly agree
 
-           If I spend more time supporting the child in school work, the chance that the child will go to university is greater. | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           If I spend more money on educational material (eg books, educational games, tutoring, etc.) for a child, the chances of a child going to university are higher. | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           If I spend more time supporting child in school work, the chances are that he will earn a salary that is above average by the age of 30. | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-           If I spend more money on educational materials (eg books, educational games, tutoring, etc.) for a child, the chances are that he will earn a salary that is above average by the age of 30. | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           If I spend more time supporting the child in school work, the chance that the child will go to university is greater. | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           If I spend more money on educational material (eg books, educational games, tutoring, etc.) for a child, the chances of a child going to university are higher. | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           If I spend more time supporting child in school work, the chances are that he will earn a salary that is above average by the age of 30. | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           If I spend more money on educational materials (eg books, educational games, tutoring, etc.) for a child, the chances are that he will earn a salary that is above average by the age of 30. | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
 
 .. image:: ../_screenshots/w3-v4_bokind.png
 

@@ -16,12 +16,13 @@ We ask for the first name of your ^f_children; so that you answer the right ques
 
 .. csv-table::
    :delim: |
+   :header: ,name, gender, birthyear, level, class
 
-           First child in secondary school | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Second child in secondary school | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Third child in secondary school | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Fourth child in secondary school | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Fifth child in secondary school | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           First child in secondary school | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Second child in secondary school | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Third child in secondary school | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Fourth child in secondary school | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Fifth child in secondary school | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`|:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
 
 .. image:: ../_screenshots/w3-v1_vo.png
 

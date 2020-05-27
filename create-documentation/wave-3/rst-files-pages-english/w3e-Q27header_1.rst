@@ -8,7 +8,7 @@
 ==========================================================
 
 
-:raw-html:`&larr;` :ref:`w3e-q27header` | :ref:`w3e-q27_totaal_1 Totaal` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3e-q27header` | :ref:`w3e-q27header_unempl` :raw-html:`&rarr;` 
 
 *Routing to the question depends on answer in:* :ref:`w3e-EmploymentStatus`
 
@@ -22,9 +22,10 @@ In your opinion, what are the chances of the following situations occurring a ye
            My company will have less work than before the coronavirus crisis and will survive only through government support (e.g. by relaxing tax deferrals or additional income support for livelihoods). | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
            My company will have less work than before the coronavirus crisis and will have to close down | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
            Something else happens | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
+           Total | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
 
 .. image:: ../_screenshots/w3-Q27header_1.png
 
 
-:raw-html:`&larr;` :ref:`w3e-q27header` | :ref:`w3e-q27_totaal_1 Totaal` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3e-q27header` | :ref:`w3e-q27header_unempl` :raw-html:`&rarr;` 
 
