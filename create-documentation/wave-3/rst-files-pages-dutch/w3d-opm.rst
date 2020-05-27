@@ -10,7 +10,6 @@
 
 :raw-html:`&larr;` :ref:`w3d-eva2h` 
 
-*Routing to the question depends on answer in:* :ref:`w3d-nan`
 
 Hebt u nog opmerkingen over deze vragenlijst?
 

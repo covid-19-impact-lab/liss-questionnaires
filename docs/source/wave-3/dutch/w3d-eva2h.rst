@@ -10,7 +10,6 @@
 
 :raw-html:`&larr;` :ref:`w3d-v6_bokind` | :ref:`w3d-opm` :raw-html:`&rarr;` 
 
-*Routing to the question depends on answer in:* :ref:`w3d-nan`
 
 NB: Maakt u alstublieft de vragenlijst af totdat u weer bij het beginscherm komt. Pas dan registreert het systeem de vragenlijst als volledig ingevuld. 
 Tot slot. Wat vond u van deze vragenlijst:

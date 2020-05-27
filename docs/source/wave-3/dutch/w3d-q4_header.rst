@@ -10,7 +10,7 @@
 
 :raw-html:`&larr;` :ref:`w3d-q2` | :ref:`w3d-distance` :raw-html:`&rarr;` 
 
-*Routing to the question depends on answer in:* :ref:`w3d-nan`
+*Routing to the question depends on answer in:* :ref:`w3d-EmploymentStatus`
 
 In welke maand en in welk jaar eindigde uw laatste baan?
 

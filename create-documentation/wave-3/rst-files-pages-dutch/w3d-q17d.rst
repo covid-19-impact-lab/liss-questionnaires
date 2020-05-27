@@ -10,7 +10,7 @@
 
 :raw-html:`&larr;` :ref:`w3d-q17c` | :ref:`w3d-q17e` :raw-html:`&rarr;` 
 
-*Routing to the question depends on answer in:* :ref:`w3d-nan`
+*Routing to the question depends on answer in:* :ref:`w3d-EmploymentStatus`
 
 Hebt u een aanvraag ingediend voor de inkomensondersteuning voor zelfstandigen (de Tijdelijke overbruggingsregeling zelfstandig ondernemers, afgekort de Tozo)? De regeling voorziet in een aanvullende uitkering voor levensonderhoud als het inkomen door de coronacrisis tot onder het sociaal minimum daalt. En in een lening voor bedrijfskapitaal om liquiditeitsproblemen als gevolg van de coronacrisis op te vangen.
 

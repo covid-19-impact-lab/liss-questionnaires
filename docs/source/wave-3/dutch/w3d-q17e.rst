@@ -10,7 +10,7 @@
 
 :raw-html:`&larr;` :ref:`w3d-q17d` | :ref:`w3d-q17f_header` :raw-html:`&rarr;` 
 
-*Routing to the question depends on answer in:* :ref:`w3d-nan`
+*Routing to the question depends on answer in:* :ref:`w3d-EmploymentStatus`
 
 Hebt u gebruik gemaakt van het deblokkeren van de g-rekening? Een g-rekening is een geblokkeerde bankrekening en is bedoeld voor bedrijven die personeel uitlenen. Van deze rekening kan alleen geld naar een speciaal gironummer van de Belastingdienst en naar andere g-rekeningen worden overgemaakt.
 

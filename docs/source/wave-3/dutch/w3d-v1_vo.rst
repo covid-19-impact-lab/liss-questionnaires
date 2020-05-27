@@ -10,7 +10,7 @@
 
 :raw-html:`&larr;` :ref:`w3d-v1_bo` | :ref:`w3d-v2_bokind` :raw-html:`&rarr;` 
 
-*Routing to the question depends on answer in:* :ref:`w3d-nan`
+*Routing to the question depends on answer in:* :ref:`w3d-v0`
 
 Wij vragen om de voornaam van uw ^f_kindkinderen; zodat u de juiste vraag over het juiste kind beantwoordt. Deze voornaam wordt verder nergens voor gebruikt en wordt ook niet beschikbaar gemaakt voor de onderzoekers. U kunt er ook voor kiezen om in plaats van de voornaam een bijnaam voor uw kind te gebruiken, of andere informatie die ervoor zorgt dat u weet over welk kind het gaat (bv. “dochter, 14”).
 

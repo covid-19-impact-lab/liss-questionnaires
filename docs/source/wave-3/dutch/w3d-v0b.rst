@@ -10,7 +10,7 @@
 
 :raw-html:`&larr;` :ref:`w3d-v0a` | :ref:`w3d-v1_bo` :raw-html:`&rarr;` 
 
-*Routing to the question depends on answer in:* :ref:`w3d-nan`
+*Routing to the question depends on answer in:* :ref:`w3d-v0`
 
 Hoeveel van uw kinderen zitten op de middelbare school? 
 

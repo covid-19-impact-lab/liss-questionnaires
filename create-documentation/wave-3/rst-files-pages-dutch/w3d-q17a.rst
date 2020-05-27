@@ -10,7 +10,7 @@
 
 :raw-html:`&larr;` :ref:`w3d-q16c` | :ref:`w3d-q17b` :raw-html:`&rarr;` 
 
-*Routing to the question depends on answer in:* :ref:`w3d-nan`
+*Routing to the question depends on answer in:* :ref:`w3d-EmploymentStatus`
 
 Hebt u een aanvraag ingediend voor een tegemoetkoming in de loonkosten (de tijdelijke Noodmaatregel Overbrugging Werkgelegenheid, afgekort de NOW)? De regeling is bedoeld voor werkgevers die als gevolg van het coronavirus kampen met een omzetverlies van ten minste 20%. Zij kunnen bij het UWV een aanvraag indienen voor een tegemoetkoming in de loonkosten.
 

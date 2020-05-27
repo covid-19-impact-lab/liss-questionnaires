@@ -10,7 +10,6 @@
 
 :raw-html:`&larr;` :ref:`w3d-q33header` | :ref:`w3d-v0a` :raw-html:`&rarr;` 
 
-*Routing to the question depends on answer in:* :ref:`w3d-nan`
 
 Hebt u (gedeeltelijk) thuiswonende kinderen die op de basisschool of de middelbare school zitten?
 

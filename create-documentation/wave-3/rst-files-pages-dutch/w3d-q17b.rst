@@ -10,7 +10,7 @@
 
 :raw-html:`&larr;` :ref:`w3d-q17a` | :ref:`w3d-q17c` :raw-html:`&rarr;` 
 
-*Routing to the question depends on answer in:* :ref:`w3d-nan`
+*Routing to the question depends on answer in:* :ref:`w3d-EmploymentStatus`
 
 Hebt u een aanvraag ingediend voor de Tegemoetkoming Ondernemers Getroffen Sectoren Covid-19 (TOGS)? De TOGS is een noodmaatregel om ondernemers te ondersteunen die directe schade ondervinden vanwege het coronavirus. Zij kunnen eenmalig 4000 euro krijgen om hun vaste lasten (bv. huur van een bedrijfspand) te betalen.
 

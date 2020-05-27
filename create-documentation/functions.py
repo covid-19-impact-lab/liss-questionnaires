@@ -46,7 +46,6 @@ def create_pages(codebook, waveid, lanid, q_ids, q_fiter, q_groups, q_layout, q_
         else:
             pass
         
-        
         if df[q_layout].all()== "open":
             for i in df.index:
                 add_to_file(open_question.format(df.loc[i, q_text], df.loc[i, q_varname]),path)

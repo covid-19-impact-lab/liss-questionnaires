@@ -10,7 +10,6 @@
 
 :raw-html:`&larr;` :ref:`w3d-q29` | :ref:`w3d-q33header` :raw-html:`&rarr;` 
 
-*Routing to the question depends on answer in:* :ref:`w3d-nan`
 
 Als u denkt aan de komende vier weken, hoe bezorgd bent u dan over het volgende?
 

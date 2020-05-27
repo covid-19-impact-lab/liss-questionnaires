@@ -10,7 +10,6 @@
 
 :raw-html:`&larr;` :ref:`w3d-es4_uitspraken` | :ref:`w3d-q28` :raw-html:`&rarr;` 
 
-*Routing to the question depends on answer in:* :ref:`w3d-nan`
 
 Voor welke doelen bent u in de afgelopen twee weken naar buiten geweest?Meerdere antwoorden mogelijk.
 

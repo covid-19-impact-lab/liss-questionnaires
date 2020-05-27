@@ -10,7 +10,7 @@
 
 :raw-html:`&larr;` :ref:`w3d-change_selfempl` | :ref:`w3d-q4_header` :raw-html:`&rarr;` 
 
-*Routing to the question depends on answer in:* :ref:`w3d-nan`
+*Routing to the question depends on answer in:* :ref:`w3d-EmploymentStatus`
 
 ^f_q2; Is uw arbeidssituatie door de uitbraak van het coronavirus veranderd?
 

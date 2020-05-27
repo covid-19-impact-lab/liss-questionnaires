@@ -10,7 +10,7 @@
 
 :raw-html:`&larr;` :ref:`w3d-EmploymentStatus` | :ref:`w3d-vacsick` :raw-html:`&rarr;` 
 
-*Routing to the question depends on answer in:* :ref:`w3d-nan`
+*Routing to the question depends on answer in:* :ref:`w3d-EmploymentStatus`
 
 Hoeveel uur per week werkte u in de afgelopen zeven dagen op uw werkplek en vanuit huis? Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'.  Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.
 

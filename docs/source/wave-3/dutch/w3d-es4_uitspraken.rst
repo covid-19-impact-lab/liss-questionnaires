@@ -10,7 +10,6 @@
 
 :raw-html:`&larr;` :ref:`w3d-korting` | :ref:`w3d-es4_doelen` :raw-html:`&rarr;` 
 
-*Routing to the question depends on answer in:* :ref:`w3d-nan`
 
 Kunt u aangeven of u het eens bent met de volgende uitspraken. 1 = beslist niet 5 = beslist wel nvt = niet van toepassing Sinds begin maart (of sinds de start van de coronavirus)…
 

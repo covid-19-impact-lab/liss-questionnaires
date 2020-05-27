@@ -10,7 +10,6 @@
 
 :raw-html:`&larr;` :ref:`w3d-q31header` | :ref:`w3d-v0` :raw-html:`&rarr;` 
 
-*Routing to the question depends on answer in:* :ref:`w3d-nan`
 
 Vindt u dat de overheid te weinig of te veel maatregelen neemt om de coronavirus-crisis te bestrijden als het gaat om de volgende gebieden?
 
