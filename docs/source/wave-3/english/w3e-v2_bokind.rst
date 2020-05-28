@@ -15,8 +15,9 @@
 What did the child do in a normal week when the school was closed because of the coronavirus, and what was it like in a normal week before the school closed on March 16?
 
 How many hours did the child spend on the following activities?
-• If the child has not spent time on a certain activity, enter a 0 in 'hours'.
-• Note: you can only fill in whole hours.
+- If the child has not spent time on a certain activity, enter a 0 in 'hours'.
+- Note: you can only fill in whole hours.
+
 A week consists of 168 hours. Do you want to divide the entire 168 hours between the activities. At the bottom of the table you can see how many hours can still be divided. You can put the hours you cannot spend under the category “other activities” in the other categories.
 
 .. csv-table::

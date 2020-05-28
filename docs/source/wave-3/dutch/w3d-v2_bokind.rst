@@ -15,8 +15,8 @@
 Wat deed kind in een normale week toen de school gesloten was vanwege het coronavirus, en hoe was dat in een normale week voordat de school op 16 maart werd gesloten?
 
 Hoeveel uur besteedde kind aan de volgende activiteiten?
-    • Als kind geen tijd heeft besteed aan een bepaalde activiteit, vult u dan een 0 in bij 'uren'.
-    • Let op: u kunt alleen hele uren invullen.
+    - Als kind geen tijd heeft besteed aan een bepaalde activiteit, vult u dan een 0 in bij 'uren'.
+    - Let op: u kunt alleen hele uren invullen.
 Een week bestaat uit 168 uur. Wilt u de volledige 168 uur verdelen over de activiteiten. Onderin de tabel kunt u zien hoeveel uren er nog te verdelen zijn. U kunt de uren die u niet kwijt kunt kunt u bij de andere categorieën onder de categorie “overige activiteiten” zetten.
 
 .. csv-table::
