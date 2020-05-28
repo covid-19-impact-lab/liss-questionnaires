@@ -12,9 +12,9 @@
 
 *Routing to the question depends on answer in:* :ref:`w3e-v0`
 
-We would like to know now how important it is to you that parents spend time and money to ensure that children have long-term success.
+How much did you spend on the following things for your child in April (when the school was closed) and in February (before the school closed)?
 
-Please take a good look at the following statements and indicate whether you agree. Do not take into account the situation that the schools were / were closed because of the corona virus.
+Please fill in an amount in whole euros. If you can't remember exactly, please give your best estimate.
 
 .. csv-table::
    :delim: |

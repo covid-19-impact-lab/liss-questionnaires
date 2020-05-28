@@ -12,7 +12,7 @@
 
 *Routing to the question depends on answer in:* :ref:`w3e-v0`
 
-How much did you spend on the following things for ^v1_bo_kind1.bonaam; in April (when the school was closed) and in February (before the school closed)?
+How much did you spend on the following things for your child in April (when the school was closed) and in February (before the school closed)?
 
 Please fill in an amount in whole euros. If you can't remember exactly, please give your best estimate.
 

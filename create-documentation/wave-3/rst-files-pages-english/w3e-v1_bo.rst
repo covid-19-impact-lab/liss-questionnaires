@@ -12,7 +12,7 @@
 
 *Routing to the question depends on answer in:* :ref:`w3e-v0`
 
-We ask for the first name of your ^f_children; so that you answer the right question about the right child. This first name will not be used for anything else, nor will it be made available to the researchers. You can also choose to use a nickname for your child instead of the first name, or other information that ensures that you know which child it concerns (e.g. "daughter, 14").
+We ask for the first name of your children so that you answer the right question about the right child. This first name will not be used for anything else, nor will it be made available to the researchers. You can also choose to use a nickname for your child instead of the first name, or other information that ensures that you know which child it concerns (e.g. "daughter, 14").
 
 .. csv-table::
    :delim: |
