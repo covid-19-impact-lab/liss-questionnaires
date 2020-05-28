@@ -8,7 +8,7 @@
 ==============
 
 
-:raw-html:`&larr;` :ref:`w3d-q30hd_week_post` | :ref:`w3d-expectedduration` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3d-q30hd_maand` | :ref:`w3d-expectedduration` :raw-html:`&rarr;` 
 
 
 Gaat het met uw gezondheid beter of slechter dan in november vorig jaar?
@@ -22,5 +22,5 @@ Gaat het met uw gezondheid beter of slechter dan in november vorig jaar?
 .. image:: ../_screenshots/w3-SAH.png
 
 
-:raw-html:`&larr;` :ref:`w3d-q30hd_week_post` | :ref:`w3d-expectedduration` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3d-q30hd_maand` | :ref:`w3d-expectedduration` :raw-html:`&rarr;` 
 

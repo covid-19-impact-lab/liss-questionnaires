@@ -8,7 +8,7 @@
 ===============================================
 
 
-:raw-html:`&larr;` :ref:`w3d-q30hd_week_pre` | :ref:`w3d-q30hd_week_post` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3d-q30hd_week` | :ref:`w3d-SAH` :raw-html:`&rarr;` 
 
 
 De volgende vraag gaat over hoe u zich voelde in de afgelopen maand. Geeft u het antwoord dat het best uw gevoel weergeeft. De afgelopen maand…
@@ -26,5 +26,5 @@ De volgende vraag gaat over hoe u zich voelde in de afgelopen maand. Geeft u het
 .. image:: ../_screenshots/w3-q30hd_maand.png
 
 
-:raw-html:`&larr;` :ref:`w3d-q30hd_week_pre` | :ref:`w3d-q30hd_week_post` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3d-q30hd_week` | :ref:`w3d-SAH` :raw-html:`&rarr;` 
 

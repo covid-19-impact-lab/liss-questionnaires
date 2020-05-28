@@ -8,7 +8,7 @@
 ===============================================
 
 
-:raw-html:`&larr;` :ref:`w3e-q30hd_week_pre` | :ref:`w3e-q30hd_week_post` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3e-q30hd_week` | :ref:`w3e-SAH` :raw-html:`&rarr;` 
 
 
 The next question is about how you've felt over the past month. Give you the answer that best reflects your feelings.  For the past month...
@@ -26,5 +26,5 @@ The next question is about how you've felt over the past month. Give you the ans
 .. image:: ../_screenshots/w3-q30hd_maand.png
 
 
-:raw-html:`&larr;` :ref:`w3e-q30hd_week_pre` | :ref:`w3e-q30hd_week_post` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3e-q30hd_week` | :ref:`w3e-SAH` :raw-html:`&rarr;` 
 

@@ -8,7 +8,7 @@
 ==============
 
 
-:raw-html:`&larr;` :ref:`w3e-q30hd_week_post` | :ref:`w3e-expectedduration` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3e-q30hd_maand` | :ref:`w3e-expectedduration` :raw-html:`&rarr;` 
 
 
 Is your health better or worse than last November?
@@ -22,5 +22,5 @@ Is your health better or worse than last November?
 .. image:: ../_screenshots/w3-SAH.png
 
 
-:raw-html:`&larr;` :ref:`w3e-q30hd_week_post` | :ref:`w3e-expectedduration` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3e-q30hd_maand` | :ref:`w3e-expectedduration` :raw-html:`&rarr;` 
 

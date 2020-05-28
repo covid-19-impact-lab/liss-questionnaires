@@ -17,13 +17,14 @@ Introduction & Infection
 Subjective Risks & Mental Health
 ------------------------------------
 
+Note: The order in which the mental health questions are asked is random.
+
 .. toctree::
    :maxdepth: 1 
 
    english/w3e-q1header
-   english/w3e-q30hd_week_pre
+   english/w3e-q30hd_week
    english/w3e-q30hd_maand
-   english/w3e-q30hd_week_post
    english/w3e-SAH
    english/w3e-expectedduration
 
@@ -78,7 +79,7 @@ Activities & Economic Situation
 Children & School from Home
 -----------------------------
 
-Note: The number of questions in this section depends on the number of children named in :ref:`w3e-v0`. The questions :ref:`w3e-v2_bokind`, :ref:`w3e-v3_bokind`, :ref:`w3e-v4_bokind`, :ref:`w3e-v5_bokind`, and :ref:`w3e-v6_bokind` are repeated for each child.
+Note: The number of questions in this section depends on the number of children named in :ref:`w3d-v0`. The questions are repeated for each child.
 
 .. toctree::
    :maxdepth: 1

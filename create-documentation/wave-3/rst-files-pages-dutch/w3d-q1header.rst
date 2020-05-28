@@ -8,7 +8,7 @@
 =============================
 
 
-:raw-html:`&larr;` :ref:`w3d-SelfPerceivedInfection` | :ref:`w3d-q30hd_week_pre` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3d-SelfPerceivedInfection` | :ref:`w3d-q30hd_week` :raw-html:`&rarr;` 
 
 
 Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maanden gebeuren?  U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.
@@ -24,5 +24,5 @@ Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maand
 .. image:: ../_screenshots/w3-q1header.png
 
 
-:raw-html:`&larr;` :ref:`w3d-SelfPerceivedInfection` | :ref:`w3d-q30hd_week_pre` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3d-SelfPerceivedInfection` | :ref:`w3d-q30hd_week` :raw-html:`&rarr;` 
 

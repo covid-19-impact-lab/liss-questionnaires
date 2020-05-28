@@ -8,7 +8,7 @@
 =============================
 
 
-:raw-html:`&larr;` :ref:`w3e-SelfPerceivedInfection` | :ref:`w3e-q30hd_week_pre` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3e-SelfPerceivedInfection` | :ref:`w3e-q30hd_week` :raw-html:`&rarr;` 
 
 
 On a scale of 0 to 100 percent, how likely do you think that the following events will happen in the the next three months?
@@ -24,5 +24,5 @@ On a scale of 0 to 100 percent, how likely do you think that the following event
 .. image:: ../_screenshots/w3-q1header.png
 
 
-:raw-html:`&larr;` :ref:`w3e-SelfPerceivedInfection` | :ref:`w3e-q30hd_week_pre` :raw-html:`&rarr;` 
+:raw-html:`&larr;` :ref:`w3e-SelfPerceivedInfection` | :ref:`w3e-q30hd_week` :raw-html:`&rarr;` 
 
