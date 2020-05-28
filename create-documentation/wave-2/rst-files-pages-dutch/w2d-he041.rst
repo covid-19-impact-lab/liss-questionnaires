@@ -29,3 +29,34 @@ Gebruikt?
 
 :raw-html:`&larr;` :ref:`w2d-he040f` | :ref:`w2d-he042` :raw-html:`&rarr;` 
 
+.. _w2d-he041:
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+
+`he041` – Drug Intake
+=====================
+
+
+:raw-html:`&larr;` :ref:`w2d-he040f` | :ref:`w2d-he042` :raw-html:`&rarr;` 
+
+
+Hebt u gedurende de afgelopen maand wel eens één of meer van de volgende middelen
+Gebruikt?
+
+.. csv-table::
+   :delim: |
+   :header: ,nooit, soms, regelmatig
+
+           kalmerende middelen (zoals valium) | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           soft drugs (zoals hasj, wiet en marihuana) | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           XTC | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           bewustzijnsverruimende middelen (zoals LSD en paddo ́s) | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+           hard drugs (zoals pepmiddelen, cocaïne en heroïne) | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
+
+.. image:: ../_screenshots/w2-he041.png
+
+
+:raw-html:`&larr;` :ref:`w2d-he040f` | :ref:`w2d-he042` :raw-html:`&rarr;` 
+
