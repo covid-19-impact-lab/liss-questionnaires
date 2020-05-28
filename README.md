@@ -2,8 +2,44 @@
 
 Repository for documentation of the LISS questionnaires on the coronavirus pandemic. 
 
-Documentation currently contains questions from Wave 1 fielded mid March 2020. Questions can additionally be found here:
+Overview of Questionnaires covered in the Documentation:
+-----------------------------------------------------------
 
- - [Dutch](https://covid-19-impact-lab.readthedocs.io/en/latest/_static/Codeboek_L_CoronavirusImpact_Wave1_1.0.pdf) Questionnaire 
- - [English](https://covid-19-impact-lab.readthedocs.io/en/latest/_static/LISS_covid19_questionnaire_english_20200320_1.0.pdf) Translation 
+[Wave 1](https://liss-covid-19-questionnaires-documentation.readthedocs.io/en/latest/wave-1/index.html)
 
+- Perceptions and behavior regarding the medical risks associated with the coronavirus.
+
+- Assessments of various social distancing policies’ effectiveness, support for and compliance with these policies.
+
+- Changes in the work and childcare situation since the onset of the crisis.
+
+- Intentions and expectations regarding consumption/savings decisions, workplace security, and the effectiveness of fiscal policy measures.
+
+- Mental health and a list of the biggest worries for the next four weeks.
+
+- Trust in the government and assessments on whether the government is taking too few or too many measures in various dimensions.
+
+
+[Wave 2](https://liss-covid-19-questionnaires-documentation.readthedocs.io/en/latest/wave-2/index.html)
+
+- Recurring questions from wave 1 on employment, working hours, childcare, subjective risks, and concerns.
+
+- Smoking, drinking, and drug intake in the past week.
+
+- Social contacts during the pandemic compared to before and loneliness/ feelings pf emotional connectedness.
+
+- Income this year, expected income for the next three years, and investments in risky assets.
+
+- Expectations about economic growth, inflation, and unemployment in the Netherlands.
+
+[Wave 3](https://liss-covid-19-questionnaires-documentation.readthedocs.io/en/latest/wave-3/index.html)
+
+- Recurring questions from previous waves on employment, working hours, subjective risks, (mental) health, concerns, and expected duration of restrictions.
+
+- Application or participation in different government schemes for companies.
+
+- Changes in employment for employees and changes in income for self-employed, implementability of working from home, and distancing rules in the workplace.
+
+- Retirement plans and expectations about future employment and income security.
+
+- Detailed questions about school-aged children in the household and how they spend their time during the pandemic compared to before.
