@@ -1,0 +1,625 @@
+new_name;labels;L_consumption_w7_3.0p.dta;L_consumption_w6_5p.dta;page_w7;page_w6;qid;filter;layout;group;question_english;subquestion_english;categories_english;type;;;;;
+intro;;intro;intro;0;0;intro;-;open;Intro;This questionnaire is about how you spend your time and money. It is important that everyone in your household completes this questionnaire, even if your answers are similar.;;;str;;;;;
+children_not_school;;q2a;-;1;-;q2a;-;cat;Pre-School Children in Household;Are there one or more children in your household who are not yet in primary school?;;Yes, No ;Categorical;;;;;
+children_school;;q2b;-;2;-;q2b;-;cat;School Children in Household;Do you have one or more children in your household who go to school?;;Yes, No ;Categorical;;;;;
+hours_cc_young_self_202002;;q2a_1_pre;-;3.01;-;q2a_pre_post;q2a;grid;Time Use Youngest Pre-Schooll Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";myself;"Hours per week before the day care centre or
+ the host parent office closed down, Hours per week after the childcare centre or
+ the host parents' office has been closed";int;;;;;
+hours_cc_young_partner_202002;;q2a_2_pre;-;3.02;-;q2a_pre_post;q2a;grid;Time Use Youngest Pre-Schooll Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";partner/spouse;"Hours per week before the day care centre or
+ the host parent office closed down, Hours per week after the childcare centre or
+ the host parents' office has been closed";int;;;;;
+hours_cc_young_expartner_202002;;q2a_3_pre;-;3.03;-;q2a_pre_post;q2a;grid;Time Use Youngest Pre-Schooll Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";(ex-)partner (not belonging to your household);"Hours per week before the day care centre or
+ the host parent office closed down, Hours per week after the childcare centre or
+ the host parents' office has been closed";int;;;;;
+hours_cc_young_gp_202002;;q2a_4_pre;-;3.04;-;q2a_pre_post;q2a;grid;Time Use Youngest Pre-Schooll Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";grandparent(s) of the child;"Hours per week before the day care centre or
+ the host parent office closed down, Hours per week after the childcare centre or
+ the host parents' office has been closed";int;;;;;
+hours_cc_young_siblings_202002;;q2a_5_pre;-;3.05;-;q2a_pre_post;q2a;grid;Time Use Youngest Pre-Schooll Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";older brother(s) or sister(s) of the child;"Hours per week before the day care centre or
+ the host parent office closed down, Hours per week after the childcare centre or
+ the host parents' office has been closed";int;;;;;
+hours_cc_young_otherfam_202002;;q2a_6_pre;-;3.06;-;q2a_pre_post;q2a;grid;Time Use Youngest Pre-Schooll Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";another relative of the child;"Hours per week before the day care centre or
+ the host parent office closed down, Hours per week after the childcare centre or
+ the host parents' office has been closed";int;;;;;
+hours_cc_young_daycare_202002;;q2a_7_pre;-;3.07;-;q2a_pre_post;q2a;grid;Time Use Youngest Pre-Schooll Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";nursery;"Hours per week before the day care centre or
+ the host parent office closed down, Hours per week after the childcare centre or
+ the host parents' office has been closed";int;;;;;
+hours_cc_young_careparents_202002;;q2a_8_pre;-;3.08;-;q2a_pre_post;q2a;grid;Time Use Youngest Pre-Schooll Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";host parent daycare;"Hours per week before the day care centre or
+ the host parent office closed down, Hours per week after the childcare centre or
+ the host parents' office has been closed";int;;;;;
+hours_cc_young_kg_202002;;q2a_9_pre;-;3.09;-;q2a_pre_post;q2a;grid;Time Use Youngest Pre-Schooll Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";Kindergarten;"Hours per week before the day care centre or
+ the host parent office closed down, Hours per week after the childcare centre or
+ the host parents' office has been closed";int;;;;;
+hours_cc_young_friends_202002;;q2a_10_pre;-;3.1;-;q2a_pre_post;q2a;grid;Time Use Youngest Pre-Schooll Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";friends, neighbors, other parents;"Hours per week before the day care centre or
+ the host parent office closed down, Hours per week after the childcare centre or
+ the host parents' office has been closed";int;;;;;
+hours_cc_young_bs_202002;;q2a_11_pre;-;3.11;-;q2a_pre_post;q2a;grid;Time Use Youngest Pre-Schooll Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";babysitter,babysitter or au-pair;"Hours per week before the day care centre or
+ the host parent office closed down, Hours per week after the childcare centre or
+ the host parents' office has been closed";int;;;;;
+hours_cc_young_other_202002;;q2a_12_pre;-;3.12;-;q2a_pre_post;q2a;grid;Time Use Youngest Pre-Schooll Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";others;"Hours per week before the day care centre or
+ the host parent office closed down, Hours per week after the childcare centre or
+ the host parents' office has been closed";int;;;;;
+hours_cc_young_total_202002;;q2a_totaal_pre;-;3.13;-;q2a_pre_post;q2a;grid;Time Use Youngest Pre-Schooll Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";Total;"Hours per week before the day care centre or
+ the host parent office closed down, Hours per week after the childcare centre or
+ the host parents' office has been closed";int;;;;;
+hours_cc_self_202002;;q2b_1_pre_b;-;4.01;-;q2b_pre_post;q2b;grid;Time Use Youngest School-Aged Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";myself;Hours per week before the schools closed, Hours per week after the schools closed;int;;;;;
+hours_cc_partner_202002;;q2b_2_pre_b;-;4.02;-;q2b_pre_post;q2b;grid;Time Use Youngest School-Aged Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";partner/spouse;Hours per week before the schools closed, Hours per week after the schools closed;int;;;;;
+hours_cc_expartner_202002;;q2b_3_pre_b;-;4.03;-;q2b_pre_post;q2b;grid;Time Use Youngest School-Aged Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";(ex-)partner (not belonging to your household);Hours per week before the schools closed, Hours per week after the schools closed;int;;;;;
+hours_cc_gp_202002;;q2b_4_pre_b;-;4.04;-;q2b_pre_post;q2b;grid;Time Use Youngest School-Aged Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";grandparent(s) of the child;Hours per week before the schools closed, Hours per week after the schools closed;int;;;;;
+hours_cc_siblings_202002;;q2b_5_pre_b;-;4.05;-;q2b_pre_post;q2b;grid;Time Use Youngest School-Aged Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";older brother(s) or sister(s) of the child;Hours per week before the schools closed, Hours per week after the schools closed;int;;;;;
+hours_cc_otherfam_202002;;q2b_6_pre_b;-;4.06;-;q2b_pre_post;q2b;grid;Time Use Youngest School-Aged Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";another relative of the child;Hours per week before the schools closed, Hours per week after the schools closed;int;;;;;
+hours_cc_school_202002;;q2b_7_pre_b;-;4.07;-;q2b_pre_post;q2b;grid;Time Use Youngest School-Aged Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";the school;Hours per week before the schools closed, Hours per week after the schools closed;int;;;;;
+hours_cc_schoolcare_202002;;q2b_8_pre_b;-;4.08;-;q2b_pre_post;q2b;grid;Time Use Youngest School-Aged Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";pre-school and/or after-school care;Hours per week before the schools closed, Hours per week after the schools closed;int;;;;;
+hours_cc_careparents_202002;;q2b_9_pre_b;-;4.09;-;q2b_pre_post;q2b;grid;Time Use Youngest School-Aged Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";host parent shelter;Hours per week before the schools closed, Hours per week after the schools closed;int;;;;;
+hours_cc_daycare_202002;;q2b_10_pre_b;-;4.1;-;q2b_pre_post;q2b;grid;Time Use Youngest School-Aged Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";nursery;Hours per week before the schools closed, Hours per week after the schools closed;int;;;;;
+hours_cc_friends_202002;;q2b_11_pre_b;-;4.11;-;q2b_pre_post;q2b;grid;Time Use Youngest School-Aged Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";friends, neighbors, other parents;Hours per week before the schools closed, Hours per week after the schools closed;int;;;;;
+hours_cc_bs_202002;;q2b_12_pre_b;-;4.12;-;q2b_pre_post;q2b;grid;Time Use Youngest School-Aged Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";babysitter, babysitter or au-pair;Hours per week before the schools closed, Hours per week after the schools closed;int;;;;;
+hours_cc_other_202002;;q2b_13_pre_b;-;4.13;-;q2b_pre_post;q2b;grid;Time Use Youngest School-Aged Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";others (e.g. sports club, music lesson);Hours per week before the schools closed, Hours per week after the schools closed;int;;;;;
+hours_cc_nobody_202002;;q2b_14_pre_b;-;4.14;-;q2b_pre_post;q2b;grid;Time Use Youngest School-Aged Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";nobody;Hours per week before the schools closed, Hours per week after the schools closed;int;;;;;
+hours_cc_total_202002;;q2b_totaal_pre_b;-;4.15;-;q2b_pre_post;q2b;grid;Time Use Youngest School-Aged Child;"We would like to know who takes care of the youngest child not yet attending primary school, in a normal week in the period before and after the childcare or the host parents' office was closed on 16 March. 
+- Please complete your answer in whole hours. 
+- Do not count the hours of sleep during the night. 
+- It is customary for your answer to be between 85 and 110 hours. 
+
+Indicate the number of hours your child is/was cared for by these persons or institutions during the period:";total;Hours per week before the schools closed, Hours per week after the schools closed;int;;;;;
+days_vacation_leisure;;vacation1;-;5.1;-;vacation1-sick;-;grid;Vacation & Sick Days past Week;ast week, how many days do you have..; holidays taken for leisure (relaxation, entertainment, etc.);Days;int;;;;;
+days_vacation_cc;;vacation2;-;5.2;-;vacation1-sick;-;grid;Vacation & Sick Days past Week;ast week, how many days do you have..;holidays taken to take care of the children;Days;int;;;;;
+days_vacation_help;;vacation3;-;5.3;-;vacation1-sick;-;grid;Vacation & Sick Days past Week;ast week, how many days do you have..;holidays taken for another reason (e.g. chores, helping others etc.);Days;int;;;;;
+days_reported_sick;;sick;-;5.4;-;vacation1-sick;-;grid;Vacation & Sick Days past Week;ast week, how many days do you have..; reported sick;Days;int;;;;;
+;;intro2;;6;-;intro2;-;open;Intro 2: Time spent in the past week/week before Kings Day;"The next question is about your time spent in the seven days prior to today/Kings Day.
+On the next screen you will see a number of activities, each with a few examples. For each activity, give you the best possible estimate of the time spent, even if you do not know the exact answer.";;;;;;;;
+hours_workplace;;v1q1_v1col1;-;7.01;-;v1q1;-;grid;Time Spent Past 7 Days;"- If you haven't spent any time on a certain activity, enter a 0 under 'hours'. 
+- Note: you can only fill in whole hours. 
+If your activity lasted 1.5 hours, enter '1' under hours and '30' under minutes. 
+A week consists of 168 hours. Would you like to divide the full 168 hours between the activities. At the bottom of the table you can see how many hours and minutes there are still to be divided.
+How much time have you spent on:";"paid work at the usual place of work but not at home (employed or self-employed; do you NOT count travel time to and from work, do you count overtime)";Hours, Minutes;int;;;;;
+hours_home_office_no_kids;;v1q1a_v1col1;-;7.02;-;v1q1;-;grid;Time Spent Past 7 Days;"- If you haven't spent any time on a certain activity, enter a 0 under 'hours'. 
+- Note: you can only fill in whole hours. 
+If your activity lasted 1.5 hours, enter '1' under hours and '30' under minutes. 
+A week consists of 168 hours. Would you like to divide the full 168 hours between the activities. At the bottom of the table you can see how many hours and minutes there are still to be divided.
+How much time have you spent on:";"paid work at home/home office (employed or self-employed; do you count overtime)";Hours, Minutes;int;;;;;
+hours_home_office_kids_care;;v1q1b_v1col1;-;7.03;-;v1q1;-;grid;Time Spent Past 7 Days;"- If you haven't spent any time on a certain activity, enter a 0 under 'hours'. 
+- Note: you can only fill in whole hours. 
+If your activity lasted 1.5 hours, enter '1' under hours and '30' under minutes. 
+A week consists of 168 hours. Would you like to divide the full 168 hours between the activities. At the bottom of the table you can see how many hours and minutes there are still to be divided.
+How much time have you spent on:";"paid work at home (employed or self-employed; do you count overtime), while at the same time I am also responsible for the care of one or more children";Hours, Minutes;int;;;;;
+hours_home_office_no_kids_merge;;v1q1c_v1col1;-;7.04;-;v1q1;-;grid;Time Spent Past 7 Days;"- If you haven't spent any time on a certain activity, enter a 0 under 'hours'. 
+- Note: you can only fill in whole hours. 
+If your activity lasted 1.5 hours, enter '1' under hours and '30' under minutes. 
+A week consists of 168 hours. Would you like to divide the full 168 hours between the activities. At the bottom of the table you can see how many hours and minutes there are still to be divided.
+How much time have you spent on:";"paid work at home (employed or self-employed; do you count overtime), while I am not also responsible for the care of one or more children";Hours, Minutes;int;;;;;
+hours_commute;How much time did you spend in the last seven days on: time traveling to and fro;v1q2_v1col1;v1q2_v1col1;7.05;5.03;v1q1;-;grid;Time Spent Past 7 Days;"The first question is about your time in the seven days prior to today.  On the next screen you will see a number of activities, each with a few examples. For each activity, give you the best possible estimate of the time spent, even if you do not know the exact answer.  A week consists of 168 hours. Would you like to divide the full 168 hours between the activities. At the bottom of the table you can see how many hours and minutes there are still to be divided.
+
+How much time have you spent in the last seven days:";commuting;Hours, Minutes;int;;;;;
+hours_homeschooling;;v1q5a_v1col1;-;7.06;-;v1q1;-;grid;Time Spent Past 7 Days;"- If you haven't spent any time on a certain activity, enter a 0 under 'hours'. 
+- Note: you can only fill in whole hours. 
+If your activity lasted 1.5 hours, enter '1' under hours and '30' under minutes. 
+A week consists of 168 hours. Would you like to divide the full 168 hours between the activities. At the bottom of the table you can see how many hours and minutes there are still to be divided.
+How much time have you spent on:";home schooling with children in your household;Hours, Minutes;int;;;;;
+hours_childcare;How much time did you spend in the last seven days on: activities with own child;v1q5_v1col1;v1q5_v1col1;7.07;5.07;v1q1;-;grid;Time Spent Past 7 Days;"The first question is about your time in the seven days prior to today.  On the next screen you will see a number of activities, each with a few examples. For each activity, give you the best possible estimate of the time spent, even if you do not know the exact answer.  A week consists of 168 hours. Would you like to divide the full 168 hours between the activities. At the bottom of the table you can see how many hours and minutes there are still to be divided.
+
+How much time have you spent in the last seven days:";other activities with children in your household (such as washing, dressing and undressing, playing, reading aloud, going to the doctor with the child, babysitting, etc.);Hours, Minutes;int;;;;;
+hours_help_parents;How much time did you spend in the last seven days on: helping parents: hours;v1q6_v1col1;v1q6_v1col1;7.08;5.09;v1q1;-;grid;Time Spent Past 7 Days;"The first question is about your time in the seven days prior to today.  On the next screen you will see a number of activities, each with a few examples. For each activity, give you the best possible estimate of the time spent, even if you do not know the exact answer.  A week consists of 168 hours. Would you like to divide the full 168 hours between the activities. At the bottom of the table you can see how many hours and minutes there are still to be divided.
+
+How much time have you spent in the last seven days:";assistance to others (parents or in-laws, other family members or non-family members) (such as shopping, support with administrative tasks, washing, dressing, going to the doctor, babysitting or activities with grandchildren or babysitting, volunteering, association work, etc.).;Hours, Minutes;int;;;;;
+hours_chores;How much time did you spend in the last seven days on: household chores: hours;v1q3_v1col1;v1q3_v1col1;7.09;5.05;v1q1;-;grid;Time Spent Past 7 Days;"The first question is about your time in the seven days prior to today.  On the next screen you will see a number of activities, each with a few examples. For each activity, give you the best possible estimate of the time spent, even if you do not know the exact answer.  A week consists of 168 hours. Would you like to divide the full 168 hours between the activities. At the bottom of the table you can see how many hours and minutes there are still to be divided.
+
+How much time have you spent in the last seven days:";"housework (such as cleaning, doing the laundry, shopping, cooking, gardening, chores, car washing, etc.; but NOT personal care and care of e.g. children or parents)";Hours, Minutes;int;;;;;
+hours_resting;How much time did you spend in the last seven days on: sleeping and resting: hou;v1q9_v1col1;v1q9_v1col1;7.1;5.17;v1q1;-;grid;Time Spent Past 7 Days;"The first question is about your time in the seven days prior to today.  On the next screen you will see a number of activities, each with a few examples. For each activity, give you the best possible estimate of the time spent, even if you do not know the exact answer.  A week consists of 168 hours. Would you like to divide the full 168 hours between the activities. At the bottom of the table you can see how many hours and minutes there are still to be divided.
+
+How much time have you spent in the last seven days:";sleep and rest (sleeping, lazing, thinking, meditating, being sick, etc.).;Hours, Minutes;int;;;;;
+hours_schooling;How much time did you spend in the last seven days on: (further) schooling: hour;v1q10_v1col1;v1q10_v1col1;7.11;5.15;v1q1;-;grid;Time Spent Past 7 Days;"The first question is about your time in the seven days prior to today.  On the next screen you will see a number of activities, each with a few examples. For each activity, give you the best possible estimate of the time spent, even if you do not know the exact answer.  A week consists of 168 hours. Would you like to divide the full 168 hours between the activities. At the bottom of the table you can see how many hours and minutes there are still to be divided.
+
+How much time have you spent in the last seven days:";your own (additional) training (online) (day- or evening classes, vocational training, language course or other course, doing homework, etc.).;Hours, Minutes;int;;;;;
+hours_leisure_alone;;v1q15_v1col1;-;7.13;-;v1q1;-;grid;Time Spent Past 7 Days;"- If you haven't spent any time on a certain activity, enter a 0 under 'hours'. 
+- Note: you can only fill in whole hours. 
+If your activity lasted 1.5 hours, enter '1' under hours and '30' under minutes. 
+A week consists of 168 hours. Would you like to divide the full 168 hours between the activities. At the bottom of the table you can see how many hours and minutes there are still to be divided.
+How much time have you spent on:";"leisure activities only (such as watching TV, reading, sports activities, hobbies, walking the dog, online browsing or watching online videos, walking, cycling, etc.)
+";Hours, Minutes;int;;;;;
+hours_leisure_friends;;v1q16_v1col1;-;7.14;-;v1q1;-;grid;Time Spent Past 7 Days;"- If you haven't spent any time on a certain activity, enter a 0 under 'hours'. 
+- Note: you can only fill in whole hours. 
+If your activity lasted 1.5 hours, enter '1' under hours and '30' under minutes. 
+A week consists of 168 hours. Would you like to divide the full 168 hours between the activities. At the bottom of the table you can see how many hours and minutes there are still to be divided.
+How much time have you spent on:";leisure activities online with others (such as chatting and meeting other people online, communicating with family or friends via Skype/Facetime/WhatsApp, etc.).;Hours, Minutes;int;;;;;
+hours_leisure;How much time did you spend in the last seven days on: leisure time activities:;v1q12_v1col1;v1q12_v1col1;7.15;5.13;v1q1;-;grid;Time Spent Past 7 Days;"The first question is about your time in the seven days prior to today.  On the next screen you will see a number of activities, each with a few examples. For each activity, give you the best possible estimate of the time spent, even if you do not know the exact answer.  A week consists of 168 hours. Would you like to divide the full 168 hours between the activities. At the bottom of the table you can see how many hours and minutes there are still to be divided.
+
+How much time have you spent in the last seven days:";leisure activities only (such as watching TV, reading, sports activities, hobbies, walking the dog, online browsing or watching online videos, walking, cycling, etc.);Hours, Minutes;int;;;;;
+hours_other_activity;How much time did you spend in the last seven days on: other activities not name;v1q13_v1col1;v1q13_v1col1;7.16;5.19;v1q1;-;grid;Time Spent Past 7 Days;"The first question is about your time in the seven days prior to today.  On the next screen you will see a number of activities, each with a few examples. For each activity, give you the best possible estimate of the time spent, even if you do not know the exact answer.  A week consists of 168 hours. Would you like to divide the full 168 hours between the activities. At the bottom of the table you can see how many hours and minutes there are still to be divided.
+
+How much time have you spent in the last seven days:";other activities not mentioned above;Hours, Minutes;int;;;;;
+hours_remaining;;v1q_over_v1col1;-;7.17;-;v1q1;-;grid;Time Spent Past 7 Days;"- If you haven't spent any time on a certain activity, enter a 0 under 'hours'. 
+- Note: you can only fill in whole hours. 
+If your activity lasted 1.5 hours, enter '1' under hours and '30' under minutes. 
+A week consists of 168 hours. Would you like to divide the full 168 hours between the activities. At the bottom of the table you can see how many hours and minutes there are still to be divided.
+How much time have you spent on:";yet to be distributed: (was filled in automatically);Hours, Minutes;int;;;;;
+cohabiting_partner;Do you currently have a steady partner with whom you also live together? (Partne;vpartner;vpartner;9;6;vpartner;-;cat;Partner in Household;Do you currently have a permanent partner with whom you live?;;Yes, No I do not live with my partner, No I do not have a steady partner;Categorical;;;;;
+;;;intro3;10;-;intro3;Households bigger than 1;open;Intro 3: Household Expenses;"The following questions are about your household's expenses. Then you will be asked questions about your personal expenses.
+
+Most people don't know the expenses exactly. If that's the case with you, would you still try to give the best possible estimate?";;;;;;;;
+expendit_mortgage;How many euros does your household spend on average each month on: mortgage: int;v2ct1_v2ccol1;v2ct1_v2ccol1;11.01;7.01;v2ct;Single Households;grid;Household Expenditures;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";mortgage: interest plus redemption (this is the gross amount, i.e. before tax deduction);Euros;float;;;;;
+expendit_rent;How many euros does your household spend on average each month on: rent;v2ct2_v2ccol1;v2ct2_v2ccol1;11.02;7.02;v2ct;Single Households;grid;Household Expenditures;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";"rent: (only for the dwelling, not for business premises, etc.; NOT spending on gas and electricity, etc.)";Euros;float;;;;;
+expendit_utilities;How many euros does your household spend on average each month on: general utili;v2ct3_v2ccol1;v2ct3_v2ccol1;11.03;7.03;v2ct;Single Households;grid;Household Expenditures;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";utilities: (heating, electricity, water, telephone, internet, etc., but NO insurance);Euros;float;;;;;
+expendit_transport;How many euros does your household spend on average each month on: transport and;v2ct4_v2ccol1;v2ct4_v2ccol1;11.04;7.04;v2ct;Single Households;grid;Household Expenditures;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";"transport and vehicles: (public transport; own car: petrol/diesel and maintenance, but NOT insurance or the purchase of e.g. a car or (motor) bicycle";Euros;float;;;;;
+expendit_insurance;How many euros does your household spend on average each month on: insurances;v2ct5_v2ccol1;v2ct5_v2ccol1;11.05;7.05;v2ct;Single Households;grid;Household Expenditures;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";insurance: (premiums for home insurance, car insurance, health insurance, etc.;Euros;float;;;;;
+expendit_daycare;How many euros does your household spend on average each month on: childrenÂs da;v2ct6_v2ccol1;v2ct6_v2ccol1;11.06;7.06;v2ct;Single Households;grid;Household Expenditures;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";childcare ( day-care, out-of-school care, host-parent care, homework support, etc.);Euros;float;;;;;
+expendit_financialsupport;How many euros does your household spend on average each month on: alimony and f;v2ct7_v2ccol1;v2ct7_v2ccol1;11.07;7.07;v2ct;Single Households;grid;Household Expenditures;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";alimony and financial support for children who do not (or no longer) live at home;Euros;float;;;;;
+expendit_loans;How many euros does your household spend on average each month on: debts and loa;v2ct8_v2ccol1;v2ct8_v2ccol1;11.08;7.08;v2ct;Single Households;grid;Household Expenditures;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";debts and loans (but NOT mortgages);Euros;float;;;;;
+expendit_trips;How many euros does your household spend on average each month on: daytrips and;v2ct9_v2ccol1;v2ct9_v2ccol1;11.09;7.09;v2ct;Single Households;grid;Household Expenditures;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";excursions and holidays with the whole or part of the family (plane tickets, hotel, etc.);Euros;float;;;;;
+expendit_maintenance;How many euros does your household spend on average each month on: expenditure o;v2ct10_v2ccol1;v2ct10_v2ccol1;11.1;7.1;v2ct;Single Households;grid;Household Expenditures;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";expenditure on cleaning and upkeep of the house (including VVE contribution) or maintenance of the garden;Euros;float;;;;;
+expendit_nutrition;How many euros does your household spend on average each month on: eating at home;v2ct11_v2ccol1;v2ct11_v2ccol1;11.11;7.11;v2ct;Single Households;grid;Household Expenditures;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";indoor nutrition (food, drinks, sweets, etc.);Euros;float;;;;;
+expendit_eatoutside; How much euro does your household spend on average per month on: food outside the home;v2ct12_v2ccol1;v2ct12_v2ccol1;11.12;7.12;v2ct;Single Households;grid;Household Expenditures;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";outdoor nutrition (restaurants, canteen, takeaway, etc.);Euros;float;;;;;
+expendit_clothing; How much euro does your household spend on average per month on: clothing;v2ct13_v2ccol1;v2ct13_v2ccol1;11.13;7.13;v2ct;Single Households;grid;Household Expenditures;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";clothing;Euros;float;;;;;
+expendit_gifts; How much euro does your household spend on average per month on: gifts (gifts /;v2ct14_v2ccol1;v2ct14_v2ccol1;11.14;7.14;v2ct;Single Households;grid;Household Expenditures;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";donations (gifts/contributions/ inheritance to (grand)children, family, acquaintances, institutions, charities, etc.);Euros;float;;;;;
+expendit_school; How much euro does your household spend on average per month on: school costs (including;v2ct15_v2ccol1;v2ct15_v2ccol1;11.15;7.15;v2ct;Single Households;grid;Household Expenditures;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";school fees (including tuition fees as applicable and costs for school supplies such as books, exercise books, pens, software, etc.);Euros;float;;;;;
+expendit_medical; How many euros does your household spend on average per month on: medical care;v2ct16_v2ccol1;v2ct16_v2ccol1;11.16;7.16;v2ct;Single Households;grid;Household Expenditures;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";medical care and health spending which are NOT paid for by the insurance (medicines, physiotherapy, dentist, hospital expenses, maternity aid, glasses, hearing aids, etc.).;Euros;float;;;;;
+expendit_software;;v2ct18_v2ccol1;-;11.17;-;v2ct;Single Households;grid;Household Expenditures;"For each type of expenditure, can you fill in how many euros your household has spent in the past 30 days?
+- If your household had no expenditure in a certain category, please fill in a 0. 
+- Give you the best possible estimate, even if you do not know the exact answer. 
+- You can only enter amounts in whole euros here.
+How many euros has your household spent in the last 30 days:";technical equipment, software and subscriptions (laptops, computers, software, smartphones, TVs, streaming services, TV channels, etc.).;Euros;float;;;;;
+expendit_other;How many euros does your household spend on average each month on: other househo;v2ct17_v2ccol1;v2ct17_v2ccol1;11.18;7.17;v2ct;Single Households;grid;Household Expenditures;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";other expenses;Euros;float;;;;;
+expendit_sum;Total amount of money spent per month based on the variables bf17e066 to bf17e07;v2ctot_v2ccol1;v2ctot_v2ccol1;11.19;7.18;v2ct;Single Households;grid;Household Expenditures;"The following questions are about your household's expenses. Then you will be asked questions about your personal expenses.
+For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";Total;Euros;float;;;;;
+expendit_mortgage_merge;singles: How many euros does your household spend on average each month on: mort;v2at1_v2acol1;v2at1_v2acol1;12.01;8.01;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";mortgage: interest plus redemption (this is the gross amount, i.e. before tax deduction);Euros, I really don’t know;float;;;;;
+expendit_rent_merge;singles: How many euros does your household spend on average each month on: rent;v2at2_v2acol1;v2at2_v2acol1;12.02;8.02;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";"rent: (only for the dwelling, not for business premises, etc.; NOT spending on gas and electricity, etc.)";Euros, I really don’t know;float;;;;;
+expendit_utilities_merge;singles: How many euros does your household spend on average each month on: gene;v2at3_v2acol1;v2at3_v2acol1;12.03;8.03;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";utilities: (heating, electricity, water, telephone, internet, etc., but NO insurance);Euros, I really don’t know;float;;;;;
+expendit_transport_merge;singles: How many euros does your household spend on average each month on: tran;v2at4_v2acol1;v2at4_v2acol1;12.04;8.04;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";"transport and vehicles: (public transport; own car: petrol/diesel and maintenance, but NOT insurance or the purchase of e.g. a car or (motor) bicycle";Euros, I really don’t know;float;;;;;
+expendit_insurance_merge;singles: How many euros does your household spend on average each month on: insu;v2at5_v2acol1;v2at5_v2acol1;12.05;8.05;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";"insurance: (premiums for home insurance, car insurance, health insurance, etc.; NOT the excess)";Euros, I really don’t know;float;;;;;
+expendit_daycare_merge;singles: How many euros does your household spend on average each month on: chil;v2at6_v2acol1;v2at6_v2acol1;12.06;8.06;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";childcare ( day-care, out-of-school care, host-parent care, homework support, etc.);Euros, I really don’t know;float;;;;;
+expendit_financialsupport_merge;singles: How many euros does your household spend on average each month on: alim;v2at7_v2acol1;v2at7_v2acol1;12.07;8.07;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";alimony and financial support for children who do not (or no longer) live at home;Euros, I really don’t know;float;;;;;
+expendit_loans_merge;singles: How many euros does your household spend on average each month on: debt;v2at8_v2acol1;v2at8_v2acol1;12.08;8.08;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";debts and loans (but NOT mortgages);Euros, I really don’t know;float;;;;;
+expendit_trips_merge;singles: How many euros does your household spend on average each month on: expe;v2at9_v2ccol1;v2at9_v2acol1;12.09;8.09;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";excursions and holidays with the whole or part of the family (plane tickets, hotel, etc.);Euros, I really don’t know;float;;;;;
+expendit_nutrition_merge;singles: How many euros does your household spend on average each month on: eati;v2at11_v2acol1;v2at11_v2acol1;12.1;8.1;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";indoor nutrition (food, drinks, sweets, etc.);Euros, I really don’t know;float;;;;;
+expendit_maintenance_merge; How much euro does your household spend on average per month on: expenses for the s;v2at10_v2acol1;v2at10_v2acol1;12.11;8.11;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";expenditure on cleaning and upkeep of the house (including VVE contribution) or maintenance of the garden;Euros, I really don’t know;float;;;;;
+expendit_eatoutside_merge; How much euro does your household spend on average per month on: food outside the home;v2at12_v2acol1;v2at12_v2acol1;12.12;8.12;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";outdoor nutrition (restaurants, canteen, takeaway, etc.);Euros, I really don’t know;float;;;;;
+expendit_clothing_merge; How much euro does your household spend on average per month on: clothing;v2at13_v2acol1;v2at13_v2acol1;12.13;8.13;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";clothing;Euros, I really don’t know;float;;;;;
+expendit_gifts_merge; How much euro does your household spend on average per month on: gifts (gifts /;v2at14_v2acol1;v2at14_v2acol1;12.14;8.14;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";donations (gifts/contributions/ inheritance to (grand)children, family, acquaintances, institutions, charities, etc.);Euros, I really don’t know;float;;;;;
+expendit_school_merge; How much euro does your household spend on average per month on: school costs (including;v2at15_v2acol1;v2at15_v2acol1;12.15;8.15;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";school fees (including tuition fees as applicable and costs for school supplies such as books, exercise books, pens, software, etc.);Euros, I really don’t know;float;;;;;
+expendit_medical_merge; How many euros does your household spend on average per month on: medical care;v2at16_v2acol1;v2at16_v2acol1;12.16;8.16;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";medical care and health spending which are NOT paid for by the insurance (medicines, physiotherapy, dentist, hospital expenses, maternity aid, glasses, hearing aids, etc.);Euros, I really don’t know;float;;;;;
+expendit_software_merge;;v2at18.v2acol1;-;12.17;-;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";technical equipment, software and subscriptions (laptops, computers, software, smartphones, TVs, streaming services, TV channels, etc.).;Euros, I really don’t know;float;;;;;
+expendit_other_merge;singles: How many euros does your household spend on average each month on: othe;v2at17_v2acol1;v2at17_v2acol1;12.18;8.17;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";other expenses;Euros, I really don’t know;float;;;;;
+expendit_sum_merge;Total amount of money spent per month based on variables bf17e079 to bf17e089;v2atot_v2acol1;v2atot_v2acol1;12.19;8.18;v2at;v2ct;grid;Household Expenditures Corrections/Unanswered;"For each type of expenditure, can you fill in how many euros your household spends on average per month?
+
+- If your household has no expenditure in a certain category, please fill in a 0.
+- Give you the best possible estimate, even if you do not know the exact answer.
+- You can only enter amounts in whole euros here.
+
+How many euros does your household spend on average per month?";Total;Euros, I really don’t know;float;;;;;
+;;bedrag_kinderopvang;-;14;-;bedrag_kinderopvang;v2at;open;Get Back Childcare Expenditures;"You have indicated that you have paid … euros for childcare (nursery, out-of-school care, host parent care, homework support, etc.).
+
+How many euros do you expect to get back? 
+If you don't think you'll get anything back, fill in '0'.";;;float;;;;;
+;;bedrag_schoolkosten;-;15;-;bedrag_schoolkosten;v2at;open;Get Back School Costs;"You have indicated that you have paid … Euros for school fees (including tuition/ fees as applicable and fees for school supplies such as bo[if (v2at15.v2acol1 is empty): v2ct15.v2ccol1/ else: v2at15.v2acol1] oks, exercise books, pens, software, etc.).
+
+How many euros do you expect to get back? 
+If you don't think you'll get anything back, fill in '0'.";;;float;;;;;
+expendit_pers_nutrition;monthly expenditure for your own personal consumption: food and drinks indoor;v6at11_v6acol1;v6at11_v6acol1;18.01;9.01;v6at;-;grid;Expenditures Households with Pre-School Children;"For each type of expenditure, can you fill in how many euros you spent for yourself on average per month?
+In addition, for each type of expenditure, can you fill in how many euros are spent on average per month on your child(ren) aged 15 years or younger living at home?
+- If you or your children of 15 years or younger living at home do not have an expenditure in a certain category, please fill in a 0.- Give you the best possible estimate, even if you do not know the exact answer.- You can only enter amounts in whole euros here.";ndoor nutrition (food, drinks, sweets, etc.);Yourself, Children 15 years or yourself living at home, Other household members ;float;;;;;
+expendit_pers_eatoutside;monthly expenditure for your own personal consumption: food and drinks outside t;v6at12_v6acol1;v6at12_v6acol1;18.02;9.02;v6at;-;grid;Expenditures Households with Pre-School Children;"For each type of expenditure, can you fill in how many euros you spent for yourself on average per month?
+In addition, for each type of expenditure, can you fill in how many euros are spent on average per month on your child(ren) aged 15 years or younger living at home?
+- If you or your children of 15 years or younger living at home do not have an expenditure in a certain category, please fill in a 0.- Give you the best possible estimate, even if you do not know the exact answer.- You can only enter amounts in whole euros here.";outdoor nutrition (restaurants, canteen, takeaway, etc.);Yourself, Children 15 years or yourself living at home, Other household members ;float;;;;;
+expendit_pers_clothing;monthly expenditure for your own personal consumption: clothing;v6at13_v6acol1;v6at13_v6acol1;18.03;9.03;v6at;-;grid;Expenditures Households with Pre-School Children;"For each type of expenditure, can you fill in how many euros you spent for yourself on average per month?
+In addition, for each type of expenditure, can you fill in how many euros are spent on average per month on your child(ren) aged 15 years or younger living at home?
+- If you or your children of 15 years or younger living at home do not have an expenditure in a certain category, please fill in a 0.- Give you the best possible estimate, even if you do not know the exact answer.- You can only enter amounts in whole euros here.";clothing;Yourself, Children 15 years or yourself living at home, Other household members ;float;;;;;
+expendit_pers_medicalcare;monthly expenditure for your own personal consumption: medical care and health c;v6at16_v6acol1;v6at16_v6acol1;18.04;9.04;v6at;-;grid;Expenditures Households with Pre-School Children;"For each type of expenditure, can you fill in how many euros you spent for yourself on average per month?
+In addition, for each type of expenditure, can you fill in how many euros are spent on average per month on your child(ren) aged 15 years or younger living at home?
+- If you or your children of 15 years or younger living at home do not have an expenditure in a certain category, please fill in a 0.- Give you the best possible estimate, even if you do not know the exact answer.- You can only enter amounts in whole euros here.";medical care and health spending which are NOT paid for by the insurance (medicines, physiotherapy, dentist, hospital expenses, maternity aid, glasses, hearing aids, etc.);Yourself, Children 15 years or yourself living at home, Other household members ;float;;;;;
+expendit_pers_software;;v6at18_v6acol1;-;18.05;-;v6at;-;grid;Expenditures Households with Pre-School Children;"For each type of expenditure, can you fill in how many euros of this has been earmarked for you over the past 30 days? 
+In addition, for each type of expenditure, can you fill in how many euros of this was intended for your child(ren) aged 15 years or younger living at home during the past 30 days?
+- If you or your children of 15 years or younger living at home did not have spending in a certain category, please fill in a 0. 
+- Give you the best possible estimate, even if you do not know the exact answer. 
+- You can only enter amounts in whole euros here.";technical equipment, software and subscriptions (laptops, computers, software, smartphones, TVs, streaming services, TV channels, etc.).;Yourself, Children 15 years or yourself living at home, Other household members ;float;;;;;
+expendit_pers_other;monthly expenditure for your own personal consumption: other;v6at17_v6acol1;v6at17_v6acol1;18.06;9.05;v6at;-;grid;Expenditures Households with Pre-School Children;"For each type of expenditure, can you fill in how many euros you spent for yourself on average per month?
+In addition, for each type of expenditure, can you fill in how many euros are spent on average per month on your child(ren) aged 15 years or younger living at home?
+- If you or your children of 15 years or younger living at home do not have an expenditure in a certain category, please fill in a 0.- Give you the best possible estimate, even if you do not know the exact answer.- You can only enter amounts in whole euros here.";other expenses;Yourself, Children 15 years or yourself living at home, Other household members ;float;;;;;
+expendit_pers_nutrition_merge; For each type of expenditure, you can enter how many euros you have on average per month;v6bt11_v6bcol1;v6bt11_v6bcol1;19.01;10.01;;;grid;Expenditures Households with School Children;"For each type of expenditure, can you fill in how many euros you spent on yourself on average per month?
+- If you don't have any expenses in a certain category, please fill in a 0.- Give you the best possible estimate, even if you don't know the exact answer.- You can only enter amounts in whole euros here.";indoor nutrition (food, drinks, sweets, etc.);Yourself, Other household members;float;;;;;
+expendit_pers_eatoutside_merge; For each type of expenditure, you can enter how many euros you have on average per month;v6bt12_v6bcol1;v6bt12_v6bcol1;19.02;10.02;;;grid;Expenditures Households with School Children;"For each type of expenditure, can you fill in how many euros you spent on yourself on average per month?
+- If you don't have any expenses in a certain category, please fill in a 0.- Give you the best possible estimate, even if you don't know the exact answer.- You can only enter amounts in whole euros here.";outdoor nutrition (restaurants, canteen, takeaway, etc.);Yourself, Other household members;float;;;;;
+expendit_pers_clothing_merge; For each type of expenditure, you can enter how many euros you have on average per month;v6bt13_v6bcol1;v6bt13_v6bcol1;19.03;10.03;;;grid;Expenditures Households with School Children;"For each type of expenditure, can you fill in how many euros you spent on yourself on average per month?
+- If you don't have any expenses in a certain category, please fill in a 0.- Give you the best possible estimate, even if you don't know the exact answer.- You can only enter amounts in whole euros here.";clothing;Yourself, Other household members;float;;;;;
+expendit_pers_medicalcare_merge; For each type of expenditure, you can enter how many euros you have on average per month;v6bt16_v6bcol1;v6bt16_v6bcol1;19.04;10.04;;;grid;Expenditures Households with School Children;"For each type of expenditure, can you fill in how many euros you spent on yourself on average per month?
+- If you don't have any expenses in a certain category, please fill in a 0.- Give you the best possible estimate, even if you don't know the exact answer.- You can only enter amounts in whole euros here.";medical care and health spending which are NOT paid for by the insurance (medicines, physiotherapy, dentist, hospital expenses, maternity aid, glasses, hearing aids, etc.);Yourself, Other household members;float;;;;;
+expendit_pers_software;;v6bt18_v6bcol1;-;19.05;-;v6at;;grid;Expenditures Households with School Children;"For each type of expenditure, can you fill in how many euros of this has been earmarked for you over the past 30 days? 
+- If you did not have any expenses in a certain category, please fill in a 0. 
+- Give you the best possible estimate, even if you do not know the exact answer. 
+- You can only enter amounts in whole euros here.";technical equipment, software and subscriptions (laptops, computers, software, smartphones, TVs, streaming services, TV channels, etc.).;Yourself, Other household members ;float;;;;;
+expendit_pers_other_merge; For each type of expenditure, you can enter how many euros you have on average per month;v6bt17_v6bcol1;v6bt17_v6bcol1;19.06;10.05;;;grid;Expenditures Households with School Children;"For each type of expenditure, can you fill in how many euros you spent on yourself on average per month?
+- If you don't have any expenses in a certain category, please fill in a 0.- Give you the best possible estimate, even if you don't know the exact answer.- You can only enter amounts in whole euros here.";other expenses;Yourself, Other household members;float;;;;;
+questionnaire_difficult;Was it difficult to answer the questions?;eva2t1;eva2t1;21.1;11.1;eva2t;-;table;Questionnaire Evaluation;"Note: Please complete the questionnaire until you get back to the home screen.
+Only then will the system register the questionnaire as completed.
+
+Finally. What did you think of this questionnaire:
+1 = definitely not
+5 = definiltely yes";Did you find it difficult to answer the questions?;1,2,3,4,5;Categorical;;;;;
+questionnaire_clear;Were the questions sufficiently clear?;eva2t2;eva2t2;21.2;11.2;eva2t;-;table;Questionnaire Evaluation;"Note: Please complete the questionnaire until you get back to the home screen.
+Only then will the system register the questionnaire as completed.
+
+Finally. What did you think of this questionnaire:
+1 = definitely not
+5 = definiltely yes";Did you find the questions clear?;1,2,3,4,5;Categorical;;;;;
+questionnaire_thinking;Did the questionnaire get you thinking about things?;eva2t3;eva2t3;21.3;11.3;eva2t;-;table;Questionnaire Evaluation;"Note: Please complete the questionnaire until you get back to the home screen.
+Only then will the system register the questionnaire as completed.
+
+Finally. What did you think of this questionnaire:
+1 = definitely not
+5 = definiltely yes";Did the questionnaire get you thinking?;1,2,3,4,5;Categorical;;;;;
+questionnaire_interesting;Was it an interesting subject?;eva2t4;eva2t4;21.4;11.4;eva2t;-;table;Questionnaire Evaluation;"Note: Please complete the questionnaire until you get back to the home screen.
+Only then will the system register the questionnaire as completed.
+
+Finally. What did you think of this questionnaire:
+1 = definitely not
+5 = definiltely yes";Did you find the subject interesting?;1,2,3,4,5;Categorical;;;;;
+questionnaire_enjoy;Did you enjoy answering the questions?;eva2t5;eva2t5;21.5;11.5;eva2t;-;table;Questionnaire Evaluation;"Note: Please complete the questionnaire until you get back to the home screen.
+Only then will the system register the questionnaire as completed.
+
+Finally. What did you think of this questionnaire:
+1 = definitely not
+5 = definiltely yes";Did you enjoy filling in the questions?;1,2,3,4,5;Categorical;;;;;
+hh_size;Number of members in the household;p_aantalhh;in_aantalhh;-;1;in_aantalhh;-;cat;People in Household;Number of household members;;One person, Two people, Three people, Four people, Five people, Six people, Seven people, Eight people, Nine people;Categorical;;;;;
+hh_children;Number of living-at-home children in the household, children of the household he;p_aantalki;in_aantalki;-;2;in_aantalki;-;cat;Children in Household;Number of children living at home in the household, children of the head of household or his/her partner;;One child, Two children, Three children, Four children, Five children, Six children, Seven children, Eight children, Nine children;Categorical;;;;;
+d_child_questions;Should this respondent be presented these questions about children?;;in_vkind;-;3;in_vkind;-;cat;Children Questions;"Should this respondent get the questions about children?
+The respondent should get the questions about children if there are children in the household who are 15 years old or younger and the respondent
+is the one in the household who does the shopping
+or
+is the head of the household and if there are no persons present in the household to do the shopping";;No, Yes;Categorical;bf17e003;bf15d003;bf12c003;bf10b003;bf09a003
+hours_work;How much time did you spend in the last seven days on: paid work: hours;v1q1_v1col0;v1q1_v1col1;-;5.01;v1q1;-;grid;Time Spent Past 7 Days;"The first question is about your time in the seven days prior to today.  On the next screen you will see a number of activities, each with a few examples. For each activity, give you the best possible estimate of the time spent, even if you do not know the exact answer.  A week consists of 168 hours. Would you like to divide the full 168 hours between the activities. At the bottom of the table you can see how many hours and minutes there are still to be divided.
+
+How much time have you spent in the last seven days:";"paid work at the usual place of work but not at home (employed or self-employed; do you NOT count travel time to and from work, do you count overtime)";Hours, Minutes;int;bf17e005;bf15d005;bf12c005;bf10b005;bf09a005
+hours_help_family;How much time did you spend in the last seven days on: helping other family memb;;v1q7_v1col1;-;5.11;v1q1;-;grid;Time Spent Past 7 Days;"The first question is about your time in the seven days prior to today.  On the next screen you will see a number of activities, each with a few examples. For each activity, give you the best possible estimate of the time spent, even if you do not know the exact answer.  A week consists of 168 hours. Would you like to divide the full 168 hours between the activities. At the bottom of the table you can see how many hours and minutes there are still to be divided.
+
+How much time have you spent in the last seven days:";;Hours, Minutes;int;bf17e017;bf15d017;bf12c017;bf10b017;bf09a017
+hours_work_child;How many hours do you think you would spend on paid work each week if did not have a child / children?;-;v1ex_v1excol1;-;5.2;v1ex;;gird;;How many hours do you think you would spend on paid work a week if you hadn't had children?;Hours per Week;Hours, Minutes;int;;;;;
+hh_position;Position in the household;p_positie;in_positie;;4;in_positie;-;cat;Position in Household;Position in the household;;Household head, Married partner, Unmarried partner, (Clean) Parent, Child living at home, Roommate, Family member or boarder, Unknown (missing);Categorical;;;;;
