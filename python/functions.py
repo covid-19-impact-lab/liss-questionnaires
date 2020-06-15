@@ -51,7 +51,7 @@ def create_pages(
         add_to_file(".. _" + file_name + ":", path)
         add_to_file("\n \n .. role:: raw-html(raw) \n        :format: html \n", path)
 
-        add_to_file(f"`{qid}` – {group_name}\n{'='*len(file_name + group_name)}", path)
+        add_to_file(f"`{qid}` – {group_name}\n{'='*len(file_name*2 + group_name)}", path)
         # Insert arrows to next & pervious
         insert_arrows(waveid, lanid, qids, idx, path)
         # Add routing if present:

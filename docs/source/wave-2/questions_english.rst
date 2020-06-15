@@ -60,7 +60,7 @@ Work and Childcare
    english/w2e-q22
    english/w2e-q23
    english/w2e-q13
-   english/w2e-Q14header_1
+   english/w2e-q14
    english/w2e-q14header
    english/w2e-q15
    english/w2e-q16
@@ -94,6 +94,6 @@ Concerns & Evaluation
 .. toctree::
    :maxdepth: 1
    
-   english/w2e-q31header
+   english/w2e-q31
    english/w2e-eva2h
    english/w2e-opm

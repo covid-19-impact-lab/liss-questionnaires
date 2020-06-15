@@ -1,29 +1,30 @@
-.. _w1e-q14:
+.. _w1e-q14: 
 
  
  .. role:: raw-html(raw) 
         :format: html 
-
+ 
 `q14` – Working Hours
-=====================
+=========================== 
 
 
 :raw-html:`&larr;` :ref:`w1e-q13` | :ref:`w1e-q15` :raw-html:`&rarr;` 
-
-*Routing to the question depends on answer in:* :ref:`w1e-q13`
+ 
+*Routing to the question depends on answer in:* :ref:`w1e-q13` 
 
 On average, how many hours per week did you work at the workplace and from home in early March (or before the coronavirus affected your work)? And in the past seven days? If you always work from home, fill in all hours at 'from home'. Enter zero (0) if you never work at your workplace or at home.
+ 
+.. csv-table:: 
+   :delim: | 
+   :header: ,Number of hours
+ 
+           Hours at workplace before the pandemic | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
+           Hours at workplace in the past seven days | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
+           Hours at from home before the pandemic | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
+           Hours at from home in the past seven days | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
 
-.. csv-table::
-   :delim: |
-
-           Hours at workplace before the pandemic | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Hours at workplace in the past seven days | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Hours at from home before the pandemic | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-           Hours at from home in the past seven days | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`
-
-.. image:: ../_screenshots/w1-q14.png
+.. image:: ../_screenshots/w1-q14.png 
 
 
 :raw-html:`&larr;` :ref:`w1e-q13` | :ref:`w1e-q15` :raw-html:`&rarr;` 
-
+ 

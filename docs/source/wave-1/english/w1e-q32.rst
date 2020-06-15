@@ -1,26 +1,26 @@
-.. _w1e-q32:
+.. _w1e-q32: 
 
  
  .. role:: raw-html(raw) 
         :format: html 
-
+ 
 `q32` – Trust in Government
-===========================
+================================= 
 
 
 :raw-html:`&larr;` :ref:`w1e-q33` | :ref:`w1e-q34` :raw-html:`&rarr;` 
-
+ 
 
 In general, how confident are you in the government?
-
-.. csv-table::
-   :delim: |
+ 
+.. csv-table:: 
+   :delim: | 
    :header: 1 no confidence at all, 2, 3, 4, 5 very confident
+ 
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
 
-           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-
-.. image:: ../_screenshots/w1-q32.png
+.. image:: ../_screenshots/w1-q32.png 
 
 
 :raw-html:`&larr;` :ref:`w1e-q33` | :ref:`w1e-q34` :raw-html:`&rarr;` 
-
+ 

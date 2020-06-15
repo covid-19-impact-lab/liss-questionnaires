@@ -1,21 +1,21 @@
-.. _w1e-q22:
+.. _w1e-q22: 
 
  
  .. role:: raw-html(raw) 
         :format: html 
-
+ 
 `q22` – Young Children in Household
-===================================
+========================================= 
 
 
 :raw-html:`&larr;` :ref:`w1e-q_heli` | :ref:`w1e-q23` :raw-html:`&rarr;` 
-
+ 
 
 How many children under 12 are living in your household? 
+ 
 
-
-.. image:: ../_screenshots/w1-q22.png
+.. image:: ../_screenshots/w1-q22.png 
 
 
 :raw-html:`&larr;` :ref:`w1e-q_heli` | :ref:`w1e-q23` :raw-html:`&rarr;` 
-
+ 

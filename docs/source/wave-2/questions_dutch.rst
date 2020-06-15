@@ -60,7 +60,7 @@ Work and Childcare
    dutch/w2d-q22
    dutch/w2d-q23
    dutch/w2d-q13
-   dutch/w2d-Q14header_1
+   dutch/w2d-q14
    dutch/w2d-q14header
    dutch/w2d-q15
    dutch/w2d-q16
@@ -94,6 +94,6 @@ Concerns & Evaluation
 .. toctree::
    :maxdepth: 1
    
-   dutch/w2d-q31header
+   dutch/w2d-q31
    dutch/w2d-eva2h
    dutch/w2d-opm

@@ -1,26 +1,26 @@
-.. _w2d-he038:
+.. _w2d-he038: 
 
  
  .. role:: raw-html(raw) 
         :format: html 
-
+ 
 `he038` – Alcohol Consumption
-=============================
+===================================== 
 
 
 :raw-html:`&larr;` :ref:`w2d-he036d` | :ref:`w2d-he039` :raw-html:`&rarr;` 
-
+ 
 
 Hebt u in de afgelopen zeven dagen (zonder vandaag) een drank met alcohol gedronken?
-
-.. csv-table::
-   :delim: |
+ 
+.. csv-table:: 
+   :delim: | 
    :header: Ja, Nee
+ 
+           :raw-html:`&#10063;`|:raw-html:`&#10063;` 
 
-           :raw-html:`&#10063;`|:raw-html:`&#10063;`
-
-.. image:: ../_screenshots/w2-he038.png
+.. image:: ../_screenshots/w2-he038.png 
 
 
 :raw-html:`&larr;` :ref:`w2d-he036d` | :ref:`w2d-he039` :raw-html:`&rarr;` 
-
+ 

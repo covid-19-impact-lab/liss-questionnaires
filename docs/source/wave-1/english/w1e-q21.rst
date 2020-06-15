@@ -1,35 +1,35 @@
-.. _w1e-q21:
+.. _w1e-q21: 
 
  
  .. role:: raw-html(raw) 
         :format: html 
-
+ 
 `q21` – Consumption Plans
-=========================
+=============================== 
 
 
 :raw-html:`&larr;` :ref:`w1e-q20` | :ref:`w1e-q_heli` :raw-html:`&rarr;` 
-
+ 
 
 Do you intend to do the following things in response to the spread of the coronavirus? Multiple answers possible
-
+ 
 :raw-html:`&#10063;` – Save more to have something to fall back on when things get worse
-
+ 
 :raw-html:`&#10063;` – Postpone the purchase of durable goods, such as a car, technical appliances or furniture, for the foreseeable future
-
+ 
 :raw-html:`&#10063;` – Postpone the purchase of a house or apartment
-
+ 
 :raw-html:`&#10063;` – Moving to a smaller house or apartment
-
+ 
 :raw-html:`&#10063;` – Selling stocks
-
+ 
 :raw-html:`&#10063;` – Buying stocks
-
+ 
 :raw-html:`&#10063;` – none of the above
+ 
 
-
-.. image:: ../_screenshots/w1-q21.png
+.. image:: ../_screenshots/w1-q21.png 
 
 
 :raw-html:`&larr;` :ref:`w1e-q20` | :ref:`w1e-q_heli` :raw-html:`&rarr;` 
-
+ 

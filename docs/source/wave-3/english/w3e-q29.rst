@@ -1,15 +1,15 @@
-.. _w3e-q29:
+.. _w3e-q29: 
 
  
  .. role:: raw-html(raw) 
         :format: html 
-
+ 
 `q29` – Economic Coping Strategies
-==================================
+======================================== 
 
 
-:raw-html:`&larr;` :ref:`w3e-q28` | :ref:`w3e-q31header` :raw-html:`&rarr;` 
-
+:raw-html:`&larr;` :ref:`w3e-q28` | :ref:`w3e-q31` :raw-html:`&rarr;` 
+ 
 
 If the crisis leads to a situation where you have no income or where the income is lower than what you need to cover basic needs and outstanding payment obligations, how do you or your household deal with this? 
 
@@ -18,24 +18,24 @@ Basic needs and commitments include basic food, energy bills, insurance, mortgag
 This is your household's total income. 
 
 Multiple answers possible 
-
+ 
 :raw-html:`&#10063;` – have to use savings
-
+ 
 :raw-html:`&#10063;` – have to take out a loan / increase the mortgage
-
+ 
 :raw-html:`&#10063;` – rely on family
-
+ 
 :raw-html:`&#10063;` – apply for unemployment benefit / incapacity benefit
-
+ 
 :raw-html:`&#10063;` – retire (early)
-
+ 
 :raw-html:`&#10063;` – have to rely on social assistance
-
+ 
 :raw-html:`&#10063;` – otherwise, that is:
+ 
+
+.. image:: ../_screenshots/w3-q29.png 
 
 
-.. image:: ../_screenshots/w3-q29.png
-
-
-:raw-html:`&larr;` :ref:`w3e-q28` | :ref:`w3e-q31header` :raw-html:`&rarr;` 
-
+:raw-html:`&larr;` :ref:`w3e-q28` | :ref:`w3e-q31` :raw-html:`&rarr;` 
+ 

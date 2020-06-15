@@ -1,27 +1,27 @@
-.. _w2e-he039:
+.. _w2e-he039: 
 
  
  .. role:: raw-html(raw) 
         :format: html 
-
+ 
 `he039` – Days Alcohol Consumption
-==================================
+========================================== 
 
 
 :raw-html:`&larr;` :ref:`w2e-he038` | :ref:`w2e-he040` :raw-html:`&rarr;` 
-
-*Routing to the question depends on answer in:* :ref:`w2e-he038`
+ 
+*Routing to the question depends on answer in:* :ref:`w2e-he038` 
 
 On how many of the past seven days did you have a drink containing alcohol?
-
-.. csv-table::
-   :delim: |
+ 
+.. csv-table:: 
+   :delim: | 
    :header: 1,2,3,4,5,6,7
+ 
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
 
-           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`
-
-.. image:: ../_screenshots/w2-he039.png
+.. image:: ../_screenshots/w2-he039.png 
 
 
 :raw-html:`&larr;` :ref:`w2e-he038` | :ref:`w2e-he040` :raw-html:`&rarr;` 
-
+ 

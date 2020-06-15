@@ -23,7 +23,7 @@ Note: The order in which the mental health questions are asked is random.
    :maxdepth: 1 
 
    dutch/w3d-q1header
-   dutch/w3d-q30hd_week 
+   dutch/w3d-q30
    dutch/w3d-q30hd_maand
    dutch/w3d-SAH
    dutch/w3d-expectedduration
@@ -35,7 +35,7 @@ Employment & Retirement
    :maxdepth: 1
 
    dutch/w3d-EmploymentStatus
-   dutch/w3d-q14header
+   dutch/w3d-q14
    dutch/w3d-vacsick
    dutch/w3d-work_perc
    dutch/w3d-q16a
@@ -55,7 +55,7 @@ Employment & Retirement
    dutch/w3d-exp_pens_hd
    dutch/w3d-pens_eerder
    dutch/w3d-pens_later
-   dutch/w3d-q26header
+   dutch/w3d-q26
    dutch/w3d-q26header_1
    dutch/w3d-q27header
    dutch/w3d-Q27header_1
@@ -73,8 +73,8 @@ Activities & Economic Situation
    dutch/w3d-es4_doelen
    dutch/w3d-q28
    dutch/w3d-q29
-   dutch/w3d-q31header
-   dutch/w3d-q33header
+   dutch/w3d-q31
+   dutch/w3d-q33
 
 Children & School from Home
 -----------------------------

@@ -1,41 +1,41 @@
-.. _w2e-q16:
+.. _w2e-q16: 
 
  
  .. role:: raw-html(raw) 
         :format: html 
-
+ 
 `q16` – Reasons for Working Less Among Employees
-================================================
+====================================================== 
 
 
 :raw-html:`&larr;` :ref:`w2e-q15` | :ref:`w2e-q17` :raw-html:`&rarr;` 
-
-*Routing to the question depends on answer in:* :ref:`w2e-q14header`
+ 
+*Routing to the question depends on answer in:* :ref:`w2e-q14header` 
 
 Why are you working less now? Multiple answers possible
-
+ 
 :raw-html:`&#10063;` – 
 Less business activity in the company where I work because of economic circumstances
-
+ 
 :raw-html:`&#10063;` – Due to the risk of contamination, the government has decided that less work must be done at my workplace for the time being
-
+ 
 :raw-html:`&#10063;` – Because of the risk of contamination, my employer has voluntarily decided to work less
-
+ 
 :raw-html:`&#10063;` – I have to take care of people (children, parents) who depend on me
-
+ 
 :raw-html:`&#10063;` – I go to my workplace less because I am afraid of being infected by the corona virus
-
+ 
 :raw-html:`&#10063;` – I was ill / quarantined
-
+ 
 :raw-html:`&#10063;` – I have taken vacation days
-
+ 
 :raw-html:`&#10063;` – No special reason, no reason related to the corona virus
-
+ 
 :raw-html:`&#10063;` – Otherwise, namely:
+ 
 
-
-.. image:: ../_screenshots/w2-q16.png
+.. image:: ../_screenshots/w2-q16.png 
 
 
 :raw-html:`&larr;` :ref:`w2e-q15` | :ref:`w2e-q17` :raw-html:`&rarr;` 
-
+ 
