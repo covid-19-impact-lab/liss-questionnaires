@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'CoViD-19 Impact Lab LISS Questionnaire Documentation'
+project = 'CoViD-19 Impact Lab Questionnaire Documentation'
 copyright = '2020, CoViD-19 Impact Lab Team'
 author = 'CoViD-19 Impact Lab Team'
 
@@ -56,8 +56,9 @@ html_static_path = ['_static']
 
 html_theme_options = {
     'navs': {
-        'CoViD-19 Impact Lab': 'https://covid-19-impact-lab.readthedocs.io/en/latest/',
-		'Explore Data': 'https://covid-19-impact-lab.iza.org/app'
+        'GitHub': 'https://github.com/covid-19-impact-lab',
+	'Data Explorer': 'https://covid-19-impact-lab.iza.org/app',
+	'About': "https://covid-19-impact-lab.readthedocs.io/en/latest/"
     },
     'service': 'GitHub',
     'user': 'covid-19-impact-lab',
@@ -65,4 +66,4 @@ html_theme_options = {
     'twitter_url': 'https://twitter.com/CovidImpactLab',
 }
 
-html_logo = '_static/images/ose_logo.ico'
+html_logo = '_static/images/impactlab_logo_simple.png'

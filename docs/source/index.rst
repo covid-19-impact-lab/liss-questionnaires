@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to the CoViD-19 Impact Lab LISS Questionnaire documentation!
+Welcome to the CoViD-19 Impact Lab Questionnaire documentation!
 ================================================================================
 
 This page contains the documentation of questionnaires created by the `CoViD-19 Impact Lab <https://covid-19-impact-lab.readthedocs.io/en/latest/>`_ in the `LISS Panel <https://www.lissdata.nl/>`_. The questionnaires are used to survey participants of the `LISS Panel <https://www.lissdata.nl/>`_ on their experiences, expectations, and socio-economic situation during the 2020 coronavirus pandemic. The surveys are divided into multiple waves, all of which will be documented here.
@@ -12,7 +12,9 @@ The results from the surveys can be explored in an `interactive dashboard <https
 
 .. toctree::
    :maxdepth: 2
-
+   
+   CoViD-19 Impact Lab <https://covid-19-impact-lab.readthedocs.io/en/latest/>
+   Explore Data <https://covid-19-impact-lab.iza.org/app>
    wave-1/index
    wave-2/index
    wave-3/index
