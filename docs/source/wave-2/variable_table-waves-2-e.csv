@@ -1,153 +1,153 @@
-variable,reference period other than survey period,wave2,type,ordered
-p_2m_infected,-,:ref:`w2e-q1header`,float,-
-p_2m_acquaintance_infected,-,:ref:`w2e-q1header`,float,-
-p_2m_hospital_if_infect_self,-,:ref:`w2e-q1header`,float,-
-p_2m_infected_and_pass_on,-,:ref:`w2e-q1header`,float,-
-work_status_202002,202002.0,:ref:`w2e-q13`,Categorical,False
-nr_children_below_12,-,:ref:`w2e-q22`,Int,-
-cc_self_home,-,:ref:`w2e-q23`,bool,-
-cc_partner_home,-,:ref:`w2e-q23`,bool,-
-cc_older_siblings,-,:ref:`w2e-q23`,bool,-
-cc_grand_parents,-,:ref:`w2e-q23`,bool,-
-cc_other_relatives,-,:ref:`w2e-q23`,bool,-
-cc_share_neighbors,-,:ref:`w2e-q23`,bool,-
-cc_state,-,:ref:`w2e-q23`,bool,-
-cc_ex_partner,-,:ref:`w2e-q23`,bool,-
-cc_home_alone,-,:ref:`w2e-q23`,bool,-
-cc_other,-,:ref:`w2e-q23`,bool,-
-cc_other_str,-,:ref:`w2e-q23`,str,-
-duration_restrictions_general,-,:ref:`w2e-q7`,Categorical,True
-hours_workplace_202002,202002.0,:ref:`w2e-q14`,float,-
-hours_home_202002,202002.0,:ref:`w2e-q14`,float,-
-hours_workplace,-,:ref:`w2e-q14`,float,-
-hours_home,-,:ref:`w2e-q14`,float,-
-hours_workplace_merge,-,:ref:`w2e-q14`,float,-
-hours_home_merge,-,:ref:`w2e-q14`,float,-
-empl_not_work_lessbusiness,-,:ref:`w2e-q15`,bool,-
-empl_not_work_infection_gov,-,:ref:`w2e-q15`,bool,-
-empl_not_work_infection_empl,-,:ref:`w2e-q15`,bool,-
-empl_not_work_care,-,:ref:`w2e-q15`,bool,-
-empl_not_work_fear_infection,-,:ref:`w2e-q15`,bool,-
-empl_not_work_sick,-,:ref:`w2e-q15`,bool,-
-empl_not_work_vacation,-,:ref:`w2e-q15`,bool,-
-empl_not_work_fired,-,:ref:`w2e-q15`,bool,-
-empl_not_work_other,-,:ref:`w2e-q15`,bool,-
-empl_not_work_other_str,-,:ref:`w2e-q15`,str,-
-empl_less_work_lessbusiness,-,:ref:`w2e-q16`,bool,-
-empl_less_work_infection_gov,-,:ref:`w2e-q16`,bool,-
-empl_less_work_infection_empl,-,:ref:`w2e-q16`,bool,-
-empl_less_work_care,-,:ref:`w2e-q16`,bool,-
-empl_less_work_fear_infection,-,:ref:`w2e-q16`,bool,-
-empl_less_work_sick,-,:ref:`w2e-q16`,bool,-
-empl_less_work_vacation,-,:ref:`w2e-q16`,bool,-
-empl_less_work_unrel_corona,-,:ref:`w2e-q16`,bool,-
-empl_less_work_other,-,:ref:`w2e-q16`,bool,-
-empl_less_work_other_str,-,:ref:`w2e-q16`,str,-
-selfempl_less_business,-,:ref:`w2e-q17`,bool,-
-selfempl_less_infection_gov,-,:ref:`w2e-q17`,bool,-
-selfempl_less_infection_self,-,:ref:`w2e-q17`,bool,-
-selfempl_less_care,-,:ref:`w2e-q17`,bool,-
-selfempl_less_sick,-,:ref:`w2e-q17`,bool,-
-selfempl_less_vacation,-,:ref:`w2e-q17`,bool,-
-selfempl_less_unrel_corona,-,:ref:`w2e-q17`,bool,-
-selfempl_less_other,-,:ref:`w2e-q17`,bool,-
-selfempl_less_other_str,-,:ref:`w2e-q17`,str,-
-concern_4w_bored,-,:ref:`w2e-q31`,Categorical,True
-concern_4w_serious_ill,-,:ref:`w2e-q31`,Categorical,True
-concern_4w_infect_others,-,:ref:`w2e-q31`,Categorical,True
-concern_4w_loved_ill,-,:ref:`w2e-q31`,Categorical,True
-concern_4w_unemp,-,:ref:`w2e-q31`,Categorical,True
-concern_4w_company,-,:ref:`w2e-q31`,Categorical,True
-concern_4w_new_job,-,:ref:`w2e-q31`,Categorical,True
-concern_4w_food,-,:ref:`w2e-q31`,Categorical,True
-concern_4w_health_care,-,:ref:`w2e-q31`,Categorical,True
-concern_4w_fav_shop_bancrupt,-,:ref:`w2e-q31`,Categorical,True
-infection_diagnosed,-,:ref:`w2e-InfectionDiagnosed`,Categorical,-
-infection_perceived,-,:ref:`w2e-SelfPerceivedInfection`,Categorical,-
-is_smoking,-,:ref:`w2e-rook`,Categorical,-
-is_smoking_cigarettes,-,:ref:`w2e-he035`,bool,-
-is_smoking_pipe,-,:ref:`w2e-he035`,bool,-
-is_smoking_cigar,-,:ref:`w2e-he035`,bool,-
-is_smoking_ecig,-,:ref:`w2e-he035`,bool,-
-nr_cigarettes_day,-,:ref:`w2e-he036a`,float,-
-nr_pipe_day,-,:ref:`w2e-he036b`,float,-
-nr_cigar_day,-,:ref:`w2e-he036c`,float,-
-nr_ecig_day,-,:ref:`w2e-he036d`,float,-
-is_drinking_alcohol,-,:ref:`w2e-he038`,bool,-
-alcohol_amount,-,:ref:`w2e-he039`,Categorical,-
-alcohol_beer,-,:ref:`w2e-he040`,bool,-
-alcohol_beer_strong,-,:ref:`w2e-he040`,bool,-
-alcohol_liquor,-,:ref:`w2e-he040`,bool,-
-alcohol_sherry,-,:ref:`w2e-he040`,bool,-
-alcohol_wine,-,:ref:`w2e-he040`,bool,-
-alcohol_alcopop,-,:ref:`w2e-he040`,bool,-
-alcohol_other,-,:ref:`w2e-he040`,bool,-
-alcohol_other_1,-,:ref:`w2e-he040`,str,-
-alcohol_other_2,-,:ref:`w2e-he040`,str,-
-beer_glasses,-,:ref:`w2e-he040a`,float,-
-beer_hliter_glasses,-,:ref:`w2e-he040a`,float,-
-beer_hliter_bottles,-,:ref:`w2e-he040a`,float,-
-beer_bottles,-,:ref:`w2e-he040a`,float,-
-strong_beer_glasses,-,:ref:`w2e-he040b`,float,-
-strong_beer_hliter_glasses,-,:ref:`w2e-he040b`,float,-
-strong_beer_hliter_bottles,-,:ref:`w2e-he040b`,float,-
-strong_beer_bottles,-,:ref:`w2e-he040b`,float,-
-liquor_sort,-,:ref:`w2e-he040c`,float,-
-sherry_sort,-,:ref:`w2e-he040c`,float,-
-wine_sort,-,:ref:`w2e-he040c`,float,-
-alcopops_bottles,-,:ref:`w2e-he040d`,float,-
-other_sort1_amount,-,:ref:`w2e-he040e`,float,-
-other_sort2_amount,-,:ref:`w2e-he040f`,float,-
-took_soothing,-,:ref:`w2e-he041`,Categorical,-
-took_soft_drugs,-,:ref:`w2e-he041`,Categorical,-
-took_xtc,-,:ref:`w2e-he041`,Categorical,-
-took_psychodelic,-,:ref:`w2e-he041`,Categorical,-
-took_hard_drugs,-,:ref:`w2e-he041`,Categorical,-
-freq_soothing,-,:ref:`w2e-he042`,float,-
-freq_soft_drugs,-,:ref:`w2e-he042`,float,-
-freq_xtc,-,:ref:`w2e-he042`,float,-
-freq_psychodelic,-,:ref:`w2e-he042`,float,-
-freq_hard_drugs,-,:ref:`w2e-he042`,float,-
-feeling_emptiness,-,:ref:`w2e-loneliness`,Categorical,-
-enough_people_approach,-,:ref:`w2e-loneliness`,Categorical,-
-enough_people_trust,-,:ref:`w2e-loneliness`,Categorical,-
-enough_people_bond,-,:ref:`w2e-loneliness`,Categorical,-
-miss_people_around,-,:ref:`w2e-loneliness`,Categorical,-
-feel_let_down_often,-,:ref:`w2e-loneliness`,Categorical,-
-n_contacts_personal,-,:ref:`w2e-soccont`,float,-
-n_contacts_distanced,-,:ref:`w2e-soccont`,float,-
-change_contacts_personal,-,:ref:`w2e-soccompt`,Categorical,-
-change_contacts_distanced,-,:ref:`w2e-soccompt`,Categorical,-
-essential_worker,-,:ref:`w2e-cruciaal`,bool,-
-hh_income_202001,202001.0,:ref:`w2e-income`,float,-
-hh_income_202002,202002.0,:ref:`w2e-income`,float,-
-hh_income_202003,202003.0,:ref:`w2e-income`,float,-
-e_2020_hh_income_202002,202002.0,:ref:`w2e-expectedincome`,float,-
-e_2021_hh_income_202002,202002.0,:ref:`w2e-expectedincome`,float,-
-e_2022_hh_income_202002,202002.0,:ref:`w2e-expectedincome`,float,-
-e_2020_hh_income,-,:ref:`w2e-expectedincome`,float,-
-e_2021_hh_income,-,:ref:`w2e-expectedincome`,float,-
-e_2022_hh_income,-,:ref:`w2e-expectedincome`,float,-
-e_2020_unemp_rate_202002,202002.0,:ref:`w2e-ExpUnempl_before`,Categorical,-
-e_2021_unemp_rate_202002,202002.0,:ref:`w2e-ExpUnempl_before`,Categorical,-
-e_2022_unemp_rate_202002,202002.0,:ref:`w2e-ExpUnempl_before`,Categorical,-
-e_2020_unemp_rate,-,:ref:`w2e-ExpUnempl_today`,Categorical,-
-e_2021_unemp_rate,-,:ref:`w2e-ExpUnempl_today`,Categorical,-
-e_2022_unemp_rate,-,:ref:`w2e-ExpUnempl_today`,Categorical,-
-e_2020_gdp_202002,202002.0,:ref:`w2e-ExpEcGrowth_before`,Categorical,-
-e_2021_gdp_202002,202002.0,:ref:`w2e-ExpEcGrowth_before`,Categorical,-
-e_2022_gdp_202002,202002.0,:ref:`w2e-ExpEcGrowth_before`,Categorical,-
-e_2020_gdp,-,:ref:`w2e-ExpEcGrowth_today`,Categorical,-
-e_2021_gdp,-,:ref:`w2e-ExpEcGrowth_today`,Categorical,-
-e_2022_gdp,-,:ref:`w2e-ExpEcGrowth_today`,Categorical,-
-e_2020_infl_202002,202002.0,:ref:`w2e-ExpInfl_before`,Categorical,-
-e_2021_infl_202002,202002.0,:ref:`w2e-ExpInfl_before`,Categorical,-
-e_2022_infl_202002,202002.0,:ref:`w2e-ExpInfl_before`,Categorical,-
-e_2020_infl,-,:ref:`w2e-ExpInfl_today`,Categorical,-
-e_2021_infl,-,:ref:`w2e-ExpInfl_today`,Categorical,-
-e_2022_infl,-,:ref:`w2e-ExpInfl_today`,Categorical,-
-bought_or_sold_stocks,-,:ref:`w2e-StockTrading`,Categorical,-
-amount_stocks_bought,-,:ref:`w2e-Stock3`,Categorical,-
-amount_stocks_sold,-,:ref:`w2e-Stock4`,Categorical,-
-amount_stocks_bought_merge,-,:ref:`w2e-Stock5`,Categorical,-
-amount_stocks_sold_merge,-,:ref:`w2e-Stock6`,Categorical,-
+Variable,Links Wave 2,Type,Topic,Reference Period Other Than Survey Period
+p_2m_infected,:ref:`🔗 <w2e-q1header>`,float,Health Beliefs, 
+p_2m_acquaintance_infected,:ref:`🔗 <w2e-q1header>`,float,Health Beliefs, 
+p_2m_hospital_if_infect_self,:ref:`🔗 <w2e-q1header>`,float,Health Beliefs, 
+p_2m_infected_and_pass_on,:ref:`🔗 <w2e-q1header>`,float,Health Beliefs, 
+work_status_202002,:ref:`🔗 <w2e-q13>`,Categorical,Employment,202002
+nr_children_below_12,:ref:`🔗 <w2e-q22>`,Int,Childcare, 
+cc_self_home,:ref:`🔗 <w2e-q23>`,bool,Childcare, 
+cc_partner_home,:ref:`🔗 <w2e-q23>`,bool,Childcare, 
+cc_older_siblings,:ref:`🔗 <w2e-q23>`,bool,Childcare, 
+cc_grand_parents,:ref:`🔗 <w2e-q23>`,bool,Childcare, 
+cc_other_relatives,:ref:`🔗 <w2e-q23>`,bool,Childcare, 
+cc_share_neighbors,:ref:`🔗 <w2e-q23>`,bool,Childcare, 
+cc_state,:ref:`🔗 <w2e-q23>`,bool,Childcare, 
+cc_ex_partner,:ref:`🔗 <w2e-q23>`,bool,Childcare, 
+cc_home_alone,:ref:`🔗 <w2e-q23>`,bool,Childcare, 
+cc_other,:ref:`🔗 <w2e-q23>`,bool,Childcare, 
+cc_other_str,:ref:`🔗 <w2e-q23>`,str,Childcare, 
+duration_restrictions_general,:ref:`🔗 <w2e-q7>`,Ordered Categorical,Expected Timespan, 
+hours_workplace_202002,:ref:`🔗 <w2e-q14>`,float,Employment,202002
+hours_home_202002,:ref:`🔗 <w2e-q14>`,float,Employment,202002
+hours_workplace,:ref:`🔗 <w2e-q14>`,float,Employment, 
+hours_home,:ref:`🔗 <w2e-q14>`,float,Employment, 
+hours_workplace_merge,:ref:`🔗 <w2e-q14>`,float,Employment, 
+hours_home_merge,:ref:`🔗 <w2e-q14>`,float,Employment, 
+empl_not_work_lessbusiness,:ref:`🔗 <w2e-q15>`,bool,Employment, 
+empl_not_work_infection_gov,:ref:`🔗 <w2e-q15>`,bool,Employment, 
+empl_not_work_infection_empl,:ref:`🔗 <w2e-q15>`,bool,Employment, 
+empl_not_work_care,:ref:`🔗 <w2e-q15>`,bool,Employment, 
+empl_not_work_fear_infection,:ref:`🔗 <w2e-q15>`,bool,Employment, 
+empl_not_work_sick,:ref:`🔗 <w2e-q15>`,bool,Employment, 
+empl_not_work_vacation,:ref:`🔗 <w2e-q15>`,bool,Employment, 
+empl_not_work_fired,:ref:`🔗 <w2e-q15>`,bool,Employment, 
+empl_not_work_other,:ref:`🔗 <w2e-q15>`,bool,Employment, 
+empl_not_work_other_str,:ref:`🔗 <w2e-q15>`,str,Employment, 
+empl_less_work_lessbusiness,:ref:`🔗 <w2e-q16>`,bool,Employment, 
+empl_less_work_infection_gov,:ref:`🔗 <w2e-q16>`,bool,Employment, 
+empl_less_work_infection_empl,:ref:`🔗 <w2e-q16>`,bool,Employment, 
+empl_less_work_care,:ref:`🔗 <w2e-q16>`,bool,Employment, 
+empl_less_work_fear_infection,:ref:`🔗 <w2e-q16>`,bool,Employment, 
+empl_less_work_sick,:ref:`🔗 <w2e-q16>`,bool,Employment, 
+empl_less_work_vacation,:ref:`🔗 <w2e-q16>`,bool,Employment, 
+empl_less_work_unrel_corona,:ref:`🔗 <w2e-q16>`,bool,Employment, 
+empl_less_work_other,:ref:`🔗 <w2e-q16>`,bool,Employment, 
+empl_less_work_other_str,:ref:`🔗 <w2e-q16>`,str,Employment, 
+selfempl_less_business,:ref:`🔗 <w2e-q17>`,bool,Finances, 
+selfempl_less_infection_gov,:ref:`🔗 <w2e-q17>`,bool,Finances, 
+selfempl_less_infection_self,:ref:`🔗 <w2e-q17>`,bool,Finances, 
+selfempl_less_care,:ref:`🔗 <w2e-q17>`,bool,Finances, 
+selfempl_less_sick,:ref:`🔗 <w2e-q17>`,bool,Finances, 
+selfempl_less_vacation,:ref:`🔗 <w2e-q17>`,bool,Finances, 
+selfempl_less_unrel_corona,:ref:`🔗 <w2e-q17>`,bool,Finances, 
+selfempl_less_other,:ref:`🔗 <w2e-q17>`,bool,Finances, 
+selfempl_less_other_str,:ref:`🔗 <w2e-q17>`,str,Finances, 
+concern_4w_bored,:ref:`🔗 <w2e-q31>`,Ordered Categorical,Mental Health, 
+concern_4w_serious_ill,:ref:`🔗 <w2e-q31>`,Ordered Categorical,Mental Health, 
+concern_4w_infect_others,:ref:`🔗 <w2e-q31>`,Ordered Categorical,Mental Health, 
+concern_4w_loved_ill,:ref:`🔗 <w2e-q31>`,Ordered Categorical,Mental Health, 
+concern_4w_unemp,:ref:`🔗 <w2e-q31>`,Ordered Categorical,Mental Health, 
+concern_4w_company,:ref:`🔗 <w2e-q31>`,Ordered Categorical,Mental Health, 
+concern_4w_new_job,:ref:`🔗 <w2e-q31>`,Ordered Categorical,Mental Health, 
+concern_4w_food,:ref:`🔗 <w2e-q31>`,Ordered Categorical,Mental Health, 
+concern_4w_health_care,:ref:`🔗 <w2e-q31>`,Ordered Categorical,Mental Health, 
+concern_4w_fav_shop_bancrupt,:ref:`🔗 <w2e-q31>`,Ordered Categorical,Mental Health, 
+infection_diagnosed,:ref:`🔗 <w2e-InfectionDiagnosed>`,Categorical,Health Beliefs, 
+infection_perceived,:ref:`🔗 <w2e-SelfPerceivedInfection>`,Categorical,Health Beliefs, 
+is_smoking,:ref:`🔗 <w2e-rook>`,Categorical,Drugs, 
+is_smoking_cigarettes,:ref:`🔗 <w2e-he035>`,bool,Drugs, 
+is_smoking_pipe,:ref:`🔗 <w2e-he035>`,bool,Drugs, 
+is_smoking_cigar,:ref:`🔗 <w2e-he035>`,bool,Drugs, 
+is_smoking_ecig,:ref:`🔗 <w2e-he035>`,bool,Drugs, 
+nr_cigarettes_day,:ref:`🔗 <w2e-he036a>`,float,Drugs, 
+nr_pipe_day,:ref:`🔗 <w2e-he036b>`,float,Drugs, 
+nr_cigar_day,:ref:`🔗 <w2e-he036c>`,float,Drugs, 
+nr_ecig_day,:ref:`🔗 <w2e-he036d>`,float,Drugs, 
+is_drinking_alcohol,:ref:`🔗 <w2e-he038>`,bool,Drugs, 
+alcohol_amount,:ref:`🔗 <w2e-he039>`,Categorical,Drugs, 
+alcohol_beer,:ref:`🔗 <w2e-he040>`,bool,Drugs, 
+alcohol_beer_strong,:ref:`🔗 <w2e-he040>`,bool,Drugs, 
+alcohol_liquor,:ref:`🔗 <w2e-he040>`,bool,Drugs, 
+alcohol_sherry,:ref:`🔗 <w2e-he040>`,bool,Drugs, 
+alcohol_wine,:ref:`🔗 <w2e-he040>`,bool,Drugs, 
+alcohol_alcopop,:ref:`🔗 <w2e-he040>`,bool,Drugs, 
+alcohol_other,:ref:`🔗 <w2e-he040>`,bool,Drugs, 
+alcohol_other_1,:ref:`🔗 <w2e-he040>`,str,Drugs, 
+alcohol_other_2,:ref:`🔗 <w2e-he040>`,str,Drugs, 
+beer_glasses,:ref:`🔗 <w2e-he040a>`,float,Drugs, 
+beer_hliter_glasses,:ref:`🔗 <w2e-he040a>`,float,Drugs, 
+beer_hliter_bottles,:ref:`🔗 <w2e-he040a>`,float,Drugs, 
+beer_bottles,:ref:`🔗 <w2e-he040a>`,float,Drugs, 
+strong_beer_glasses,:ref:`🔗 <w2e-he040b>`,float,Drugs, 
+strong_beer_hliter_glasses,:ref:`🔗 <w2e-he040b>`,float,Drugs, 
+strong_beer_hliter_bottles,:ref:`🔗 <w2e-he040b>`,float,Drugs, 
+strong_beer_bottles,:ref:`🔗 <w2e-he040b>`,float,Drugs, 
+liquor_sort,:ref:`🔗 <w2e-he040c>`,float,Drugs, 
+sherry_sort,:ref:`🔗 <w2e-he040c>`,float,Drugs, 
+wine_sort,:ref:`🔗 <w2e-he040c>`,float,Drugs, 
+alcopops_bottles,:ref:`🔗 <w2e-he040d>`,float,Drugs, 
+other_sort1_amount,:ref:`🔗 <w2e-he040e>`,float,Drugs, 
+other_sort2_amount,:ref:`🔗 <w2e-he040f>`,float,Drugs, 
+took_soothing,:ref:`🔗 <w2e-he041>`,Categorical,Drugs, 
+took_soft_drugs,:ref:`🔗 <w2e-he041>`,Categorical,Drugs, 
+took_xtc,:ref:`🔗 <w2e-he041>`,Categorical,Drugs, 
+took_psychodelic,:ref:`🔗 <w2e-he041>`,Categorical,Drugs, 
+took_hard_drugs,:ref:`🔗 <w2e-he041>`,Categorical,Drugs, 
+freq_soothing,:ref:`🔗 <w2e-he042>`,float,Drugs, 
+freq_soft_drugs,:ref:`🔗 <w2e-he042>`,float,Drugs, 
+freq_xtc,:ref:`🔗 <w2e-he042>`,float,Drugs, 
+freq_psychodelic,:ref:`🔗 <w2e-he042>`,float,Drugs, 
+freq_hard_drugs,:ref:`🔗 <w2e-he042>`,float,Drugs, 
+feeling_emptiness,:ref:`🔗 <w2e-loneliness>`,Categorical,Mental Health, 
+enough_people_approach,:ref:`🔗 <w2e-loneliness>`,Categorical,Behavior, 
+enough_people_trust,:ref:`🔗 <w2e-loneliness>`,Categorical,Behavior, 
+enough_people_bond,:ref:`🔗 <w2e-loneliness>`,Categorical,Behavior, 
+miss_people_around,:ref:`🔗 <w2e-loneliness>`,Categorical,Behavior, 
+feel_let_down_often,:ref:`🔗 <w2e-loneliness>`,Categorical,Behavior, 
+n_contacts_personal,:ref:`🔗 <w2e-soccont>`,float,Behavior, 
+n_contacts_distanced,:ref:`🔗 <w2e-soccont>`,float,Behavior, 
+change_contacts_personal,:ref:`🔗 <w2e-soccompt>`,Categorical,Behavior, 
+change_contacts_distanced,:ref:`🔗 <w2e-soccompt>`,Categorical,Behavior, 
+essential_worker,:ref:`🔗 <w2e-cruciaal>`,bool,Background, 
+hh_income_202001,:ref:`🔗 <w2e-income>`,float,Finances,202001
+hh_income_202002,:ref:`🔗 <w2e-income>`,float,Finances,202002
+hh_income_202003,:ref:`🔗 <w2e-income>`,float,Finances,202003
+e_2020_hh_income_202002,:ref:`🔗 <w2e-expectedincome>`,float,Finances,202002
+e_2021_hh_income_202002,:ref:`🔗 <w2e-expectedincome>`,float,Finances,202002
+e_2022_hh_income_202002,:ref:`🔗 <w2e-expectedincome>`,float,Finances,202002
+e_2020_hh_income,:ref:`🔗 <w2e-expectedincome>`,float,Finances, 
+e_2021_hh_income,:ref:`🔗 <w2e-expectedincome>`,float,Finances, 
+e_2022_hh_income,:ref:`🔗 <w2e-expectedincome>`,float,Finances, 
+e_2020_unemp_rate_202002,:ref:`🔗 <w2e-ExpUnempl_before>`,Categorical,Employment,202002
+e_2021_unemp_rate_202002,:ref:`🔗 <w2e-ExpUnempl_before>`,Categorical,Employment,202002
+e_2022_unemp_rate_202002,:ref:`🔗 <w2e-ExpUnempl_before>`,Categorical,Employment,202002
+e_2020_unemp_rate,:ref:`🔗 <w2e-ExpUnempl_today>`,Categorical,Employment, 
+e_2021_unemp_rate,:ref:`🔗 <w2e-ExpUnempl_today>`,Categorical,Employment, 
+e_2022_unemp_rate,:ref:`🔗 <w2e-ExpUnempl_today>`,Categorical,Employment, 
+e_2020_gdp_202002,:ref:`🔗 <w2e-ExpEcGrowth_before>`,Categorical,Macro Expectations,202002
+e_2021_gdp_202002,:ref:`🔗 <w2e-ExpEcGrowth_before>`,Categorical,Macro Expectations,202002
+e_2022_gdp_202002,:ref:`🔗 <w2e-ExpEcGrowth_before>`,Categorical,Macro Expectations,202002
+e_2020_gdp,:ref:`🔗 <w2e-ExpEcGrowth_today>`,Categorical,Macro Expectations, 
+e_2021_gdp,:ref:`🔗 <w2e-ExpEcGrowth_today>`,Categorical,Macro Expectations, 
+e_2022_gdp,:ref:`🔗 <w2e-ExpEcGrowth_today>`,Categorical,Macro Expectations, 
+e_2020_infl_202002,:ref:`🔗 <w2e-ExpInfl_before>`,Categorical,Macro Expectations,202002
+e_2021_infl_202002,:ref:`🔗 <w2e-ExpInfl_before>`,Categorical,Macro Expectations,202002
+e_2022_infl_202002,:ref:`🔗 <w2e-ExpInfl_before>`,Categorical,Macro Expectations,202002
+e_2020_infl,:ref:`🔗 <w2e-ExpInfl_today>`,Categorical,Macro Expectations, 
+e_2021_infl,:ref:`🔗 <w2e-ExpInfl_today>`,Categorical,Macro Expectations, 
+e_2022_infl,:ref:`🔗 <w2e-ExpInfl_today>`,Categorical,Macro Expectations, 
+bought_or_sold_stocks,:ref:`🔗 <w2e-StockTrading>`,Categorical,Macro Expectations, 
+amount_stocks_bought,:ref:`🔗 <w2e-Stock3>`,Categorical,Macro Expectations, 
+amount_stocks_sold,:ref:`🔗 <w2e-Stock4>`,Categorical,Macro Expectations, 
+amount_stocks_bought_merge,:ref:`🔗 <w2e-Stock5>`,Categorical,Macro Expectations, 
+amount_stocks_sold_merge,:ref:`🔗 <w2e-Stock6>`,Categorical,Macro Expectations, 

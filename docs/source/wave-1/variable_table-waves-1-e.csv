@@ -1,178 +1,178 @@
-variable,reference period other than survey period,wave1,type,ordered
-l_2m_infected,-,:ref:`w1e-q1`,Categorical,True
-l_2m_acquaintance_infected,-,:ref:`w1e-q1`,Categorical,True
-l_2m_hospital_if_infect_self,-,:ref:`w1e-q1`,Categorical,True
-l_2m_quarantine,-,:ref:`w1e-q1`,Categorical,True
-l_2m_infected_and_pass_on,-,:ref:`w1e-q1`,Categorical,True
-l_2m_hospital_healthy_30,-,:ref:`w1e-q2`,Categorical,True
-l_2m_die_healthy_30,-,:ref:`w1e-q2`,Categorical,True
-l_2m_hospital_healthy_75,-,:ref:`w1e-q2`,Categorical,True
-l_2m_die_healthy_75,-,:ref:`w1e-q2`,Categorical,True
-l_2m_hospital_healthy_5,-,:ref:`w1e-q2`,Categorical,True
-l_2m_die_healthy_5,-,:ref:`w1e-q2`,Categorical,True
-l_2m_hospital_preexist_30,-,:ref:`w1e-q2`,Categorical,True
-l_2m_die_preexist_30,-,:ref:`w1e-q2`,Categorical,True
-l_2m_hospital_preexist_75,-,:ref:`w1e-q2`,Categorical,True
-l_2m_die_preexist_75,-,:ref:`w1e-q2`,Categorical,True
-avoid_busy_places,-,:ref:`w1e-q3`,bool,-
-avoid_public_places,-,:ref:`w1e-q3`,bool,-
-maintain_distance,-,:ref:`w1e-q3`,bool,-
-adjust_school_work,-,:ref:`w1e-q3`,bool,-
-quarantine_symptoms,-,:ref:`w1e-q3`,bool,-
-quarantine_no_symptoms,-,:ref:`w1e-q3`,bool,-
-no_avoidance_behaviors,-,:ref:`w1e-q3`,bool,-
-effect_close_schools,-,:ref:`w1e-q6`,Categorical,True
-effect_close_sports,-,:ref:`w1e-q6`,Categorical,True
-effect_close_food_service,-,:ref:`w1e-q6`,Categorical,True
-effect_close_most_stores,-,:ref:`w1e-q6`,Categorical,True
-effect_forbid_hospital_visits,-,:ref:`w1e-q6`,Categorical,True
-effect_curfew_high_risk,-,:ref:`w1e-q6`,Categorical,True
-effect_curfew_non_crucial,-,:ref:`w1e-q6`,Categorical,True
-comply_curfew_self,-,:ref:`w1e-q10`,Categorical,False
-approp_gov_medical,-,:ref:`w1e-q33`,Categorical,True
-approp_gov_restrict_public_life,-,:ref:`w1e-q33`,Categorical,True
-approp_gov_econ_mitigation,-,:ref:`w1e-q33`,Categorical,True
-approp_gov_communication,-,:ref:`w1e-q33`,Categorical,True
-trust_gov,-,:ref:`w1e-q32`,Categorical,True
-work_status_202002,202002.0,:ref:`w1e-q13`,Categorical,False
-nr_children_below_12,-,:ref:`w1e-q22`,Int,-
-cc_self_home,-,:ref:`w1e-q23`,bool,-
-cc_partner_home,-,:ref:`w1e-q23`,bool,-
-cc_older_siblings,-,:ref:`w1e-q23`,bool,-
-cc_grand_parents,-,:ref:`w1e-q23`,bool,-
-cc_other_relatives,-,:ref:`w1e-q23`,bool,-
-cc_share_neighbors,-,:ref:`w1e-q23`,bool,-
-cc_state,-,:ref:`w1e-q23`,bool,-
-cc_ex_partner,-,:ref:`w1e-q23`,bool,-
-cc_home_alone,-,:ref:`w1e-q23`,bool,-
-cc_other,-,:ref:`w1e-q23`,bool,-
-cc_other_str,-,:ref:`w1e-q23`,str,-
-cc_emergency_helpful,-,:ref:`w1e-q24`,Categorical,True
-cc_emergency_comment,-,:ref:`w1e-q25`,str,-
-liked_survey,-,:ref:`w1e-eva2h`,Categorical,True
-effect_mask,-,:ref:`w1e-q4`,Categorical,True
-effect_pray,-,:ref:`w1e-q4`,Categorical,True
-effect_wash_hands,-,:ref:`w1e-q4`,Categorical,True
-effect_doctor_ill,-,:ref:`w1e-q4`,Categorical,True
-effect_doctor_healthy,-,:ref:`w1e-q4`,Categorical,True
-effect_avoid_public_places,-,:ref:`w1e-q4`,Categorical,True
-effect_avoid_high_risk,-,:ref:`w1e-q4`,Categorical,True
-effect_avoid_hospital,-,:ref:`w1e-q4`,Categorical,True
-effect_avoid_gastro,-,:ref:`w1e-q4`,Categorical,True
-effect_avoid_public_transp,-,:ref:`w1e-q4`,Categorical,True
-contact_older_people,-,:ref:`w1e-q5`,Categorical,True
-supp_close_schools,-,:ref:`w1e-q8`,Categorical,True
-supp_close_cafes,-,:ref:`w1e-q8`,Categorical,True
-supp_close_most_shops,-,:ref:`w1e-q8`,Categorical,True
-supp_no_visitors,-,:ref:`w1e-q8`,Categorical,True
-supp_curfew_high_risk,-,:ref:`w1e-q8`,Categorical,True
-supp_curfew_non_crucial,-,:ref:`w1e-q8`,Categorical,True
-duration_restrictions_general,-,:ref:`w1e-q7`,Categorical,True
-comply_curfew_others,-,:ref:`w1e-q9`,Int,-
-comply_bc_civic,-,:ref:`w1e-q11`,bool,-
-comply_bc_fear_punished,-,:ref:`w1e-q11`,bool,-
-comply_bc_protect_self,-,:ref:`w1e-q11`,bool,-
-comply_bc_protect_close,-,:ref:`w1e-q11`,bool,-
-comply_bc_protect_all,-,:ref:`w1e-q11`,bool,-
-comply_bc_high_risk,-,:ref:`w1e-q11`,bool,-
-comply_bc_other,-,:ref:`w1e-q11`,bool,-
-comply_bc_other_str,-,:ref:`w1e-q11`,str,-
-disobey_bc_freedom,-,:ref:`w1e-q12`,bool,-
-disobey_bc_not_punish,-,:ref:`w1e-q12`,bool,-
-disobey_bc_unjustified,-,:ref:`w1e-q12`,bool,-
-disobey_bc_obligations,-,:ref:`w1e-q12`,bool,-
-disobey_bc_ineffective,-,:ref:`w1e-q12`,bool,-
-disobey_bc_unaffected,-,:ref:`w1e-q12`,bool,-
-disobey_bc_bored,-,:ref:`w1e-q12`,bool,-
-disobey_bc_other,-,:ref:`w1e-q12`,bool,-
-disobey_bc_other_str,-,:ref:`w1e-q12`,str,-
-hours_workplace_202002,202002.0,:ref:`w1e-q14`,float,-
-hours_home_202002,202002.0,:ref:`w1e-q14`,float,-
-hours_workplace,-,:ref:`w1e-q14`,float,-
-hours_home,-,:ref:`w1e-q14`,float,-
-empl_not_work_lessbusiness,-,:ref:`w1e-q15`,bool,-
-empl_not_work_infection_empl,-,:ref:`w1e-q15`,bool,-
-empl_not_work_care,-,:ref:`w1e-q15`,bool,-
-empl_not_work_fear_infection,-,:ref:`w1e-q15`,bool,-
-empl_not_work_fired,-,:ref:`w1e-q15`,bool,-
-empl_not_work_other,-,:ref:`w1e-q15`,bool,-
-empl_not_work_other_str,-,:ref:`w1e-q15`,str,-
-empl_less_work_lessbusiness,-,:ref:`w1e-q16`,bool,-
-empl_less_work_infection_empl,-,:ref:`w1e-q16`,bool,-
-empl_less_work_care,-,:ref:`w1e-q16`,bool,-
-empl_less_work_fear_infection,-,:ref:`w1e-q16`,bool,-
-empl_less_work_other,-,:ref:`w1e-q16`,bool,-
-empl_less_work_other_str,-,:ref:`w1e-q16`,str,-
-selfempl_less_business,-,:ref:`w1e-q17`,bool,-
-selfempl_less_care,-,:ref:`w1e-q17`,bool,-
-selfempl_less_closure,-,:ref:`w1e-q17`,bool,-
-selfempl_less_other,-,:ref:`w1e-q17`,bool,-
-selfempl_less_other_str,-,:ref:`w1e-q17`,str,-
-contact_young_people,-,:ref:`w1e-q18`,Categorical,-
-pensioner_useful_skill,-,:ref:`w1e-q19`,Categorical,-
-pensioner_prepared_to_help,-,:ref:`w1e-q20`,Categorical,-
-intend_crisis_save_more,-,:ref:`w1e-q21`,bool,-
-intend_crisis_postpone_purchase,-,:ref:`w1e-q21`,bool,-
-intend_crisis_postpone_house,-,:ref:`w1e-q21`,bool,-
-intend_crisis_reduce_housing,-,:ref:`w1e-q21`,bool,-
-intend_crisis_sell_shares,-,:ref:`w1e-q21`,bool,-
-intend_crisis_buy_shares,-,:ref:`w1e-q21`,bool,-
-intend_crisis_no_action,-,:ref:`w1e-q21`,bool,-
-eur_1k_basic_needs,-,:ref:`w1e-q_heli`,Int,-
-eur_1k_expenses,-,:ref:`w1e-q_heli`,Int,-
-eur_1k_durables,-,:ref:`w1e-q_heli`,Int,-
-eur_1k_savings,-,:ref:`w1e-q_heli`,Int,-
-eur_1k_support_others,-,:ref:`w1e-q_heli`,Int,-
-p_low_or_no_income,-,:ref:`w1e-q28`,Int,-
-low_inc_cope_savings,-,:ref:`w1e-q29`,bool,-
-low_inc_cope_loan,-,:ref:`w1e-q29`,bool,-
-low_inc_cope_family,-,:ref:`w1e-q29`,bool,-
-low_inc_cope_unemp,-,:ref:`w1e-q29`,bool,-
-low_inc_cope_retire,-,:ref:`w1e-q29`,bool,-
-low_inc_cope_soc_assist,-,:ref:`w1e-q29`,bool,-
-low_inc_cope_other,-,:ref:`w1e-q29`,bool,-
-low_inc_cope_other_str,-,:ref:`w1e-q29`,str,-
-nervous_7d,-,:ref:`w1e-q30`,Categorical,True
-depressed_7d,-,:ref:`w1e-q30`,Categorical,True
-calm_7d,-,:ref:`w1e-q30`,Categorical,True
-gloomy_7d,-,:ref:`w1e-q30`,Categorical,True
-happy_7d,-,:ref:`w1e-q30`,Categorical,True
-concern_4w_bored,-,:ref:`w1e-q31`,Categorical,True
-concern_4w_serious_ill,-,:ref:`w1e-q31`,Categorical,True
-concern_4w_infect_others,-,:ref:`w1e-q31`,Categorical,True
-concern_4w_loved_ill,-,:ref:`w1e-q31`,Categorical,True
-concern_4w_unemp,-,:ref:`w1e-q31`,Categorical,True
-concern_4w_company,-,:ref:`w1e-q31`,Categorical,True
-concern_4w_new_job,-,:ref:`w1e-q31`,Categorical,True
-concern_4w_food,-,:ref:`w1e-q31`,Categorical,True
-concern_4w_health_care,-,:ref:`w1e-q31`,Categorical,True
-concern_4w_fav_shop_bancrupt,-,:ref:`w1e-q31`,Categorical,True
-duration_econ_crisis,-,:ref:`w1e-v1`,Categorical,True
-l_12m_job_loss_employee,-,:ref:`w1e-v2`,Categorical,True
-l_12m_no_contracts_selfempl,-,:ref:`w1e-v2`,Categorical,True
-l_12m_reduction_pension,-,:ref:`w1e-v2`,Categorical,True
-l_12m_drop_in_assets,-,:ref:`w1e-v2`,Categorical,True
-l_12m_bank_bankrupt,-,:ref:`w1e-v2`,Categorical,True
-l_12m_struggle_repay_debts,-,:ref:`w1e-v2`,Categorical,True
-e_12m_house_prices_direction,-,:ref:`w1e-v3`,Categorical,True
-e_12m_house_prices_change,-,:ref:`w1e-v4`,Categorical,True
-intend_12m_spend_less,-,:ref:`w1e-v5`,Categorical,True
-intend_12m_work_more,-,:ref:`w1e-v5`,Categorical,True
-intend_12m_work_less,-,:ref:`w1e-v5`,Categorical,True
-intend_12m_borrow,-,:ref:`w1e-v5`,Categorical,True
-intend_12m_postpone_house,-,:ref:`w1e-v5`,Categorical,True
-gov_action_approp,-,:ref:`w1e-v6`,Categorical,True
-gov_action_insuff,-,:ref:`w1e-v6`,Categorical,True
-save_banks,-,:ref:`w1e-v6`,Categorical,True
-help_pension_funds,-,:ref:`w1e-v6`,Categorical,True
-p_2m_employee_keep,-,:ref:`w1e-q26`,Int,-
-p_2m_employee_keep_gov,-,:ref:`w1e-q26`,Int,-
-p_2m_employee_lost,-,:ref:`w1e-q26`,Int,-
-p_2m_employee_other,-,:ref:`w1e-q26`,Int,-
-no_emergency_cc_note_drop,-,:ref:`w1e-q25`,str,-
-note_survey,-,:ref:`w1e-q34`,str,-
-p_3m_selfempl_normal,-,:ref:`w1e-q27header`,float,-
-p_3m_selfempl_fewer,-,:ref:`w1e-q27header`,float,-
-p_3m_selfempl_helped_by_gov,-,:ref:`w1e-q27header`,float,-
-p_3m_selfempl_shutdown,-,:ref:`w1e-q27header`,float,-
-p_3m_selfempl_other,-,:ref:`w1e-q27header`,float,-
+Variable,Links Wave 1,Type,Topic,Reference Period Other Than Survey Period
+l_2m_infected,:ref:`🔗 <w1e-q1>`,Ordered Categorical,Health Beliefs, 
+l_2m_acquaintance_infected,:ref:`🔗 <w1e-q1>`,Ordered Categorical,Health Beliefs, 
+l_2m_hospital_if_infect_self,:ref:`🔗 <w1e-q1>`,Ordered Categorical,Health Beliefs, 
+l_2m_quarantine,:ref:`🔗 <w1e-q1>`,Ordered Categorical,Health Beliefs, 
+l_2m_infected_and_pass_on,:ref:`🔗 <w1e-q1>`,Ordered Categorical,Health Beliefs, 
+l_2m_hospital_healthy_30,:ref:`🔗 <w1e-q2>`,Ordered Categorical,Health Beliefs, 
+l_2m_die_healthy_30,:ref:`🔗 <w1e-q2>`,Ordered Categorical,Health Beliefs, 
+l_2m_hospital_healthy_75,:ref:`🔗 <w1e-q2>`,Ordered Categorical,Health Beliefs, 
+l_2m_die_healthy_75,:ref:`🔗 <w1e-q2>`,Ordered Categorical,Health Beliefs, 
+l_2m_hospital_healthy_5,:ref:`🔗 <w1e-q2>`,Ordered Categorical,Health Beliefs, 
+l_2m_die_healthy_5,:ref:`🔗 <w1e-q2>`,Ordered Categorical,Health Beliefs, 
+l_2m_hospital_preexist_30,:ref:`🔗 <w1e-q2>`,Ordered Categorical,Health Beliefs, 
+l_2m_die_preexist_30,:ref:`🔗 <w1e-q2>`,Ordered Categorical,Health Beliefs, 
+l_2m_hospital_preexist_75,:ref:`🔗 <w1e-q2>`,Ordered Categorical,Health Beliefs, 
+l_2m_die_preexist_75,:ref:`🔗 <w1e-q2>`,Ordered Categorical,Health Beliefs, 
+avoid_busy_places,:ref:`🔗 <w1e-q3>`,bool,Compliance, 
+avoid_public_places,:ref:`🔗 <w1e-q3>`,bool,Compliance, 
+maintain_distance,:ref:`🔗 <w1e-q3>`,bool,Compliance, 
+adjust_school_work,:ref:`🔗 <w1e-q3>`,bool,Compliance, 
+quarantine_symptoms,:ref:`🔗 <w1e-q3>`,bool,Compliance, 
+quarantine_no_symptoms,:ref:`🔗 <w1e-q3>`,bool,Compliance, 
+no_avoidance_behaviors,:ref:`🔗 <w1e-q3>`,bool,Compliance, 
+effect_close_schools,:ref:`🔗 <w1e-q6>`,Ordered Categorical,Expected Timespan, 
+effect_close_sports,:ref:`🔗 <w1e-q6>`,Ordered Categorical,Expected Timespan, 
+effect_close_food_service,:ref:`🔗 <w1e-q6>`,Ordered Categorical,Expected Timespan, 
+effect_close_most_stores,:ref:`🔗 <w1e-q6>`,Ordered Categorical,Expected Timespan, 
+effect_forbid_hospital_visits,:ref:`🔗 <w1e-q6>`,Ordered Categorical,Expected Timespan, 
+effect_curfew_high_risk,:ref:`🔗 <w1e-q6>`,Ordered Categorical,Expected Timespan, 
+effect_curfew_non_crucial,:ref:`🔗 <w1e-q6>`,Ordered Categorical,Expected Timespan, 
+comply_curfew_self,:ref:`🔗 <w1e-q10>`,Categorical,Compliance, 
+approp_gov_medical,:ref:`🔗 <w1e-q33>`,Ordered Categorical,Policies, 
+approp_gov_restrict_public_life,:ref:`🔗 <w1e-q33>`,Ordered Categorical,Policies, 
+approp_gov_econ_mitigation,:ref:`🔗 <w1e-q33>`,Ordered Categorical,Policies, 
+approp_gov_communication,:ref:`🔗 <w1e-q33>`,Ordered Categorical,Policies, 
+trust_gov,:ref:`🔗 <w1e-q32>`,Ordered Categorical,Policies, 
+work_status_202002,:ref:`🔗 <w1e-q13>`,Categorical,Employment,202002
+nr_children_below_12,:ref:`🔗 <w1e-q22>`,Int,Childcare, 
+cc_self_home,:ref:`🔗 <w1e-q23>`,bool,Childcare, 
+cc_partner_home,:ref:`🔗 <w1e-q23>`,bool,Childcare, 
+cc_older_siblings,:ref:`🔗 <w1e-q23>`,bool,Childcare, 
+cc_grand_parents,:ref:`🔗 <w1e-q23>`,bool,Childcare, 
+cc_other_relatives,:ref:`🔗 <w1e-q23>`,bool,Childcare, 
+cc_share_neighbors,:ref:`🔗 <w1e-q23>`,bool,Childcare, 
+cc_state,:ref:`🔗 <w1e-q23>`,bool,Childcare, 
+cc_ex_partner,:ref:`🔗 <w1e-q23>`,bool,Childcare, 
+cc_home_alone,:ref:`🔗 <w1e-q23>`,bool,Childcare, 
+cc_other,:ref:`🔗 <w1e-q23>`,bool,Childcare, 
+cc_other_str,:ref:`🔗 <w1e-q23>`,str,Childcare, 
+cc_emergency_helpful,:ref:`🔗 <w1e-q24>`,Ordered Categorical,Childcare, 
+cc_emergency_comment,:ref:`🔗 <w1e-q25>`,str,Childcare, 
+liked_survey,:ref:`🔗 <w1e-eva2h>`,Ordered Categorical,Questionnaire, 
+effect_mask,:ref:`🔗 <w1e-q4>`,Ordered Categorical,Behavior, 
+effect_pray,:ref:`🔗 <w1e-q4>`,Ordered Categorical,Behavior, 
+effect_wash_hands,:ref:`🔗 <w1e-q4>`,Ordered Categorical,Behavior, 
+effect_doctor_ill,:ref:`🔗 <w1e-q4>`,Ordered Categorical,Behavior, 
+effect_doctor_healthy,:ref:`🔗 <w1e-q4>`,Ordered Categorical,Behavior, 
+effect_avoid_public_places,:ref:`🔗 <w1e-q4>`,Ordered Categorical,Behavior, 
+effect_avoid_high_risk,:ref:`🔗 <w1e-q4>`,Ordered Categorical,Behavior, 
+effect_avoid_hospital,:ref:`🔗 <w1e-q4>`,Ordered Categorical,Behavior, 
+effect_avoid_gastro,:ref:`🔗 <w1e-q4>`,Ordered Categorical,Behavior, 
+effect_avoid_public_transp,:ref:`🔗 <w1e-q4>`,Ordered Categorical,Behavior, 
+contact_older_people,:ref:`🔗 <w1e-q5>`,Ordered Categorical,Behavior, 
+supp_close_schools,:ref:`🔗 <w1e-q8>`,Ordered Categorical,Policies, 
+supp_close_cafes,:ref:`🔗 <w1e-q8>`,Ordered Categorical,Policies, 
+supp_close_most_shops,:ref:`🔗 <w1e-q8>`,Ordered Categorical,Policies, 
+supp_no_visitors,:ref:`🔗 <w1e-q8>`,Ordered Categorical,Policies, 
+supp_curfew_high_risk,:ref:`🔗 <w1e-q8>`,Ordered Categorical,Policies, 
+supp_curfew_non_crucial,:ref:`🔗 <w1e-q8>`,Ordered Categorical,Policies, 
+duration_restrictions_general,:ref:`🔗 <w1e-q7>`,Ordered Categorical,Expected Timespan, 
+comply_curfew_others,:ref:`🔗 <w1e-q9>`,Int,compliance, 
+comply_bc_civic,:ref:`🔗 <w1e-q11>`,bool,Compliance, 
+comply_bc_fear_punished,:ref:`🔗 <w1e-q11>`,bool,Compliance, 
+comply_bc_protect_self,:ref:`🔗 <w1e-q11>`,bool,Compliance, 
+comply_bc_protect_close,:ref:`🔗 <w1e-q11>`,bool,Compliance, 
+comply_bc_protect_all,:ref:`🔗 <w1e-q11>`,bool,Compliance, 
+comply_bc_high_risk,:ref:`🔗 <w1e-q11>`,bool,Compliance, 
+comply_bc_other,:ref:`🔗 <w1e-q11>`,bool,Compliance, 
+comply_bc_other_str,:ref:`🔗 <w1e-q11>`,str,Compliance, 
+disobey_bc_freedom,:ref:`🔗 <w1e-q12>`,bool,Compliance, 
+disobey_bc_not_punish,:ref:`🔗 <w1e-q12>`,bool,Compliance, 
+disobey_bc_unjustified,:ref:`🔗 <w1e-q12>`,bool,Compliance, 
+disobey_bc_obligations,:ref:`🔗 <w1e-q12>`,bool,Compliance, 
+disobey_bc_ineffective,:ref:`🔗 <w1e-q12>`,bool,Compliance, 
+disobey_bc_unaffected,:ref:`🔗 <w1e-q12>`,bool,Compliance, 
+disobey_bc_bored,:ref:`🔗 <w1e-q12>`,bool,Compliance, 
+disobey_bc_other,:ref:`🔗 <w1e-q12>`,bool,Compliance, 
+disobey_bc_other_str,:ref:`🔗 <w1e-q12>`,str,Compliance, 
+hours_workplace_202002,:ref:`🔗 <w1e-q14>`,float,Employment,202002
+hours_home_202002,:ref:`🔗 <w1e-q14>`,float,Employment,202002
+hours_workplace,:ref:`🔗 <w1e-q14>`,float,Employment, 
+hours_home,:ref:`🔗 <w1e-q14>`,float,Employment, 
+empl_not_work_lessbusiness,:ref:`🔗 <w1e-q15>`,bool,Employment, 
+empl_not_work_infection_empl,:ref:`🔗 <w1e-q15>`,bool,Employment, 
+empl_not_work_care,:ref:`🔗 <w1e-q15>`,bool,Employment, 
+empl_not_work_fear_infection,:ref:`🔗 <w1e-q15>`,bool,Employment, 
+empl_not_work_fired,:ref:`🔗 <w1e-q15>`,bool,Employment, 
+empl_not_work_other,:ref:`🔗 <w1e-q15>`,bool,Employment, 
+empl_not_work_other_str,:ref:`🔗 <w1e-q15>`,str,Employment, 
+empl_less_work_lessbusiness,:ref:`🔗 <w1e-q16>`,bool,Employment, 
+empl_less_work_infection_empl,:ref:`🔗 <w1e-q16>`,bool,Employment, 
+empl_less_work_care,:ref:`🔗 <w1e-q16>`,bool,Employment, 
+empl_less_work_fear_infection,:ref:`🔗 <w1e-q16>`,bool,Employment, 
+empl_less_work_other,:ref:`🔗 <w1e-q16>`,bool,Employment, 
+empl_less_work_other_str,:ref:`🔗 <w1e-q16>`,str,Employment, 
+selfempl_less_business,:ref:`🔗 <w1e-q17>`,bool,Finances, 
+selfempl_less_care,:ref:`🔗 <w1e-q17>`,bool,Finances, 
+selfempl_less_closure,:ref:`🔗 <w1e-q17>`,bool,Finances, 
+selfempl_less_other,:ref:`🔗 <w1e-q17>`,bool,Finances, 
+selfempl_less_other_str,:ref:`🔗 <w1e-q17>`,str,Finances, 
+contact_young_people,:ref:`🔗 <w1e-q18>`,Categorical,Behavior, 
+pensioner_useful_skill,:ref:`🔗 <w1e-q19>`,Categorical,Health Beliefs, 
+pensioner_prepared_to_help,:ref:`🔗 <w1e-q20>`,Categorical,Behavior, 
+intend_crisis_save_more,:ref:`🔗 <w1e-q21>`,bool,Finances, 
+intend_crisis_postpone_purchase,:ref:`🔗 <w1e-q21>`,bool,Finances, 
+intend_crisis_postpone_house,:ref:`🔗 <w1e-q21>`,bool,Finances, 
+intend_crisis_reduce_housing,:ref:`🔗 <w1e-q21>`,bool,Finances, 
+intend_crisis_sell_shares,:ref:`🔗 <w1e-q21>`,bool,Finances, 
+intend_crisis_buy_shares,:ref:`🔗 <w1e-q21>`,bool,Finances, 
+intend_crisis_no_action,:ref:`🔗 <w1e-q21>`,bool,Finances, 
+eur_1k_basic_needs,:ref:`🔗 <w1e-q_heli>`,Int,Finances, 
+eur_1k_expenses,:ref:`🔗 <w1e-q_heli>`,Int,Finances, 
+eur_1k_durables,:ref:`🔗 <w1e-q_heli>`,Int,Finances, 
+eur_1k_savings,:ref:`🔗 <w1e-q_heli>`,Int,Finances, 
+eur_1k_support_others,:ref:`🔗 <w1e-q_heli>`,Int,Finances, 
+p_low_or_no_income,:ref:`🔗 <w1e-q28>`,Int,Finances, 
+low_inc_cope_savings,:ref:`🔗 <w1e-q29>`,bool,Finances, 
+low_inc_cope_loan,:ref:`🔗 <w1e-q29>`,bool,Finances, 
+low_inc_cope_family,:ref:`🔗 <w1e-q29>`,bool,Finances, 
+low_inc_cope_unemp,:ref:`🔗 <w1e-q29>`,bool,Finances, 
+low_inc_cope_retire,:ref:`🔗 <w1e-q29>`,bool,Finances, 
+low_inc_cope_soc_assist,:ref:`🔗 <w1e-q29>`,bool,Finances, 
+low_inc_cope_other,:ref:`🔗 <w1e-q29>`,bool,Finances, 
+low_inc_cope_other_str,:ref:`🔗 <w1e-q29>`,str,Finances, 
+nervous_7d,:ref:`🔗 <w1e-q30>`,Ordered Categorical,Mental Health, 
+depressed_7d,:ref:`🔗 <w1e-q30>`,Ordered Categorical,Mental Health, 
+calm_7d,:ref:`🔗 <w1e-q30>`,Ordered Categorical,Mental Health, 
+gloomy_7d,:ref:`🔗 <w1e-q30>`,Ordered Categorical,Mental Health, 
+happy_7d,:ref:`🔗 <w1e-q30>`,Ordered Categorical,Mental Health, 
+concern_4w_bored,:ref:`🔗 <w1e-q31>`,Ordered Categorical,Mental Health, 
+concern_4w_serious_ill,:ref:`🔗 <w1e-q31>`,Ordered Categorical,Mental Health, 
+concern_4w_infect_others,:ref:`🔗 <w1e-q31>`,Ordered Categorical,Mental Health, 
+concern_4w_loved_ill,:ref:`🔗 <w1e-q31>`,Ordered Categorical,Mental Health, 
+concern_4w_unemp,:ref:`🔗 <w1e-q31>`,Ordered Categorical,Mental Health, 
+concern_4w_company,:ref:`🔗 <w1e-q31>`,Ordered Categorical,Mental Health, 
+concern_4w_new_job,:ref:`🔗 <w1e-q31>`,Ordered Categorical,Mental Health, 
+concern_4w_food,:ref:`🔗 <w1e-q31>`,Ordered Categorical,Mental Health, 
+concern_4w_health_care,:ref:`🔗 <w1e-q31>`,Ordered Categorical,Mental Health, 
+concern_4w_fav_shop_bancrupt,:ref:`🔗 <w1e-q31>`,Ordered Categorical,Mental Health, 
+duration_econ_crisis,:ref:`🔗 <w1e-v1>`,Ordered Categorical,Finances, 
+l_12m_job_loss_employee,:ref:`🔗 <w1e-v2>`,Ordered Categorical,Finances, 
+l_12m_no_contracts_selfempl,:ref:`🔗 <w1e-v2>`,Ordered Categorical,Finances, 
+l_12m_reduction_pension,:ref:`🔗 <w1e-v2>`,Ordered Categorical,Finances, 
+l_12m_drop_in_assets,:ref:`🔗 <w1e-v2>`,Ordered Categorical,Finances, 
+l_12m_bank_bankrupt,:ref:`🔗 <w1e-v2>`,Ordered Categorical,Finances, 
+l_12m_struggle_repay_debts,:ref:`🔗 <w1e-v2>`,Ordered Categorical,Finances, 
+e_12m_house_prices_direction,:ref:`🔗 <w1e-v3>`,Ordered Categorical,Macro Expectations, 
+e_12m_house_prices_change,:ref:`🔗 <w1e-v4>`,Ordered Categorical,Macro Expectations, 
+intend_12m_spend_less,:ref:`🔗 <w1e-v5>`,Ordered Categorical,Finances, 
+intend_12m_work_more,:ref:`🔗 <w1e-v5>`,Ordered Categorical,Finances, 
+intend_12m_work_less,:ref:`🔗 <w1e-v5>`,Ordered Categorical,Finances, 
+intend_12m_borrow,:ref:`🔗 <w1e-v5>`,Ordered Categorical,Finances, 
+intend_12m_postpone_house,:ref:`🔗 <w1e-v5>`,Ordered Categorical,Finances, 
+gov_action_approp,:ref:`🔗 <w1e-v6>`,Ordered Categorical,Policies, 
+gov_action_insuff,:ref:`🔗 <w1e-v6>`,Ordered Categorical,Policies, 
+save_banks,:ref:`🔗 <w1e-v6>`,Ordered Categorical,Policies, 
+help_pension_funds,:ref:`🔗 <w1e-v6>`,Ordered Categorical,Policies, 
+p_2m_employee_keep,:ref:`🔗 <w1e-q26>`,Int,Employment, 
+p_2m_employee_keep_gov,:ref:`🔗 <w1e-q26>`,Int,Employment, 
+p_2m_employee_lost,:ref:`🔗 <w1e-q26>`,Int,Employment, 
+p_2m_employee_other,:ref:`🔗 <w1e-q26>`,Int,Employment, 
+no_emergency_cc_note_drop,:ref:`🔗 <w1e-q25>`,str,skip, 
+note_survey,:ref:`🔗 <w1e-q34>`,str,Questionnaire, 
+p_3m_selfempl_normal,:ref:`🔗 <w1e-q27header>`,float,Employment, 
+p_3m_selfempl_fewer,:ref:`🔗 <w1e-q27header>`,float,Employment, 
+p_3m_selfempl_helped_by_gov,:ref:`🔗 <w1e-q27header>`,float,Employment, 
+p_3m_selfempl_shutdown,:ref:`🔗 <w1e-q27header>`,float,Employment, 
+p_3m_selfempl_other,:ref:`🔗 <w1e-q27header>`,float,Employment, 
