@@ -1,27 +1,14 @@
-.. _wave2_questions_english:
+.. _wave2_questions_english_ordered:
 
 
-Overview Questions Wave 2 (English)
-=====================================
-
-Introduction & Infection
---------------------------
-
-.. toctree::
-   :maxdepth: 1
+Overview Questions Wave 2 (English) Ordered by Appearance in the Questionnaire
+===============================================================================
 
    english/w2e-intro
    english/w2e-InfectionDiagnosed
    english/w2e-SelfPerceivedInfection
    english/w2e-q1header
    english/w2e-q7
-   
-Smoking & Alcohol Consumption
-------------------------------
-
-.. toctree::
-   :maxdepth: 1
-
    english/w2e-rook
    english/w2e-he035
    english/w2e-he036a
@@ -40,23 +27,9 @@ Smoking & Alcohol Consumption
    english/w2e-he040f
    english/w2e-he041
    english/w2e-he042
-
-Loneliness & Social Contacts
-------------------------------
-
-.. toctree::
-   :maxdepth: 1
-
    english/w2e-loneliness
    english/w2e-soccont
    english/w2e-soccompt
-   
-Work and Childcare
--------------------
-
-.. toctree::
-   :maxdepth: 1
-
    english/w2e-q22
    english/w2e-q23
    english/w2e-q13
@@ -68,13 +41,6 @@ Work and Childcare
    english/w2e-cruciaal
    english/w2e-cruciaal_notempl
    english/w2e-income
-
-Economic Expectations & Investments
----------------------------------------
-
-.. toctree::
-   :maxdepth: 1
-
    english/w2e-expectedincome
    english/w2e-ExpUnempl_before
    english/w2e-ExpUnempl_today
@@ -87,13 +53,6 @@ Economic Expectations & Investments
    english/w2e-Stock4
    english/w2e-Stock5
    english/w2e-Stock6
-
-Concerns & Evaluation
------------------------
-
-.. toctree::
-   :maxdepth: 1
-   
    english/w2e-q31
    english/w2e-eva2h
    english/w2e-opm

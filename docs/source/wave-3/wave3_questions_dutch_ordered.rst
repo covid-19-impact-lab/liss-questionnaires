@@ -1,11 +1,8 @@
-.. _wave3_questions_dutch:
+.. _wave3_questions_dutch_ordered:
 
 
-Overview Questions Wave 3 (Dutch)
-==================================
-
-Introduction & Infection
---------------------------
+Overview Questions Wave 3 (Dutch) Ordered by Appearance in the Questionnaire
+===============================================================================
 
 .. toctree::
    :maxdepth: 1
@@ -13,27 +10,11 @@ Introduction & Infection
    dutch/w3d-intro
    dutch/w3d-InfectionDiagnosed
    dutch/w3d-SelfPerceivedInfection
-
-Subjective Risks & Mental Health
-------------------------------------
-
-Note: The order in which the mental health questions are asked is random.
-
-.. toctree::
-   :maxdepth: 1 
-
    dutch/w3d-q1header
    dutch/w3d-q30
    dutch/w3d-q30hd_maand
    dutch/w3d-SAH
    dutch/w3d-expectedduration
-
-Employment & Retirement
--------------------------
-
-.. toctree::
-   :maxdepth: 1
-
    dutch/w3d-EmploymentStatus
    dutch/w3d-q14
    dutch/w3d-vacsick
@@ -62,28 +43,12 @@ Employment & Retirement
    dutch/w3d-q27header_unempl
    dutch/w3d-pens_gekort
    dutch/w3d-korting
-
-Activities & Economic Situation
----------------------------------
-
-.. toctree::
-   :maxdepth: 1
-
    dutch/w3d-es4_uitspraken
    dutch/w3d-es4_doelen
    dutch/w3d-q28
    dutch/w3d-q29
    dutch/w3d-q31
    dutch/w3d-q33
-
-Children & School from Home
------------------------------
-
-Note: The number of questions in this section depends on the number of children named in :ref:`w3d-v0`. The questions are repeated for each child.
-
-.. toctree::
-   :maxdepth: 1
-
    dutch/w3d-v0
    dutch/w3d-v0a
    dutch/w3d-v0b
@@ -94,12 +59,5 @@ Note: The number of questions in this section depends on the number of children 
    dutch/w3d-v4_bokind
    dutch/w3d-v5_bokind
    dutch/w3d-v6_bokind
-
-Questionnaire Evaluation
----------------------------
-
-.. toctree::
-   :maxdepth: 1
-
    dutch/w3d-eva2h
    dutch/w3d-opm

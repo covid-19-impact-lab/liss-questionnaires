@@ -1,11 +1,8 @@
-.. _wave1_questions:
+.. _wave1_questions_english_ordered:
 
 
-Overview Questions Wave 1 (English)
-====================================
-
-Introduction & Infection Risks
--------------------------------
+Overview Questions Wave 1 (English) Ordered by Appearance in the Questionnaire
+===============================================================================
 
 .. toctree::
    :maxdepth: 1
@@ -16,12 +13,6 @@ Introduction & Infection Risks
    english/w1e-q3
    english/w1e-q4
    english/w1e-q5
-
-Policies & Compliance
-----------------------
-.. toctree::
-   :maxdepth: 1
-
    english/w1e-q6
    english/w1e-q7
    english/w1e-q8
@@ -29,12 +20,6 @@ Policies & Compliance
    english/w1e-q10
    english/w1e-q11
    english/w1e-q12
-
-Work & Consumption
--------------------
-.. toctree::
-   :maxdepth: 1
-
    english/w1e-q13
    english/w1e-q14
    english/w1e-q15
@@ -45,13 +30,6 @@ Work & Consumption
    english/w1e-q20
    english/w1e-q21
    english/w1e-q_heli
-
-Childcare & Income
--------------------
-
-.. toctree::
-   :maxdepth: 1
-
    english/w1e-q22
    english/w1e-q23
    english/w1e-q24
@@ -60,22 +38,8 @@ Childcare & Income
    english/w1e-q27header
    english/w1e-q28
    english/w1e-q29
-
-(Mental) Health
-------------------------
-
-.. toctree::
-   :maxdepth: 1
-
    english/w1e-q30
    english/w1e-q31
-
-Trust in Government & Economic Expectations
---------------------------------------------
-
-.. toctree::
-   :maxdepth: 1
-
    english/w1e-q32
    english/w1e-q33
    english/w1e-q34
@@ -85,13 +49,6 @@ Trust in Government & Economic Expectations
    english/w1e-v4
    english/w1e-v5
    english/w1e-v6
-
-Feedback
----------
-
-.. toctree::
-   :maxdepth: 1
-
    english/w1e-eva2h
    
 

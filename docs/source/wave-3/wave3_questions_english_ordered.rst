@@ -1,8 +1,8 @@
-.. _wave3_questions_english:
+.. _wave3_questions_english_ordered:
 
 
-Overview Questions Wave 3 (English)
-=====================================
+Overview Questions Wave 3 (English) Ordered by Appearance in the Questionnaire
+===============================================================================
 
 Introduction & Infection
 --------------------------
@@ -13,27 +13,11 @@ Introduction & Infection
    english/w3e-intro
    english/w3e-InfectionDiagnosed
    english/w3e-SelfPerceivedInfection
-
-Subjective Risks & Mental Health
-------------------------------------
-
-Note: The order in which the mental health questions are asked is random.
-
-.. toctree::
-   :maxdepth: 1 
-
    english/w3e-q1header
    english/w3e-q30
    english/w3e-q30hd_maand
    english/w3e-SAH
    english/w3e-expectedduration
-
-Employment & Retirement
--------------------------
-
-.. toctree::
-   :maxdepth: 1
-
    english/w3e-EmploymentStatus
    english/w3e-q14
    english/w3e-vacsick
@@ -62,28 +46,12 @@ Employment & Retirement
    english/w3e-q27header_unempl
    english/w3e-pens_gekort
    english/w3e-korting
-
-Activities & Economic Situation
----------------------------------
-
-.. toctree::
-   :maxdepth: 1
-
    english/w3e-es4_uitspraken
    english/w3e-es4_doelen
    english/w3e-q28
    english/w3e-q29
    english/w3e-q31
    english/w3e-q33
-
-Children & School from Home
------------------------------
-
-Note: The number of questions in this section depends on the number of children named in :ref:`w3d-v0`. The questions are repeated for each child.
-
-.. toctree::
-   :maxdepth: 1
-
    english/w3e-v0
    english/w3e-v0a
    english/w3e-v0b
@@ -94,12 +62,5 @@ Note: The number of questions in this section depends on the number of children 
    english/w3e-v4_bokind
    english/w3e-v5_bokind
    english/w3e-v6_bokind
-
-Questionnaire Evaluation
----------------------------
-
-.. toctree::
-   :maxdepth: 1
-
    english/w3e-eva2h
    english/w3e-opm
