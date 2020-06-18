@@ -128,12 +128,12 @@ e_2022_hh_income_202002,:ref:`🔗 <w2e-expectedincome>`,float,Finances,202002
 e_2020_hh_income,:ref:`🔗 <w2e-expectedincome>`,float,Finances, 
 e_2021_hh_income,:ref:`🔗 <w2e-expectedincome>`,float,Finances, 
 e_2022_hh_income,:ref:`🔗 <w2e-expectedincome>`,float,Finances, 
-e_2020_unemp_rate_202002,:ref:`🔗 <w2e-ExpUnempl_before>`,Categorical,Employment,202002
-e_2021_unemp_rate_202002,:ref:`🔗 <w2e-ExpUnempl_before>`,Categorical,Employment,202002
-e_2022_unemp_rate_202002,:ref:`🔗 <w2e-ExpUnempl_before>`,Categorical,Employment,202002
-e_2020_unemp_rate,:ref:`🔗 <w2e-ExpUnempl_today>`,Categorical,Employment, 
-e_2021_unemp_rate,:ref:`🔗 <w2e-ExpUnempl_today>`,Categorical,Employment, 
-e_2022_unemp_rate,:ref:`🔗 <w2e-ExpUnempl_today>`,Categorical,Employment, 
+e_2020_unemp_rate_202002,:ref:`🔗 <w2e-ExpUnempl_before>`,Categorical,Macro Expectations,202002
+e_2021_unemp_rate_202002,:ref:`🔗 <w2e-ExpUnempl_before>`,Categorical,Macro Expectations,202002
+e_2022_unemp_rate_202002,:ref:`🔗 <w2e-ExpUnempl_before>`,Categorical,Macro Expectations,202002
+e_2020_unemp_rate,:ref:`🔗 <w2e-ExpUnempl_today>`,Categorical,Macro Expectations, 
+e_2021_unemp_rate,:ref:`🔗 <w2e-ExpUnempl_today>`,Categorical,Macro Expectations, 
+e_2022_unemp_rate,:ref:`🔗 <w2e-ExpUnempl_today>`,Categorical,Macro Expectations, 
 e_2020_gdp_202002,:ref:`🔗 <w2e-ExpEcGrowth_before>`,Categorical,Macro Expectations,202002
 e_2021_gdp_202002,:ref:`🔗 <w2e-ExpEcGrowth_before>`,Categorical,Macro Expectations,202002
 e_2022_gdp_202002,:ref:`🔗 <w2e-ExpEcGrowth_before>`,Categorical,Macro Expectations,202002
