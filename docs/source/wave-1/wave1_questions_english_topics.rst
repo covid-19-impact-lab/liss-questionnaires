@@ -1,8 +1,9 @@
 .. _wave1_questions_english_topics: 
 
  
-Overview of Questions Wave 1 (English) grouped by Topic 
+Overview of Questions Wave 1 (English) Grouped by Topic 
 ======================================================= 
+This page contains the questions grouped by topic. When clicking into a question, please note that internally the questions are ordered according to their appearance in the questionnaire. Clicking on the next or previous question will thus not preseve the grouping by topic. 
 
  
 Behavior 

@@ -1,8 +1,22 @@
 .. _wave3_questions_english_topics: 
 
  
-Overview of Questions Wave 3 (English) grouped by Topic 
+Overview of Questions Wave 3 (English) Grouped by Topic 
 ======================================================= 
+This page contains the questions grouped by topic. When clicking into a question, please note that internally the questions are ordered according to their appearance in the questionnaire. Clicking on the next or previous question will thus not preseve the grouping by topic. 
+
+ 
+Background 
+---------- 
+ 
+.. toctree:: 
+   :maxdepth: 1 
+ 
+   english/w3e-v0 
+   english/w3e-v0a 
+   english/w3e-v0b 
+   english/w3e-v1_bo 
+   english/w3e-v1_vo 
 
  
 Behavior 
