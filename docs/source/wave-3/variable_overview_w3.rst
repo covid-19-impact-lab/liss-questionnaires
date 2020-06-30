@@ -9,4 +9,4 @@ The table below contains an overview of the variables in wave 3 and the question
 .. csv-table:: Overview of Variables Wave 3
    :file: variable_table-waves-3-e.csv
    :header-rows: 1
-   :widths: 20 20 20 20 20
+
