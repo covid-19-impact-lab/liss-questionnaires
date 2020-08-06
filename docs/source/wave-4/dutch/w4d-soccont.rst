@@ -16,8 +16,8 @@ We willen graag iets weten over de contacten die u de afgelopen zeven dagen hebt
 .. csv-table:: 
    :delim: | 
  
-           persoonlijk, op afstand (telefonisch, online enz.) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
-           persoonlijk, op afstand (telefonisch, online enz.) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
+           persoonlijk | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
+           op afstand (telefonisch, online enz.) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
 
 .. image:: ../_screenshots/w4-soccont.png 
 

@@ -15,7 +15,7 @@ Which of the following best describes your situation? If multiple options are ap
  
 .. csv-table:: 
    :delim: | 
-   :header: I do paid work (full-time or part-time), I am self-employed, I am unemployed and looking for work, I am (early) retired, I am (early) retired, I receive a disability benefit or social assistance and am not looking for work, I am an apprentice / student / intern and only receive an expense allowance
+   :header: I do paid work (full-time or part-time), I am self-employed, I am unemployed and looking for work, I am retired (early), I receive disability benefits or social assistance and I am not looking to work, I am an apprentice / student / trainee and only receive an expense allowance, I do the housework
  
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
 

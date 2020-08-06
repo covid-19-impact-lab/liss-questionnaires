@@ -15,7 +15,7 @@ Welke van de volgende opties beschrijft uw situatie het best? Als er meer opties
  
 .. csv-table:: 
    :delim: | 
-   :header: Ik verricht betaald werk in loondienst( full-time of part-time), Ik ben zelfstandig ondernemer, Ik ben werkloos en ben op zoek naar werk, Ik ben (vervroegd) gepensioneerd, Ik ben (vervroegd) gepensioneerd, Ik ontvang een arbeidsongeschiktheidsuitkering of sociale bijstand en ben niet op zoek naar werk, Ik ben leerling / student / stagiair en krijg alleen een onkostenvergoeding
+   :header: Ik verricht betaald werk in loondienst( full-time of part-time), Ik ben zelfstandig ondernemer, Ik ben werkloos en ben op zoek naar werk, Ik ben (vervroegd) gepensioneerd, Ik ontvang een arbeidsongeschiktheidsuitkering of sociale bijstand en ben niet op zoek naar werk,  Ik ben leerling / student / stagiair en krijg alleen een onkostenvergoeding, Ik doe het huishouden
  
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
 
