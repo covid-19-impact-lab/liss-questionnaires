@@ -1,5 +1,7 @@
 # [LISS CoViD-19 Questionnaires Documentation](https://liss-covid-19-questionnaires-documentation.readthedocs.io/en/latest/) 
 
+[![Documentation Status](https://readthedocs.org/projects/liss-covid-19-questionnaires-documentation/badge/?version=latest)](https://liss-covid-19-questionnaires-documentation.readthedocs.io/en/latest/?badge=latest)
+
 Repository for documentation of the LISS questionnaires on the coronavirus pandemic. 
 
 Overview of Questionnaires covered in the Documentation:
