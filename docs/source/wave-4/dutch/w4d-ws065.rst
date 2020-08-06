@@ -1,0 +1,27 @@
+.. _w4d-ws065: 
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+ 
+`ws065` – Reasons for Taking Steps Towards Job Search
+============================================================= 
+
+
+:raw-html:`&larr;` :ref:`w4d-ws064` | :ref:`w4d-JobHours` :raw-html:`&rarr;` 
+ 
+*Routing to the question depends on answer in:* :ref:`w4d-ws063` 
+
+Wat is de belangrijkste reden dat u de afgelopen twee maanden geen stappen hebt ondernomen om werk te vinden?
+ 
+.. csv-table:: 
+   :delim: | 
+   :header: ik heb geen geschikte advertentie of vacature gezien, ik denk dat er geen geschikte baan voor mij is, ik heb een baan gevonden, maar ben nog niet begonnen, ik wacht een sollicitatie of gesprek af, ik heb een geschikte baan gezien, maar het salaris was te laag, ik moet zorgen voor mensen (kinderen, ouders) die van mij afhankelijk zijn, door het coronavirus is het niet veilig voor mij om te werken, andere reden, ik weet het niet
+ 
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
+
+.. image:: ../_screenshots/w4-ws065.png 
+
+
+:raw-html:`&larr;` :ref:`w4d-ws064` | :ref:`w4d-JobHours` :raw-html:`&rarr;` 
+ 

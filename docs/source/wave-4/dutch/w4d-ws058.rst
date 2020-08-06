@@ -1,0 +1,27 @@
+.. _w4d-ws058: 
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+ 
+`ws058` – Job Search
+============================ 
+
+
+:raw-html:`&larr;` :ref:`w4d-beliefs10` | :ref:`w4d-extra` :raw-html:`&rarr;` 
+ 
+*Routing to the question depends on answer in:* :ref:`w4d-EmploymentStatus` 
+
+Bent u op dit moment op zoek naar een (andere) baan?
+ 
+.. csv-table:: 
+   :delim: | 
+   :header: ja  ik ben serieus op zoek, ja  ik denk er wel over, nee ik heb al een andere baan, gevonden maar ben nog niet begonnen, nee ik ben niet op zoek
+ 
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
+
+.. image:: ../_screenshots/w4-ws058.png 
+
+
+:raw-html:`&larr;` :ref:`w4d-beliefs10` | :ref:`w4d-extra` :raw-html:`&rarr;` 
+ 

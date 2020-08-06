@@ -4,8 +4,8 @@
 Overview Questions Wave 3 (English) Ordered by Appearance in the Questionnaire
 ===============================================================================
 
-Introduction & Infection
---------------------------
+Questions
+---------
 
 .. toctree::
    :maxdepth: 1

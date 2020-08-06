@@ -81,7 +81,7 @@ def create_pages(
         elif df[q_layout].all() == "cat":
             insert_cat_question(df, path, q_text, q_categories, q_varname)
         else:
-            raise ValueError("Page format in codebook is not correctly defined.")
+            raise ValueError(f"Unknown layout type for question {qid}.")
 
         add_to_file(insert_image.format(f"{image_path}{waveid}-{qid}.png"), path)
         # Insert arrows to next & pervious

@@ -1,0 +1,22 @@
+.. _w4d-ws064: 
+
+ 
+ .. role:: raw-html(raw) 
+        :format: html 
+ 
+`ws064` – Job Applications
+================================== 
+
+
+:raw-html:`&larr;` :ref:`w4d-ws063` | :ref:`w4d-ws065` :raw-html:`&rarr;` 
+ 
+*Routing to the question depends on answer in:* :ref:`w4d-ws063` 
+
+Hoeveel keer hebt u in de afgelopen twee maanden gesolliciteerd (persoonlijk, schriftelijk, telefonisch, via e-mail of internet)? 
+ 
+
+.. image:: ../_screenshots/w4-ws064.png 
+
+
+:raw-html:`&larr;` :ref:`w4d-ws063` | :ref:`w4d-ws065` :raw-html:`&rarr;` 
+ 

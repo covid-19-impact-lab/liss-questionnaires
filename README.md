@@ -43,3 +43,15 @@ Overview of Questionnaires covered in the Documentation:
 - Retirement plans and expectations about future employment and income security.
 
 - Detailed questions about school-aged children in the household and how they spend their time during the pandemic compared to before.
+
+
+[Wave 4](https://liss-covid-19-questionnaires-documentation.readthedocs.io/en/latest/wave-4/index.html)
+
+- Recurring questions about opinions on subjective risks, employment status, income, mental health, social contacts, and childcare arrangements (new: pre-school children).
+
+- Receival and spending of holiday pay.
+
+- Job search activities and beliefs about labor market status, potential work opportunities.
+
+- Activities and avoidance strategy in light of the pandemic.
+
