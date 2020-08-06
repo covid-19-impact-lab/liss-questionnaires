@@ -11,7 +11,7 @@
 :raw-html:`&larr;` :ref:`w4e-avoid` | :ref:`w4e-EmploymentStatus` :raw-html:`&rarr;` 
  
 
-When do you think, the restrictions that are in place now will be no longer be in force, and will ...
+When do you think, the restrictions that are in place now will no longer be in force, and …
  
 .. csv-table:: 
    :delim: | 

@@ -17,12 +17,12 @@ What do you think of the easing that the government has now made to the measures
    :delim: | 
    :header: ,Too flexible, Rather too flexible than too strict, Just enough, Rather too strict than too flexible, Too strict
  
-           Childcare and after-school care are open again (from 8 June) | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
-           Schools are open again (from 8 June) | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
-           Cafes and restaurants are open again with a maximum of 30 guests | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
-           In public transport passengers should wear a facemask | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
-           Sports may only outside at 1.5 meters away | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
-           Working at your workplace may only if 1.5 meters can be held and other provisions have been made for the protection and hygiene, eg. Plexiglas partitions | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
+           Childcare and out-of-school care are fully open again (from 8 June) | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
+           Primary schools are fully open again (from June 8) | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
+           Cafés and restaurants are open again with a maximum of 30 guests | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
+           In public transport, travelers must wear a mask | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
+           Sports are only allowed outside at a distance of 1.5 meters | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
+           You may only work at your workplace if it can be kept at a distance of 1.5 meters and if other provisions for protection and hygiene have been made, such as plexiglass partitions | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
 
 .. image:: ../_screenshots/w4-support.png 
 

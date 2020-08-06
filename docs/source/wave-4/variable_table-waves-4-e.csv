@@ -1,445 +1,443 @@
-Variable,Links Wave 4,Type,Topic,Reference Period Other Than Survey Period,Question Id
-p_2m_infected,:ref:`🔗 <w4e-q1header>`,float,Health Beliefs,-111,q1a
-p_2m_acquaintance_infected,:ref:`🔗 <w4e-q1header>`,float,Health Beliefs,-111,q1b
-p_2m_hospital_if_infect_self,:ref:`🔗 <w4e-q1header>`,float,Health Beliefs,-111,q1c
-p_2m_infected_and_pass_on,:ref:`🔗 <w4e-q1header>`,float,Health Beliefs,-111,q1e
-hours_workplace,:ref:`🔗 <w4e-q14>`,float,Employment,-111,q14b_q14werk
-hours_home,:ref:`🔗 <w4e-q14>`,float,Employment,-111,q14b_q14thuis
-feeling_emptiness,:ref:`🔗 <w4e-loneliness>`,Categorical,Mental Health,-111,cs12e284
-enough_people_approach,:ref:`🔗 <w4e-loneliness>`,Categorical,Behavior,-111,cs12e285
-enough_people_trust,:ref:`🔗 <w4e-loneliness>`,Categorical,Behavior,-111,cs12e286
-enough_people_bond,:ref:`🔗 <w4e-loneliness>`,Categorical,Behavior,-111,cs12e287
-miss_people_around,:ref:`🔗 <w4e-loneliness>`,Categorical,Behavior,-111,cs12e288
-feel_let_down_often,:ref:`🔗 <w4e-loneliness>`,Categorical,Behavior,-111,cs12e289
-n_contacts_personal,:ref:`🔗 <w4e-soccont>`,float,Behavior,-111,soccont1
-n_contacts_distanced,:ref:`🔗 <w4e-soccont>`,float,Behavior,-111,soccont2
-hh_income_202001,:ref:`🔗 <w4e-income>`,float,Finances,202001,inc_jan
-hh_income_202002,:ref:`🔗 <w4e-income>`,float,Finances,202002,inc_feb
-hh_income_202003,:ref:`🔗 <w4e-income>`,float,Finances,202003,inc_mrt
-hh_income_202004,:ref:`🔗 <w4e-income>`,float,Finances,202004,inc_apr
-hh_income_202005,:ref:`🔗 <w4e-income>`,float,Finances,202005,inc_mei
-e_2020_hh_income_202002,:ref:`🔗 <w4e-expectedincome>`,float,Finances,202002,expinc2020_col1
-e_2021_hh_income_202002,:ref:`🔗 <w4e-expectedincome>`,float,Finances,202002,expinc2021_col1
-e_2022_hh_income_202002,:ref:`🔗 <w4e-expectedincome>`,float,Finances,202002,expinc2022_col1
-e_2020_hh_income,:ref:`🔗 <w4e-expectedincome>`,float,Finances,-111,expinc2020_a_col2_a
-e_2021_hh_income,:ref:`🔗 <w4e-expectedincome>`,float,Finances,-111,expinc2021_a_col2_a
-e_2022_hh_income,:ref:`🔗 <w4e-expectedincome>`,float,Finances,-111,expinc2022_a_col2_a
-nervous_month,:ref:`🔗 <w4e-q30hd_maand>`,Ordered Categorical,Mental Health,-111,q30a_mnd
-depressed_month,:ref:`🔗 <w4e-q30hd_maand>`,Ordered Categorical,Mental Health,-111,q30b_mnd
-calm_month,:ref:`🔗 <w4e-q30hd_maand>`,Ordered Categorical,Mental Health,-111,q30c_mnd
-gloomy_month,:ref:`🔗 <w4e-q30hd_maand>`,Ordered Categorical,Mental Health,-111,q30d_mnd
-happy_month,:ref:`🔗 <w4e-q30hd_maand>`,Ordered Categorical,Mental Health,-111,q30e_mnd
-work_status,:ref:`🔗 <w4e-EmploymentStatus>`,Categorical,Employment,-111,EmploymentStatus
-change_empl,:ref:`🔗 <w4e-change_empl>`,Categorical,Finances,-111,change_empl
-change_selfempl,:ref:`🔗 <w4e-change_selfempl>`,Categorical,Finances,-111,change_selfempl
-work_change_because_corona,:ref:`🔗 <w4e-q2>`,bool,Finances,-111,q2
-month_lost_job,:ref:`🔗 <w4e-q4_header>`,Ordered Categorical,Finances,-111,q4_maand
-year_lost_job,:ref:`🔗 <w4e-q4_header>`,Int,Finances,-111,q4_jaar
-have_children_prim_school,:ref:`🔗 <w4e-v0>`,bool,Background,-111,v0__1
-have_children_sec_school,:ref:`🔗 <w4e-v0>`,bool,Background,-111,v0__2
-no_children_prim_sec_school,:ref:`🔗 <w4e-v0>`,bool,Background,-111,v0__3
-amount_children_primary,:ref:`🔗 <w4e-v0a>`,Int,Background,-111,v0a
-amount_children_sec,:ref:`🔗 <w4e-v0b>`,Int,Background,-111,v0b
-first_primary_gender,:ref:`🔗 <w4e-v1_bo>`,Categorical,Background,-111,v1_bo_kind1_geslacht
-first_primary_birth,:ref:`🔗 <w4e-v1_bo>`,Int,Background,-111,v1_bo_kind1_gebjaar
-second_primary_gender,:ref:`🔗 <w4e-v1_bo>`,Categorical,Background,-111,v1_bo_kind2_geslacht
-second_primary_birth,:ref:`🔗 <w4e-v1_bo>`,Int,Background,-111,v1_bo_kind2_gebjaar
-third_primary_gender,:ref:`🔗 <w4e-v1_bo>`,Categorical,Background,-111,v1_bo_kind3_geslacht
-third_primary_birth,:ref:`🔗 <w4e-v1_bo>`,Int,Background,-111,v1_bo_kind3_gebjaar
-fourth_primary_gender,:ref:`🔗 <w4e-v1_bo>`,Categorical,Background,-111,v1_bo_kind4_geslacht
-fourth_primary_birth,:ref:`🔗 <w4e-v1_bo>`,Int,Background,-111,v1_bo_kind4_gebjaar
-fifth_primary_gender,:ref:`🔗 <w4e-v1_bo>`,Categorical,Background,-111,v1_bo_kind5_geslacht
-fifth_primary_birth,:ref:`🔗 <w4e-v1_bo>`,Int,Background,-111,v1_bo_kind5_gebjaar
-first_sec_gender,:ref:`🔗 <w4e-v1_vo>`,Categorical,Background,-111,v1_vo_kind1_geslacht
-first_sec_birth,:ref:`🔗 <w4e-v1_vo>`,Int,Background,-111,v1_vo_kind1_gebjaar
-second_sec_gender,:ref:`🔗 <w4e-v1_vo>`,Categorical,Background,-111,v1_vo_kind2_geslacht
-second_sec_birth,:ref:`🔗 <w4e-v1_vo>`,Int,Background,-111,v1_vo_kind2_gebjaar
-third_sec_gender,:ref:`🔗 <w4e-v1_vo>`,Categorical,Background,-111,v1_vo_kind3_geslacht
-third_sec_birth,:ref:`🔗 <w4e-v1_vo>`,Int,Background,-111,v1_vo_kind3_gebjaar
-fourth_sec_gender,:ref:`🔗 <w4e-v1_vo>`,Categorical,Background,-111,v1_vo_kind4_geslacht
-fourth_sec_birth,:ref:`🔗 <w4e-v1_vo>`,Int,Background,-111,v1_vo_kind4_gebjaar
-fifth_sec_gender,:ref:`🔗 <w4e-v1_vo>`,Categorical,Background,-111,v1_vo_kind5_geslacht
-fifth_sec_birth,:ref:`🔗 <w4e-v1_vo>`,Int,Background,-111,v1_vo_kind5_gebjaar
-hpay_situation,:ref:`🔗 <w4e-vakantiegeld1>`,Categorical,holiday pay,-111,vakantiegeld1
-hpay_amount,:ref:`🔗 <w4e-vakantiegeld2>`,Int,holiday pay,-111,vakantiegeld2
-hpay_norm,:ref:`🔗 <w4e-vakantiegeld2b>`,Int,holiday pay,-111,vakantiegeld2b_1
-hpay_amount_merge,:ref:`🔗 <w4e-vakantiegeld2b>`,Int,holiday pay,-111,vakantiegeld2b_2
-hpay_amount_freetime_202002,:ref:`🔗 <w4e-vakantiegeld3>`,bool,holiday pay,202002,vakantiegeld3a_pre
-hpay_amount_basicneeds_202002,:ref:`🔗 <w4e-vakantiegeld3>`,bool,holiday pay,202002,vakantiegeld3b_pre
-hpay_amount_entertainment_202002,:ref:`🔗 <w4e-vakantiegeld3>`,bool,holiday pay,202002,vakantiegeld3c_pre
-hpay_amount_durables_202002,:ref:`🔗 <w4e-vakantiegeld3>`,bool,holiday pay,202002,vakantiegeld3d_pre
-hpay_amount_house_202002,:ref:`🔗 <w4e-vakantiegeld3>`,bool,holiday pay,202002,vakantiegeld3e_pre
-hpay_amount_saving_202002,:ref:`🔗 <w4e-vakantiegeld3>`,bool,holiday pay,202002,vakantiegeld3f_pre
-hpay_amount_transfer_202002,:ref:`🔗 <w4e-vakantiegeld3>`,bool,holiday pay,202002,vakantiegeld3g_pre
-hpay_amount_other_202002,:ref:`🔗 <w4e-vakantiegeld3>`,bool,holiday pay,202002,vakantiegeld3h_pre
-hpay_amount_sum_202002,:ref:`🔗 <w4e-vakantiegeld3>`,bool,holiday pay,202002,vakantiegeld3_totaal_pre
-hpay_amount_freetime,:ref:`🔗 <w4e-vakantiegeld3>`,bool,holiday pay,-111,vakantiegeld3a_nu
-hpay_amount_basicneeds,:ref:`🔗 <w4e-vakantiegeld3>`,bool,holiday pay,-111,vakantiegeld3b_nu
-hpay_amount_entertainment,:ref:`🔗 <w4e-vakantiegeld3>`,bool,holiday pay,-111,vakantiegeld3c_nu
-hpay_amount_durables,:ref:`🔗 <w4e-vakantiegeld3>`,bool,holiday pay,-111,vakantiegeld3d_nu
-hpay_amount_house,:ref:`🔗 <w4e-vakantiegeld3>`,bool,holiday pay,-111,vakantiegeld3e_nu
-hpay_amount_saving,:ref:`🔗 <w4e-vakantiegeld3>`,bool,holiday pay,-111,vakantiegeld3f_nu
-hpay_amount_transfer,:ref:`🔗 <w4e-vakantiegeld3>`,bool,holiday pay,-111,vakantiegeld3g_nu
-hpay_amount_other,:ref:`🔗 <w4e-vakantiegeld3>`,bool,holiday pay,-111,vakantiegeld3h_nu
-hpay_amount_sum,:ref:`🔗 <w4e-vakantiegeld3>`,bool,holiday pay,-111,vakantiegeld3_totaal_nu
-e_2m_findoldjob,:ref:`🔗 <w4e-beliefs1>`,Int,Beliefs,-111,beliefs1a
-e_6m_findoldjob,:ref:`🔗 <w4e-beliefs1>`,Int,Beliefs,-111,beliefs1b
-e_2m_findjob,:ref:`🔗 <w4e-beliefs2>`,Int,Beliefs,-111,beliefs2a
-e_6m_findjob,:ref:`🔗 <w4e-beliefs2>`,Int,Beliefs,-111,beliefs2b
-l_findoldjob_rel,:ref:`🔗 <w4e-beliefs3>`,Ordered Categorical,Beliefs,-111,beliefs3
-impact_corona_findoldjob,:ref:`🔗 <w4e-beliefs4>`,Categorical,Beliefs,-111,beliefs4
-finoldjob_wage_rel,:ref:`🔗 <w4e-beliefs5>`,Ordered Categorical,Beliefs,-111,beliefs5
-e_2m_findcurrentjob,:ref:`🔗 <w4e-beliefs6>`,Int,Beliefs,-111,beliefs6a
-e_6m_findcurrentjob,:ref:`🔗 <w4e-beliefs6>`,Int,Beliefs,-111,beliefs6b
-e_2m_findjob_merge,:ref:`🔗 <w4e-beliefs7>`,Int,Beliefs,-111,beliefs7a
-e_6m_findjob_merge,:ref:`🔗 <w4e-beliefs7>`,Int,Beliefs,-111,beliefs7b
-l_findcurrentjob_rel,:ref:`🔗 <w4e-beliefs8>`,Ordered Categorical,Beliefs,-111,beliefs8
-impact_corona_findcurrentjob,:ref:`🔗 <w4e-beliefs9>`,Categorical,Beliefs,-111,beliefs9
-findcurrentjob_wage_rel,:ref:`🔗 <w4e-beliefs10>`,Ordered Categorical,Beliefs,-111,beliefs10
-support_childcare_open,:ref:`🔗 <w4e-support>`,Ordered Categorical,Childcare,-111,support_a
-support_primary_open,:ref:`🔗 <w4e-support>`,Ordered Categorical,Childcare,-111,support_b
-support_cafe_open,:ref:`🔗 <w4e-support>`,Ordered Categorical,Public Life,-111,support_c
-support_transport_rules,:ref:`🔗 <w4e-support>`,Ordered Categorical,Public Life,-111,support_d
-support_sports_rules,:ref:`🔗 <w4e-support>`,Ordered Categorical,Public Life,-111,support_e
-support_workplace_rules,:ref:`🔗 <w4e-support>`,Ordered Categorical,Public Life,-111,support_f
-avoid_cafe,:ref:`🔗 <w4e-avoid>`,Ordered Categorical,Behavior,-111,avoid_a
-avoid_theater,:ref:`🔗 <w4e-avoid>`,Ordered Categorical,Behavior,-111,avoid_b
-avoid_public_transport,:ref:`🔗 <w4e-avoid>`,Ordered Categorical,Behavior,-111,avoid_c
-avoid_gym,:ref:`🔗 <w4e-avoid>`,Ordered Categorical,Behavior,-111,avoid_d
-duration_open_schools,:ref:`🔗 <w4e-duration>`,Ordered Categorical,Beliefs,-111,duration_a
-duration_open_cafes,:ref:`🔗 <w4e-duration>`,Ordered Categorical,Beliefs,-111,duration_b
-duration_no_masks_transport,:ref:`🔗 <w4e-duration>`,Ordered Categorical,Beliefs,-111,duration_c
-duration_sports,:ref:`🔗 <w4e-duration>`,Ordered Categorical,Beliefs,-111,duration_d
-duration_no_measures_workplace,:ref:`🔗 <w4e-duration>`,Ordered Categorical,Beliefs,-111,duration_e
-seeking_intensity,:ref:`🔗 <w4e-ws058>`,Categorical,Job Search,-111,ws058
-job_search_same,:ref:`🔗 <w4e-extra>`,Categorical,Job Search,-111,extra
-no_search_empl_not_lose_job,:ref:`🔗 <w4e-NotLooking>`,bool,Job Search,-111,NotLooking__1
-no_search_empl_not_change_job,:ref:`🔗 <w4e-NotLooking>`,bool,Job Search,-111,NotLooking__2
-no_search_empl_corona,:ref:`🔗 <w4e-NotLooking>`,bool,Job Search,-111,NotLooking__3
-no_search_empl_cant_find_other,:ref:`🔗 <w4e-NotLooking>`,bool,Job Search,-111,NotLooking__4
-no_search_empl_other,:ref:`🔗 <w4e-NotLooking>`,bool,Job Search,-111,NotLooking__5
-no_search_empl_other_str,:ref:`🔗 <w4e-NotLooking>`,str,Job Search,-111,NotLooking_str
-no_search_study,:ref:`🔗 <w4e-ws059>`,bool,Job Search,-111,ws059__1
-no_search_household,:ref:`🔗 <w4e-ws059>`,bool,Job Search,-111,ws059__2
-no_search_incapacitated,:ref:`🔗 <w4e-ws059>`,bool,Job Search,-111,ws059__3
-no_search_rentier,:ref:`🔗 <w4e-ws059>`,bool,Job Search,-111,ws059__4
-no_search_retirement,:ref:`🔗 <w4e-ws059>`,bool,Job Search,-111,ws059__5
-no_search_impact_corona,:ref:`🔗 <w4e-ws059>`,bool,Job Search,-111,ws059__6
-no_search_cant_find_other,:ref:`🔗 <w4e-ws059>`,bool,Job Search,-111,ws059__7
-no_search_corona_not_safe,:ref:`🔗 <w4e-ws059>`,bool,Job Search,-111,ws059__8
-no_search_other,:ref:`🔗 <w4e-ws059>`,bool,Job Search,-111,ws059__9
-no_search_other_str,:ref:`🔗 <w4e-ws059>`,str,Job Search,-111,ws059_str
-reason_seeking_loss_corona,:ref:`🔗 <w4e-ws060>`,bool,Job Search,-111,ws060__1
-reason_seeking_loss_other,:ref:`🔗 <w4e-ws060>`,bool,Job Search,-111,ws060__2
-reason_seeking_temporary,:ref:`🔗 <w4e-ws060>`,bool,Job Search,-111,ws060__3
-reason_seeking_earn_more,:ref:`🔗 <w4e-ws060>`,bool,Job Search,-111,ws060__4
-reason_seeking_conditions,:ref:`🔗 <w4e-ws060>`,bool,Job Search,-111,ws060__5
-reason_seeking_side,:ref:`🔗 <w4e-ws060>`,bool,Job Search,-111,ws060__6
-reason_seeking_less,:ref:`🔗 <w4e-ws060>`,bool,Job Search,-111,ws060__7
-reason_seeking_more,:ref:`🔗 <w4e-ws060>`,bool,Job Search,-111,ws060__8
-reason_seeking_unhappy,:ref:`🔗 <w4e-ws060>`,bool,Job Search,-111,ws060__9
-reason_seeking_security,:ref:`🔗 <w4e-ws060>`,bool,Job Search,-111,ws060__10
-search_home_home,:ref:`🔗 <w4e-ws060>`,bool,Job Search,-111,ws060__11
-reason_seeking_other,:ref:`🔗 <w4e-ws060>`,bool,Job Search,-111,ws060__12
-reason_seeking_other_str,:ref:`🔗 <w4e-ws060>`,str,Job Search,-111,ws060_str
-seeking_ad,:ref:`🔗 <w4e-ws063>`,bool,Job Search,-111,ws063__1
-seeking_placed,:ref:`🔗 <w4e-ws063>`,bool,Job Search,-111,ws063__2
-seeking_employers,:ref:`🔗 <w4e-ws063>`,bool,Job Search,-111,ws063__3
-seeking_relatives,:ref:`🔗 <w4e-ws063>`,bool,Job Search,-111,ws063__4
-seeking_labor,:ref:`🔗 <w4e-ws063>`,bool,Job Search,-111,ws063__5
-seeking_agency,:ref:`🔗 <w4e-ws063>`,bool,Job Search,-111,ws063__6
-seeking_internet,:ref:`🔗 <w4e-ws063>`,bool,Job Search,-111,ws063__7
-seeking_coach,:ref:`🔗 <w4e-ws063>`,bool,Job Search,-111,ws063__8
-seeking_follow,:ref:`🔗 <w4e-ws063>`,bool,Job Search,-111,ws063__9
-seeking_other,:ref:`🔗 <w4e-ws063>`,bool,Job Search,-111,ws063__10
-seeking_none,:ref:`🔗 <w4e-ws063>`,bool,Job Search,-111,ws063__11
-applied_job,:ref:`🔗 <w4e-ws064>`,Int,Job Search,2 months,ws064
-seeking_none_reason,:ref:`🔗 <w4e-ws065>`,Categorical,Job Search,-111,ws065
-seeking_hours,:ref:`🔗 <w4e-JobHours>`,Int,Job Search,-111,JobHours
-seeking_wage,:ref:`🔗 <w4e-JobWage>`,Int,Job Search,-111,JobWage
-job_important_flexible_hours,:ref:`🔗 <w4e-JobChar>`,Ordered Categorical,Job Search,-111,JobChar1
-job_important_salary,:ref:`🔗 <w4e-JobChar>`,Ordered Categorical,Job Search,-111,JobChar2
-job_important_contact,:ref:`🔗 <w4e-JobChar>`,Ordered Categorical,Job Search,-111,JobChar3
-job_important_no_contact,:ref:`🔗 <w4e-JobChar>`,Ordered Categorical,Job Search,-111,JobChar4
-job_important_homeoffice,:ref:`🔗 <w4e-JobChar>`,Ordered Categorical,Job Search,-111,JobChar5
-job_important_security,:ref:`🔗 <w4e-JobChar>`,Ordered Categorical,Job Search,-111,JobChar6
-job_important_travel_time,:ref:`🔗 <w4e-JobChar>`,Ordered Categorical,Job Search,-111,JobChar7
-job_important_transport,:ref:`🔗 <w4e-JobChar>`,Ordered Categorical,Job Search,-111,JobChar8
-job_important_flexible_hours_merge,:ref:`🔗 <w4e-PosJobChar>`,Categorical,Job Search,-111,PosJobChar1
-job_important_salary_merge,:ref:`🔗 <w4e-PosJobChar>`,Categorical,Job Search,-111,PosJobChar2
-job_important_contact_merge,:ref:`🔗 <w4e-PosJobChar>`,Categorical,Job Search,-111,PosJobChar3
-job_important_no_contact_merge,:ref:`🔗 <w4e-PosJobChar>`,Categorical,Job Search,-111,PosJobChar4
-job_important_homeoffice_merge,:ref:`🔗 <w4e-PosJobChar>`,Categorical,Job Search,-111,PosJobChar5
-job_important_security_merge,:ref:`🔗 <w4e-PosJobChar>`,Categorical,Job Search,-111,PosJobChar6
-job_important_travel_time_merge,:ref:`🔗 <w4e-PosJobChar>`,Categorical,Job Search,-111,PosJobChar7
-job_important_transport_merge,:ref:`🔗 <w4e-PosJobChar>`,Categorical,Job Search,-111,PosJobChar8
-school_start_mo_prim_child1,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_ma_bokind1_start
-school_start_tue_prim_child1,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_di_bokind1_start
-school_start_wed_prim_child1,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_wo_bokind1_start
-school_start_thu_prim_child1,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_do_bokind1_start
-school_start_fr_prim_child1,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_vr_bokind1_start
-school_end_mo_prim_child1,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_ma_bokind1_end
-school_end_tue_prim_child1,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_di_bokind1_end
-school_end_wed_prim_child1,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_wo_bokind1_end
-school_end_thu_prim_child1,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_do_bokind1_end
-school_end_fr_prim_child1,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_vr_bokind1_end
-not_mo_prim_child1,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_ma_bokind1_na
-not_tue_prim_child1,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_di_bokind1_na
-not_wed_prim_child1,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_wo_bokind1_na
-not_thu_prim_child1,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_do_bokind1_na
-not_fr_prim_child1,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_vr_bokind1_na
-no_school_sick_prim_child1,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind1__1
-no_school_infect_prim_child1,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind1__2
-no_school_infect_hh_prim_child1,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind1__3
-no_school_exempt_prim_child1,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind1__4
-no_school_household_prim_child1,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind1__5
-no_school_other_prim_child1,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind1__6
-no_school_other_str_prim_child1,:ref:`🔗 <w4e-v3_bokind>`,Categorical,Childcare,-111,v3and_bokind1
-cc_prim_child1,:ref:`🔗 <w4e-v4_bokind>`,bool,Childcare,-111,v4_bokind1
-no_cc_sick_prim_child1,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind1__1
-no_cc_infect_prim_child1,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind1__2
-no_cc_infect_hh_prim_child1,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind1__3
-no_cc_household_prim_child1,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind1__4
-no_cc_closed_prim_child1,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind1__5
-no_cc_no_place_prim_child1,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind1__6
-no_cc_dont_use_prim_child1,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind1__7
-no_cc_other_prim_child1,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind1__9
-no_cc_other_str_prim_child1,:ref:`🔗 <w4e-v5_bokind>`,str,Childcare,-111,v5and_bokind1
-school_start_mo_prim_child2,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_ma_bokind2_start
-school_start_tue_prim_child2,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_di_bokind2_start
-school_start_wed_prim_child2,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_wo_bokind2_start
-school_start_thu_prim_child2,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_do_bokind2_start
-school_start_fr_prim_child2,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_vr_bokind2_start
-school_end_mo_prim_child2,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_ma_bokind2_end
-school_end_tue_prim_child2,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_di_bokind2_end
-school_end_wed_prim_child2,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_wo_bokind2_end
-school_end_thu_prim_child2,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_do_bokind2_end
-school_end_fr_prim_child2,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_vr_bokind2_end
-not_mo_prim_child2,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_ma_bokind2_na
-not_tue_prim_child2,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_di_bokind2_na
-not_wed_prim_child2,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_wo_bokind2_na
-not_thu_prim_child2,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_do_bokind2_na
-not_fr_prim_child2,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_vr_bokind2_na
-no_school_sick_prim_child2,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind2__1
-no_school_infect_prim_child2,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind2__2
-no_school_infect_hh_prim_child2,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind2__3
-no_school_exempt_prim_child2,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind2__4
-no_school_household_prim_child2,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind2__5
-no_school_other_prim_child2,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind2__6
-no_school_other_str_prim_child2,:ref:`🔗 <w4e-v3_bokind>`,Categorical,Childcare,-111,v3and_bokind2
-cc_prim_child2,:ref:`🔗 <w4e-v4_bokind>`,bool,Childcare,-111,v4_bokind2
-no_cc_sick_prim_child2,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind2__1
-no_cc_infect_prim_child2,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind2__2
-no_cc_infect_hh_prim_child2,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind2__3
-no_cc_household_prim_child2,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind2__4
-no_cc_closed_prim_child2,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind2__5
-no_cc_no_place_prim_child2,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind2__6
-no_cc_dont_use_prim_child2,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind2__7
-no_cc_other_prim_child2,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind2__9
-no_cc_other_str_prim_child2,:ref:`🔗 <w4e-v5_bokind>`,str,Childcare,-111,v5and_bokind2
-school_start_mo_prim_child3,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_ma_bokind3_start
-school_start_tue_prim_child3,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_di_bokind3_start
-school_start_wed_prim_child3,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_wo_bokind3_start
-school_start_thu_prim_child3,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_do_bokind3_start
-school_start_fr_prim_child3,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_vr_bokind3_start
-school_end_mo_prim_child3,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_ma_bokind3_end
-school_end_tue_prim_child3,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_di_bokind3_end
-school_end_wed_prim_child3,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_wo_bokind3_end
-school_end_thu_prim_child3,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_do_bokind3_end
-school_end_fr_prim_child3,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_vr_bokind3_end
-not_mo_prim_child3,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_ma_bokind3_na
-not_tue_prim_child3,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_di_bokind3_na
-not_wed_prim_child3,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_wo_bokind3_na
-not_thu_prim_child3,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_do_bokind3_na
-not_fr_prim_child3,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_vr_bokind3_na
-no_school_sick_prim_child3,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind3__1
-no_school_infect_prim_child3,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind3__2
-no_school_infect_hh_prim_child3,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind3__3
-no_school_exempt_prim_child3,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind3__4
-no_school_household_prim_child3,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind3__5
-no_school_other_prim_child3,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind3__6
-no_school_other_str_prim_child3,:ref:`🔗 <w4e-v3_bokind>`,Categorical,Childcare,-111,v3and_bokind3
-cc_prim_child3,:ref:`🔗 <w4e-v4_bokind>`,bool,Childcare,-111,v4_bokind3
-no_cc_sick_prim_child3,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind3__1
-no_cc_infected_prim_child3,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind3__2
-no_cc_infected_hh_prim_child3,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind3__3
-no_cc_household_prim_child3,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind3__4
-no_cc_closed_prim_child3,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind3__5
-no_cc_no_place_prim_child3,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind3__6
-no_cc_dont_use_prim_child3,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind3__7
-no_cc_other_prim_child3,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind3__9
-no_cc_other_str_prim_child3,:ref:`🔗 <w4e-v5_bokind>`,str,Childcare,-111,v5and_bokind3
-school_start_mo_prim_child4,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_ma_bokind4_start
-school_start_tue_prim_child4,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_di_bokind4_start
-school_start_wed_prim_child4,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_wo_bokind4_start
-school_start_thu_prim_child4,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_do_bokind4_start
-school_start_fr_prim_child4,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_vr_bokind4_start
-school_end_mo_prim_child4,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_ma_bokind4_end
-school_end_tue_prim_child4,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_di_bokind4_end
-school_end_wed_prim_child4,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_wo_bokind4_end
-school_end_thu_prim_child4,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_do_bokind4_end
-school_end_fr_prim_child4,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_vr_bokind4_end
-not_mo_prim_child4,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_ma_bokind4_na
-not_tue_prim_child4,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_di_bokind4_na
-not_wed_prim_child4,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_wo_bokind4_na
-not_thu_prim_child4,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_do_bokind4_na
-not_fr_prim_child4,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_vr_bokind4_na
-no_school_sick_prim_child4,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind4__1
-no_school_infect_prim_child4,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind4__2
-no_school_infect_hh_prim_child4,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind4__3
-no_school_exempt_prim_child4,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind4__4
-no_school_household_prim_child4,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind4__5
-no_school_other_prim_child4,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind4__6
-no_school_other_str_prim_child4,:ref:`🔗 <w4e-v3_bokind>`,Categorical,Childcare,-111,v3and_bokind4
-cc_prim_child4,:ref:`🔗 <w4e-v4_bokind>`,bool,Childcare,-111,v4_bokind4
-no_cc_sick_prim_child4,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind4__1
-no_cc_infected_prim_child4,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind4__2
-no_cc_infected_hh_prim_child4,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind4__3
-no_cc_household_prim_child4,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind4__4
-no_cc_closed_prim_child4,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind4__5
-no_cc_no_place_prim_child4,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind4__6
-no_cc_dont_use_prim_child4,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind4__7
-no_cc_other_prim_child4,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind4__9
-no_cc_other_str_prim_child4,:ref:`🔗 <w4e-v5_bokind>`,str,Childcare,-111,v5and_bokind4
-school_start_mo_prim_child5,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_ma_bokind5_start
-school_start_tue_prim_child5,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_di_bokind5_start
-school_start_wed_prim_child5,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_wo_bokind5_start
-school_start_thu_prim_child5,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_do_bokind5_start
-school_start_fr_prim_child5,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_vr_bokind5_start
-school_end_mo_prim_child5,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_ma_bokind5_end
-school_end_tue_prim_child5,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_di_bokind5_end
-school_end_wed_prim_child5,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_wo_bokind5_end
-school_end_thu_prim_child5,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_do_bokind5_end
-school_end_fr_prim_child5,:ref:`🔗 <w4e-v2_bokind>`,float,Childcare,-111,v2_vr_bokind5_end
-not_mo_prim_child5,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_ma_bokind5_na
-not_tue_prim_child5,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_di_bokind5_na
-not_wed_prim_child5,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_wo_bokind5_na
-not_thu_prim_child5,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_do_bokind5_na
-not_fr_prim_child5,:ref:`🔗 <w4e-v2_bokind>`,bool,Childcare,-111,v2_vr_bokind5_na
-no_school_sick_prim_child5,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind5__1
-no_school_infect_prim_child5,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind5__2
-no_school_infect_hh_prim_child5,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind5__3
-no_school_exempt_prim_child5,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind5__4
-no_school_household_prim_child5,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind5__5
-no_school_other_prim_child5,:ref:`🔗 <w4e-v3_bokind>`,bool,Childcare,-111,v3_bokind5__6
-no_school_other_str_prim_child5,:ref:`🔗 <w4e-v3_bokind>`,Categorical,Childcare,-111,v3and_bokind5
-cc_prim_child5,:ref:`🔗 <w4e-v4_bokind>`,bool,Childcare,-111,v4_bokind5
-no_cc_sick_prim_child5,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind5__1
-no_cc_infected_prim_child5,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind5__2
-no_cc_infected_hh_prim_child5,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind5__3
-no_cc_household_prim_child5,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind5__4
-no_cc_closed_prim_child5,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind5__5
-no_cc_no_place_prim_child5,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind5__6
-no_cc_dont_use_prim_child5,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind5__7
-no_cc_other_prim_child5,:ref:`🔗 <w4e-v5_bokind>`,bool,Childcare,-111,v5_bokind5__9
-no_cc_other_str_prim_child5,:ref:`🔗 <w4e-v5_bokind>`,str,Childcare,-111,v5and_bokind5
-school_start_mo_sec_child1,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_ma_vokind1_start
-school_start_tue_sec_child1,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_di_vokind1_start
-school_start_wed_sec_child1,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_wo_vokind1_start
-school_start_thu_sec_child1,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_do_vokind1_start
-school_start_fr_sec_child1,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_vr_vokind1_start
-school_end_mo_sec_child1,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_ma_vokind1_end
-school_end_tue_sec_child1,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_di_vokind1_end
-school_end_wed_sec_child1,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_wo_vokind1_end
-school_end_thu_sec_child1,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_do_vokind1_end
-school_end_fr_sec_child1,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_vr_vokind1_end
-not_mo_sec_child1,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_ma_vokind1_na
-not_tue_sec_child1,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_di_vokind1_na
-not_wed_sec_child1,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_wo_vokind1_na
-not_thu_sec_child1,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_do_vokind1_na
-not_fr_sec_child1,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v2_vr_vokind1_na
-no_school_sick_sec_child1,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind1__1
-no_school_infect_sec_child1,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind1__2
-no_school_infect_hh_sec_child1,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind1__3
-no_school_exempt_sec_child1,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind1__4
-no_school_household_sec_child1,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind1__5
-no_school_other_sec_child1,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind1__6
-no_school_other_str_sec_child1,:ref:`🔗 <w4e-v3_vokind>`,Categorical,Childcare,-111,v3and_vokind1
-school_start_mo_sec_child2,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_ma_vokind2_start
-school_start_tue_sec_child2,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_di_vokind2_start
-school_start_wed_sec_child2,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_wo_vokind2_start
-school_start_thu_sec_child2,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_do_vokind2_start
-school_start_fr_sec_child2,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_vr_vokind2_start
-school_end_mo_sec_child2,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_ma_vokind2_end
-school_end_tue_sec_child2,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_di_vokind2_end
-school_end_wed_sec_child2,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_wo_vokind2_end
-school_end_thu_sec_child2,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_do_vokind2_end
-school_end_fr_sec_child2,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_vr_vokind2_end
-not_mo_sec_child2,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_ma_vokind2_na
-not_tue_sec_child2,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_di_vokind2_na
-not_wed_sec_child2,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_wo_vokind2_na
-not_thu_sec_child2,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_do_vokind2_na
-not_fr_sec_child2,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v2_vr_vokind2_na
-no_school_sick_sec_child2,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind2__1
-no_school_infect_sec_child2,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind2__2
-no_school_infect_hh_sec_child2,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind2__3
-no_school_exempt_sec_child2,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind2__4
-no_school_household_sec_child2,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind2__5
-no_school_other_sec_child2,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind2__6
-no_school_other_str_sec_child2,:ref:`🔗 <w4e-v3_vokind>`,Categorical,Childcare,-111,v3and_vokind2
-school_start_mo_sec_child3,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_ma_vokind3_start
-school_start_tue_sec_child3,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_di_vokind3_start
-school_start_wed_sec_child3,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_wo_vokind3_start
-school_start_thu_sec_child3,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_do_vokind3_start
-school_start_fr_sec_child3,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_vr_vokind3_start
-school_end_mo_sec_child3,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_ma_vokind3_end
-school_end_tue_sec_child3,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_di_vokind3_end
-school_end_wed_sec_child3,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_wo_vokind3_end
-school_end_thu_sec_child3,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_do_vokind3_end
-school_end_fr_sec_child3,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_vr_vokind3_end
-not_mo_sec_child3,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_ma_vokind3_na
-not_tue_sec_child3,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_di_vokind3_na
-not_wed_sec_child3,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_wo_vokind3_na
-not_thu_sec_child3,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_do_vokind3_na
-not_fr_sec_child3,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v2_vr_vokind3_na
-no_school_sick_sec_child3,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind3__1
-no_school_infect_sec_child3,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind3__2
-no_school_infect_hh_sec_child3,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind3__3
-no_school_exempt_sec_child3,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind3__4
-no_school_household_sec_child3,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind3__5
-no_school_other_sec_child3,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind3__6
-no_school_other_str_sec_child3,:ref:`🔗 <w4e-v3_vokind>`,Categorical,Childcare,-111,v3and_vokind3
-school_start_mo_sec_child4,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_ma_vokind4_start
-school_start_tue_sec_child4,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_di_vokind4_start
-school_start_wed_sec_child4,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_wo_vokind4_start
-school_start_thu_sec_child4,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_do_vokind4_start
-school_start_fr_sec_child4,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_vr_vokind4_start
-school_end_mo_sec_child4,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_ma_vokind4_end
-school_end_tue_sec_child4,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_di_vokind4_end
-school_end_wed_sec_child4,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_wo_vokind4_end
-school_end_thu_sec_child4,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_do_vokind4_end
-school_end_fr_sec_child4,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_vr_vokind4_end
-not_mo_sec_child4,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_ma_vokind4_na
-not_tue_sec_child4,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_di_vokind4_na
-not_wed_sec_child4,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_wo_vokind4_na
-not_thu_sec_child4,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_do_vokind4_na
-not_fr_sec_child4,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v2_vr_vokind4_na
-no_school_sick_sec_child4,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind4__1
-no_school_infect_sec_child4,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind4__2
-no_school_infect_hh_sec_child4,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind4__3
-no_school_exempt_sec_child4,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind4__4
-no_school_household_sec_child4,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind4__5
-no_school_other_sec_child4,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind4__6
-no_school_other_str_sec_child4,:ref:`🔗 <w4e-v3_vokind>`,Categorical,Childcare,-111,v3and_vokind4
-school_start_mo_sec_child5,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_ma_vokind5_start
-school_start_tue_sec_child5,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_di_vokind5_start
-school_start_wed_sec_child5,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_wo_vokind5_start
-school_start_thu_sec_child5,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_do_vokind5_start
-school_start_fr_sec_child5,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_vr_vokind5_start
-school_end_mo_sec_child5,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_ma_vokind5_end
-school_end_tue_sec_child5,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_di_vokind5_end
-school_end_wed_sec_child5,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_wo_vokind5_end
-school_end_thu_sec_child5,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_do_vokind5_end
-school_end_fr_sec_child5,:ref:`🔗 <w4e-v2_vokind>`,float,Childcare,-111,v2_vr_vokind5_end
-not_mo_sec_child5,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_ma_vokind5_na
-not_tue_sec_child5,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_di_vokind5_na
-not_wed_sec_child5,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_wo_vokind5_na
-not_thu_sec_child5,:ref:`🔗 <w4e-v2_vokind>`,bool,Childcare,-111,v2_do_vokind5_na
-not_fr_sec_child5,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v2_vr_vokind5_na
-no_school_sick_sec_child5,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind5__1
-no_school_infect_sec_child5,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind5__2
-no_school_infect_hh_sec_child5,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind5__3
-no_school_exempt_sec_child5,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind5__4
-no_school_household_sec_child5,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind5__5
-no_school_other_sec_child5,:ref:`🔗 <w4e-v3_vokind>`,bool,Childcare,-111,v3_vokind5__6
-no_school_other_str_sec_child5,:ref:`🔗 <w4e-v3_vokind>`,Categorical,Childcare,-111,v3and_vokind5
+Variable,Type,Topic,Reference Period Other Than Survey Period,Links Wave 4,Question Id,Routing
+p_2m_infected,float,Health Beliefs, ,:ref:`🔗 <w4e-q1header>`,q1a, 
+p_2m_acquaintance_infected,float,Health Beliefs, ,:ref:`🔗 <w4e-q1header>`,q1b, 
+p_2m_hospital_if_infect_self,float,Health Beliefs, ,:ref:`🔗 <w4e-q1header>`,q1c, 
+p_2m_infected_and_pass_on,float,Health Beliefs, ,:ref:`🔗 <w4e-q1header>`,q1e, 
+hours_workplace,float,Employment, ,:ref:`🔗 <w4e-q14>`,q14b_q14werk, 
+hours_home,float,Employment, ,:ref:`🔗 <w4e-q14>`,q14b_q14thuis, 
+feeling_emptiness,Categorical,Mental Health, ,:ref:`🔗 <w4e-loneliness>`,cs12e284, 
+enough_people_approach,Categorical,Behavior, ,:ref:`🔗 <w4e-loneliness>`,cs12e285, 
+enough_people_trust,Categorical,Behavior, ,:ref:`🔗 <w4e-loneliness>`,cs12e286, 
+enough_people_bond,Categorical,Behavior, ,:ref:`🔗 <w4e-loneliness>`,cs12e287, 
+miss_people_around,Categorical,Behavior, ,:ref:`🔗 <w4e-loneliness>`,cs12e288, 
+feel_let_down_often,Categorical,Behavior, ,:ref:`🔗 <w4e-loneliness>`,cs12e289, 
+n_contacts_personal,float,Behavior, ,:ref:`🔗 <w4e-soccont>`,soccont1, 
+n_contacts_distanced,float,Behavior, ,:ref:`🔗 <w4e-soccont>`,soccont2, 
+hh_income_202001,float,Finances,202001,:ref:`🔗 <w4e-income>`,inc_jan, 
+hh_income_202002,float,Finances,202002,:ref:`🔗 <w4e-income>`,inc_feb, 
+hh_income_202003,float,Finances,202003,:ref:`🔗 <w4e-income>`,inc_mrt, 
+e_2020_hh_income_202002,float,Finances,202002,:ref:`🔗 <w4e-expectedincome>`,expinc2020_col1, 
+e_2021_hh_income_202002,float,Finances,202002,:ref:`🔗 <w4e-expectedincome>`,expinc2021_col1, 
+e_2022_hh_income_202002,float,Finances,202002,:ref:`🔗 <w4e-expectedincome>`,expinc2022_col1, 
+e_2020_hh_income,float,Finances, ,:ref:`🔗 <w4e-expectedincome>`,expinc2020_a_col2_a, 
+e_2021_hh_income,float,Finances, ,:ref:`🔗 <w4e-expectedincome>`,expinc2021_a_col2_a, 
+e_2022_hh_income,float,Finances, ,:ref:`🔗 <w4e-expectedincome>`,expinc2022_a_col2_a, 
+nervous_month,Ordered Categorical,Mental Health, ,:ref:`🔗 <w4e-q30hd_maand>`,q30a_mnd, 
+depressed_month,Ordered Categorical,Mental Health, ,:ref:`🔗 <w4e-q30hd_maand>`,q30b_mnd, 
+calm_month,Ordered Categorical,Mental Health, ,:ref:`🔗 <w4e-q30hd_maand>`,q30c_mnd, 
+gloomy_month,Ordered Categorical,Mental Health, ,:ref:`🔗 <w4e-q30hd_maand>`,q30d_mnd, 
+happy_month,Ordered Categorical,Mental Health, ,:ref:`🔗 <w4e-q30hd_maand>`,q30e_mnd, 
+work_status,Categorical,Employment, ,:ref:`🔗 <w4e-EmploymentStatus>`,EmploymentStatus, 
+change_empl,Categorical,Finances, ,:ref:`🔗 <w4e-change_empl>`,change_empl, 
+change_selfempl,Categorical,Finances, ,:ref:`🔗 <w4e-change_selfempl>`,change_selfempl, 
+work_change_because_corona,bool,Finances, ,:ref:`🔗 <w4e-q2>`,q2, 
+month_lost_job,Ordered Categorical,Finances, ,:ref:`🔗 <w4e-q4_header>`,q4_maand, 
+year_lost_job,Int,Finances, ,:ref:`🔗 <w4e-q4_header>`,q4_jaar, 
+have_children_prim_school,bool,Background, ,:ref:`🔗 <w4e-v0>`,v0__1, 
+have_children_sec_school,bool,Background, ,:ref:`🔗 <w4e-v0>`,v0__2, 
+no_children_prim_sec_school,bool,Background, ,:ref:`🔗 <w4e-v0>`,v0__3, 
+amount_children_primary,Int,Background, ,:ref:`🔗 <w4e-v0a>`,v0a, 
+amount_children_sec,Int,Background, ,:ref:`🔗 <w4e-v0b>`,v0b, 
+first_primary_gender,Categorical,Background, ,:ref:`🔗 <w4e-v1_bo>`,v1_bo_kind1_geslacht, 
+first_primary_birth,Int,Background, ,:ref:`🔗 <w4e-v1_bo>`,v1_bo_kind1_gebjaar, 
+second_primary_gender,Categorical,Background, ,:ref:`🔗 <w4e-v1_bo>`,v1_bo_kind2_geslacht, 
+second_primary_birth,Int,Background, ,:ref:`🔗 <w4e-v1_bo>`,v1_bo_kind2_gebjaar, 
+third_primary_gender,Categorical,Background, ,:ref:`🔗 <w4e-v1_bo>`,v1_bo_kind3_geslacht, 
+third_primary_birth,Int,Background, ,:ref:`🔗 <w4e-v1_bo>`,v1_bo_kind3_gebjaar, 
+fourth_primary_gender,Categorical,Background, ,:ref:`🔗 <w4e-v1_bo>`,v1_bo_kind4_geslacht, 
+fourth_primary_birth,Int,Background, ,:ref:`🔗 <w4e-v1_bo>`,v1_bo_kind4_gebjaar, 
+fifth_primary_gender,Categorical,Background, ,:ref:`🔗 <w4e-v1_bo>`,v1_bo_kind5_geslacht, 
+fifth_primary_birth,Int,Background, ,:ref:`🔗 <w4e-v1_bo>`,v1_bo_kind5_gebjaar, 
+first_sec_gender,Categorical,Background, ,:ref:`🔗 <w4e-v1_vo>`,v1_vo_kind1_geslacht, 
+first_sec_birth,Int,Background, ,:ref:`🔗 <w4e-v1_vo>`,v1_vo_kind1_gebjaar, 
+second_sec_gender,Categorical,Background, ,:ref:`🔗 <w4e-v1_vo>`,v1_vo_kind2_geslacht, 
+second_sec_birth,Int,Background, ,:ref:`🔗 <w4e-v1_vo>`,v1_vo_kind2_gebjaar, 
+third_sec_gender,Categorical,Background, ,:ref:`🔗 <w4e-v1_vo>`,v1_vo_kind3_geslacht, 
+third_sec_birth,Int,Background, ,:ref:`🔗 <w4e-v1_vo>`,v1_vo_kind3_gebjaar, 
+fourth_sec_gender,Categorical,Background, ,:ref:`🔗 <w4e-v1_vo>`,v1_vo_kind4_geslacht, 
+fourth_sec_birth,Int,Background, ,:ref:`🔗 <w4e-v1_vo>`,v1_vo_kind4_gebjaar, 
+fifth_sec_gender,Categorical,Background, ,:ref:`🔗 <w4e-v1_vo>`,v1_vo_kind5_geslacht, 
+fifth_sec_birth,Int,Background, ,:ref:`🔗 <w4e-v1_vo>`,v1_vo_kind5_gebjaar, 
+hpay_situation,Categorical,holiday pay, ,:ref:`🔗 <w4e-vakantiegeld1>`,vakantiegeld1, 
+hpay_amount,Int,holiday pay, ,:ref:`🔗 <w4e-vakantiegeld2>`,vakantiegeld2, 
+hpay_norm,Int,holiday pay, ,:ref:`🔗 <w4e-vakantiegeld2b>`,vakantiegeld2b_1, 
+hpay_amount_merge,Int,holiday pay, ,:ref:`🔗 <w4e-vakantiegeld2b>`,vakantiegeld2b_2, 
+hpay_amount_freetime_202002,bool,holiday pay,202002,:ref:`🔗 <w4e-vakantiegeld3>`,vakantiegeld3a_pre, 
+hpay_amount_basicneeds_202002,bool,holiday pay,202002,:ref:`🔗 <w4e-vakantiegeld3>`,vakantiegeld3b_pre, 
+hpay_amount_entertainment_202002,bool,holiday pay,202002,:ref:`🔗 <w4e-vakantiegeld3>`,vakantiegeld3c_pre, 
+hpay_amount_durables_202002,bool,holiday pay,202002,:ref:`🔗 <w4e-vakantiegeld3>`,vakantiegeld3d_pre, 
+hpay_amount_house_202002,bool,holiday pay,202002,:ref:`🔗 <w4e-vakantiegeld3>`,vakantiegeld3e_pre, 
+hpay_amount_saving_202002,bool,holiday pay,202002,:ref:`🔗 <w4e-vakantiegeld3>`,vakantiegeld3f_pre, 
+hpay_amount_transfer_202002,bool,holiday pay,202002,:ref:`🔗 <w4e-vakantiegeld3>`,vakantiegeld3g_pre, 
+hpay_amount_other_202002,bool,holiday pay,202002,:ref:`🔗 <w4e-vakantiegeld3>`,vakantiegeld3h_pre, 
+hpay_amount_sum_202002,bool,holiday pay,202002,:ref:`🔗 <w4e-vakantiegeld3>`,vakantiegeld3_totaal_pre, 
+hpay_amount_freetime,bool,holiday pay, ,:ref:`🔗 <w4e-vakantiegeld3>`,vakantiegeld3a_nu, 
+hpay_amount_basicneeds,bool,holiday pay, ,:ref:`🔗 <w4e-vakantiegeld3>`,vakantiegeld3b_nu, 
+hpay_amount_entertainment,bool,holiday pay, ,:ref:`🔗 <w4e-vakantiegeld3>`,vakantiegeld3c_nu, 
+hpay_amount_durables,bool,holiday pay, ,:ref:`🔗 <w4e-vakantiegeld3>`,vakantiegeld3d_nu, 
+hpay_amount_house,bool,holiday pay, ,:ref:`🔗 <w4e-vakantiegeld3>`,vakantiegeld3e_nu, 
+hpay_amount_saving,bool,holiday pay, ,:ref:`🔗 <w4e-vakantiegeld3>`,vakantiegeld3f_nu, 
+hpay_amount_transfer,bool,holiday pay, ,:ref:`🔗 <w4e-vakantiegeld3>`,vakantiegeld3g_nu, 
+hpay_amount_other,bool,holiday pay, ,:ref:`🔗 <w4e-vakantiegeld3>`,vakantiegeld3h_nu, 
+hpay_amount_sum,bool,holiday pay, ,:ref:`🔗 <w4e-vakantiegeld3>`,vakantiegeld3_totaal_nu, 
+e_2m_findoldjob,Int,Beliefs, ,:ref:`🔗 <w4e-beliefs1>`,beliefs1a, 
+e_6m_findoldjob,Int,Beliefs, ,:ref:`🔗 <w4e-beliefs1>`,beliefs1b, 
+e_2m_findjob,Int,Beliefs, ,:ref:`🔗 <w4e-beliefs2>`,beliefs2a, 
+e_6m_findjob,Int,Beliefs, ,:ref:`🔗 <w4e-beliefs2>`,beliefs2b, 
+l_findoldjob_rel,Ordered Categorical,Beliefs, ,:ref:`🔗 <w4e-beliefs3>`,beliefs3, 
+impact_corona_findoldjob,Categorical,Beliefs, ,:ref:`🔗 <w4e-beliefs4>`,beliefs4, 
+finoldjob_wage_rel,Ordered Categorical,Beliefs, ,:ref:`🔗 <w4e-beliefs5>`,beliefs5, 
+e_2m_findcurrentjob,Int,Beliefs, ,:ref:`🔗 <w4e-beliefs6>`,beliefs6a, 
+e_6m_findcurrentjob,Int,Beliefs, ,:ref:`🔗 <w4e-beliefs6>`,beliefs6b, 
+e_2m_findjob_merge,Int,Beliefs, ,:ref:`🔗 <w4e-beliefs7>`,beliefs7a, 
+e_6m_findjob_merge,Int,Beliefs, ,:ref:`🔗 <w4e-beliefs7>`,beliefs7b, 
+l_findcurrentjob_rel,Ordered Categorical,Beliefs, ,:ref:`🔗 <w4e-beliefs8>`,beliefs8, 
+impact_corona_findcurrentjob,Categorical,Beliefs, ,:ref:`🔗 <w4e-beliefs9>`,beliefs9, 
+findcurrentjob_wage_rel,Ordered Categorical,Beliefs, ,:ref:`🔗 <w4e-beliefs10>`,beliefs10, 
+support_childcare_open,Ordered Categorical,Childcare, ,:ref:`🔗 <w4e-support>`,support_a, 
+support_primary_open,Ordered Categorical,Childcare, ,:ref:`🔗 <w4e-support>`,support_b, 
+support_cafe_open,Ordered Categorical,Public Life, ,:ref:`🔗 <w4e-support>`,support_c, 
+support_transport_rules,Ordered Categorical,Public Life, ,:ref:`🔗 <w4e-support>`,support_d, 
+support_sports_rules,Ordered Categorical,Public Life, ,:ref:`🔗 <w4e-support>`,support_e, 
+support_workplace_rules,Ordered Categorical,Public Life, ,:ref:`🔗 <w4e-support>`,support_f, 
+avoid_cafe,Ordered Categorical,Behavior, ,:ref:`🔗 <w4e-avoid>`,avoid_a, 
+avoid_theater,Ordered Categorical,Behavior, ,:ref:`🔗 <w4e-avoid>`,avoid_b, 
+avoid_public_transport,Ordered Categorical,Behavior, ,:ref:`🔗 <w4e-avoid>`,avoid_c, 
+avoid_gym,Ordered Categorical,Behavior, ,:ref:`🔗 <w4e-avoid>`,avoid_d, 
+duration_open_schools,Ordered Categorical,Beliefs, ,:ref:`🔗 <w4e-duration>`,duration_a, 
+duration_open_cafes,Ordered Categorical,Beliefs, ,:ref:`🔗 <w4e-duration>`,duration_b, 
+duration_no_masks_transport,Ordered Categorical,Beliefs, ,:ref:`🔗 <w4e-duration>`,duration_c, 
+duration_sports,Ordered Categorical,Beliefs, ,:ref:`🔗 <w4e-duration>`,duration_d, 
+duration_no_measures_workplace,Ordered Categorical,Beliefs, ,:ref:`🔗 <w4e-duration>`,duration_e, 
+seeking_intensity,Categorical,Job Search, ,:ref:`🔗 <w4e-ws058>`,ws058, 
+job_search_same,Categorical,Job Search, ,:ref:`🔗 <w4e-extra>`,extra, 
+no_search_empl_not_lose_job,bool,Job Search, ,:ref:`🔗 <w4e-NotLooking>`,NotLooking__1, 
+no_search_empl_not_change_job,bool,Job Search, ,:ref:`🔗 <w4e-NotLooking>`,NotLooking__2, 
+no_search_empl_corona,bool,Job Search, ,:ref:`🔗 <w4e-NotLooking>`,NotLooking__3, 
+no_search_empl_cant_find_other,bool,Job Search, ,:ref:`🔗 <w4e-NotLooking>`,NotLooking__4, 
+no_search_empl_other,bool,Job Search, ,:ref:`🔗 <w4e-NotLooking>`,NotLooking__5, 
+no_search_empl_other_str,str,Job Search, ,:ref:`🔗 <w4e-NotLooking>`,NotLooking_str, 
+no_search_study,bool,Job Search, ,:ref:`🔗 <w4e-ws059>`,ws059__1, 
+no_search_household,bool,Job Search, ,:ref:`🔗 <w4e-ws059>`,ws059__2, 
+no_search_incapacitated,bool,Job Search, ,:ref:`🔗 <w4e-ws059>`,ws059__3, 
+no_search_rentier,bool,Job Search, ,:ref:`🔗 <w4e-ws059>`,ws059__4, 
+no_search_retirement,bool,Job Search, ,:ref:`🔗 <w4e-ws059>`,ws059__5, 
+no_search_impact_corona,bool,Job Search, ,:ref:`🔗 <w4e-ws059>`,ws059__6, 
+no_search_cant_find_other,bool,Job Search, ,:ref:`🔗 <w4e-ws059>`,ws059__7, 
+no_search_corona_not_safe,bool,Job Search, ,:ref:`🔗 <w4e-ws059>`,ws059__8, 
+no_search_other,bool,Job Search, ,:ref:`🔗 <w4e-ws059>`,ws059__9, 
+no_search_other_str,str,Job Search, ,:ref:`🔗 <w4e-ws059>`,ws059_str, 
+reason_seeking_loss_corona,bool,Job Search, ,:ref:`🔗 <w4e-ws060>`,ws060__1, 
+reason_seeking_loss_other,bool,Job Search, ,:ref:`🔗 <w4e-ws060>`,ws060__2, 
+reason_seeking_temporary,bool,Job Search, ,:ref:`🔗 <w4e-ws060>`,ws060__3, 
+reason_seeking_earn_more,bool,Job Search, ,:ref:`🔗 <w4e-ws060>`,ws060__4, 
+reason_seeking_conditions,bool,Job Search, ,:ref:`🔗 <w4e-ws060>`,ws060__5, 
+reason_seeking_side,bool,Job Search, ,:ref:`🔗 <w4e-ws060>`,ws060__6, 
+reason_seeking_less,bool,Job Search, ,:ref:`🔗 <w4e-ws060>`,ws060__7, 
+reason_seeking_more,bool,Job Search, ,:ref:`🔗 <w4e-ws060>`,ws060__8, 
+reason_seeking_unhappy,bool,Job Search, ,:ref:`🔗 <w4e-ws060>`,ws060__9, 
+reason_seeking_security,bool,Job Search, ,:ref:`🔗 <w4e-ws060>`,ws060__10, 
+search_home_home,bool,Job Search, ,:ref:`🔗 <w4e-ws060>`,ws060__11, 
+reason_seeking_other,bool,Job Search, ,:ref:`🔗 <w4e-ws060>`,ws060__12, 
+reason_seeking_other_str,str,Job Search, ,:ref:`🔗 <w4e-ws060>`,ws060_str, 
+seeking_ad,bool,Job Search, ,:ref:`🔗 <w4e-ws063>`,ws063__1, 
+seeking_placed,bool,Job Search, ,:ref:`🔗 <w4e-ws063>`,ws063__2, 
+seeking_employers,bool,Job Search, ,:ref:`🔗 <w4e-ws063>`,ws063__3, 
+seeking_relatives,bool,Job Search, ,:ref:`🔗 <w4e-ws063>`,ws063__4, 
+seeking_labor,bool,Job Search, ,:ref:`🔗 <w4e-ws063>`,ws063__5, 
+seeking_agency,bool,Job Search, ,:ref:`🔗 <w4e-ws063>`,ws063__6, 
+seeking_internet,bool,Job Search, ,:ref:`🔗 <w4e-ws063>`,ws063__7, 
+seeking_coach,bool,Job Search, ,:ref:`🔗 <w4e-ws063>`,ws063__8, 
+seeking_follow,bool,Job Search, ,:ref:`🔗 <w4e-ws063>`,ws063__9, 
+seeking_other,bool,Job Search, ,:ref:`🔗 <w4e-ws063>`,ws063__10, 
+seeking_none,bool,Job Search, ,:ref:`🔗 <w4e-ws063>`,ws063__11, 
+applied_job,Int,Job Search,2 months,:ref:`🔗 <w4e-ws064>`,ws064, 
+seeking_none_reason,Categorical,Job Search, ,:ref:`🔗 <w4e-ws065>`,ws065, 
+seeking_hours,Int,Job Search, ,:ref:`🔗 <w4e-JobHours>`,JobHours, 
+seeking_wage,Int,Job Search, ,:ref:`🔗 <w4e-JobWage>`,JobWage, 
+job_important_flexible_hours,Ordered Categorical,Job Search, ,:ref:`🔗 <w4e-JobChar>`,JobChar1, 
+job_important_salary,Ordered Categorical,Job Search, ,:ref:`🔗 <w4e-JobChar>`,JobChar2, 
+job_important_contact,Ordered Categorical,Job Search, ,:ref:`🔗 <w4e-JobChar>`,JobChar3, 
+job_important_no_contact,Ordered Categorical,Job Search, ,:ref:`🔗 <w4e-JobChar>`,JobChar4, 
+job_important_homeoffice,Ordered Categorical,Job Search, ,:ref:`🔗 <w4e-JobChar>`,JobChar5, 
+job_important_security,Ordered Categorical,Job Search, ,:ref:`🔗 <w4e-JobChar>`,JobChar6, 
+job_important_travel_time,Ordered Categorical,Job Search, ,:ref:`🔗 <w4e-JobChar>`,JobChar7, 
+job_important_transport,Ordered Categorical,Job Search, ,:ref:`🔗 <w4e-JobChar>`,JobChar8, 
+job_important_flexible_hours_merge,Categorical,Job Search, ,:ref:`🔗 <w4e-JobChar>`,PosJobChar1, 
+job_important_salary_merge,Categorical,Job Search, ,:ref:`🔗 <w4e-JobChar>`,PosJobChar2, 
+job_important_contact_merge,Categorical,Job Search, ,:ref:`🔗 <w4e-JobChar>`,PosJobChar3, 
+job_important_no_contact_merge,Categorical,Job Search, ,:ref:`🔗 <w4e-JobChar>`,PosJobChar4, 
+job_important_homeoffice_merge,Categorical,Job Search, ,:ref:`🔗 <w4e-JobChar>`,PosJobChar5, 
+job_important_security_merge,Categorical,Job Search, ,:ref:`🔗 <w4e-JobChar>`,PosJobChar6, 
+job_important_travel_time_merge,Categorical,Job Search, ,:ref:`🔗 <w4e-JobChar>`,PosJobChar7, 
+job_important_transport_merge,Categorical,Job Search, ,:ref:`🔗 <w4e-JobChar>`,PosJobChar8, 
+school_start_mo_prim_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_ma_bokind1_start, 
+school_start_tue_prim_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_di_bokind1_start, 
+school_start_wed_prim_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_wo_bokind1_start, 
+school_start_thu_prim_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_do_bokind1_start, 
+school_start_fr_prim_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_vr_bokind1_start, 
+school_end_mo_prim_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_ma_bokind1_end, 
+school_end_tue_prim_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_di_bokind1_end, 
+school_end_wed_prim_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_wo_bokind1_end, 
+school_end_thu_prim_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_do_bokind1_end, 
+school_end_fr_prim_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_vr_bokind1_end, 
+not_mo_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_ma_bokind1_na, 
+not_tue_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_di_bokind1_na, 
+not_wed_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_wo_bokind1_na, 
+not_thu_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_do_bokind1_na, 
+not_fr_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_vr_bokind1_na, 
+no_school_sick_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind1__1, 
+no_school_infect_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind1__2, 
+no_school_infect_hh_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind1__3, 
+no_school_exempt_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind1__4, 
+no_school_household_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind1__5, 
+no_school_other_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind1__6, 
+no_school_other_str_prim_child1,Categorical,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3and_bokind1, 
+cc_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v4_bokind>`,v4_bokind1, 
+no_cc_sick_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind1__1, 
+no_cc_infect_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind1__2, 
+no_cc_infect_hh_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind1__3, 
+no_cc_household_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind1__4, 
+no_cc_closed_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind1__5, 
+no_cc_no_place_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind1__6, 
+no_cc_dont_use_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind1__7, 
+no_cc_other_prim_child1,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind1__9, 
+no_cc_other_str_prim_child1,str,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5and_bokind1, 
+school_start_mo_prim_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_ma_bokind2_start, 
+school_start_tue_prim_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_di_bokind2_start, 
+school_start_wed_prim_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_wo_bokind2_start, 
+school_start_thu_prim_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_do_bokind2_start, 
+school_start_fr_prim_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_vr_bokind2_start, 
+school_end_mo_prim_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_ma_bokind2_end, 
+school_end_tue_prim_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_di_bokind2_end, 
+school_end_wed_prim_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_wo_bokind2_end, 
+school_end_thu_prim_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_do_bokind2_end, 
+school_end_fr_prim_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_vr_bokind2_end, 
+not_mo_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_ma_bokind2_na, 
+not_tue_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_di_bokind2_na, 
+not_wed_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_wo_bokind2_na, 
+not_thu_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_do_bokind2_na, 
+not_fr_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_vr_bokind2_na, 
+no_school_sick_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind2__1, 
+no_school_infect_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind2__2, 
+no_school_infect_hh_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind2__3, 
+no_school_exempt_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind2__4, 
+no_school_household_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind2__5, 
+no_school_other_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind2__6, 
+no_school_other_str_prim_child2,Categorical,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3and_bokind2, 
+cc_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v4_bokind>`,v4_bokind2, 
+no_cc_sick_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind2__1, 
+no_cc_infect_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind2__2, 
+no_cc_infect_hh_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind2__3, 
+no_cc_household_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind2__4, 
+no_cc_closed_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind2__5, 
+no_cc_no_place_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind2__6, 
+no_cc_dont_use_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind2__7, 
+no_cc_other_prim_child2,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind2__9, 
+no_cc_other_str_prim_child2,str,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5and_bokind2, 
+school_start_mo_prim_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_ma_bokind3_start, 
+school_start_tue_prim_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_di_bokind3_start, 
+school_start_wed_prim_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_wo_bokind3_start, 
+school_start_thu_prim_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_do_bokind3_start, 
+school_start_fr_prim_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_vr_bokind3_start, 
+school_end_mo_prim_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_ma_bokind3_end, 
+school_end_tue_prim_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_di_bokind3_end, 
+school_end_wed_prim_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_wo_bokind3_end, 
+school_end_thu_prim_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_do_bokind3_end, 
+school_end_fr_prim_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_vr_bokind3_end, 
+not_mo_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_ma_bokind3_na, 
+not_tue_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_di_bokind3_na, 
+not_wed_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_wo_bokind3_na, 
+not_thu_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_do_bokind3_na, 
+not_fr_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_vr_bokind3_na, 
+no_school_sick_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind3__1, 
+no_school_infect_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind3__2, 
+no_school_infect_hh_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind3__3, 
+no_school_exempt_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind3__4, 
+no_school_household_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind3__5, 
+no_school_other_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind3__6, 
+no_school_other_str_prim_child3,Categorical,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3and_bokind3, 
+cc_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v4_bokind>`,v4_bokind3, 
+no_cc_sick_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind3__1, 
+no_cc_infected_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind3__2, 
+no_cc_infected_hh_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind3__3, 
+no_cc_household_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind3__4, 
+no_cc_closed_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind3__5, 
+no_cc_no_place_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind3__6, 
+no_cc_dont_use_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind3__7, 
+no_cc_other_prim_child3,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind3__9, 
+no_cc_other_str_prim_child3,str,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5and_bokind3, 
+school_start_mo_prim_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_ma_bokind4_start, 
+school_start_tue_prim_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_di_bokind4_start, 
+school_start_wed_prim_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_wo_bokind4_start, 
+school_start_thu_prim_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_do_bokind4_start, 
+school_start_fr_prim_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_vr_bokind4_start, 
+school_end_mo_prim_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_ma_bokind4_end, 
+school_end_tue_prim_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_di_bokind4_end, 
+school_end_wed_prim_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_wo_bokind4_end, 
+school_end_thu_prim_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_do_bokind4_end, 
+school_end_fr_prim_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_vr_bokind4_end, 
+not_mo_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_ma_bokind4_na, 
+not_tue_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_di_bokind4_na, 
+not_wed_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_wo_bokind4_na, 
+not_thu_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_do_bokind4_na, 
+not_fr_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_vr_bokind4_na, 
+no_school_sick_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind4__1, 
+no_school_infect_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind4__2, 
+no_school_infect_hh_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind4__3, 
+no_school_exempt_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind4__4, 
+no_school_household_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind4__5, 
+no_school_other_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind4__6, 
+no_school_other_str_prim_child4,Categorical,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3and_bokind4, 
+cc_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v4_bokind>`,v4_bokind4, 
+no_cc_sick_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind4__1, 
+no_cc_infected_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind4__2, 
+no_cc_infected_hh_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind4__3, 
+no_cc_household_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind4__4, 
+no_cc_closed_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind4__5, 
+no_cc_no_place_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind4__6, 
+no_cc_dont_use_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind4__7, 
+no_cc_other_prim_child4,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind4__9, 
+no_cc_other_str_prim_child4,str,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5and_bokind4, 
+school_start_mo_prim_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_ma_bokind5_start, 
+school_start_tue_prim_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_di_bokind5_start, 
+school_start_wed_prim_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_wo_bokind5_start, 
+school_start_thu_prim_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_do_bokind5_start, 
+school_start_fr_prim_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_vr_bokind5_start, 
+school_end_mo_prim_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_ma_bokind5_end, 
+school_end_tue_prim_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_di_bokind5_end, 
+school_end_wed_prim_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_wo_bokind5_end, 
+school_end_thu_prim_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_do_bokind5_end, 
+school_end_fr_prim_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_vr_bokind5_end, 
+not_mo_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_ma_bokind5_na, 
+not_tue_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_di_bokind5_na, 
+not_wed_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_wo_bokind5_na, 
+not_thu_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_do_bokind5_na, 
+not_fr_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v2_bokind>`,v2_vr_bokind5_na, 
+no_school_sick_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind5__1, 
+no_school_infect_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind5__2, 
+no_school_infect_hh_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind5__3, 
+no_school_exempt_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind5__4, 
+no_school_household_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind5__5, 
+no_school_other_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3_bokind5__6, 
+no_school_other_str_prim_child5,Categorical,Childcare, ,:ref:`🔗 <w4e-v3_bokind>`,v3and_bokind5, 
+cc_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v4_bokind>`,v4_bokind5, 
+no_cc_sick_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind5__1, 
+no_cc_infected_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind5__2, 
+no_cc_infected_hh_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind5__3, 
+no_cc_household_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind5__4, 
+no_cc_closed_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind5__5, 
+no_cc_no_place_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind5__6, 
+no_cc_dont_use_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind5__7, 
+no_cc_other_prim_child5,bool,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5_bokind5__9, 
+no_cc_other_str_prim_child5,str,Childcare, ,:ref:`🔗 <w4e-v5_bokind>`,v5and_bokind5, 
+school_start_mo_sec_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_ma_vokind1_start, 
+school_start_tue_sec_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_di_vokind1_start, 
+school_start_wed_sec_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_wo_vokind1_start, 
+school_start_thu_sec_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_do_vokind1_start, 
+school_start_fr_sec_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_vr_vokind1_start, 
+school_end_mo_sec_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_ma_vokind1_end, 
+school_end_tue_sec_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_di_vokind1_end, 
+school_end_wed_sec_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_wo_vokind1_end, 
+school_end_thu_sec_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_do_vokind1_end, 
+school_end_fr_sec_child1,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_vr_vokind1_end, 
+not_mo_sec_child1,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_ma_vokind1_na, 
+not_tue_sec_child1,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_di_vokind1_na, 
+not_wed_sec_child1,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_wo_vokind1_na, 
+not_thu_sec_child1,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_do_vokind1_na, 
+not_fr_sec_child1,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v2_vr_vokind1_na, 
+no_school_sick_sec_child1,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind1__1, 
+no_school_infect_sec_child1,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind1__2, 
+no_school_infect_hh_sec_child1,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind1__3, 
+no_school_exempt_sec_child1,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind1__4, 
+no_school_household_sec_child1,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind1__5, 
+no_school_other_sec_child1,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind1__6, 
+no_school_other_str_sec_child1,Categorical,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3and_vokind1, 
+school_start_mo_sec_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_ma_vokind2_start, 
+school_start_tue_sec_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_di_vokind2_start, 
+school_start_wed_sec_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_wo_vokind2_start, 
+school_start_thu_sec_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_do_vokind2_start, 
+school_start_fr_sec_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_vr_vokind2_start, 
+school_end_mo_sec_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_ma_vokind2_end, 
+school_end_tue_sec_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_di_vokind2_end, 
+school_end_wed_sec_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_wo_vokind2_end, 
+school_end_thu_sec_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_do_vokind2_end, 
+school_end_fr_sec_child2,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_vr_vokind2_end, 
+not_mo_sec_child2,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_ma_vokind2_na, 
+not_tue_sec_child2,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_di_vokind2_na, 
+not_wed_sec_child2,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_wo_vokind2_na, 
+not_thu_sec_child2,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_do_vokind2_na, 
+not_fr_sec_child2,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v2_vr_vokind2_na, 
+no_school_sick_sec_child2,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind2__1, 
+no_school_infect_sec_child2,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind2__2, 
+no_school_infect_hh_sec_child2,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind2__3, 
+no_school_exempt_sec_child2,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind2__4, 
+no_school_household_sec_child2,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind2__5, 
+no_school_other_sec_child2,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind2__6, 
+no_school_other_str_sec_child2,Categorical,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3and_vokind2, 
+school_start_mo_sec_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_ma_vokind3_start, 
+school_start_tue_sec_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_di_vokind3_start, 
+school_start_wed_sec_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_wo_vokind3_start, 
+school_start_thu_sec_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_do_vokind3_start, 
+school_start_fr_sec_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_vr_vokind3_start, 
+school_end_mo_sec_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_ma_vokind3_end, 
+school_end_tue_sec_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_di_vokind3_end, 
+school_end_wed_sec_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_wo_vokind3_end, 
+school_end_thu_sec_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_do_vokind3_end, 
+school_end_fr_sec_child3,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_vr_vokind3_end, 
+not_mo_sec_child3,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_ma_vokind3_na, 
+not_tue_sec_child3,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_di_vokind3_na, 
+not_wed_sec_child3,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_wo_vokind3_na, 
+not_thu_sec_child3,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_do_vokind3_na, 
+not_fr_sec_child3,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v2_vr_vokind3_na, 
+no_school_sick_sec_child3,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind3__1, 
+no_school_infect_sec_child3,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind3__2, 
+no_school_infect_hh_sec_child3,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind3__3, 
+no_school_exempt_sec_child3,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind3__4, 
+no_school_household_sec_child3,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind3__5, 
+no_school_other_sec_child3,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind3__6, 
+no_school_other_str_sec_child3,Categorical,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3and_vokind3, 
+school_start_mo_sec_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_ma_vokind4_start, 
+school_start_tue_sec_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_di_vokind4_start, 
+school_start_wed_sec_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_wo_vokind4_start, 
+school_start_thu_sec_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_do_vokind4_start, 
+school_start_fr_sec_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_vr_vokind4_start, 
+school_end_mo_sec_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_ma_vokind4_end, 
+school_end_tue_sec_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_di_vokind4_end, 
+school_end_wed_sec_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_wo_vokind4_end, 
+school_end_thu_sec_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_do_vokind4_end, 
+school_end_fr_sec_child4,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_vr_vokind4_end, 
+not_mo_sec_child4,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_ma_vokind4_na, 
+not_tue_sec_child4,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_di_vokind4_na, 
+not_wed_sec_child4,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_wo_vokind4_na, 
+not_thu_sec_child4,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_do_vokind4_na, 
+not_fr_sec_child4,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v2_vr_vokind4_na, 
+no_school_sick_sec_child4,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind4__1, 
+no_school_infect_sec_child4,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind4__2, 
+no_school_infect_hh_sec_child4,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind4__3, 
+no_school_exempt_sec_child4,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind4__4, 
+no_school_household_sec_child4,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind4__5, 
+no_school_other_sec_child4,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind4__6, 
+no_school_other_str_sec_child4,Categorical,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3and_vokind4, 
+school_start_mo_sec_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_ma_vokind5_start, 
+school_start_tue_sec_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_di_vokind5_start, 
+school_start_wed_sec_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_wo_vokind5_start, 
+school_start_thu_sec_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_do_vokind5_start, 
+school_start_fr_sec_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_vr_vokind5_start, 
+school_end_mo_sec_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_ma_vokind5_end, 
+school_end_tue_sec_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_di_vokind5_end, 
+school_end_wed_sec_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_wo_vokind5_end, 
+school_end_thu_sec_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_do_vokind5_end, 
+school_end_fr_sec_child5,float,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_vr_vokind5_end, 
+not_mo_sec_child5,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_ma_vokind5_na, 
+not_tue_sec_child5,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_di_vokind5_na, 
+not_wed_sec_child5,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_wo_vokind5_na, 
+not_thu_sec_child5,bool,Childcare, ,:ref:`🔗 <w4e-v2_vokind>`,v2_do_vokind5_na, 
+not_fr_sec_child5,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v2_vr_vokind5_na, 
+no_school_sick_sec_child5,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind5__1, 
+no_school_infect_sec_child5,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind5__2, 
+no_school_infect_hh_sec_child5,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind5__3, 
+no_school_exempt_sec_child5,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind5__4, 
+no_school_household_sec_child5,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind5__5, 
+no_school_other_sec_child5,bool,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3_vokind5__6, 
+no_school_other_str_sec_child5,Categorical,Childcare, ,:ref:`🔗 <w4e-v3_vokind>`,v3and_vokind5, 

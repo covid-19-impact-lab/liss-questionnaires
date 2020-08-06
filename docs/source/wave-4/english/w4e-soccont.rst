@@ -16,8 +16,8 @@ We would like to know about the contacts you have had in the past seven days, in
 .. csv-table:: 
    :delim: | 
  
-           personally, at a distance (telephone, online etc.) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
-           personally, at a distance (telephone, online etc.) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
+           personally | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
+           at a distance (telephone, online etc.) | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
 
 .. image:: ../_screenshots/w4-soccont.png 
 

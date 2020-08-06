@@ -17,7 +17,6 @@
 4 = I do it, but a little less often than before the outbreak
 5 = I do it as often as before the outbreak
 6 = I do it more often than before the outbreak
-
  
 .. csv-table:: 
    :delim: | 

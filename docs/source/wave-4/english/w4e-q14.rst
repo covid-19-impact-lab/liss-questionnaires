@@ -12,7 +12,7 @@
  
 *Routing to the question depends on answer in:* :ref:`w4e-EmploymentStatus` 
 
-How many hours per week you worked in the past seven days, at your workplace and from home? If you always work at home, fill all the hours in the 'from home'. Fill in zero (0) if you are not working at your workplace or home.
+How many hours per week have you worked in the past seven days, at your workplace and from home? If you always work at home, fill all the hours in the 'from home'. Fill in zero (0) if you are not working at your workplace or home.
  
 .. csv-table:: 
    :delim: | 

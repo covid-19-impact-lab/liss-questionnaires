@@ -11,15 +11,15 @@
 :raw-html:`&larr;` :ref:`w4e-intro` | :ref:`w4e-q30hd_maand` :raw-html:`&rarr;` 
  
 
-How likely do you think the following things are likely to happen in the next three months? You can answer this question on a scale from 0 to 100, where 0 stands for certainly not and 100 stands for certainly.
+On a scale of 0 to 100 percent, how likely do you think that the following events will happen in the the next three months?
  
 .. csv-table:: 
    :delim: | 
  
-           you are infected | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
-           anyone in your immediate environment (family, friends, colleagues) is infected | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
-           you should go to the hospital if you are infected | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
-           you are infected and infected someone else | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
+           You will be infected | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
+           Someone in your direct environment (family, friends, colleagues) will be infected | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
+           You will have to go to the hospital if you get infected    | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
+           You will be infected and you infect someone else | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
 
 .. image:: ../_screenshots/w4-q1header.png 
 

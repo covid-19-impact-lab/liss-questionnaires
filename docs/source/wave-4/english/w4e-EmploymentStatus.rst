@@ -11,7 +11,7 @@
 :raw-html:`&larr;` :ref:`w4e-duration` | :ref:`w4e-q14` :raw-html:`&rarr;` 
  
 
-Which of the following best describes your situation? If more options are available, choose the main activity or path.
+Which of the following best describes your situation? If multiple options are apply, choose the main activity or path.
  
 .. csv-table:: 
    :delim: | 
