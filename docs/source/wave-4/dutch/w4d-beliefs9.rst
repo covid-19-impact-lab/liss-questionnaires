@@ -16,9 +16,9 @@ Heeft de uitbraak van het corona virus volgens u gevolgen voor het vinden van ee
  
 .. csv-table:: 
    :delim: | 
-   :header: ,het is veel makkelijker om een baan te vinden, het is een beetje makkelijker om een baan te vinden, het is niet makkelijker en niet moeilijker, het is een beetje moeilijker om een baan te vinden, het is veel moeilijker om een baan te vinden
+   :header: het is veel makkelijker om een baan te vinden, het is een beetje makkelijker om een baan te vinden, het is niet makkelijker en niet moeilijker, het is een beetje moeilijker om een baan te vinden, het is veel moeilijker om een baan te vinden
  
-           nan | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
 
 .. image:: ../_screenshots/w4-beliefs9.png 
 

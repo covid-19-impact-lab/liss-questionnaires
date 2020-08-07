@@ -16,9 +16,9 @@ If you find the same job with the same number of hours as you do in the next two
  
 .. csv-table:: 
    :delim: | 
-   :header: ,same salary, less salary, more salary, I do not know
+   :header: same salary, less salary, more salary, I do not know
  
-           nan | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
 
 .. image:: ../_screenshots/w4-beliefs10.png 
 

@@ -16,9 +16,9 @@ Do you think the corona virus outbreak will affect finding the same kind of job 
  
 .. csv-table:: 
    :delim: | 
-   :header: ,it is much easier to find a job, it's a little easier to find a job, it's not easier, not harder, it's a little harder to find a job, it is much harder to find a job
+   :header: it is much easier to find a job, it's a little easier to find a job, it's not easier, not harder, it's a little harder to find a job, it is much harder to find a job
  
-           nan | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
 
 .. image:: ../_screenshots/w4-beliefs9.png 
 

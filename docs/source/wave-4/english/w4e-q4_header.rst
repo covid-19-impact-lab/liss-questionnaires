@@ -10,14 +10,15 @@
 
 :raw-html:`&larr;` :ref:`w4e-q2` | :ref:`w4e-beliefs1` :raw-html:`&rarr;` 
  
+*Routing to the question depends on answer in:* :ref:`w4e-EmploymentStatus` 
 
 In which month and in which year did your last job end?
  
 .. csv-table:: 
    :delim: | 
-   :header: ,year, month
  
-           nan | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` |:raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
+           Year | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
+           Month | :raw-html:`<form><input type="text" id="fname" name="fname"><br></form>` 
 
 .. image:: ../_screenshots/w4-q4_header.png 
 

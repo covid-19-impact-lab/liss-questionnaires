@@ -42,7 +42,6 @@ def create_pages(
     data = data.set_index([codebook.index, q_ids])
 
     for idx, qid in enumerate(qids):
-
         df = data[data.index.get_level_values(q_ids) == qid]
         # Create rst-file.
         file_name = f"{waveid}{lanid}-{qid}"

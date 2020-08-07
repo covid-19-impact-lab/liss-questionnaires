@@ -16,9 +16,9 @@ Hoe makkelijk is het, denkt u, om een zelfde soort baan te vinden zoals u nu heb
  
 .. csv-table:: 
    :delim: | 
-   :header: ,veel makkelijker dan in andere soort banen, een beetje makkelijker dan in andere soort banen, niet makkelijker en niet moeilijker dan in andere banen, een beetje moeilijker dan in andere soort banen, veel moeilijker dan in andere soort banen
+   :header: veel makkelijker dan in andere soort banen, een beetje makkelijker dan in andere soort banen, niet makkelijker en niet moeilijker dan in andere banen, een beetje moeilijker dan in andere soort banen, veel moeilijker dan in andere soort banen
  
-           nan | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
 
 .. image:: ../_screenshots/w4-beliefs8.png 
 

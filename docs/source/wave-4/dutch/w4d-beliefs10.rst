@@ -16,9 +16,9 @@ Als u in de komende twee maanden een zelfde baan met hetzelfde aantal uren vindt
  
 .. csv-table:: 
    :delim: | 
-   :header: ,hetzelfde salaris, minder salaris, meer salaris, ik weet het niet
+   :header: hetzelfde salaris, minder salaris, meer salaris, ik weet het niet
  
-           nan | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
+           :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
 
 .. image:: ../_screenshots/w4-beliefs10.png 
 
