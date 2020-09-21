@@ -2,9 +2,9 @@
 
 [![Documentation Status](https://readthedocs.org/projects/liss-covid-19-questionnaires-documentation/badge/?version=latest)](https://liss-covid-19-questionnaires-documentation.readthedocs.io/en/latest/?badge=latest)
 
-Repository for documentation of the LISS questionnaires on the coronavirus pandemic. 
+Repository for documentation of the LISS questionnaires on the CoViD-19 pandemic. 
 
-Overview of Questionnaires covered in the Documentation:
+Overview of Questionnaires Covered in the Documentation:
 -----------------------------------------------------------
 
 [Wave 1](https://liss-covid-19-questionnaires-documentation.readthedocs.io/en/latest/wave-1/index.html)
