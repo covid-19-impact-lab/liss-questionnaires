@@ -22,15 +22,15 @@ build:
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 save_all_content_to_pdf:
-	@$(SPHINXBUILD) -M latexpdf . _build
+	@$(SPHINXBUILD) -M latexpdf -interaction=nonstopmode . _build
 
 capture_pdf:
 	make serve & ( sleep 5 && make save_all_content_to_pdf ; echo "Captured PDF"; )
 
 update_zenodo_deposit:
 	build;
-	capture_pdf
-	#	python3 $(shell pwd)/zenodo_release.py;
+	capture_pdf;
+	python3 $(shell pwd)/zenodo_release.py;
 
 
 # Catch-all target: route all unknown targets to Sphinx using the new
