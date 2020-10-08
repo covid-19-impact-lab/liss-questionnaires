@@ -13,7 +13,6 @@ csv_singlerow = "           {}"
 bool_entry = ":raw-html:`&#10063;` – {}\n"
 open_question = "\n{} \n"
 header_question = "\n{}\n"
-header_question_varname = "\n{}\n"
 insert_image = "\n.. image:: {}"
 empty_field = ':raw-html:`<form><input type="text" id="fname" name="fname"><br></form>`'
 
@@ -23,13 +22,12 @@ def create_pages(
     waveid,
     lanid,
     q_ids,
-    q_fiter,
+    q_filter,
     q_groups,
     q_layout,
     q_text,
     q_sub_text,
     q_categories,
-    q_varname,
     target_dir,
     image_path,
 ):
@@ -50,13 +48,15 @@ def create_pages(
         add_to_file(".. _" + file_name + ":", path)
         add_to_file("\n \n .. role:: raw-html(raw) \n        :format: html \n", path)
 
-        add_to_file(f"`{qid}` – {group_name}\n{'='*len(file_name*2 + group_name)}", path)
+        add_to_file(
+            f"`{qid}` – {group_name}\n{'='*len(file_name*2 + group_name)}", path
+        )
         # Insert arrows to next & pervious
         insert_arrows(waveid, lanid, qids, idx, path)
         # Add routing if present:
-        if df.loc[df.index[0], q_fiter] != "-":
+        if df.loc[df.index[0], q_filter] != "-":
             add_to_file(
-                f"*Routing to the question depends on answer in:* :ref:`{waveid}{lanid}-{str(df.loc[df.index[0], q_fiter])}`",
+                f"*Routing to the question depends on answer in:* :ref:`{waveid}{lanid}-{str(df.loc[df.index[0], q_filter])}`",
                 path,
             )
         else:
@@ -64,21 +64,17 @@ def create_pages(
 
         if df[q_layout].all() == "open":
             for i in df.index:
-                add_to_file(
-                    open_question.format(df.loc[i, q_text], df.loc[i, q_varname]), path
-                )
+                add_to_file(open_question.format(df.loc[i, q_text]), path)
         elif df[q_layout].all() == "multi":
             add_to_file(header_question.format(df.loc[df.index[0], q_text]), path)
             for i in df.index:
-                add_to_file(
-                    bool_entry.format(df.loc[i, q_sub_text], df.loc[i, q_varname]), path
-                )
+                add_to_file(bool_entry.format(df.loc[i, q_sub_text]), path)
         elif df[q_layout].all() == "table":
-            insert_table_question(df, path, q_text, q_sub_text, q_categories, q_varname)
+            insert_table_question(df, path, q_text, q_sub_text, q_categories)
         elif df[q_layout].all() == "grid":
-            insert_grid_question(df, path, q_text, q_sub_text, q_categories, q_varname)
+            insert_grid_question(df, path, q_text, q_sub_text, q_categories)
         elif df[q_layout].all() == "cat":
-            insert_cat_question(df, path, q_text, q_categories, q_varname)
+            insert_cat_question(df, path, q_text, q_categories)
         else:
             raise ValueError(f"Unknown layout type for question {qid}.")
 
@@ -88,6 +84,7 @@ def create_pages(
 
 
 def insert_arrows(waveid, lanid, qids, idx, path):
+    """Insert arrows pointing to next and previous question."""
     if idx == 0:
         next_q = waveid + lanid + "-" + qids[idx + 1]
         add_to_file(f"\n\n:ref:`{next_q}` :raw-html:`&rarr;` \n", path)
@@ -104,7 +101,8 @@ def insert_arrows(waveid, lanid, qids, idx, path):
         )
 
 
-def insert_table_question(df, path, q_text, q_sub_text, q_categories, q_varname):
+def insert_table_question(df, path, q_text, q_sub_text, q_categories):
+    """Insert question of type table with radio buttons."""
     add_to_file(header_question.format(df.loc[df.index[0], q_text]), path)
     add_to_file(csv_entry.format(), path)
     add_to_file(csv_delim.format(), path)
@@ -117,7 +115,8 @@ def insert_table_question(df, path, q_text, q_sub_text, q_categories, q_varname)
         )
 
 
-def insert_grid_question(df, path, q_text, q_sub_text, q_categories, q_varname):
+def insert_grid_question(df, path, q_text, q_sub_text, q_categories):
+    """Insert question of type grid with entry fields."""
     add_to_file(header_question.format(df.loc[df.index[0], q_text]), path)
     add_to_file(csv_entry.format(), path)
 
@@ -138,8 +137,9 @@ def insert_grid_question(df, path, q_text, q_sub_text, q_categories, q_varname):
             add_to_file(csv_row.format(df.loc[i, q_sub_text], empty_field), path)
 
 
-def insert_cat_question(df, path, q_text, q_categories, q_varname):
-    add_to_file(header_question_varname.format(df.loc[df.index[0], q_text]), path)
+def insert_cat_question(df, path, q_text, q_categories):
+    """Insert question of type cat with categorical answers."""
+    add_to_file(header_question.format(df.loc[df.index[0], q_text]), path)
     add_to_file(csv_entry.format(), path)
     add_to_file(csv_delim.format(), path)
     add_to_file(csv_columns.format("", df.loc[df.index[0], q_categories]), path)
@@ -152,52 +152,3 @@ def add_to_file(msg, path):
     """ Adds line to file specified in path."""
     with open(path, "a") as f:
         f.write(f"{msg} \n")
-
-
-def get_rst_names(name_list):
-    """ Get list of group .rst-file names. """
-    files = []
-    for name in name_list:
-        file_name = name
-        file_name = "".join(file_name.split())
-        files.append(file_name)
-
-    return files
-
-
-def insert_question(df, idx, q_type, q_label, q_categories, q_varname, path):
-    """ Inserts question based on question type using q_label as question title."""
-
-    if df.loc[idx, q_type] == "Categorical":
-        add_to_file(
-            csv_header.format(df.loc[idx, q_label], df.loc[idx, q_varname]), path
-        )
-        add_to_file(csv_entry.format(), path)
-        add_to_file(csv_columns.format(df.loc[idx, q_categories]), path)
-
-        items = df.loc[idx, q_categories].count(",")
-        add_to_file(csv_row.format((button + ",") * (items) + button), path)
-
-    elif df.loc[idx, q_type] == "bool":
-        add_to_file(
-            bool_entry.format(df.loc[idx, q_label], df.loc[idx, q_varname]), path
-        )
-
-    elif df.loc[idx, q_type] in ("int", "float", "str"):
-        add_to_file(
-            open_question.format(df.loc[idx, q_label], df.loc[idx, q_varname]), path
-        )
-
-    else:
-        raise ValueError(
-            "Question type (q_type) must be in ['Categorical','bool', 'int', 'float', 'str']"
-        )
-
-
-def create_topic_folders(codebook, q_topics, target_dir):
-
-    topics_list = list(codebook[q_topics].unique())
-
-    for topic in topics_list:
-        path = target_dir + topic
-        os.mkdir(path)
