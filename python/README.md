@@ -1,5 +1,5 @@
-How to create the documentation
---------------------------------
+How to add a new wave to the documentation
+-------------------------------------------
 
 The source files for the documentation can be found in the `docs/` folder. It consists of restructuredtext-files and ist hosed using https://readthedocs.org/. The documentation consists of a collection of files that serve different purposes. The python scrips in this folder mainly serve to create the .rst-files for each question in the documentation and to create variable overview tables. Creating the documentation involves a series of manual and (partially) automated tasks.
 
