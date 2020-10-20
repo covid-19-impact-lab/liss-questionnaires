@@ -1,119 +1,317 @@
-page;id
-1.01;intro
-2.01;InfectionDiagnosed
-3.01;q1a
-3.02;q1b
-3.03;q1c
-3.04;q1e
-4.01;q30a_mnd
-4.02;q30b_mnd
-4.03;q30c_mnd
-4.04;q30d_mnd
-4.05;q30e_mnd
-5.01;support_a
-5.02;support_b
-5.03;support_c
-5.04;support_g
-5.05;support_d
-5.06;support_f
-6.01;avoid_a
-6.02;avoid_b
-6.03;avoid_c
-7.01;EmploymentStatus
-8.01;q14b_q14werk
-8.02;q14b_q14thuis
-9.01;vacsick1
-9.02;vacsick2
-9.03;vacsick3
-9.04;vacsick4
-10.01;q16a
-11.01;q17a
-12.01;q17d
-13.01;NOW_ES1
-14.01;NOW_ES2
-14.02;Tozo_ES2
-15.01;change_empl
-16.01;change_selfempl
-17.01;change_unempl
-18.01;job_before
-19.01;beliefs1a
-19.02;beliefs1b
-20.01;beliefs2a
-20.02;beliefs2b
-21.01;beliefs3
-22.01;beliefs4
-23.01;beliefs5
-24.01;JobSearch
-25.01;DifferentJobs
-26.01;NamesDifferentJobs
-27.01;SearchingTraining1
-27.02;SearchingTraining2
-28.01;q26a
-28.02;q26b
-28.03;q26c
-28.04;q26d
-28.05;q26e
-29.01;q26a_1
-29.02;q26b_1
-29.03;q26c_1
-29.04;q26d_1
-29.05;q26e_1
-30.01;q27a
-30.02;q27b
-30.03;q27c
-30.04;q27d
-30.05;q27e
-31.01;q27a_1
-31.02;q27b_1
-31.03;q27c_1
-31.04;q27d_1
-31.05;q27e_1
-32.01;q27a_ex
-32.02;q27b_ex
-32.03;q27c_ex
-32.04;q27d_ex
-32.05;q27e_ex
-33.01;q27a_ex_1
-33.02;q27b_ex_1
-33.03;q27c_ex_1
-33.04;q27d_ex_1
-33.05;q27e_ex_1
-34.01;inc_mei
-34.02;inc_jun
-34.03;inc_jul
-34.04;inc_aug
-35.01;expinc2020_a_col2_a
-35.02;expinc2021_a_col2_a
-35.03;expinc2022_a_col2_a
-36.01;ExpUnempl_today2020
-36.02;ExpUnempl_today2021
-36.03;ExpUnempl_today2022
-37.01;ExpEcGr_today2020
-37.02;ExpEcGr_today2021
-37.03;ExpEcGr_today2022
-38.01;ExpInfl_today2020
-38.02;ExpInfl_today2021
-38.03;ExpInfl_today2022
-39.01;eva2t1
-39.02;eva2t2
-39.03;eva2t3
-39.04;eva2t4
-39.05;eva2t5
-;nomem_encr
-;maandnr
-;p_aantalhh
-;p_leeftijd
-;opm
-;evaopm
-;DatumB
-;TijdB
-;DatumE
-;TijdE
-;Duur
-;nohouse_encr
-;geslacht
-;positie
-;gebjaar
-;leeftijd
-;lftdcat
-;lftdhhh
+page;id;qid;layout;filter;group;question_dutch;subquestion_dutch;question_english;subquestion_english;type;categories_dutch;categories_english;new_name
+1.01;intro;intro;open;-;Introduction;"Deze maand krijgt u de vijfde vragenlijst uit de reeks “Corona-uitbraak in Nederland” over hoe het coronavirus van invloed is op uw dagelijkse leven. Ook als u de eerdere vier vragenlijsten niet hebt ingevuld, kunt u meedoen.
+
+Een aantal van de vragen uit de eerste vier vragenlijsten wordt nu opnieuw aan u voorgelegd. Ook nu weer is het belangrijk dat u meedoet. Tijdens de coronacrisis is inzicht in de actuele ontwikkelingen van groot belang voor de keuzes die beleidsmakers, bedrijven en bijvoorbeeld werkenden gaan maken. En u kunt daarbij helpen.
+
+Ook nu weer: bedankt alvast voor het meedoen!";;"This month you will receive the fifth questionnaire from the series ""Corona outbreak in the Netherlands"" on how the coronavirus affects your daily life. Even if you have not completed the previous four questionnaires, you can participate.
+
+Some of the questions from the first four questionnaires will now be presented to you again. Again, it is important that you participate. During the corona crisis, insight into current developments is of great importance for the choices that policymakers, companies and, for example, employees are going to make. And you can help.
+
+Once again: thank you for participating!";;;;;
+2.01;InfectionDiagnosed;InfectionDiagnosed;cat;-;InfectionDiagnosed;Heeft een huisarts of een ander medisch deskundige bij u de diagnose gesteld dat u besmet bent (geweest) met het coronavirus (Covid-19)?;;Has a general practitioner or other medical professional diagnosed that you are or have been infected with the coronavirus (Covid-19)?;;Categorical;Ja, die diagnose is bij mij gesteld|Nee|Het is nog niet zeker;yes, I have been diagnosed with it|no|unsure;
+3.01;q1a;q1header;grid;-;Subjective Risks;"Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maanden gebeuren?
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";u wordt besmet;"What do you think the chances are that the following things will happen in the next three months?
+You can answer this question on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes.";You will be infected;int;;;
+3.02;q1b;q1header;grid;-;Subjective Risks;"Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maanden gebeuren?
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";iemand in uw directe omgeving (familie, vrienden, collega’s) wordt besmet;"What do you think the chances are that the following things will happen in the next three months?
+You can answer this question on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes.";Someone in your direct environment (family, friends, colleagues) will be infected;int;;;
+3.03;q1c;q1header;grid;-;Subjective Risks;"Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maanden gebeuren?
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";u moet naar het ziekenhuis als u wordt besmet;"What do you think the chances are that the following things will happen in the next three months?
+You can answer this question on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes.";You will have to go to the hospital if you get infected   ;int;;;
+3.04;q1e;q1header;grid;-;Subjective Risks;"Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maanden gebeuren?
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";u wordt besmet en u besmet iemand anders;"What do you think the chances are that the following things will happen in the next three months?
+You can answer this question on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes.";You will be infected and you infect someone else;int;;;
+4.01;q30a_mnd;q30hd_maand;table;-;Mental Health in the Past Month;"De volgende vraag gaat over hoe u zich voelde in de afgelopen maand. Geeft u het antwoord dat het best uw gevoel weergeeft. 
+De afgelopen maand..";was ik erg zenuwachtig;"The next question is about how you felt in the past month. Give you the answer that best reflects your feelings. 
+The past month…";I felt very anxious;Categorical;Nooit|Zelden|Soms|Vaak|Meestal|Voortdurend;never|rarely|sometimes|often|mostly|constantly;
+4.02;q30b_mnd;q30hd_maand;table;-;Mental Health in the Past Month;"De volgende vraag gaat over hoe u zich voelde in de afgelopen maand. Geeft u het antwoord dat het best uw gevoel weergeeft. 
+De afgelopen maand..";zat ik zo erg in de put dat niets mij kon opvrolijken;"The next question is about how you felt in the past month. Give you the answer that best reflects your feelings. 
+The past month…";I felt so down that nothing could cheer me up;Categorical;Nooit|Zelden|Soms|Vaak|Meestal|Voortdurend;never|rarely|sometimes|often|mostly|constantly;
+4.03;q30c_mnd;q30hd_maand;table;-;Mental Health in the Past Month;"De volgende vraag gaat over hoe u zich voelde in de afgelopen maand. Geeft u het antwoord dat het best uw gevoel weergeeft. 
+De afgelopen maand..";voelde ik me kalm en rustig;"The next question is about how you felt in the past month. Give you the answer that best reflects your feelings. 
+The past month…";I felt calm and peaceful;Categorical;Nooit|Zelden|Soms|Vaak|Meestal|Voortdurend;never|rarely|sometimes|often|mostly|constantly;
+4.04;q30d_mnd;q30hd_maand;table;-;Mental Health in the Past Month;"De volgende vraag gaat over hoe u zich voelde in de afgelopen maand. Geeft u het antwoord dat het best uw gevoel weergeeft. 
+De afgelopen maand..";voelde ik me neerslachtig en somber;"The next question is about how you felt in the past month. Give you the answer that best reflects your feelings. 
+The past month…";I felt depressed and gloomy;Categorical;Nooit|Zelden|Soms|Vaak|Meestal|Voortdurend;never|rarely|sometimes|often|mostly|constantly;
+4.05;q30e_mnd;q30hd_maand;table;-;Mental Health in the Past Month;"De volgende vraag gaat over hoe u zich voelde in de afgelopen maand. Geeft u het antwoord dat het best uw gevoel weergeeft. 
+De afgelopen maand..";voelde ik me gelukkig;"The next question is about how you felt in the past month. Give you the answer that best reflects your feelings. 
+The past month…";I felt happy;Categorical;Nooit|Zelden|Soms|Vaak|Meestal|Voortdurend;never|rarely|sometimes|often|mostly|constantly;
+5.01;support_a;support;table;-;Support Government Policy;Wat vindt u van de maatregelen op dit moment om de coronavirus-crisis te bestrijden als het gaat om de volgende gebieden?;Kinderdagopvang en buitenschoolse opvang zijn weer helemaal open;What do you think of the measures currently being taken to combat the coronavirus crisis in the following areas?;Child day care and extracurricular care are completely open again;Categorical;Te soepel|Eerder te soepel dan te streng|Precies voldoende|Eerder te streng dan te soepel|Te streng;too flexible|rather flexible|just enough|rather too strict|too strict ;
+5.02;support_b;support;table;-;Support Government Policy;Wat vindt u van de maatregelen op dit moment om de coronavirus-crisis te bestrijden als het gaat om de volgende gebieden?;Basisscholen zijn weer helemaal open;What do you think of the measures currently being taken to combat the coronavirus crisis in the following areas?;Elementary school are completely open again;Categorical;Te soepel|Eerder te soepel dan te streng|Precies voldoende|Eerder te streng dan te soepel|Te streng;too flexible|rather flexible|just enough|rather too strict|too strict ;
+5.03;support_c;support;table;-;Support Government Policy;Wat vindt u van de maatregelen op dit moment om de coronavirus-crisis te bestrijden als het gaat om de volgende gebieden?;Cafés en restaurants zijn open maar een reservering, een gezondheidscheck en een vaste zitplaats zijn verplicht;What do you think of the measures currently being taken to combat the coronavirus crisis in the following areas?;Cafés and restaurants are open but a reservation, a health check and a fixed seat are required.;Categorical;Te soepel|Eerder te soepel dan te streng|Precies voldoende|Eerder te streng dan te soepel|Te streng;too flexible|rather flexible|just enough|rather too strict|too strict ;
+5.04;support_g;support;table;-;Support Government Policy;Wat vindt u van de maatregelen op dit moment om de coronavirus-crisis te bestrijden als het gaat om de volgende gebieden?;Nachtclubs en discotheken zijn gesloten;What do you think of the measures currently being taken to combat the coronavirus crisis in the following areas?;Nightclubs and discotheques are closed;;Te soepel|Eerder te soepel dan te streng|Precies voldoende|Eerder te streng dan te soepel|Te streng;too flexible|rather flexible|just enough|rather too strict|too strict ;
+5.05;support_d;support;table;-;Support Government Policy;Wat vindt u van de maatregelen op dit moment om de coronavirus-crisis te bestrijden als het gaat om de volgende gebieden?;In het openbaar vervoer moeten reizigers een mondkapje dragen;What do you think of the measures currently being taken to combat the coronavirus crisis in the following areas?;In public transport, travelers must wear a mask.;Categorical;Te soepel|Eerder te soepel dan te streng|Precies voldoende|Eerder te streng dan te soepel|Te streng;too flexible|rather flexible|just enough|rather too strict|too strict ;
+5.06;support_f;support;table;-;Support Government Policy;Wat vindt u van de maatregelen op dit moment om de coronavirus-crisis te bestrijden als het gaat om de volgende gebieden?;Werken op je werkplek mag alleen als er 1,5 meter afstand kan worden gehouden en als andere voorzieningen ter bescherming en hygiëne zijn getroffen, zoals bv. plexiglas afscheidingen;What do you think of the measures currently being taken to combat the coronavirus crisis in the following areas?;Work at your workplace is only allowed if it is possible to keep a distance of 1.5 meters and if other provisions for protection and hygiene have been made, such as plexiglass partitions.;Categorical;Te soepel|Eerder te soepel dan te streng|Precies voldoende|Eerder te streng dan te soepel|Te streng;too flexible|rather flexible|just enough|rather too strict|too strict ;
+6.01;avoid_a;avoid;table;-;Avoid Activities;Vergeleken met de situatie vóór de uitbraak van het coronavirus:;gaat u met de maatregelen die nu van kracht zijn, naar een café of restaurant?;Compared to the situation before the coronavirus outbreak:;Are you going to a café or restaurant with the measures currently in force?;Categorical;voor de uitbraak niet en nu ook niet|voor de uitbraak wel, maar nu zeker niet|veel minder vaak dan voor de uitbraak|een beetje minder vaak dan voor de uitbraak|net zo vaak als voor de uitbraak|vaker dan voor de uitbraak;not before the outbreak and not now|much less often than before the outbreak|a little less often than before the outbreak|as often as before the outbreak|more often than before the outbreak|before the outbreak, but not now;
+6.02;avoid_b;avoid;table;-;Avoid Activities;Vergeleken met de situatie vóór de uitbraak van het coronavirus:;gaat u met de maatregelen die nu van kracht zijn, sociale of culturele vrijetijdsactiviteiten ondernemen, zoals naar de bioscoop, het theater of een museum gaan?;Compared to the situation before the coronavirus outbreak:;With the measures currently in force, are you going to undertake social or cultural leisure activities, such as going to the cinema, the theater or a museum?;Categorical;voor de uitbraak niet en nu ook niet|voor de uitbraak wel, maar nu zeker niet|veel minder vaak dan voor de uitbraak|een beetje minder vaak dan voor de uitbraak|net zo vaak als voor de uitbraak|vaker dan voor de uitbraak;not before the outbreak and not now|much less often than before the outbreak|a little less often than before the outbreak|as often as before the outbreak|more often than before the outbreak|before the outbreak, but not now;
+6.03;avoid_c;avoid;table;-;Avoid Activities;Vergeleken met de situatie vóór de uitbraak van het coronavirus:;gaat u met de maatregelen die nu van kracht zijn, het openbaar vervoer gebruiken?;Compared to the situation before the coronavirus outbreak:;Are you going to use public transport with the measures currently in force?;Categorical;voor de uitbraak niet en nu ook niet|voor de uitbraak wel, maar nu zeker niet|veel minder vaak dan voor de uitbraak|een beetje minder vaak dan voor de uitbraak|net zo vaak als voor de uitbraak|vaker dan voor de uitbraak;not before the outbreak and not now|much less often than before the outbreak|a little less often than before the outbreak|as often as before the outbreak|more often than before the outbreak|before the outbreak, but not now;
+7.01;EmploymentStatus;EmploymentStatus;cat;-;Employment Status;"Welke van de volgende opties beschrijft uw situatie het best? 
+Als er meer opties mogelijk zijn, kiest u dan de hoofdactiviteit of -baan";;"Which of the following options best describes your situation? 
+If more options are possible, please choose the main activity or job";;Categorical;Ik verricht betaald werk in loondienst, full-time of part-time|Ik ben zelfstandig ondernemer|Ik ben werkloos en ben op zoek naar werk|Ik ben (vervroegd) gepensioneerd|Ik ontvang een arbeidsongeschiktheidsuitkering of sociale bijstand en ben niet op zoek naar werk|Ik ben leerling / student / stagiair en krijg alleen een onkostenvergoeding|Ik doe het huishouden;employed|self-employed|unemployed|retired|social assistance|student or trainee|homemaker;
+8.01;q14b_q14werk;q14;grid;EmploymentStatus;Work Time Remote and Workplace;"Hoeveel uur per week werkte u in de afgelopen zeven dagen op uw werkplek en vanuit huis?
+
+Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'.
+Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Op uw werkplek;"How many hours per week have you worked in your workplace and from home in the past seven days? 
+
+If you always work from home, fill in all hours at 'from home'.
+Fill in zero (0) if you never work at your workplace or at home.";At your workplace;int;;;
+8.02;q14b_q14thuis;q14;grid;EmploymentStatus;Work Time Remote and Workplace;"Hoeveel uur per week werkte u in de afgelopen zeven dagen op uw werkplek en vanuit huis?
+
+Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'.
+Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Vanuit huis ;"How many hours per week have you worked in your workplace and from home in the past seven days? 
+
+If you always work from home, fill in all hours at 'from home'.
+Fill in zero (0) if you never work at your workplace or at home.";From home;int;;;
+9.01;vacsick1;vacsick;grid;EmploymentStatus;Vacation & Sickness;"In de afgelopen zeven dagen, hoeveel dagen hebt u...  
+
+Rond af op hele dagen (bv. een halve dag = 1 dag).
+Vult u nul (0) in als u geen vrije dag hebt opgenomen.";een vrije dag opgenomen voor vrije tijd (ontspanning, vermaak);"In the past seven days, how many days have you...  
+
+Round off on whole days (e.g. half a day = 1 day).
+Fill in zero (0) if you haven't taken a day off.";taken a day off for leisure (relaxation, entertainment);int;;;
+9.02;vacsick2;vacsick;grid;EmploymentStatus;Vacation & Sickness;"In de afgelopen zeven dagen, hoeveel dagen hebt u...  
+
+Rond af op hele dagen (bv. een halve dag = 1 dag).
+Vult u nul (0) in als u geen vrije dag hebt opgenomen.";een vrije dag opgenomen om voor de kinderen te zorgen;"In the past seven days, how many days have you...  
+
+Round off on whole days (e.g. half a day = 1 day).
+Fill in zero (0) if you haven't taken a day off.";taken a day off to take care of the children;int;;;
+9.03;vacsick3;vacsick;grid;EmploymentStatus;Vacation & Sickness;"In de afgelopen zeven dagen, hoeveel dagen hebt u...  
+
+Rond af op hele dagen (bv. een halve dag = 1 dag).
+Vult u nul (0) in als u geen vrije dag hebt opgenomen.";een vrije dag opgenomen voor een andere reden;"In the past seven days, how many days have you...  
+
+Round off on whole days (e.g. half a day = 1 day).
+Fill in zero (0) if you haven't taken a day off.";taken a day off for another reason;int;;;
+9.04;vacsick4;vacsick;grid;EmploymentStatus;Vacation & Sickness;"In de afgelopen zeven dagen, hoeveel dagen hebt u...  
+
+Rond af op hele dagen (bv. een halve dag = 1 dag).
+Vult u nul (0) in als u geen vrije dag hebt opgenomen.";zich ziek gemeld;"In the past seven days, how many days have you...  
+
+Round off on whole days (e.g. half a day = 1 day).
+Fill in zero (0) if you haven't taken a day off.";reported sick;int;;;
+10.01;q16a;q16a;cat;EmploymentStatus;NOW;Voor zover bij u bekend, heeft uw werkgever een aanvraag ingediend voor een tegemoetkoming in de loonkosten voor de periode juni-september (de tijdelijke Noodmaatregel Overbrugging Werkgelegenheid 2.0, afgekort de NOW 2.0)? De regeling is bedoeld voor werkgevers die als gevolg van het coronavirus kampen met een omzetverlies van ten minste 20%. Zij kunnen bij het UWV een aanvraag indienen voor een tegemoetkoming in de loonkosten.;;To the best of your knowledge, has your employer submitted an application for an allowance for labour costs for the period June-September (the temporary Emergency Measure Bridging Employment 2.0, abbreviated to NOW 2.0)? The scheme is intended for employers who suffer a loss of turnover of at least 20% due to the coronavirus. They can apply to the UWV for an allowance for labour costs.;;Categorical;Ja, de aanvraag is toegekend|Ja, maar de aanvraag is afgewezen|Ja, maar ik weet nog niet of de aanvraag is toegekend|Nee, maar ik denk dat mijn werkgever dit wel gaat doen|Nee, ik denk niet dat het nodig is|Nee, ik denk niet dat het mogelijk is|Ik weet het niet;yes, the application has been granted|yes, but the application was rejected|yes, but I don't yet know if the application has been granted|no, I don't think it's necessary|no, but I think my employer is gonna do this|no, I don't think it's possible|I don't know ;
+11.01;q17a;q17a;cat;EmploymentStatus;NOW among Self-Employed;Hebt u een aanvraag ingediend voor een tegemoetkoming in de loonkosten voor de periode juni-september (de tijdelijke Noodmaatregel Overbrugging Werkgelegenheid 2.0, afgekort de NOW 2.0)? De regeling is bedoeld voor werkgevers die als gevolg van het coronavirus kampen met een omzetverlies van ten minste 20%. Zij kunnen bij het UWV een aanvraag indienen voor een tegemoetkoming in de loonkosten.;;Have you applied for an allowance for labour costs for the period June-September (the temporary Emergency Measure Bridging Employment 2.0, abbreviated to NOW 2.0)? The scheme is intended for employers who suffer a loss of turnover of at least 20% due to the coronavirus. They can apply to the UWV for an allowance for labour costs.;;Categorical;Ja, de aanvraag is toegekend|Ja, maar de aanvraag is afgewezen|Ja, maar ik weet nog niet of de aanvraag is toegekend|Nee, maar ik ga dit wel doen|Nee, ik denk niet dat mijn bedrijf hiervoor in aanmerking komt|Nee, ik heb geen werknemers in dienst/geen loonkosten|Nee, dit is te veel administratief gedoe|Nee, om een andere reden|Ik wist niet dat deze regeling er is;yes, the application has been granted|yes, but the application was rejected|yes, but I don't yet know if the application has been granted|no, but I'm gonna do this|no, I don't think my company qualifies|no, I have no employees/no payroll costs|no, this is too much paperwork|no, for another reason|I didn't know there was this arrangement;
+12.01;q17d;q17d;cat;EmploymentStatus;Tozo among Self-Employed;Hebt u een aanvraag ingediend voor de inkomensondersteuning voor zelfstandigen voor de periode juni-september (de Tijdelijke overbruggingsregeling zelfstandig ondernemers 2.0, afgekort de Tozo 2.0)? De regeling voorziet in een aanvullende uitkering voor levensonderhoud als het inkomen door de coronacrisis tot onder het sociaal minimum daalt. En in een lening voor bedrijfskapitaal om liquiditeitsproblemen als gevolg van de coronacrisis op te vangen.;;Have you submitted an application for income support for self-employed persons for the period June-September (the Temporary bridging scheme for self-employed persons 2.0, abbreviated to Tozo 2.0)? The scheme provides a supplementary livelihood allowance if the income falls below the social minimum due to the corona crisis. And a loan for working capital to absorb liquidity problems as a result of the corona crisis.;;Categorical;Ja, de aanvraag is toegekend|Ja, maar de aanvraag is afgewezen|Ja, maar ik weet nog niet of de aanvraag is toegekend|Nee, maar ik ga dit wel doen|Nee, ik denk niet dat mijn bedrijf hiervoor in aanmerking komt|Nee, mijn partner heeft teveel inkomen|Nee, dit is te veel administratief gedoe|Nee, om een andere reden|Ik wist niet dat deze regeling er is;yes, the application has been granted|yes, but the application was rejected|yes, but I don't yet know if the application has been granted|no, but I'm gonna do this|no, I don't think my company qualifies|no, my partner has too much income|no, this is too much paperwork|no, for another reason|I didn't know there was this arrangement;
+13.01;NOW_ES1;NOW_ES1;grid;EmploymentStatus;NOW 3.0 expectations;"Hoe groot denkt u dat de kans is dat uw werkgever gebruik gaat maken van de Noodmaatregel Overbrugging Werkgelegenheid (NOW) 3.0, die vanaf oktober geldt? 
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";;"How likely do you think that your employer will make use of the Emergency Measure Bridging Employment (NOW) 3.0, which applies from October?
+You can answer this question on a scale from 0 to 100, where 0 means definitely not and 100 means definitely yes.";;int;;;
+14.01;NOW_ES2;NOW_ES2;grid;EmploymentStatus;NOW 3.0 expectations among Self-Employed;;"Hoe groot denkt u dat de kans is dat u gebruik gaat maken van de Noodmaatregel Overbrugging Werkgelegenheid (NOW) 3.0, die vanaf oktober geldt?
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";;"How big do you think the chances are that you will make use of the Emergency Measure? Bridging Employment (NOW) 3.0, applicable from October?
+You can answer this question on a scale from 0 to 100, where 0 says for sure not and 100 for sure yes.";int;;;
+14.02;Tozo_ES2;NOW_ES2;grid;EmploymentStatus;Tozo 3.0 expectations among Self-Employed;;"Hoe groot denkt u dat de kans is dat u gebruik gaat maken van de Tijdelijke overbruggingsregeling zelfstandig ondernemers (Tozo) 3.0, die vanaf oktober geldt?
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";;"How big do you think the chances are that you will make use of the Temporary bridging scheme for independent entrepreneurs (Tozo) 3.0, which applies from October?
+You can answer this question on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes.";int;;;
+15.01;change_empl;change_empl;multi;EmploymentStatus;Income Situation (Employees);Als u uw situatie vergelijkt met die van voor de coronavirus crisis, welke situatie is dan nu op u van toepassing?;Ik heb een arbeidscontract met meer uren;If you compare your situation with that before the coronavirus crisis, which situation applies to you now?;I have an employment contract with more hours;Categorical;Ik heb een arbeidscontract met meer uren|Ik heb een arbeidscontract met hetzelfde aantal uren|Ik heb een arbeidscontract met minder uren|Mijn werkgever heeft me ontslagen, maar het ontslag is nog niet ingegaan|Anders, namelijk…;I have an employment contract with more hours|I have an employment contract with the same number of hours|I have an employment contract with fewer hours|my employer fired me, but the dismissal hasn't taken effect yet|other;
+15.02;change_empl;change_empl;multi;EmploymentStatus;Income Situation (Employees);Als u uw situatie vergelijkt met die van voor de coronavirus crisis, welke situatie is dan nu op u van toepassing?;Ik heb een arbeidscontract met hetzelfde aantal uren;If you compare your situation with that before the coronavirus crisis, which situation applies to you now?;I have an employment contract with the same number of hour;;;;
+15.03;change_empl;change_empl;multi;EmploymentStatus;Income Situation (Employees);Als u uw situatie vergelijkt met die van voor de coronavirus crisis, welke situatie is dan nu op u van toepassing?;Ik heb een arbeidscontract met minder uren;If you compare your situation with that before the coronavirus crisis, which situation applies to you now?;I have an employment contract with fewer hours;;;;
+15.04;change_empl;change_empl;multi;EmploymentStatus;Income Situation (Employees);Als u uw situatie vergelijkt met die van voor de coronavirus crisis, welke situatie is dan nu op u van toepassing?;Mijn werkgever heeft me ontslagen, maar het ontslag is nog niet ingegaan;If you compare your situation with that before the coronavirus crisis, which situation applies to you now?;I have an employment contract with fewer hours;;;;
+15.05;change_empl;change_empl;multi;EmploymentStatus;Income Situation (Employees);Als u uw situatie vergelijkt met die van voor de coronavirus crisis, welke situatie is dan nu op u van toepassing?;Anders, namelijk...;If you compare your situation with that before the coronavirus crisis, which situation applies to you now?;other;;;;
+16.01;change_selfempl;change_selfempl;multi;EmploymentStatus;Income Situation (Self-Employed);Als u uw situatie vergelijkt met die van voor de coronavirus crisis, welke situatie is dan nu het meest op uw bedrijf van toepassing?;Mijn inkomen is hoger;If you compare your situation with that before the coronavirus crisis, which situation is most applicable to your company?;my income is higher;Categorical;Mijn inkomen is hoger|Mijn inkomen is hetzelfde|Mijn inkomen is lager|Ik heb faillissement aangevraagd|Anders, namelijk…;my income is higher|my income is the same|my income is lower|I have filed for bankruptcy|other;
+16.02;change_selfempl;change_selfempl;multi;EmploymentStatus;Income Situation (Self-Employed);Als u uw situatie vergelijkt met die van voor de coronavirus crisis, welke situatie is dan nu het meest op uw bedrijf van toepassing?;Mijn inkomen is hetzelfde;If you compare your situation with that before the coronavirus crisis, which situation is most applicable to your company?;my income is the same;;;;
+16.03;change_selfempl;change_selfempl;multi;EmploymentStatus;Income Situation (Self-Employed);Als u uw situatie vergelijkt met die van voor de coronavirus crisis, welke situatie is dan nu het meest op uw bedrijf van toepassing?;Mijn inkomen is lager;If you compare your situation with that before the coronavirus crisis, which situation is most applicable to your company?;my income is lower;;;;
+16.04;change_selfempl;change_selfempl;multi;EmploymentStatus;Income Situation (Self-Employed);Als u uw situatie vergelijkt met die van voor de coronavirus crisis, welke situatie is dan nu het meest op uw bedrijf van toepassing?;Ik heb faillissement aangevraagd;If you compare your situation with that before the coronavirus crisis, which situation is most applicable to your company?;I have filed for bankruptcy;;;;
+16.05;change_selfempl;change_selfempl;multi;EmploymentStatus;Income Situation (Self-Employed);Als u uw situatie vergelijkt met die van voor de coronavirus crisis, welke situatie is dan nu het meest op uw bedrijf van toepassing?;Anders, namelijk...;If you compare your situation with that before the coronavirus crisis, which situation is most applicable to your company?;other;;;;
+17.01;change_unempl;change_unempl;multi;EmploymentStatus;Income Situation (Unemployed);Als u uw situatie vergelijkt met die van voor de coronavirus crisis, welke situatie is dan nu op u van toepassing?;Ik was al werkloos voordat de crisis begon;If you compare your situation with that before the coronavirus crisis, which situation applies to you now?;I was unemployed before the crisis started;Categorical;Ik was al werkloos voordat de crisis begon|Ik ben werkloos geworden door de crisis|Ik ben werkloos geworden, niet door de crisis, maar vanwege andere redenen|Anders, namelijk…;I was unemployed before the crisis started|I have become unemployed because of the crisis|I became unemployed, not because of the crisis, but because of other reasons|other;
+17.02;change_unempl;change_unempl;multi;EmploymentStatus;Income Situation (Unemployed);Als u uw situatie vergelijkt met die van voor de coronavirus crisis, welke situatie is dan un op u van toepassing?;Ik ben werkloos geworden door de crisis;If you compare your situation with that before the coronavirus crisis, which situation applies to you now?;I have become unemployed because of the crisis;;;;
+17.03;change_unempl;change_unempl;multi;EmploymentStatus;Income Situation (Unemployed);Als u uw situatie vergelijkt met die van voor de coronavirus crisis, welke situatie is dan un op u van toepassing?;Ik ben werkloos geworden, niet door de crisis, maar vanwege andere redenen;If you compare your situation with that before the coronavirus crisis, which situation applies to you now?;I became unemployed, not because of the crisis, but because of other reasons;;;;
+17.04;change_unempl;change_unempl;multi;EmploymentStatus;Income Situation (Unemployed);Als u uw situatie vergelijkt met die van voor de coronavirus crisis, welke situatie is dan un op u van toepassing?;Anders, namelijk…;If you compare your situation with that before the coronavirus crisis, which situation applies to you now?;Otherwise, namely...;;;;
+18.01;job_before;job_before;cat;EmploymentStatus and leeftijd;Unemployed - Job Before;Hebt u ooit een baan gehad?;;Have you ever had a job?;;bool;Ja|Nee;yes|no;
+19.01;beliefs1a;beliefs1;grid;EmploymentStatus;Unemployed - Beliefs Job Seach: Similar Job As Before;Stel dat u een zelfde soort baan zoekt zoals u eerder had. Hoe groot is de kans dat u zo’n baan vindt in de komende twee maanden? En in de komende zes maanden?U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.;in de komende twee maanden:;Suppose you are looking for the same kind of job as you had before. How likely are you to find such a job in the next two months? And over the next six months, you can answer these questions on a scale from 0 to 100, with 0 representing certainly not and 100 representing certainly.;in the next two months:;int;;;
+19.02;beliefs1b;beliefs1;grid;EmploymentStatus;Unemployed – Beliefs Job Seach: Similar Job As Before;Stel dat u een zelfde soort baan zoekt zoals u eerder had. Hoe groot is de kans dat u zo’n baan vindt in de komende twee maanden? En in de komende zes maanden?U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.;in de komende zes maanden:;Suppose you are looking for the same kind of job as you had before. How likely are you to find such a job in the next two months? And over the next six months, you can answer these questions on a scale from 0 to 100, with 0 representing certainly not and 100 representing certainly.;in the next six months:;int;;;
+20.01;beliefs2a;beliefs2;grid;EmploymentStatus;Unemployed – Beliefs Job Seach: Any Job;Stel dat u een baan zoekt (welke baan dan ook). Hoe groot is de kans dat u een baan vindt in de komende twee maanden? En in de komende zes maanden?U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.;in de komende twee maanden:;Suppose you are looking for the same kind of job as you had before. How likely are you to find such a job in the next two months? And over the next six months, you can answer these questions on a scale from 0 to 100, with 0 representing certainly not and 100 representing certainly.;in the next two months:;int;;;
+20.02;beliefs2b;beliefs2;grid;EmploymentStatus;Unemployed – Beliefs Job Seach: Any Job;Stel dat u een baan zoekt (welke baan dan ook). Hoe groot is de kans dat u een baan vindt in de komende twee maanden? En in de komende zes maanden?U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.;in de komende zes maanden:;Suppose you are looking for the same kind of job as you had before. How likely are you to find such a job in the next two months? And over the next six months, you can answer these questions on a scale from 0 to 100, with 0 representing certainly not and 100 representing certainly.;in the next six months:;int;;;
+21.01;beliefs3;beliefs3;cat;EmploymentStatus and job_before;Unemployed – Beliefs Job Search Compared to Other Sectors;Hoe makkelijk is het, denkt u, om een zelfde soort baan te vinden zoals u eerder had in vergelijking met het vinden van een baan in andere economische sectoren?;;How easy do you think it is to find the same kind of job you had before compared to finding a job in other economic sectors?;;Categorical;veel makkelijker dan in andere soort banen|een beetje makkelijker dan in andere soort banen|niet makkelijker en niet moeilijker dan in andere banen|een beetje moeilijker dan in andere soort banen|veel moeilijker dan in andere soort banen;much easier than in other types of jobs|a little easier than in other types of jobs|no easier and no harder than in other jobs|a little more difficult than in other types of jobs|much more difficult than in other types of jobs;
+22.01;beliefs4;beliefs4;cat;EmploymentStatus and job_before;Unemployed – Beliefs Influence of CoViD-19 on Job Search;Heeft de uitbraak van het corona virus volgens u gevolgen voor het vinden van een zelfde soort baan als dat u eerder had?;;Do you think the corona virus outbreak has implications for finding the same kind of job you had before?;;Categorical;het is veel makkelijker om een baan te vinden|het is een beetje makkelijker om een baan te vinden|het is niet makkelijker en niet moeilijker|het is een beetje moeilijker om een baan te vinden|het is veel moeilijker om een baan te vinden;much easier to find a job|a little easier to find a job|no easier or harder|a little harder to find a job|much harder to find a job;
+23.01;beliefs5;beliefs5;cat;EmploymentStatus and job_before;Unemployed – Beliefs Pay in Future Job;Als u in de komende twee maanden een zelfde baan met hetzelfde aantal uren vindt zoals u die eerder hebt gehad, denkt u dat u dan hetzelfde, of juist minder of meer salaris zou krijgen dan in uw vorige baan?;;If you find the same job with the same number of hours in the next two months as you have had before, do you think you would receive the same or less or more salary than in your previous job?;;Categorical;hetzelfde salaris|minder salaris|meer salarisik weet het niet;less salary|the same salary|more salary|I don't know;
+24.01;JobSearch;JobSearch;cat;EmploymentStatus and job_before;Unemployed – Looking for job;Bent u op zoek naar werk?;;Are you looking for work?;;bool;Ja|Nee;yes|no;
+25.01;DifferentJobs;DifferentJobs;cat;EmploymentStatus and job_before and JobSearch;Unemployed – Looking for Different Profession;Zoekt u (ook) naar een baan in een ander beroep, of denkt u een baan in een ander beroep in de nabije toekomst mee te nemen in uw zoektocht naar werk?;;Are you (also) looking for a job in another profession, or do you plan to take a job in another profession in the near future in your search for work?;;bool;Ja|Nee;yes|no;
+26.01;NamesDifferentJobs;NamesDifferentJobs;open;DifferentJobs;Unemployed – Looking for Different Profession;In welk beroep / beroepen zoekt u naar werk, of welk beroep / beroepen denkt u in de nabije toekomst mee te nemen in uw zoektocht naar werk?;;In which profession(s) are you looking for work, or which profession(s) do you think you will include in your job search in the near future?;;str;;;
+27.01;SearchingTraining1;SearchingTraining;table;DifferentJobs;Unemployed – Looking for Different Profession;Doet u iets om van beroep te veranderen?;door (actief) te zoeken naar een baan in een ander beroep;Do you do something to change your profession?;by (actively) looking for a job in another profession;Categorical;Ja, daar ben ik al mee bezig|Ja, ik ben van plan dit in de komende zes maanden te doen|Ja, Ik ga dit binnen een jaar doen als ik geen kansen op de lange termijn zie in het beroep [dat ik nu heb/dat ik heb gehad]|Nee;yes, I am already working on that|yes, I intend to do this in the next six months|yes, I'm going to do this within a year if I don't see any chances in the long term in the profession [that I have now/that I have had]|yes, I'm going to do this within a year if I don't see any chances in the long term in the profession [that I have now/that I have had]|no;
+27.02;SearchingTraining2;SearchingTraining;table;DifferentJobs;Unemployed – Looking for Different Profession;Doet u iets om van beroep te veranderen?;door het volgen van een opleiding of bijscholing;Do you do something to change your profession?;by attending an education or refresher course;Categorical;Ja, daar ben ik al mee bezig|Ja, ik ben van plan dit in de komende zes maanden te doen|Ja, Ik ga dit binnen een jaar doen als ik geen kansen op de lange termijn zie in het beroep [dat ik nu heb/dat ik heb gehad]|Nee;yes, I am already working on that|yes, I intend to do this in the next six months|yes, I'm going to do this within a year if I don't see any chances in the long term in the profession [that I have now/that I have had]|yes, I'm going to do this within a year if I don't see any chances in the long term in the profession [that I have now/that I have had]|no;
+28.01;q26a;q26;grid;EmploymentStatus;Expectations December among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in december voordoen? 
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100. ";Ik behoud mijn baan omdat mijn werkgever / het bedrijf financieel niet sterk wordt geraakt door het coronavirus of financieel gezond genoeg is om de lonen te kunnen blijven betalen;"In your opinion, what are the chances of the following situations occurring in December? 
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100. ";I keep my job because my employer / company is not financially affected by the coronavirus or is financially healthy enough to continue to pay the wages;int;;;
+28.02;q26b;q26;grid;EmploymentStatus;Expectations December among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in december voordoen? 
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100. ";k behoud mijn baan omdat de overheid hulp biedt aan mijn werkgever / het bedrijf (bv. door een tegemoetkoming in de loonkosten);"In your opinion, what are the chances of the following situations occurring in December? 
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100. ";I keep my job because the government offers help to my employer / company (e.g. through an allowance for wage costs).;int;;;
+28.03;q26c;q26;grid;EmploymentStatus;Expectations December among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in december voordoen? 
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100. ";Ik heb een nieuwe baan bij een andere werkgever;"In your opinion, what are the chances of the following situations occurring in December? 
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100. ";I have a new job with another employer;int;;;
+28.04;q26d;q26;grid;EmploymentStatus;Expectations December among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in december voordoen? 
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100. ";Ik ben werkloos / behoor niet meer tot de beroepsbevolking / gepensioneerd / ik heb een arbeidsongeschiktheidspensioen;"In your opinion, what are the chances of the following situations occurring in December? 
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100. ";I am unemployed / no longer part of the labour force / retired / I have a disability pension;int;;;
+28.05;q26e;q26;grid;EmploymentStatus;Expectations August among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in december voordoen? 
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100. ";Iets anders gebeurt;"In your opinion, what are the chances of the following situations occurring in December? 
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100. ";Something else happens;int;;;
+29.01;q26a_1;q26header_1;grid;EmploymentStatus;Expectations Next Year among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik behoud mijn baan omdat mijn werkgever / het bedrijf financieel niet sterk wordt geraakt door het coronavirus of financieel gezond genoeg is om de lonen te kunnen blijven betalen;"In your opinion, what are the chances of the following situations occurring a year from now?
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100.";I keep my job because my employer / company is not financially affected by the coronavirus or is financially healthy enough to continue to pay wages;int;;;
+29.02;q26b_1;q26header_1;grid;EmploymentStatus;Expectations Next Year among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik behoud mijn baan omdat de overheid hulp biedt aan mijn werkgever / het bedrijf (bv. door een tegemoetkoming in de loonkosten);"In your opinion, what are the chances of the following situations occurring a year from now?
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100.";I keep my job because the government offers help to my employer / company (e.g. through an allowance for labour costs).;int;;;
+29.03;q26c_1;q26header_1;grid;EmploymentStatus;Expectations Next Year among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik heb een nieuwe baan bij een andere werkgever;"In your opinion, what are the chances of the following situations occurring a year from now?
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100.";I have a new job with another employer;int;;;
+29.04;q26d_1;q26header_1;grid;EmploymentStatus;Expectations Next Year among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik ben werkloos / behoor niet meer tot de beroepsbevolking / gepensioneerd / ik heb een arbeidsongeschiktheidspensioen;"In your opinion, what are the chances of the following situations occurring a year from now?
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100.";I am unemployed / do not belong to the labour force anymore / retired / I have a disability pension;int;;;
+29.05;q26e_1;q26header_1;grid;EmploymentStatus;Expectations Next Year among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Iets anders gebeurt;"In your opinion, what are the chances of the following situations occurring a year from now?
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100.";Something else happens;int;;;
+30.01;q27a;q27header;grid;EmploymentStatus;Expectations December among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in december voordoen?
+ U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100. ";Mijn bedrijf gaat gewoon verder als eerst of het gaat zelfs beter dan voor de coronavirus crisis;"In your opinion, what are the chances of the following situations occurring in December? 
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100. ";My business continues as before or even better than before the coronavirus crisis.;int;;;
+30.02;q27b;q27header;grid;EmploymentStatus;Expectations December among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in december voordoen?
+ U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100. ";Mijn bedrijf zal minder werkzaamheden hebben dan voor de coronavirus crisis, maar zal geen steun nodig hebben van de overheid;"In your opinion, what are the chances of the following situations occurring in December? 
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100. ";My company will have less work than before the coronavirus crisis, but will not need government support.;int;;;
+30.03;q27c;q27header;grid;EmploymentStatus;Expectations December among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in december voordoen?
+ U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100. ";Mijn bedrijf zal minder werkzaamheden hebben dan voor de coronavirus crisis en zal alleen overleven door steun van de overheid (bv. door de versoepeling uitstel van belastingbetaling of de aanvullende inkomensondersteuning voor levensonderhoud);"In your opinion, what are the chances of the following situations occurring in December? 
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100. ";My company will have less work than before the coronavirus crisis and will survive only through government support (e.g. through the relaxation of tax deferrals or additional income support for livelihoods).;int;;;
+30.04;q27d;q27header;grid;EmploymentStatus;Expectations December among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in december voordoen?
+ U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100. ";Mijn bedrijf zal minder werkzaamheden hebben dan voor de coronavirus crisis en zal moeten sluiten;"In your opinion, what are the chances of the following situations occurring in December? 
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100. ";My company will have less work than before the coronavirus crisis and will have to close down;int;;;
+30.05;q27e;q27header;grid;EmploymentStatus;Expectations December among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in december voordoen?
+ U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100. ";Iets anders gebeurt;"In your opinion, what are the chances of the following situations occurring in December? 
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100. ";Something else happens;int;;;
+31.01;q27a_1;q27header_1;grid;EmploymentStatus;Expectations Next Year among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen? 
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Mijn bedrijf gaat gewoon verder als eerst of het gaat zelfs beter dan voor de coronavirus crisis;"In your opinion, what are the chances of the following situations occurring a year from now?
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100.";My business continues as before or even better than before the coronavirus crisis;int;;;
+31.02;q27b_1;q27header_1;grid;EmploymentStatus;Expectations Next Year among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen? 
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Mijn bedrijf zal minder werkzaamheden hebben dan voor de coronavirus crisis, maar zal geen steun nodig hebben van de overheid;"In your opinion, what are the chances of the following situations occurring a year from now?
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100.";My company will have less work than before the coronavirus crisis, but will not need government support;int;;;
+31.03;q27c_1;q27header_1;grid;EmploymentStatus;Expectations Next Year among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen? 
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Mijn bedrijf zal minder werkzaamheden hebben dan voor de coronavirus crisis en zal alleen overleven door steun van de overheid (bv. door de versoepeling uitstel van belastingbetaling of de aanvullende inkomensondersteuning voor levensonderhoud);"In your opinion, what are the chances of the following situations occurring a year from now?
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100.";My company will have less work than before the coronavirus crisis and will survive only through government support (e.g. by relaxing tax deferrals or additional income support for livelihoods).;int;;;
+31.04;q27d_1;q27header_1;grid;EmploymentStatus;Expectations Next Year among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen? 
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Mijn bedrijf zal minder werkzaamheden hebben dan voor de coronavirus crisis en zal moeten sluiten;"In your opinion, what are the chances of the following situations occurring a year from now?
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100.";My company will have less work than before the coronavirus crisis and will have to close down;int;;;
+31.05;q27e_1;q27header_1;grid;EmploymentStatus;Expectations Next Year among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen? 
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Iets anders gebeurt;"In your opinion, what are the chances of the following situations occurring a year from now?
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100.";Something else happens;int;;;
+32.01;q27a_ex;q27header_ex;grid;EmploymentStatus;Expectations December among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich in december voordoen? 
+ U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100. ";Ik heb een nieuwe baan gevonden;"In your opinion, what are the chances of the following situations occurring in December? 
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100. ";I've found a new job;int;;;
+32.02;q27b_ex;q27header_ex;grid;EmploymentStatus;Expectations December among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich in december voordoen? 
+ U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100. ";Ik ben bezig met een voltijds opleiding of vervolgopleiding;"In your opinion, what are the chances of the following situations occurring in December? 
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100. ";I am in full-time education or continuing education;int;;;
+32.03;q27c_ex;q27header_ex;grid;EmploymentStatus;Expectations December among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich in december voordoen? 
+ U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100. ";Ik werk dan niet, maar ben op zoek naar een nieuwe baan;"In your opinion, what are the chances of the following situations occurring in December? 
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100. ";I'm not working then, but I'm looking for a new job;int;;;
+32.04;q27d_ex;q27header_ex;grid;EmploymentStatus;Expectations December among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich in december voordoen? 
+ U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100. ";Ik werk dan niet en ben dan ook niet op zoek naar een nieuwe baan;"In your opinion, what are the chances of the following situations occurring in December? 
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100. ";I'm not working then and I'm not looking for a new job;int;;;
+32.05;q27e_ex;q27header_ex;grid;EmploymentStatus;Expectations December among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich in december voordoen? 
+ U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100. ";Iets anders gebeurt;"In your opinion, what are the chances of the following situations occurring in December? 
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100. ";Something else happens;int;;;
+33.01;q27a_ex_1;q27header_ex_1;grid;EmploymentStatus;Expectations Next Year among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen? 
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik heb een nieuwe baan gevonden;"In your opinion, what are the chances of the following situations occurring a year from now?
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100.";I've found a new job;int;;;
+33.02;q27b_ex_1;q27header_ex_1;grid;EmploymentStatus;Expectations Next Year among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen? 
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik ben bezig met een voltijds opleiding of vervolgopleiding;"In your opinion, what are the chances of the following situations occurring a year from now?
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100.";I am in full-time education or continuing education;int;;;
+33.03;q27c_ex_1;q27header_ex_1;grid;EmploymentStatus;Expectations Next Year among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen? 
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik werk dan niet, maar ben op zoek naar een nieuwe baan;"In your opinion, what are the chances of the following situations occurring a year from now?
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100.";I'm not working then, but I'm looking for a new job;int;;;
+33.04;q27d_ex_1;q27header_ex_1;grid;EmploymentStatus;Expectations Next Year among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen? 
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik werk dan niet en ben dan ook niet op zoek naar een nieuwe baan;"In your opinion, what are the chances of the following situations occurring a year from now?
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100.";I'm not working then and I'm not looking for a new job;int;;;
+33.05;q27e_ex_1;q27header_ex_1;grid;EmploymentStatus;Expectations Next Year among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen? 
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Iets anders gebeurt;"In your opinion, what are the chances of the following situations occurring a year from now?
+You can answer these questions on a scale from 0 to 100, where 0 stands for definitely not and 100 for definitely yes. Please note that your answers must add up to 100.";Something else happens;int;;;
+34.01;inc_mei;income;grid;-;Income;"Wat was in de afgelopen vier maanden [if (p_aantalhh = 1): uw bruto maandinkomen/ if (p_aantalhh ≠ 1): het gezamenlijke bruto maandinkomen van uw huishouden]? Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.
+ Als u het niet precies weet geeft u dan uw beste inschatting. Vult u alleen cijfers (hele euro's) in, dus zonder punten en komma’s.";inkomen in mei:;"What was in the past four months [if (p_numberhh = 1): your gross monthly income/ if (p_numberhh ≠ 1): your household's combined gross monthly income]? So all income from e.g. work, pension, unemployment benefit, etc.?
+ If you do not know exactly, please give your best estimate. Just fill in figures (whole euros), without points and commas.";income in May:;int;;;
+34.02;inc_jun;income;grid;-;Income;"Wat was in de afgelopen vier maanden [if (p_aantalhh = 1): uw bruto maandinkomen/ if (p_aantalhh ≠ 1): het gezamenlijke bruto maandinkomen van uw huishouden]? Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.
+ Als u het niet precies weet geeft u dan uw beste inschatting. Vult u alleen cijfers (hele euro's) in, dus zonder punten en komma’s.";inkomen in juni:;"What was in the past four months [if (p_numberhh = 1): your gross monthly income/ if (p_numberhh ≠ 1): your household's combined gross monthly income]? So all income from e.g. work, pension, unemployment benefit, etc.?
+ If you do not know exactly, please give your best estimate. Just fill in figures (whole euros), without points and commas.";income in June:;int;;;
+34.03;inc_jul;income;grid;-;Income;"Wat was in de afgelopen vier maanden [if (p_aantalhh = 1): uw bruto maandinkomen/ if (p_aantalhh ≠ 1): het gezamenlijke bruto maandinkomen van uw huishouden]? Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.
+ Als u het niet precies weet geeft u dan uw beste inschatting. Vult u alleen cijfers (hele euro's) in, dus zonder punten en komma’s.";inkomen in juli:;"What was in the past four months [if (p_numberhh = 1): your gross monthly income/ if (p_numberhh ≠ 1): your household's combined gross monthly income]? So all income from e.g. work, pension, unemployment benefit, etc.?
+ If you do not know exactly, please give your best estimate. Just fill in figures (whole euros), without points and commas.";income in July:;int;;;
+34.04;inc_aug;income;grid;-;Income;"Wat was in de afgelopen vier maanden [if (p_aantalhh = 1): uw bruto maandinkomen/ if (p_aantalhh ≠ 1): het gezamenlijke bruto maandinkomen van uw huishouden]? Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.
+ Als u het niet precies weet geeft u dan uw beste inschatting. Vult u alleen cijfers (hele euro's) in, dus zonder punten en komma’s.";inkomen in augustus:;"What was in the past four months [if (p_numberhh = 1): your gross monthly income/ if (p_numberhh ≠ 1): your household's combined gross monthly income]? So all income from e.g. work, pension, unemployment benefit, etc.?
+ If you do not know exactly, please give your best estimate. Just fill in figures (whole euros), without points and commas.";income in August:;int;;;
+35.01;expinc2020_a_col2_a;expectedincome;grid;-;Expected Income;We willen graag weten wat u verwacht dat [if (p_aantalhh = 1): uw bruto jaarinkomen/ if (p_aantalhh ≠ 1): het gezamenlijke bruto jaarinkomen van uw huishouden] voor 2020, 2021, en 2022 zal zijn. Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.;Voor dit jaar (dus ook voor de maanden januari tot en met augustus);We would like to know what you expect [if (p_numberhh = 1): your gross annual income/ if (p_numberhh ≠ 1): the combined gross annual income of your household] for 2020, 2021, and 2022 will be. So all income from, for example, work, pension, unemployment benefit, etc., will be your household gross annual income.;For this year (so also for the months January to August);int;;;
+35.02;expinc2021_a_col2_a;expectedincome;grid;-;Expected Income;We willen graag weten wat u verwacht dat [if (p_aantalhh = 1): uw bruto jaarinkomen/ if (p_aantalhh ≠ 1): het gezamenlijke bruto jaarinkomen van uw huishouden] voor 2020, 2021, en 2022 zal zijn. Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.;Voor het jaar 2021;We would like to know what you expect [if (p_numberhh = 1): your gross annual income/ if (p_numberhh ≠ 1): the combined gross annual income of your household] for 2020, 2021, and 2022 will be. So all income from, for example, work, pension, unemployment benefit, etc., will be your household gross annual income.;For the year 2021;int;;;
+35.03;expinc2022_a_col2_a;expectedincome;grid;-;Expected Income;We willen graag weten wat u verwacht dat [if (p_aantalhh = 1): uw bruto jaarinkomen/ if (p_aantalhh ≠ 1): het gezamenlijke bruto jaarinkomen van uw huishouden] voor 2020, 2021, en 2022 zal zijn. Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.;Voor het jaar 2022;We would like to know what you expect [if (p_numberhh = 1): your gross annual income/ if (p_numberhh ≠ 1): the combined gross annual income of your household] for 2020, 2021, and 2022 will be. So all income from, for example, work, pension, unemployment benefit, etc., will be your household gross annual income.;For the year 2022;int;;;
+36.01;ExpUnempl_today2020;ExpUnempl_today;table;-;Expected Unemployment Today;"We willen graag weten wat u verwacht dat het werkloosheidscijfer in Nederland zal zijn. Het werkloosheidspercentage was in de periode 2017-2019 ongeveer 4% per jaar. 
+Wat zijn uw verwachtingen over het werkloosheidspercentage?";2020;"We would like to know what you expect the unemployment rate to be in the Netherlands. The unemployment rate in the period 2017-2019 was about 4% per year.
+What are your expectations about the unemployment rate?";2020;Categorical;minder dan 3.0%|3.0% tot 6.0%|6.0% tot 9.0%|9.0% tot 12.0%|12.0% of hoger;less than 3.0%|3.0% to 6.0%|6.0% to 9.0%|9.0% to 12.0%|12.0% or greater;
+36.02;ExpUnempl_today2021;ExpUnempl_today;table;-;Expected Unemployment Today;"We willen graag weten wat u verwacht dat het werkloosheidscijfer in Nederland zal zijn. Het werkloosheidspercentage was in de periode 2017-2019 ongeveer 4% per jaar. 
+Wat zijn uw verwachtingen over het werkloosheidspercentage?";2021;"We would like to know what you expect the unemployment rate to be in the Netherlands. The unemployment rate in the period 2017-2019 was about 4% per year.
+What are your expectations about the unemployment rate?";2021;Categorical;minder dan 3.0%|3.0% tot 6.0%|6.0% tot 9.0%|9.0% tot 12.0%|12.0% of hoger;less than 3.0%|3.0% to 6.0%|6.0% to 9.0%|9.0% to 12.0%|12.0% or greater;
+36.03;ExpUnempl_today2022;ExpUnempl_today;table;-;Expected Unemployment Today;"We willen graag weten wat u verwacht dat het werkloosheidscijfer in Nederland zal zijn. Het werkloosheidspercentage was in de periode 2017-2019 ongeveer 4% per jaar. 
+Wat zijn uw verwachtingen over het werkloosheidspercentage?";2022;"We would like to know what you expect the unemployment rate to be in the Netherlands. The unemployment rate in the period 2017-2019 was about 4% per year.
+What are your expectations about the unemployment rate?";2022;Categorical;minder dan 3.0%|3.0% tot 6.0%|6.0% tot 9.0%|9.0% tot 12.0%|12.0% of hoger;less than 3.0%|3.0% to 6.0%|6.0% to 9.0%|9.0% to 12.0%|12.0% or greater;
+37.01;ExpEcGr_today2020;ExpEcGr_today;table;-;Expected Economic Growth Today;"We willen graag weten wat u verwacht dat de groei van de economie in Nederland zal zijn. De economische groei, dat wil zeggen, de verandering van de hoeveelheid goederen en diensten die Nederland kan gebruiken, was in de periode 2017-2019 ongeveer 2,5% per jaar. 
+Wat zijn uw verwachtingen over de economische groei?";2020;"We would like to know what you expect the growth of the economy in the Netherlands will be. Economic growth, i.e. the change in the amount of goods and services that the Netherlands can use, was about 2.5% per year in the period 2017-2019. 
+What are your expectations of economic growth?";2020;Categorical;minder dan -10%|-10% tot -5%|-5% tot 0%|0% tot 5%|5% tot 10%|10% of hoger;less than -10%|-10% to -5%|-5% to 0%|0% to 5%|5% to 10%|10% or greater;
+37.02;ExpEcGr_today2021;ExpEcGr_today;table;-;Expected Economic Growth Today;"We willen graag weten wat u verwacht dat de groei van de economie in Nederland zal zijn. De economische groei, dat wil zeggen, de verandering van de hoeveelheid goederen en diensten die Nederland kan gebruiken, was in de periode 2017-2019 ongeveer 2,5% per jaar. 
+Wat zijn uw verwachtingen over de economische groei?";2021;"We would like to know what you expect the growth of the economy in the Netherlands will be. Economic growth, i.e. the change in the amount of goods and services that the Netherlands can use, was about 2.5% per year in the period 2017-2019. 
+What are your expectations of economic growth?";2021;Categorical;minder dan -10%|-10% tot -5%|-5% tot 0%|0% tot 5%|5% tot 10%|10% of hoger;less than -10%|-10% to -5%|-5% to 0%|0% to 5%|5% to 10%|10% or greater;
+37.03;ExpEcGr_today2022;ExpEcGr_today;table;-;Expected Economic Growth Today;"We willen graag weten wat u verwacht dat de groei van de economie in Nederland zal zijn. De economische groei, dat wil zeggen, de verandering van de hoeveelheid goederen en diensten die Nederland kan gebruiken, was in de periode 2017-2019 ongeveer 2,5% per jaar. 
+Wat zijn uw verwachtingen over de economische groei?";2022;"We would like to know what you expect the growth of the economy in the Netherlands will be. Economic growth, i.e. the change in the amount of goods and services that the Netherlands can use, was about 2.5% per year in the period 2017-2019. 
+What are your expectations of economic growth?";2022;Categorical;minder dan -10%|-10% tot -5%|-5% tot 0%|0% tot 5%|5% tot 10%|10% of hoger;less than -10%|-10% to -5%|-5% to 0%|0% to 5%|5% to 10%|10% or greater;
+38.01;ExpInfl_today2020;ExpInfl_today;table;;Expected Inflation Today;"We willen graag weten wat u verwacht dat de prijsverandering (verandering van de consumptieprijzen, inflatie) in Nederland zal zijn. De inflatie was in de periode 2017-2019 ongeveer 1,8% per jaar.
+Wat zijn uw verwachtingen over de inflatie (een negatief percentage betekent dat prijzen dalen)?";2020;"We would like to know what you expect the price change (change in consumer prices, inflation) to be in the Netherlands. Inflation in the period 2017-2019 was about 1.8% per year.
+What are your expectations about inflation (a negative percentage means that prices are falling)?";2020;Categorical;minder dan -2%|-2% tot 0%|0% tot 2%|2% tot 4%|4% tot 6%|6% of hoger;less than -2%|-2% to 0%|0% to 2%|2% to 4%|4% to 6%|6% or greater;
+38.02;ExpInfl_today2021;ExpInfl_today;table;-;Expected Inflation Today;"We willen graag weten wat u verwacht dat de prijsverandering (verandering van de consumptieprijzen, inflatie) in Nederland zal zijn. De inflatie was in de periode 2017-2019 ongeveer 1,8% per jaar.
+Wat zijn uw verwachtingen over de inflatie (een negatief percentage betekent dat prijzen dalen)?";2021;"We would like to know what you expect the price change (change in consumer prices, inflation) to be in the Netherlands. Inflation in the period 2017-2019 was about 1.8% per year.
+What are your expectations about inflation (a negative percentage means that prices are falling)?";2021;Categorical;minder dan -2%|-2% tot 0%|0% tot 2%|2% tot 4%|4% tot 6%|6% of hoger;less than -2%|-2% to 0%|0% to 2%|2% to 4%|4% to 6%|6% or greater;
+38.03;ExpInfl_today2022;ExpInfl_today;table;-;Expected Inflation Today;"We willen graag weten wat u verwacht dat de prijsverandering (verandering van de consumptieprijzen, inflatie) in Nederland zal zijn. De inflatie was in de periode 2017-2019 ongeveer 1,8% per jaar.
+Wat zijn uw verwachtingen over de inflatie (een negatief percentage betekent dat prijzen dalen)?";2022;"We would like to know what you expect the price change (change in consumer prices, inflation) to be in the Netherlands. Inflation in the period 2017-2019 was about 1.8% per year.
+What are your expectations about inflation (a negative percentage means that prices are falling)?";2022;Categorical;minder dan -2%|-2% tot 0%|0% tot 2%|2% tot 4%|4% tot 6%|6% of hoger;less than -2%|-2% to 0%|0% to 2%|2% to 4%|4% to 6%|6% or greater;
+39.01;eva2t1;-;;;;;;;;Categorical;;;
+39.02;eva2t2;-;;;;;;;;Categorical;;;
+39.03;eva2t3;-;;;;;;;;Categorical;;;
+39.04;eva2t4;-;;;;;;;;Categorical;;;
+39.05;eva2t5;-;;;;;;;;Categorical;;;
+;nomem_encr;-;;;;;;;;float;;;
+;maandnr;-;;;;;;;;int;;;
+;p_aantalhh;-;;;;;;;;;;;
+;p_leeftijd;;;;;;;;;;;;
+;opm;opm;;;;;;;;;;;
+;evaopm;-;;;;;;;;str;;;
+;DatumB;-;;;;;;;;;;;
+;TijdB;-;;;;;;;;;;;
+;DatumE;-;;;;;;;;;;;
+;TijdE;-;;;;;;;;;;;
+;duur;-;;;;;;;;;;;
+;nohouse_encr;-;;;;;;;;;;;
+;geslacht;-;;;;;;;;Categorical;;;
+;positie;-;;;;;;;;Categorical;;;
+;gebjaar;-;;;;;;;;int;;;
+;leeftijd;-;;;;;;;;float;;;
+;lftdcat;-;;;;;;;;Categorical;;;
+;lftdhhh;-;;;;;;;;int;;;
+;aantalhh;-;;;;;;;;Categorical;;;
+;aantalki;-;;;;;;;;Categorical;;;
+;partner;-;;;;;;;;bool;;;
+;burgstat;-;;;;;;;;Categorical;;;
+;woonvorm;-;;;;;;;;Categorical;;;
+;woning;-;;;;;;;;Categorical;;;
+;sted;-;;;;;;;;Categorical;;;
+;belbezig;-;;;;;;;;Categorical;;;
+;brutoink;-;;;;;;;;Categorical;;;
+;brutoink_f;-;;;;;;;;Categorical;;;
+;nettoink;-;;;;;;;;Categorical;;;
+;netinc;-;;;;;;;;int;;;
+;nettoink_f;-;;;;;;;;int;;;
+;brutocat;-;;;;;;;;Categorical;;;
+;nettocat;-;;;;;;;;Categorical;;;
+;brutohh_f;-;;;;;;;;float;;;
+;nettohh_f;-;;;;;;;;float;;;
+;oplzon;-;;;;;;;;Categorical;;;
+;oplmet;-;;;;;;;;Categorical;;;
+;oplcat;-;;;;;;;;Categorical;;;
+;account;-;;;;;;;;bool;;;
+;ISCO08_NamesDifferentJobs_01;-;;;;;;;;;;;
+;ISCO08_NamesDifferentJobs_02;-;;;;;;;;;;;
+;ISCO08_NamesDifferentJobs_03;-;;;;;;;;;;;
+;ISCO08_NamesDifferentJobs_04;-;;;;;;;;;;;
+;ISCO08_NamesDifferentJobs_05;-;;;;;;;;;;;
+;ISCO08_NamesDifferentJobs_06;-;;;;;;;;;;;
+;ISCO08_NamesDifferentJobs_07;-;;;;;;;;;;;
+;ISCO08_NamesDifferentJobs_08;-;;;;;;;;;;;
+;ISCO08_NamesDifferentJobs_09;-;;;;;;;;;;;
+;ISCO08_NamesDifferentJobs_10;-;;;;;;;;;;;
