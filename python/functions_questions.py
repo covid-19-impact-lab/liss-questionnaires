@@ -108,7 +108,7 @@ def insert_table_question(df, path, q_text, q_sub_text, q_categories):
     add_to_file(csv_delim.format(), path)
     add_to_file(csv_columns.format(",", df.loc[df.index[0], q_categories]), path)
     for i in df.index:
-        items = df.loc[i, q_categories].count(",")
+        items = df.loc[i, q_categories].count("|")
         add_to_file(
             csv_row.format(df.loc[i, q_sub_text], (button + "|") * (items) + button),
             path,
@@ -124,7 +124,7 @@ def insert_grid_question(df, path, q_text, q_sub_text, q_categories):
         add_to_file(csv_delim.format(), path)
         add_to_file(csv_columns.format(",", df.loc[df.index[0], q_categories]), path)
         for i in df.index:
-            items = df.loc[i, q_categories].count(",")
+            items = df.loc[i, q_categories].count("|")
             add_to_file(
                 csv_row.format(
                     df.loc[i, q_sub_text], (f"{empty_field} |") * items + empty_field
@@ -144,7 +144,7 @@ def insert_cat_question(df, path, q_text, q_categories):
     add_to_file(csv_delim.format(), path)
     add_to_file(csv_columns.format("", df.loc[df.index[0], q_categories]), path)
     for i in df.index:
-        items = df.loc[i, q_categories].count(",")
+        items = df.loc[i, q_categories].count("|")
         add_to_file(csv_singlerow.format((button + "|") * (items) + button), path)
 
 
