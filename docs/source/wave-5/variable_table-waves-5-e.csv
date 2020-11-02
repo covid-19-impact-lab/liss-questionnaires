@@ -1,0 +1,95 @@
+Variable,Type,Topic,Reference Period Other Than Survey Period,Links Wave 5,Question Id,Routing
+p_2m_infected,int,Health Beliefs, ,:ref:`🔗 <w5e-q1header>`,q1a, 
+p_2m_acquaintance_infected,int,Health Beliefs, ,:ref:`🔗 <w5e-q1header>`,q1b, 
+p_2m_hospital_if_infect_self,int,Health Beliefs, ,:ref:`🔗 <w5e-q1header>`,q1c, 
+p_2m_infected_and_pass_on,int,Health Beliefs, ,:ref:`🔗 <w5e-q1header>`,q1e, 
+hours_workplace,int,Employment, ,:ref:`🔗 <w5e-q14>`,q14b_q14werk,if (EmploymentStatus = 1 or EmploymentStatus = 2)
+hours_home,int,Employment, ,:ref:`🔗 <w5e-q14>`,q14b_q14thuis,if (EmploymentStatus = 1 or EmploymentStatus = 2)
+p_2m_employee_keep,int,Employment, ,:ref:`🔗 <w5e-q26>`,q26a,if (EmploymentStatus = 1)
+p_2m_employee_keep_gov,int,Employment, ,:ref:`🔗 <w5e-q26>`,q26b,if (EmploymentStatus = 1)
+p_2m_employee_other,int,Employment, ,:ref:`🔗 <w5e-q26>`,q26e,if (EmploymentStatus = 1)
+p_2m_employee_new_job,int,Employment, ,:ref:`🔗 <w5e-q26>`,q26c,if (EmploymentStatus = 1)
+p_2m_employee_unemployed,int,Employment, ,:ref:`🔗 <w5e-q26>`,q26d,if (EmploymentStatus = 1)
+infection_diagnosed,Ordered Categorical,Health Beliefs, ,:ref:`🔗 <w5e-InfectionDiagnosed>`,InfectionDiagnosed, 
+hh_income_202005,float,Finances,202005,:ref:`🔗 <w5e-income>`,inc_mei, 
+hh_income_202006,int,Finances, ,:ref:`🔗 <w5e-income>`,inc_jun, 
+hh_income_202007,int,Finances, ,:ref:`🔗 <w5e-income>`,inc_jul, 
+hh_income_202008,int,Finances, ,:ref:`🔗 <w5e-income>`,inc_aug, 
+e_2020_hh_income,int,Finances, ,:ref:`🔗 <w5e-expectedincome>`,expinc2020_a_col2_a, 
+e_2021_hh_income,int,Finances, ,:ref:`🔗 <w5e-expectedincome>`,expinc2021_a_col2_a, 
+e_2022_hh_income,int,Finances, ,:ref:`🔗 <w5e-expectedincome>`,expinc2022_a_col2_a, 
+e_2020_unemp_rate,Ordered Categorical,Macro Expectations, ,:ref:`🔗 <w5e-ExpUnempl_today>`,ExpUnempl_today2020, 
+e_2021_unemp_rate,Ordered Categorical,Macro Expectations, ,:ref:`🔗 <w5e-ExpUnempl_today>`,ExpUnempl_today2021, 
+e_2022_unemp_rate,Ordered Categorical,Macro Expectations, ,:ref:`🔗 <w5e-ExpUnempl_today>`,ExpUnempl_today2022, 
+e_2020_gdp,Ordered Categorical,Macro Expectations, ,:ref:`🔗 <w5e-ExpEcGrowth_today>`,ExpEcGr_today2020, 
+e_2021_gdp,Ordered Categorical,Macro Expectations, ,:ref:`🔗 <w5e-ExpEcGrowth_today>`,ExpEcGr_today2021, 
+e_2022_gdp,Ordered Categorical,Macro Expectations, ,:ref:`🔗 <w5e-ExpEcGrowth_today>`,ExpEcGr_today2022, 
+e_2020_infl,Ordered Categorical,Macro Expectations, ,:ref:`🔗 <w5e-ExpInfl_today>`,ExpInfl_today2020, 
+e_2021_infl,Ordered Categorical,Macro Expectations, ,:ref:`🔗 <w5e-ExpInfl_today>`,ExpInfl_today2021, 
+e_2022_infl,Ordered Categorical,Macro Expectations, ,:ref:`🔗 <w5e-ExpInfl_today>`,ExpInfl_today2022, 
+nervous_month,Ordered Categorical,Mental Health, ,:ref:`🔗 <w5e-q30hd_maand>`,q30a_mnd, 
+depressed_month,Ordered Categorical,Mental Health, ,:ref:`🔗 <w5e-q30hd_maand>`,q30b_mnd, 
+calm_month,Ordered Categorical,Mental Health, ,:ref:`🔗 <w5e-q30hd_maand>`,q30c_mnd, 
+gloomy_month,Ordered Categorical,Mental Health, ,:ref:`🔗 <w5e-q30hd_maand>`,q30d_mnd, 
+happy_month,Ordered Categorical,Mental Health, ,:ref:`🔗 <w5e-q30hd_maand>`,q30e_mnd, 
+work_status,category,Employment, ,:ref:`🔗 <w5e-EmploymentStatus>`,EmploymentStatus, 
+day_off_leisure,Int,Employment, ,:ref:`🔗 <w5e-vacsick>`,vacsick1,if (EmploymentStatus = 1 or EmploymentStatus = 2)
+day_off_childcare,Int,Employment, ,:ref:`🔗 <w5e-vacsick>`,vacsick2,if (EmploymentStatus = 1 or EmploymentStatus = 2)
+day_off_other,Int,Employment, ,:ref:`🔗 <w5e-vacsick>`,vacsick3,if (EmploymentStatus = 1 or EmploymentStatus = 2)
+day_off_sick,Int,Employment, ,:ref:`🔗 <w5e-vacsick>`,vacsick4,if (EmploymentStatus = 1 or EmploymentStatus = 2)
+employer_application_now,category,Policies, ,:ref:`🔗 <w5e-q16a>`,q16a,if (EmploymentStatus = 1)
+self_application_now,category,Policies, ,:ref:`🔗 <w5e-q17a>`,q17a,if (EmploymentStatus = 2)
+self_application_tozo,category,Policies, ,:ref:`🔗 <w5e-q17d>`,q17d,if (EmploymentStatus = 2)
+p_employer_application_now3,int,Policies, ,:ref:`🔗 <w5e-NOW_ES>`,NOW_ES1,if (EmploymentStatus = 1)
+p_self_application_now3,int,Policies, ,:ref:`🔗 <w5e-NOW_ES>`,NOW_ES2,if (EmploymentStatus = 2)
+p_self_application_tozo3,int,Policies, ,:ref:`🔗 <w5e-Tozo_ES2>`,Tozo_ES2,if (EmploymentStatus = 2)
+change_empl,category,Finances, ,:ref:`🔗 <w5e-change_empl>`,change_empl,if (EmploymentStatus = 1)
+change_selfempl,category,Finances, ,:ref:`🔗 <w5e-change_selfempl>`,change_selfempl,if (EmploymentStatus = 2)
+change_unempl,category,Finances, ,:ref:`🔗 <w5e-change_unempl>`,change_unempl,if (EmploymentStatus = 3)
+job_before,bool,Employment, ,:ref:`🔗 <w5e-job_before>`,job_before,if (EmploymentStatus ≠ 1 and EmploymentStatus ≠ 2 and EmploymentStatus ≠ 5 and leeftijd <= 67)
+p_year_employee_keep,int,Employment, ,:ref:`🔗 <w5e-q26>`,q26a_1,if (EmploymentStatus = 1)
+p_year_employee_keep_gov,int,Employment, ,:ref:`🔗 <w5e-q26>`,q26b_1,if (EmploymentStatus = 1)
+p_year_employee_new_job,int,Employment, ,:ref:`🔗 <w5e-q26>`,q26c_1,if (EmploymentStatus = 1)
+p_year_employee_unemployed,int,Employment, ,:ref:`🔗 <w5e-q26>`,q26d_1,if (EmploymentStatus = 1)
+p_year_employee_other,int,Employment, ,:ref:`🔗 <w5e-q26>`,q26e_1,if (EmploymentStatus = 1)
+p_3m_selfempl_normal,int,Employment, ,:ref:`🔗 <w5e-q27header>`,q27a,if (EmploymentStatus = 2)
+p_3m_selfempl_fewer,int,Employment, ,:ref:`🔗 <w5e-q27header>`,q27b,if (EmploymentStatus = 2)
+p_3m_selfempl_helped_by_gov,int,Employment, ,:ref:`🔗 <w5e-q27header>`,q27c,if (EmploymentStatus = 2)
+p_3m_selfempl_shutdown,int,Employment, ,:ref:`🔗 <w5e-q27header>`,q27d,if (EmploymentStatus = 2)
+p_3m_selfempl_other,int,Employment, ,:ref:`🔗 <w5e-q27header>`,q27e,if (EmploymentStatus = 2)
+p_year_selfempl_normal,int,Employment, ,:ref:`🔗 <w5e-Q27header_1>`,q27a_1,if (EmploymentStatus = 2)
+p_year_selfempl_fewer,int,Employment, ,:ref:`🔗 <w5e-Q27header_1>`,q27b_1,if (EmploymentStatus = 2)
+p_year_selfempl_helped_by_gov,int,Employment, ,:ref:`🔗 <w5e-Q27header_1>`,q27c_1,if (EmploymentStatus = 2)
+p_year_selfempl_shutdown,int,Employment, ,:ref:`🔗 <w5e-Q27header_1>`,q27d_1,if (EmploymentStatus = 2)
+p_year_selfempl_other,int,Employment, ,:ref:`🔗 <w5e-Q27header_1>`,q27e_1,if (EmploymentStatus = 2)
+p_3m_unemployed_job,int,Employment, ,:ref:`🔗 <w5e-q27header_unempl>`,q27a_ex,if (EmploymentStatus = 3)
+p_3m_unemployed_educ,int,Employment, ,:ref:`🔗 <w5e-q27header_unempl>`,q27b_ex,if (EmploymentStatus = 3)
+p_3m_unemployed_looking,int,Employment, ,:ref:`🔗 <w5e-q27header_unempl>`,q27c_ex,if (EmploymentStatus = 3)
+p_3m_unemployed_not_looking,int,Employment, ,:ref:`🔗 <w5e-q27header_unempl>`,q27d_ex,if (EmploymentStatus = 3)
+p_3m_unemployed_other,int,Employment, ,:ref:`🔗 <w5e-q27header_unempl>`,q27e_ex,if (EmploymentStatus = 3)
+p_year_unemployed_job,int,Employment, ,:ref:`🔗 <w5e-q27header_unempl_1>`,q27a_ex_1,if (EmploymentStatus = 3)
+p_year_unemployed_educ,int,Employment, ,:ref:`🔗 <w5e-q27header_unempl_1>`,q27b_ex_1,if (EmploymentStatus = 3)
+p_year_unemployed_looking,int,Employment, ,:ref:`🔗 <w5e-q27header_unempl_1>`,q27c_ex_1,if (EmploymentStatus = 3)
+p_year_unemployed_not_looking,int,Employment, ,:ref:`🔗 <w5e-q27header_unempl_1>`,q27d_ex_1,if (EmploymentStatus = 3)
+p_year_unemployed_other,int,Employment, ,:ref:`🔗 <w5e-q27header_unempl_1>`,q27e_ex_1,if (EmploymentStatus = 3)
+e_2m_findoldjob,Int,Beliefs, ,:ref:`🔗 <w5e-beliefs1>`,beliefs1a,if (EmploymentStatus = 3 and job_before = 1)
+e_6m_findoldjob,Int,Beliefs, ,:ref:`🔗 <w5e-beliefs1>`,beliefs1b,if (EmploymentStatus = 3 and job_before = 1)
+e_2m_findjob,Int,Beliefs, ,:ref:`🔗 <w5e-beliefs2>`,beliefs2a,if (EmploymentStatus = 3)
+e_6m_findjob,Int,Beliefs, ,:ref:`🔗 <w5e-beliefs2>`,beliefs2b,if (EmploymentStatus = 3)
+l_findoldjob_rel,Ordered Categorical,Beliefs, ,:ref:`🔗 <w5e-beliefs3>`,beliefs3,if (EmploymentStatus = 3 and job_before = 1)
+impact_corona_findoldjob,Ordered Categorical,Beliefs, ,:ref:`🔗 <w5e-beliefs4>`,beliefs4,if (EmploymentStatus = 3 and job_before = 1)
+finoldjob_wage_rel,Ordered Categorical,Beliefs, ,:ref:`🔗 <w5e-beliefs5>`,beliefs5,if (EmploymentStatus = 3 and job_before = 1)
+support_childcare_open,Ordered Categorical,Childcare, ,:ref:`🔗 <w5e-support>`,support_a, 
+support_primary_open,Ordered Categorical,Childcare, ,:ref:`🔗 <w5e-support>`,support_b, 
+support_cafe_open,Ordered Categorical,Public Life, ,:ref:`🔗 <w5e-support>`,support_c, 
+support_transport_rules,Ordered Categorical,Public Life, ,:ref:`🔗 <w5e-support>`,support_d, 
+support_workplace_rules,Ordered Categorical,Public Life, ,:ref:`🔗 <w5e-support>`,support_f, 
+support_nightclubs_close,Ordered Categorical,Public Life, ,:ref:`🔗 <w5e-support>`,support_g, 
+avoid_cafe,Ordered Categorical,Behavior, ,:ref:`🔗 <w5e-avoid>`,avoid_a, 
+avoid_theater,Ordered Categorical,Behavior, ,:ref:`🔗 <w5e-avoid>`,avoid_b, 
+avoid_public_transport,Ordered Categorical,Behavior, ,:ref:`🔗 <w5e-avoid>`,avoid_c, 
+seeking_job,bool,Job Search, ,:ref:`🔗 <w5e-JobSearch>`,JobSearch,if (job_before = 1 and EmploymentStatus > 3)
+seeking_diff_profession,bool,Job Search, ,:ref:`🔗 <w5e-DifferentJobs>`,DifferentJobs,if ((EmploymentStatus = 1 or EmploymentStatus = 2) or (job_before = 1 and EmploymentStatus = 3) or (JobSearch = 1 and EmploymentStatus > 3))
+seeking_diff_profession_str,object,Job Search, ,:ref:`🔗 <w5e-NamesDifferentJobs>`,NamesDifferentJobs,if (DifferentJobs = 1)
+change_proff_job,category,Job Search, ,:ref:`🔗 <w5e-SearchingTraining>`,SearchingTraining1,if (DifferentJobs = 1)
+change_proff_education,category,Job Search, ,:ref:`🔗 <w5e-SearchingTraining>`,SearchingTraining2,if (DifferentJobs = 1)
