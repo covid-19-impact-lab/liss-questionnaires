@@ -16,7 +16,7 @@ Do you do something to change your profession?
  
 .. csv-table:: 
    :delim: | 
-   :header: ,yes, I am already working on that|yes, I intend to do this in the next six months|yes, I'm going to do this within a year if I don't see any chances in the long term in the profession [that I have now/that I have had]|yes, I'm going to do this within a year if I don't see any chances in the long term in the profession [that I have now/that I have had]|no
+   :header: ,yes I am already working on that,yes I intend to do this in the next six months,yes I'm going to do this within a year if I don't see any chances in the long term in the profession [that I have now/that I have had],yes I'm going to do this within a year if I don't see any chances in the long term in the profession [that I have now/that I have had],no
  
            by (actively) looking for a job in another profession | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
            by attending an education or refresher course | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 

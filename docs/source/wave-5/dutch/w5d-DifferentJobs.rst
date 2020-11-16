@@ -16,7 +16,7 @@ Zoekt u (ook) naar een baan in een ander beroep, of denkt u een baan in een ande
  
 .. csv-table:: 
    :delim: | 
-   :header: Ja|Nee
+   :header: Ja,Nee
  
            :raw-html:`&#10063;`|:raw-html:`&#10063;` 
 

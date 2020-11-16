@@ -16,7 +16,7 @@ Als u in de komende twee maanden een zelfde baan met hetzelfde aantal uren vindt
  
 .. csv-table:: 
    :delim: | 
-   :header: hetzelfde salaris|minder salaris|meer salarisik weet het niet
+   :header: hetzelfde salaris,minder salaris,meer salarisik weet het niet
  
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
 

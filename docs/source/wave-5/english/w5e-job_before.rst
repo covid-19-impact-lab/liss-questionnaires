@@ -16,7 +16,7 @@ Have you ever had a job?
  
 .. csv-table:: 
    :delim: | 
-   :header: yes|no
+   :header: yes,no
  
            :raw-html:`&#10063;`|:raw-html:`&#10063;` 
 

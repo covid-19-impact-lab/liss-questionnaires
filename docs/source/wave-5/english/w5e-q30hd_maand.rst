@@ -16,7 +16,7 @@ The past month…
  
 .. csv-table:: 
    :delim: | 
-   :header: ,never|rarely|sometimes|often|mostly|constantly
+   :header: ,never,rarely,sometimes,often,mostly,constantly
  
            I felt very anxious | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
            I felt so down that nothing could cheer me up | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 

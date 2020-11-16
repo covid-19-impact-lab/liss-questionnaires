@@ -16,7 +16,7 @@ Are you (also) looking for a job in another profession, or do you plan to take a
  
 .. csv-table:: 
    :delim: | 
-   :header: yes|no
+   :header: yes,no
  
            :raw-html:`&#10063;`|:raw-html:`&#10063;` 
 

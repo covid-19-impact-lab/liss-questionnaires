@@ -16,7 +16,7 @@ Bent u op zoek naar werk?
  
 .. csv-table:: 
    :delim: | 
-   :header: Ja|Nee
+   :header: Ja,Nee
  
            :raw-html:`&#10063;`|:raw-html:`&#10063;` 
 

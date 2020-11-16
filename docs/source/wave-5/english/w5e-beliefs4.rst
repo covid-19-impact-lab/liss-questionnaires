@@ -16,7 +16,7 @@ Do you think the corona virus outbreak has implications for finding the same kin
  
 .. csv-table:: 
    :delim: | 
-   :header: much easier to find a job|a little easier to find a job|no easier or harder|a little harder to find a job|much harder to find a job
+   :header: much easier to find a job,a little easier to find a job,no easier or harder,a little harder to find a job,much harder to find a job
  
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
 

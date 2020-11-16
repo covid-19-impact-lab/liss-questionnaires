@@ -16,7 +16,7 @@ If more options are possible, please choose the main activity or job
  
 .. csv-table:: 
    :delim: | 
-   :header: employed|self-employed|unemployed|retired|social assistance|student or trainee|homemaker
+   :header: employed,self-employed,unemployed,retired,social assistance,student or trainee,homemaker
  
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
 

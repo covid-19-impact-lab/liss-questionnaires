@@ -16,7 +16,7 @@ How easy do you think it is to find the same kind of job you had before compared
  
 .. csv-table:: 
    :delim: | 
-   :header: much easier than in other types of jobs|a little easier than in other types of jobs|no easier and no harder than in other jobs|a little more difficult than in other types of jobs|much more difficult than in other types of jobs
+   :header: much easier than in other types of jobs,a little easier than in other types of jobs,no easier and no harder than in other jobs,a little more difficult than in other types of jobs,much more difficult than in other types of jobs
  
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
 

@@ -16,7 +16,7 @@ To the best of your knowledge, has your employer submitted an application for an
  
 .. csv-table:: 
    :delim: | 
-   :header: yes, the application has been granted|yes, but the application was rejected|yes, but I don't yet know if the application has been granted|no, I don't think it's necessary|no, but I think my employer is gonna do this|no, I don't think it's possible|I don't know 
+   :header: yes the application has been granted,yes but the application was rejected,yes but I don't yet know if the application has been granted,no I don't think it's necessary,no but I think my employer is gonna do this,no I don't think it's possible,I don't know 
  
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
 

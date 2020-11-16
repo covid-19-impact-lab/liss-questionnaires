@@ -16,7 +16,7 @@ Wat zijn uw verwachtingen over de economische groei?
  
 .. csv-table:: 
    :delim: | 
-   :header: ,minder dan -10%|-10% tot -5%|-5% tot 0%|0% tot 5%|5% tot 10%|10% of hoger
+   :header: ,minder dan -10%,-10% tot -5%,-5% tot 0%,0% tot 5%,5% tot 10%,10% of hoger
  
            2020 | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
            2021 | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 

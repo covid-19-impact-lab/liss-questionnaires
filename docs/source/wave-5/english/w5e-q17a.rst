@@ -16,7 +16,7 @@ Have you applied for an allowance for labour costs for the period June-September
  
 .. csv-table:: 
    :delim: | 
-   :header: yes, the application has been granted|yes, but the application was rejected|yes, but I don't yet know if the application has been granted|no, but I'm gonna do this|no, I don't think my company qualifies|no, I have no employees/no payroll costs|no, this is too much paperwork|no, for another reason|I didn't know there was this arrangement
+   :header: yes the application has been granted,yes but the application was rejected,yes but I don't yet know if the application has been granted,no but I'm gonna do this,no I don't think my company qualifies,no I have no employees/no payroll costs,no this is too much paperwork,no for another reason,I didn't know there was this arrangement
  
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
 

@@ -16,7 +16,7 @@ Wat zijn uw verwachtingen over het werkloosheidspercentage?
  
 .. csv-table:: 
    :delim: | 
-   :header: ,minder dan 3.0%|3.0% tot 6.0%|6.0% tot 9.0%|9.0% tot 12.0%|12.0% of hoger
+   :header: ,minder dan 3.0%,3.0% tot 6.0%,6.0% tot 9.0%,9.0% tot 12.0%,12.0% of hoger
  
            2020 | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
            2021 | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 

@@ -16,7 +16,7 @@ What are your expectations about the unemployment rate?
  
 .. csv-table:: 
    :delim: | 
-   :header: ,less than 3.0%|3.0% to 6.0%|6.0% to 9.0%|9.0% to 12.0%|12.0% or greater
+   :header: ,less than 3.0%,3.0% to 6.0%,6.0% to 9.0%,9.0% to 12.0%,12.0% or greater
  
            2020 | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
            2021 | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 

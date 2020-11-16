@@ -17,7 +17,7 @@ Wat zijn uw verwachtingen over de inflatie (een negatief percentage betekent dat
  
 .. csv-table:: 
    :delim: | 
-   :header: ,minder dan -2%|-2% tot 0%|0% tot 2%|2% tot 4%|4% tot 6%|6% of hoger
+   :header: ,minder dan -2%,-2% tot 0%,0% tot 2%,2% tot 4%,4% tot 6%,6% of hoger
  
            2020 | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
            2021 | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 

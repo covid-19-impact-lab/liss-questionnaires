@@ -15,7 +15,7 @@ What do you think of the measures currently being taken to combat the coronaviru
  
 .. csv-table:: 
    :delim: | 
-   :header: ,too flexible|rather flexible|just enough|rather too strict|too strict 
+   :header: ,too flexible,rather flexible,just enough,rather too strict,too strict 
  
            Child day care and extracurricular care are completely open again | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
            Elementary school are completely open again | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 

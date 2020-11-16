@@ -16,7 +16,7 @@ What are your expectations of economic growth?
  
 .. csv-table:: 
    :delim: | 
-   :header: ,less than -10%|-10% to -5%|-5% to 0%|0% to 5%|5% to 10%|10% or greater
+   :header: ,less than -10%,-10% to -5%,-5% to 0%,0% to 5%,5% to 10%,10% or greater
  
            2020 | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
            2021 | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 

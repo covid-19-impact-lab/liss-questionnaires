@@ -15,7 +15,7 @@ Has a general practitioner or other medical professional diagnosed that you are 
  
 .. csv-table:: 
    :delim: | 
-   :header: yes, I have been diagnosed with it|no|unsure
+   :header: yes I have been diagnosed with it,no,unsure
  
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
 

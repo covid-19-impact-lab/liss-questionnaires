@@ -17,7 +17,7 @@ What are your expectations about inflation (a negative percentage means that pri
  
 .. csv-table:: 
    :delim: | 
-   :header: ,less than -2%|-2% to 0%|0% to 2%|2% to 4%|4% to 6%|6% or greater
+   :header: ,less than -2%,-2% to 0%,0% to 2%,2% to 4%,4% to 6%,6% or greater
  
            2020 | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
            2021 | :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 

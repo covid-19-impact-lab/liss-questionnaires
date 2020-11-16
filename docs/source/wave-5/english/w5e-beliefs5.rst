@@ -16,7 +16,7 @@ If you find the same job with the same number of hours in the next two months as
  
 .. csv-table:: 
    :delim: | 
-   :header: less salary|the same salary|more salary|I don't know
+   :header: less salary,the same salary,more salary,I don't know
  
            :raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;`|:raw-html:`&#10063;` 
 
