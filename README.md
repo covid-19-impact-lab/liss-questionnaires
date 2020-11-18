@@ -66,7 +66,7 @@ Overview of Questionnaires covered in the Documentation:
 
 - Searching for work in a different profession and activities that are done to make this possible.
 
-- Macroeconomic expectations: Inflation and growth.
+- Macroeconomic expectations.
 
 - Support for government policies.
 
