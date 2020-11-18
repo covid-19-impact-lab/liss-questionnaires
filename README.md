@@ -57,3 +57,16 @@ Overview of Questionnaires covered in the Documentation:
 
 - Activities and avoidance strategy in light of the pandemic.
 
+
+[Wave 5](https://liss-covid-19-questionnaires-documentation.readthedocs.io/en/latest/wave-5/index.html)
+
+- Recurring questions about health, mental health, employment status, income, and avoidance of activities.
+
+- Job search activities and beliefs about the labor market.
+
+- Searching for work in a different profession and activities that are done to make this possible.
+
+- Macroeconomic expectations: Inflation and growth.
+
+- Support for government policies.
+
