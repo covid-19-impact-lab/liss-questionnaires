@@ -6,7 +6,7 @@ This is the documentation of the LISS Panel questionnaire on the CoViD-19 pandem
 
 The questions are documented in Dutch and English. The table of contents below contains overviews of the questions in both languages. The questions are ordered according to their appearance in the questionnaire or according to topic. The overview pages link to every question. Each page contains the question and a screenshot from the questionnaire as it was shown to respondents.
 
-In this questionnaire, individuals were asked recurring questions about their opinions on subjective risks, their employment status, income, mental health, social contacts, and childcare arrangements. The questionnaire also contained detailed questions about job search activities and respondents' beliefs about the status of the labor market. 
+In this questionnaire, individuals were asked recurring questions about their opinions on health, mental health, employment status, income, macroeconomic expectations, support for government policies and avoidance of activities. The questionnaire also contained detailed questions about job search activities and if the respondant is searching for work in a different profession and the activities that she is taking to make this possible. 
 
 .. toctree::
    :maxdepth: 1
