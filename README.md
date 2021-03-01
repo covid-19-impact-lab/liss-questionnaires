@@ -70,3 +70,19 @@ Overview of Questionnaires covered in the Documentation:
 
 - Support for government policies.
 
+[Wave 6](https://liss-covid-19-questionnaires-documentation.readthedocs.io/en/latest/wave-6/index.html)
+
+- Recurring questions about health, mental health, employment status, income, and avoidance of activities.
+
+- Thoughts about the COVID vaccine
+
+- Attitudes and behaviors related to influenza vaccines
+
+- Job search activities and beliefs about the labor market.
+
+- Searching for work in a different profession and activities that are done to make this possible.
+
+- Macroeconomic expectations.
+
+- Support for government policies.
+

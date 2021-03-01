@@ -1,0 +1,116 @@
+Variable,Type,Topic,Reference Period Other Than Survey Period,Links Wave 6,Question Id,Routing
+infection_diagnosed,Ordered Categorical,Health Beliefs,,:ref:`🔗 <w6e-InfectionDiagnosed>`,InfectionDiagnosed,
+p_2m_infected,Integer,Health Beliefs,,:ref:`🔗 <w6e-q1>`,q1,
+p_2m_acquaintance_infected,Integer,Health Beliefs,,:ref:`🔗 <w6e-q1>`,q1,
+p_2m_hospital_if_infect_self,Integer,Health Beliefs,,:ref:`🔗 <w6e-q1>`,q1,
+p_2m_infected_and_pass_on,Integer,Health Beliefs,,:ref:`🔗 <w6e-q1>`,q1,
+vaccine_intention_jan,Integer,CoViD Vaccine,,:ref:`🔗 <w6e-vaccine_intention_jan>`,vaccine_intention_jan,
+vaccine_intention_jul,Integer,CoViD Vaccine,,:ref:`🔗 <w6e-vaccine_intention_jul>`,vaccine_intention_jul,
+covid_health_concern,Ordered Categorical,CoViD Vaccine,,:ref:`🔗 <w6e-covid_attitudes>`,covid_attitudes,
+covid_vaccine_effective,Ordered Categorical,CoViD Vaccine,,:ref:`🔗 <w6e-covid_attitudes>`,covid_attitudes,
+covid_vaccine_safe,Ordered Categorical,CoViD Vaccine,,:ref:`🔗 <w6e-covid_attitudes>`,covid_attitudes,
+covid_test_comply,Integer,CoViD Test,,:ref:`🔗 <w6e-covid_test_prob1>`,covid_test_prob1,
+covid_test_comply_pay,Integer,CoViD Test,,:ref:`🔗 <w6e-covid_test_prob2>`,covid_test_prob2,
+flushot2020,Boolean,Influenza Vaccine,,:ref:`🔗 <w6e-flushot>`,flushot,
+flushot2019,Boolean,Influenza Vaccine,,:ref:`🔗 <w6e-flushot>`,flushot,
+flushot_ever,Boolean,Influenza Vaccine,,:ref:`🔗 <w6e-flushot>`,flushot,
+inflvacc2020_reason_yes,Category,Influenza Vaccine,,:ref:`🔗 <w6e-influenza_vaccine_2020_yes_reason>`,influenza_vaccine_2020_yes_reason,if (flushot2020 = 1)
+inflvacc2020_other_yes,Object,Influenza Vaccine,,:ref:`🔗 <w6e-influenza_vaccine_2020_yes_reason>`,influenza_vaccine_2020_yes_reason,if (flushot2020 = 1)
+inflvacc2020_reason_no,Category,Influenza Vaccine,,:ref:`🔗 <w6e-influenza_vaccine_2020_no_reason>`,influenza_vaccine_2020_no_reason,if (flushot2020 = 2)
+,Object,Influenza Vaccine,,:ref:`🔗 <w6e-influenza_vaccine_2020_no_reason>`,influenza_vaccine_2020_no_reason,if (flushot2020 = 2)
+inflvacc2020_prob,Integer,Influenza Vaccine,,:ref:`🔗 <w6e-influenza_vaccine_2020_prob>`,influenza_vaccine_2020_prob,
+invite2020,Boolean,Influenza Vaccine,,:ref:`🔗 <w6e-invite>`,invite,
+invite2019,Boolean,Influenza Vaccine,,:ref:`🔗 <w6e-invite>`,invite,
+invite_ever,Boolean,Influenza Vaccine,,:ref:`🔗 <w6e-invite>`,invite,
+invite_means,Category,Influenza Vaccine,,:ref:`🔗 <w6e-invite_means>`,invite_means,if (invite2020 = 1 or invite2019 = 1 or invite_ever = 1)
+flushot_past10y,Integer,Influenza Vaccine,,:ref:`🔗 <w6e-flushot_past10y>`,flushot_past10y,if (flushot2020 = 1 or flushot2019 = 1 or flushot_ever = 1)
+flu_health_concern,Category,Influenza Vaccine,,:ref:`🔗 <w6e-flu_attitudes>`,flu_attitudes,
+flu_vaccine_effective,Category,Influenza Vaccine,,:ref:`🔗 <w6e-flu_attitudes>`,flu_attitudes,
+flu_vaccine_safe,Category,Influenza Vaccine,,:ref:`🔗 <w6e-flu_attitudes>`,flu_attitudes,
+nervous_month,Ordered Categorical,Mental Health,,:ref:`🔗 <w6e-q30_mnd>`,q30_mnd,
+depressed_month,Ordered Categorical,Mental Health,,:ref:`🔗 <w6e-q30_mnd>`,q30_mnd,
+calm_month,Ordered Categorical,Mental Health,,:ref:`🔗 <w6e-q30_mnd>`,q30_mnd,
+gloomy_month,Ordered Categorical,Mental Health,,:ref:`🔗 <w6e-q30_mnd>`,q30_mnd,
+happy_month,Ordered Categorical,Mental Health,,:ref:`🔗 <w6e-q30_mnd>`,q30_mnd,
+support_childcare_open,Ordered Categorical,Policies,,:ref:`🔗 <w6e-support>`,support,
+support_cafe_open,Ordered Categorical,Policies,,:ref:`🔗 <w6e-support>`,support,
+support_transport_rules,Ordered Categorical,Policies,,:ref:`🔗 <w6e-support>`,support,
+support_no_visitors,Ordered Categorical,Policies,,:ref:`🔗 <w6e-q8>`,q8,
+support_curfew_high_risk,Ordered Categorical,Policies,,:ref:`🔗 <w6e-q8>`,q8,
+support_curfew_non_crucial,Ordered Categorical,Policies,,:ref:`🔗 <w6e-q8>`,q8,
+support_curfew,Ordered Categorical,Policies,,:ref:`🔗 <w6e-q8>`,q8,
+support_close_cc_some_schools,Ordered Categorical,Policies,,:ref:`🔗 <w6e-q8>`,q8,
+support_close_cc_all_schools,Ordered Categorical,Policies,,:ref:`🔗 <w6e-q8>`,q8,
+work_status,Category,Employment,,:ref:`🔗 <w6e-EmploymentStatus>`,EmploymentStatus,
+hours_workplace,Integer,Employment,,:ref:`🔗 <w6e-q14>`,q14,if (EmploymentStatus = 1 or EmploymentStatus = 2)
+hours_home,Integer,Employment,,:ref:`🔗 <w6e-q14>`,q14,if (EmploymentStatus = 1 or EmploymentStatus = 2)
+day_off_leisure,Integer,Employment,,:ref:`🔗 <w6e-vacsick>`,vacsick,if (EmploymentStatus = 1 or EmploymentStatus = 2)
+day_off_childcare,Integer,Employment,,:ref:`🔗 <w6e-vacsick>`,vacsick,if (EmploymentStatus = 1 or EmploymentStatus = 2)
+day_off_other,Integer,Employment,,:ref:`🔗 <w6e-vacsick>`,vacsick,if (EmploymentStatus = 1 or EmploymentStatus = 2)
+day_off_sick,Integer,Employment,,:ref:`🔗 <w6e-vacsick>`,vacsick,if (EmploymentStatus = 1 or EmploymentStatus = 2)
+worked_past_3m,Boolean,Employment,,:ref:`🔗 <w6e-worked_past_3m>`,worked_past_3m,if (EmploymentStatus > 2)
+hours_workplace_september,Integer,Employment,,:ref:`🔗 <w6e-lockdown>`,lockdown,if (EmploymentStatus = 1 or EmploymentStatus = 2 or worked_past_3m = 1)
+hours_workplace_october,Integer,Employment,,:ref:`🔗 <w6e-lockdown>`,lockdown,if (EmploymentStatus = 1 or EmploymentStatus = 2 or worked_past_3m = 1)
+hours_workplace_november,Integer,Employment,,:ref:`🔗 <w6e-lockdown>`,lockdown,if (EmploymentStatus = 1 or EmploymentStatus = 2 or worked_past_3m = 1)
+hours_home_september,Integer,Employment,,:ref:`🔗 <w6e-lockdown>`,lockdown,if (EmploymentStatus = 1 or EmploymentStatus = 2 or worked_past_3m = 1)
+hours_home_october,Integer,Employment,,:ref:`🔗 <w6e-lockdown>`,lockdown,if (EmploymentStatus = 1 or EmploymentStatus = 2 or worked_past_3m = 1)
+hours_home_november,Integer,Employment,,:ref:`🔗 <w6e-lockdown>`,lockdown,if (EmploymentStatus = 1 or EmploymentStatus = 2 or worked_past_3m = 1)
+work_perc_home,Integer,Employment,,:ref:`🔗 <w6e-work_perc>`,work_perc,if (EmploymentStatus = 1 or EmploymentStatus = 2 or worked_past_3m = 1)
+hours_workplace_pre_corona,Integer,Employment,,:ref:`🔗 <w6e-uren_corona>`,uren_corona,if (EmploymentStatus = 1 or EmploymentStatus = 2 or worked_past_3m = 1)
+hours_workplace_expected_post,Integer,Employment,,:ref:`🔗 <w6e-uren_corona>`,uren_corona,if (EmploymentStatus = 1 or EmploymentStatus = 2 or worked_past_3m = 1)
+hours_workplace_preferred_post,Integer,Employment,,:ref:`🔗 <w6e-uren_corona>`,uren_corona,if (EmploymentStatus = 1 or EmploymentStatus = 2 or worked_past_3m = 1)
+hours_home_pre_corona,Integer,Employment,,:ref:`🔗 <w6e-uren_corona>`,uren_corona,if (EmploymentStatus = 1 or EmploymentStatus = 2 or worked_past_3m = 1)
+hours_home_expected_post,Integer,Employment,,:ref:`🔗 <w6e-uren_corona>`,uren_corona,if (EmploymentStatus = 1 or EmploymentStatus = 2 or worked_past_3m = 1)
+hours_home_preferred_post,Integer,Employment,,:ref:`🔗 <w6e-uren_corona>`,uren_corona,if (EmploymentStatus = 1 or EmploymentStatus = 2 or worked_past_3m = 1)
+seeking_job,Boolean,Employment,,:ref:`🔗 <w6e-JobSearch>`,JobSearch,if (EmploymentStatus != 5 and leeftijd <= 67)
+p_2m_employee_keep,Integer,Employment,,:ref:`🔗 <w6e-q26>`,q26,if (EmploymentStatus = 1)
+p_2m_employee_keep_gov,Integer,Employment,,:ref:`🔗 <w6e-q26>`,q26,if (EmploymentStatus = 1)
+p_2m_employee_new_job,Integer,Employment,,:ref:`🔗 <w6e-q26>`,q26,if (EmploymentStatus = 1)
+p_2m_employee_unemployed,Integer,Employment,,:ref:`🔗 <w6e-q26>`,q26,if (EmploymentStatus = 1)
+p_2m_employee_other,Integer,Employment,,:ref:`🔗 <w6e-q26>`,q26,if (EmploymentStatus = 1)
+p_year_employee_keep,Integer,Employment,,:ref:`🔗 <w6e-q26_1>`,q26_1,if (EmploymentStatus = 1)
+p_year_employee_keep_gov,Integer,Employment,,:ref:`🔗 <w6e-q26_1>`,q26_1,if (EmploymentStatus = 1)
+p_year_employee_new_job,Integer,Employment,,:ref:`🔗 <w6e-q26_1>`,q26_1,if (EmploymentStatus = 1)
+p_year_employee_unemployed,Integer,Employment,,:ref:`🔗 <w6e-q26_1>`,q26_1,if (EmploymentStatus = 1)
+p_year_employee_other,Integer,Employment,,:ref:`🔗 <w6e-q26_1>`,q26_1,if (EmploymentStatus = 1)
+p_3m_selfempl_normal,Integer,Employment,,:ref:`🔗 <w6e-q27>`,q27,if (EmploymentStatus = 2)
+p_3m_selfempl_normal,Integer,Employment,,:ref:`🔗 <w6e-q27>`,q27,if (EmploymentStatus = 2)
+p_3m_selfempl_helped_by_gov,Integer,Employment,,:ref:`🔗 <w6e-q27>`,q27,if (EmploymentStatus = 2)
+p_3m_selfempl_shutdown,Integer,Employment,,:ref:`🔗 <w6e-q27>`,q27,if (EmploymentStatus = 2)
+p_3m_selfempl_other,Integer,Employment,,:ref:`🔗 <w6e-q27>`,q27,if (EmploymentStatus = 2)
+p_year_selfempl_normal,Integer,Employment,,:ref:`🔗 <w6e-q27_1>`,q27_1,if (EmploymentStatus = 2)
+p_year_selfempl_fewer,Integer,Employment,,:ref:`🔗 <w6e-q27_1>`,q27_1,if (EmploymentStatus = 2)
+p_year_selfempl_helped_by_gov,Integer,Employment,,:ref:`🔗 <w6e-q27_1>`,q27_1,if (EmploymentStatus = 2)
+p_year_selfempl_shutdown,Integer,Employment,,:ref:`🔗 <w6e-q27_1>`,q27_1,if (EmploymentStatus = 2)
+p_year_selfempl_other,Integer,Employment,,:ref:`🔗 <w6e-q27_1>`,q27_1,if (EmploymentStatus = 2)
+p_3m_unemployed_job,Integer,Employment,,:ref:`🔗 <w6e-q27_ex>`,q27_ex,if (EmploymentStatus = 3 or (EmploymentStatus > 3 and JobSearch = 1))
+p_3m_unemployed_educ,Integer,Employment,,:ref:`🔗 <w6e-q27_ex>`,q27_ex,if (EmploymentStatus = 3 or (EmploymentStatus > 3 and JobSearch = 1))
+p_3m_unemployed_looking,Integer,Employment,,:ref:`🔗 <w6e-q27_ex>`,q27_ex,if (EmploymentStatus = 3 or (EmploymentStatus > 3 and JobSearch = 1))
+p_3m_unemployed_not_looking,Integer,Employment,,:ref:`🔗 <w6e-q27_ex>`,q27_ex,if (EmploymentStatus = 3 or (EmploymentStatus > 3 and JobSearch = 1))
+p_3m_unemployed_other,Integer,Employment,,:ref:`🔗 <w6e-q27_ex>`,q27_ex,if (EmploymentStatus = 3 or (EmploymentStatus > 3 and JobSearch = 1))
+p_year_unemployed_job,Integer,Employment,,:ref:`🔗 <w6e-q27_ex_1>`,q27_ex_1,if (EmploymentStatus = 3 or (EmploymentStatus > 3 and JobSearch = 1))
+p_year_unemployed_educ,Integer,Employment,,:ref:`🔗 <w6e-q27_ex_1>`,q27_ex_1,if (EmploymentStatus = 3 or (EmploymentStatus > 3 and JobSearch = 1))
+p_year_unemployed_looking,Integer,Employment,,:ref:`🔗 <w6e-q27_ex_1>`,q27_ex_1,if (EmploymentStatus = 3 or (EmploymentStatus > 3 and JobSearch = 1))
+p_year_unemployed_not_looking,Integer,Employment,,:ref:`🔗 <w6e-q27_ex_1>`,q27_ex_1,if (EmploymentStatus = 3 or (EmploymentStatus > 3 and JobSearch = 1))
+p_year_unemployed_other,Integer,Employment,,:ref:`🔗 <w6e-q27_ex_1>`,q27_ex_1,if (EmploymentStatus = 3 or (EmploymentStatus > 3 and JobSearch = 1))
+hh_income_202008,Integer,Finances,,:ref:`🔗 <w6e-inc>`,inc,
+hh_income_202009,Integer,Finances,,:ref:`🔗 <w6e-inc>`,inc,
+hh_income_202010,Integer,Finances,,:ref:`🔗 <w6e-inc>`,inc,
+hh_income_202011,Integer,Finances,,:ref:`🔗 <w6e-inc>`,inc,
+e_2020_hh_income,Integer,Finances,,:ref:`🔗 <w6e-expinc2020>`,expinc2020,
+e_2021_hh_income,Integer,Finances,,:ref:`🔗 <w6e-expinc2020>`,expinc2020,
+e_2022_hh_income,Integer,Finances,,:ref:`🔗 <w6e-expinc2020>`,expinc2020,
+e_2020_unemp_rate,Ordered Categorical,Macro Expectations,,:ref:`🔗 <w6e-ExpUnempl_today>`,ExpUnempl_today,
+e_2021_unemp_rate,Ordered Categorical,Macro Expectations,,:ref:`🔗 <w6e-ExpUnempl_today>`,ExpUnempl_today,
+e_2022_unemp_rate,Ordered Categorical,Macro Expectations,,:ref:`🔗 <w6e-ExpUnempl_today>`,ExpUnempl_today,
+e_2020_gdp,Ordered Categorical,Macro Expectations,,:ref:`🔗 <w6e-ExpEcGrowth_today>`,ExpEcGrowth_today,
+e_2021_gdp,Ordered Categorical,Macro Expectations,,:ref:`🔗 <w6e-ExpEcGrowth_today>`,ExpEcGrowth_today,
+e_2022_gdp,Ordered Categorical,Macro Expectations,,:ref:`🔗 <w6e-ExpEcGrowth_today>`,ExpEcGrowth_today,
+e_2020_infl,Ordered Categorical,Macro Expectations,,:ref:`🔗 <w6e-ExpInfl_today>`,ExpInfl_today,
+e_2021_infl,Ordered Categorical,Macro Expectations,,:ref:`🔗 <w6e-ExpInfl_today>`,ExpInfl_today,
+e_2022_infl,Ordered Categorical,Macro Expectations,,:ref:`🔗 <w6e-ExpInfl_today>`,ExpInfl_today,
+questionnaire_difficult,Ordered Categorical,Questionnaire,,:ref:`🔗 <w6e-eva2t>`,eva2t,
+questionnaire_clear,Ordered Categorical,Questionnaire,,:ref:`🔗 <w6e-eva2t>`,eva2t,
+questionnaire_thinking,Ordered Categorical,Questionnaire,,:ref:`🔗 <w6e-eva2t>`,eva2t,
+questionnaire_interesting,Ordered Categorical,Questionnaire,,:ref:`🔗 <w6e-eva2t>`,eva2t,
+questionnaire_enjoy,Ordered Categorical,Questionnaire,,:ref:`🔗 <w6e-eva2t>`,eva2t,

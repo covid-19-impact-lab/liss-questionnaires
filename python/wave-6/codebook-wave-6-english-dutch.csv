@@ -1,0 +1,574 @@
+page;id;qid;layout;filter;group;question_dutch;subquestion_dutch;question_english;type;categories_dutch;categories_english;new_name;subquestion_english
+1.01;intro;intro;open;-;Introduction;"Deze maand krijgt u de zesde vragenlijst uit de reeks “Corona-uitbraak in Nederland” over
+hoe het coronavirus van invloed is op uw dagelijkse leven. Ook als u de eerdere vijf
+vragenlijsten niet hebt ingevuld, kunt u meedoen.
+
+Een aantal van de vragen uit de eerste vijf vragenlijsten wordt nu opnieuw aan u
+voorgelegd. Ook nu weer is het belangrijk dat u meedoet. Tijdens de coronacrisis is inzicht
+in de actuele ontwikkelingen van groot belang voor de keuzes die beleidsmakers,
+bedrijven en bijvoorbeeld werkenden gaan maken. En u kunt daarbij helpen.
+
+Ook nu weer: bedankt alvast voor het meedoen!";;"This month you will receive the sixth questionnaire in the series ""Corona outbreak in the Netherlands"" about
+how the coronavirus affects your daily life. Even if you did not complete the previous five
+questionnaires, you can participate.
+
+Some of the questions from the first five questionnaires are now being
+questions from the first five questionnaires. Again, it is important that you participate. During the corona crisis, insight into
+of current developments is of great importance for the choices that policymakers
+companies and, for example, workers will make. And you can help.
+
+Again: thank you for your participation!";;;;;
+2.01;InfectionDiagnosed;InfectionDiagnosed;cat;-;Infection Diagnosed;Heeft een huisarts of een ander medisch deskundige bij u de diagnose gesteld dat u besmet bent (geweest) met het coronavirus (Covid-19)?;;Have you been diagnosed by a general practitioner or other medical professional as are or have been infected with coronavirus (Covid-19)?;Ordered Categorical;Ja die diagnose is bij mij gesteld,Nee,Het is nog niet zeker ;Yes I have been diagnosed with that,No,It is not certain yet;infection_diagnosed;
+3.01;q1a;q1header;grid;-;Subjective Risks;"Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maanden Gebeuren?
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";u wordt besmet;"How likely do you think the following things are to Happen in the next three months?
+You can answer this question on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes.";Integer;;;p_2m_infected;you become infected
+3.02;q1b;q1header;grid;-;Subjective Risks;"Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maanden Gebeuren?
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";iemand in uw directe omgeving (familie, vrienden, collega’s) wordt besmet;"How likely do you think the following things are to Happen in the next three months?
+You can answer this question on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes.";Integer;;;p_2m_acquaintance_infected;someone close to you (family, friends, colleagues) becomes infected
+3.03;q1c;q1header;grid;-;Subjective Risks;"Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maanden Gebeuren?
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";u moet naar het ziekenhuis als u wordt besmet;"How likely do you think the following things are to Happen in the next three months?
+You can answer this question on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes.";Integer;;;p_2m_hospital_if_infect_self;you have to go to hospital if you are infected
+3.04;q1e;q1header;grid;-;Subjective Risks;"Hoe groot denkt u dat de kans is dat de volgende dingen in de komende drie maanden Gebeuren?
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";u wordt besmet en u besmet iemand anders;"How likely do you think the following things are to Happen in the next three months?
+You can answer this question on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes.";Integer;;;p_2m_infected_and_pass_on;you are infected and you infect someone else
+4.01;vaccine_intention_jan;vaccine_intention_jan;grid;-;Vaccine Intention - January;"Stel dat er een vaccin tegen Covid-19 wordt goedgekeurd en vanaf januari 2021 beschikbaar is. Uw ziektekostenverzekering vergoedt alle kosten en u hebt de mogelijkheid om in januari gevaccineerd te worden.
+Hoe groot is de kans dat u zich dan ook meteen laat vaccineren? U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";Hoe groot is de kans dat u zich in januari laat vaccineren?;"Suppose a vaccine against Covid-19 is approved and available starting in January 2021. Your health insurance will cover all costs and you have the option to be vaccinated in January.
+How likely is it that you will get vaccinated right then? You can answer this question on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes.";Integer;;;vaccine_intention_jan;How likely are you to get vaccinated in January?
+5.01;vaccine_intention_jul;vaccine_intention_jul;grid;-;Vaccine Intention – June;"Stel nu dat er een vaccin tegen Covid-19 wordt goedgekeurd en vanaf januari 2021 beschikbaar is. Uw ziektekostenverzekering vergoedt alle kosten en u hebt de mogelijkheid om in juli gevaccineerd te worden. 
+
+Stel dat tegen die tijd 2 miljoen Nederlanders met goed resultaat al zijn gevaccineerd, en dat de bijwerkingen te verwaarlozen zijn. 
+
+Hoe groot is de kans dat u zich in juli laat vaccineren? U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";Hoe groot is de kans dat u zich in juli laat vaccineren?;"Now suppose a vaccine against Covid-19 is approved and available starting in January 2021. Your health insurance will cover all costs and you have the option to be vaccinated in July. 
+
+Suppose that by then 2 million Dutch people have already been vaccinated with good results, and that the side effects are negligible. 
+
+How likely is it that you will be vaccinated in July? You can answer this question on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes.";Integer;;;vaccine_intention_jul;How likely are you to get vaccinated in July?
+6.01;covid_attitudes1;covid_attitudes;table;-;COVID Attitudes;Er zijn verschillende coronavaccins die mogelijk begin 2021 beschikbaar komen. Bent u het oneens of eens met de volgende uitspraken?;Het lijkt me goed om me tegen het coronavirus te laten vaccineren.;There are several corona vaccines that may become available in early 2021. Do you disagree or agree with the following statements?;Ordered Categorical;Helemaal mee oneens,Oneens,Niet oneens en niet eens,Eens,Helemaal mee eens;Strongly disagree,Disagree,Neither disagree nor disagree,Agree,Strongly agree;covid_health_concern;I think it would be good to get vaccinated against the coronavirus.
+6.01;covid_attitudes2;covid_attitudes;table;-;COVID Attitudes;Er zijn verschillende coronavaccins die mogelijk begin 2021 beschikbaar komen. Bent u het oneens of eens met de volgende uitspraken?;Ik denk dat het veilig is voor mij om me te laten vaccineren.;There are several corona vaccines that may become available in early 2021. Do you disagree or agree with the following statements?;Ordered Categorical;Helemaal mee oneens,Oneens,Niet oneens en niet eens,Eens,Helemaal mee eens;Strongly disagree,Disagree,Neither disagree nor disagree,Agree,Strongly agree;covid_vaccine_effective;I think it's safe for me to get vaccinated.
+6.01;covid_attitudes3;covid_attitudes;table;-;COVID Attitudes;Er zijn verschillende coronavaccins die mogelijk begin 2021 beschikbaar komen. Bent u het oneens of eens met de volgende uitspraken?;Covid-19 kan voor mij een ernstig gezondheidsrisico zijn.;There are several corona vaccines that may become available in early 2021. Do you disagree or agree with the following statements?;Ordered Categorical;Helemaal mee oneens,Oneens,Niet oneens en niet eens,Eens,Helemaal mee eens;Strongly disagree,Disagree,Neither disagree nor disagree,Agree,Strongly agree;covid_vaccine_safe;Covid-19 may be a serious health risk for me.
+7.01;covid_test_prob1;covid_test_prob1;open;-;Test Probabilities – 1;"Stel dat de overheid iedereen vraagt om zichzelf thuis te testen op Covid-19 met een test waarbij je zachtjes met een wattenstaafje over de voorkant van je neus veegt. Stel dat de test alle besmette personen ontdekt. Maar, 1 op de 100 mensen die niet geïnfecteerd zijn test positief. Als je positief test, moet je vijf dagen in quarantaine blijven en moet je via de GGD een coronatest laten doen.
+
+Hoe groot is de kans dat u zich laat testen?
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";;"Suppose the government asks everyone to test themselves at home for Covid-19 with a test in which you gently wipe the front of your nose with a cotton swab. Suppose the test detects all infected individuals. But, 1 in 100 people who are not infected tests positive. If you test positive, you have to stay in quarantine for five days and have to go through the GGD to have a coronavirus test done.
+
+How likely are you to get tested?
+You can answer this question on a scale of 0 to 100, where 0 stands for definitely not and 100 for definitely yes.";Integer;;;covid_test_comply;
+8.01;covid_test_prob2;covid_test_prob2;open;-;Test Probabilities – 2;"Stel dat de overheid iedereen vraagt om zichzelf thuis te testen op Covid-19 met een test waarbij je zachtjes met een wattenstaafje over de voorkant van je neus veegt. Stel dat de test alle besmette personen ontdekt. Maar, 1 op de 100 mensen die niet geïnfecteerd zijn test positief. Als je positief test, moet je vijf dagen in quarantaine blijven en moet je via de GGD een coronatest laten doen.
+
+Stel dat de overheid iedereen die zich aan dit verzoek houdt een belastingvrij bedrag betaalt. Welk bedrag zou de overheid dan moeten betalen om er zeker van te zijn dat u zich test en u zich aan de regels houdt (in quarantaine blijven en een coronatest laten doen via de GGD)?";;"Suppose the government asks everyone to test themselves at home for Covid-19 with a test in which you gently wipe the front of your nose with a cotton swab. Suppose the test detects all infected individuals. But, 1 in 100 people who are not infected tests positive. If you test positive, you have to stay in quarantine for five days and have to go through the GGD to have a coronavirus test done.
+
+Suppose the government pays everyone who complies with this request a tax-free amount of money pay. What amount would the government then have to pay to make sure that you and you follow the rules (stay in quarantine and have a coronavirus done via the GGD)? done through the GGD)?";Integer;;;covid_test_comply_pay;
+9.01;flushot2020;flushot;grid;-;Taken Influenza Vaccine;"Griepvaccins worden gebruikt om influenza-infecties te helpen voorkomen.
+
+Bij volwassenen worden griepvaccins meestal toegediend via een injectie in de arm (griepprik).
+Hebt u een griepprik gehad?";Dit najaar / winter (2020);"Flu vaccines are used to help prevent influenza infections.
+
+In adults, flu vaccines are usually administered through an injection in the arm (flu shot).
+Have you had a flu shot?";Boolean;;;flushot2020;This Fall/Winter (2020)
+9.01;flushot2019;flushot;grid;-;Taken Influenza Vaccine;"Griepvaccins worden gebruikt om influenza-infecties te helpen voorkomen.
+
+Bij volwassenen worden griepvaccins meestal toegediend via een injectie in de arm (griepprik).
+Hebt u een griepprik gehad?";In het najaar / de winter van 2019;"Flu vaccines are used to help prevent influenza infections.
+
+In adults, flu vaccines are usually administered through an injection in the arm (flu shot).
+Have you had a flu shot?";Boolean;;;flushot2019;In the fall / winter of 2019
+9.01;flushot_ever;flushot;grid;-;Taken Influenza Vaccine;"Griepvaccins worden gebruikt om influenza-infecties te helpen voorkomen.
+
+Bij volwassenen worden griepvaccins meestal toegediend via een injectie in de arm (griepprik).
+Hebt u een griepprik gehad?";Ooit;"Flu vaccines are used to help prevent influenza infections.
+
+In adults, flu vaccines are usually administered through an injection in the arm (flu shot).
+Have you had a flu shot?";Boolean;;;flushot_ever;Ever
+10.01;influenza_vaccine_2020_yes_reaso;influenza_vaccine_2020_yes_reason;multi;flushot;Reason for Taking Influenza Vaccine;Wat is de belangrijkste reden dat u dit najaar/deze winter (2020) een griepprik hebt gehaald?;;What is the main reason you got a flu shot this fall/winter (2020)?;Category;Om het risico op griep te verkleinen,Om te voorkomen dat ik de griep en corona op hetzelfde moment krijg,Om mensen waarmee ik regelmatig contact heb te beschermen tegen de griep,Anders namelijk...;To reduce the risk of getting the flu,To prevent me from getting the flu and corona at the same time,To protect people with whom I have regular contact from the flu,Otherwise namely...;inflvacc2020_reason_yes;
+10.01;inflvacc2020_oth;influenza_vaccine_2020_yes_reason;multi;flushot;Reason for Taking Influenza Vaccine;Wat is de belangrijkste reden dat u dit najaar/deze winter (2020) een griepprik hebt gehaald?;;What is the main reason you got a flu shot this fall/winter (2020)?;Object;Om het risico op griep te verkleinen,Om te voorkomen dat ik de griep en corona op hetzelfde moment krijg,Om mensen waarmee ik regelmatig contact heb te beschermen tegen de griep,Anders namelijk...;To reduce the risk of getting the flu,To prevent me from getting the flu and corona at the same time,To protect people with whom I have regular contact from the flu,Otherwise namely...;inflvacc2020_other_yes;
+11.01;influenza_vaccine_2020_no_reason;influenza_vaccine_2020_no_reason;multi;flushot;Reason for Not Taking Influenza Vaccine;Wat is de belangrijkste reden dat u dit najaar/deze winter (2020) tot nu toe nog geen griepprik hebt gehaald?;;;Category;Heb het niet nodig,Het voelde niet veilig om naar de dokter te gaan vanwege het risico op Covid-19-infectie,Anderen hebben het meer nodig dan ik,Ik ben er niet aan toe gekomen,Geloof niet in griepvaccins,Kan ziek worden van het vaccin,Je kunt bijwerkingen krijgen,Houd niet van naalden,Een dokter vertelde me niet dat ik het nodig had,Griepvaccins kosten te veel,Er was geen vaccin beschikbaar,Voldoende andere mensen krijgen het vaccin dus het is niet nodig,Anders namelijk…;Don't need it ,Didn't feel safe going to the doctor because of the risk of Covid-19 infection ,Others need it more than I do ,I didn't get around to it ,Don't believe in flu vaccines ,May get sick from the vaccine ,You may get side effects ,Don't like needles ,A doctor didn't tell me I needed it ,Flu vaccines cost too much ,No vaccine was available ,Plenty of other people get the vaccine so it's not necessary ,Otherwise namely…;inflvacc2020_reason_no;
+11.01;inflvacc2020_other_no;influenza_vaccine_2020_no_reason;multi;flushot;Reason for Not Taking Influenza Vaccine;Wat is de belangrijkste reden dat u dit najaar/deze winter (2020) tot nu toe nog geen griepprik hebt gehaald?;;;Object;Heb het niet nodig,Het voelde niet veilig om naar de dokter te gaan vanwege het risico op Covid-19-infectie,Anderen hebben het meer nodig dan ik,Ik ben er niet aan toe gekomen,Geloof niet in griepvaccins,Kan ziek worden van het vaccin,Je kunt bijwerkingen krijgen,Houd niet van naalden,Een dokter vertelde me niet dat ik het nodig had,Griepvaccins kosten te veel,Er was geen vaccin beschikbaar,Voldoende andere mensen krijgen het vaccin dus het is niet nodig,Anders namelijk…;Don't need it ,Didn't feel safe going to the doctor because of the risk of Covid-19 infection ,Others need it more than I do ,I didn't get around to it ,Don't believe in flu vaccines ,May get sick from the vaccine ,You may get side effects ,Don't like needles ,A doctor didn't tell me I needed it ,Flu vaccines cost too much ,No vaccine was available ,Plenty of other people get the vaccine so it's not necessary ,Otherwise namely…;;
+12.01;influenza_vaccine_2020_prob;influenza_vaccine_2020_prob;open;-;Influenza Vaccine Probabilities;"Hoe groot is de kans dat u alsnog deze winter (2020) een griepprik haalt?
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel.";;"How likely is it that you will still get your flu shot this winter (2020)?
+You can answer this question on a scale of 0 to 100, where 0 means definitely not and 100 means definitely.";Integer;;;inflvacc2020_prob;
+13.01;invite2020;invite;grid;-;Invite to Take Influenza Vaccine;"Griepvaccins worden gebruikt om influenza-infecties te helpen voorkomen.
+
+Kreeg u een uitnodiging om de griepprik te halen?";Dit najaar / winter 2020;"Flu vaccines are used to help prevent influenza infections.
+
+Did you receive an invitation to get the flu shot?";Boolean;;;invite2020;This Fall / Winter 2020
+13.02;invite2019;invite;grid;-;Invite to Take Influenza Vaccine;"Griepvaccins worden gebruikt om influenza-infecties te helpen voorkomen.
+
+Kreeg u een uitnodiging om de griepprik te halen?";In het najaar / de winter van 2019;"Flu vaccines are used to help prevent influenza infections.
+
+Did you receive an invitation to get the flu shot?";Boolean;;;invite2019;In the fall / winter of 2019
+13.03;invite_ever;invite;grid;-;Invite to Take Influenza Vaccine;"Griepvaccins worden gebruikt om influenza-infecties te helpen voorkomen.
+
+Kreeg u een uitnodiging om de griepprik te halen?";Ooit;"Flu vaccines are used to help prevent influenza infections.
+
+Did you receive an invitation to get the flu shot?";Boolean;;;invite_ever;Ever
+14.01;invite_means;invite_means;multi;invite;Mean for Invite to Take Influenza Vaccine;Denk nu aan de laatste uitnodiging die u ontvangen hebt. Wat is van toepassing?;;Now think about the last invitation you received. What is applicable?;Category;U kreeg een schriftelijke uitnodiging van de huisarts ,U kreeg een mondelinge oproep van de huisarts ,U kreeg een oproep van de specialist ,U kreeg een oproep van de GGD ,U kreeg een oproep van uw werkgever;You received a written invitation from the family doctor ,You received a verbal call from the family physician ,You received a call from the specialist ,You received a call from the GGD ,You received a call from your employer;invite_means;
+15.01;flushot_past10y;flushot_past10y;open;-;Influenza Vaccine – 10 years;Hoe vaak hebt u in de afgelopen 10 jaar een griepprik gehad?;;How often have you had a flu shot in the past 10 years?;Integer;;;flushot_past10y;
+16.01;flu_attitudes1;flu_attitudes;grid;-;Influenza Attitudes;Bent u het oneens of eens met de volgende uitspraken?;Het lijkt me goed om me tegen de griep te laten vaccineren.;Do you disagree or agree with the following statements?;Category;Helemaal mee oneens,Oneens,Niet oneens en niet eens,Eens,Helemaal mee eens;Strongly disagree,Disagree,Neither disagree nor disagree,Agree,Strongly agree;flu_health_concern;I think it would be good for me to get vaccinated against the flu.
+16.02;flu_attitudes2;flu_attitudes;grid;-;Influenza Attitudes;Bent u het oneens of eens met de volgende uitspraken?;Ik denk dat het veilig is voor mij om een griepprik te nemen.;Do you disagree or agree with the following statements?;Category;Helemaal mee oneens,Oneens,Niet oneens en niet eens,Eens,Helemaal mee eens;Strongly disagree,Disagree,Neither disagree nor disagree,Agree,Strongly agree;flu_vaccine_effective;I think it is safe for me to get a flu shot.
+16.03;flu_attitudes3;flu_attitudes;grid;-;Influenza Attitudes;Bent u het oneens of eens met de volgende uitspraken?;De griep kan voor mij een ernstig gezondheidsrisico zijn.;Do you disagree or agree with the following statements?;Category;Helemaal mee oneens,Oneens,Niet oneens en niet eens,Eens,Helemaal mee eens;Strongly disagree,Disagree,Neither disagree nor disagree,Agree,Strongly agree;flu_vaccine_safe;The flu can be a serious health risk for me.
+17.01;q30a_mnd;q30hd_maand;table;-;Mental Health in the Past Month;"De volgende vraag gaat over hoe u zich voelde in de afgelopen maand. Geeft u het antwoord dat het best uw gevoel weergeeft.
+
+De afgelopen maand…";;"The next question is about how you felt in the past month. Please give the answer that best represents your feelings.
+
+Last month…";;Nooit ,Zelden ,Soms ,Vaak ,Meestal ,Voortdurend;Never ,Rarely ,Sometimes ,Often ,Mostly ,Constantly;nervous_month;
+17.02;q30b_mdn;q30hd_maand;table;-;Mental Health in the Past Month;"De volgende vraag gaat over hoe u zich voelde in de afgelopen maand. Geeft u het antwoord dat het best uw gevoel weergeeft.
+
+De afgelopen maand…";;"The next question is about how you felt in the past month. Please give the answer that best represents your feelings.
+
+Last month…";;Nooit ,Zelden ,Soms ,Vaak ,Meestal ,Voortdurend;Never ,Rarely ,Sometimes ,Often ,Mostly ,Constantly;depressed_month;
+17.03;q30c_mnd;q30hd_maand;table;-;Mental Health in the Past Month;"De volgende vraag gaat over hoe u zich voelde in de afgelopen maand. Geeft u het antwoord dat het best uw gevoel weergeeft.
+
+De afgelopen maand…";;"The next question is about how you felt in the past month. Please give the answer that best represents your feelings.
+
+Last month…";;Nooit ,Zelden ,Soms ,Vaak ,Meestal ,Voortdurend;Never ,Rarely ,Sometimes ,Often ,Mostly ,Constantly;calm_month;
+17.04;q30d_mnd;q30hd_maand;table;-;Mental Health in the Past Month;"De volgende vraag gaat over hoe u zich voelde in de afgelopen maand. Geeft u het antwoord dat het best uw gevoel weergeeft.
+
+De afgelopen maand…";;"The next question is about how you felt in the past month. Please give the answer that best represents your feelings.
+
+Last month…";;Nooit ,Zelden ,Soms ,Vaak ,Meestal ,Voortdurend;Never ,Rarely ,Sometimes ,Often ,Mostly ,Constantly;gloomy_month;
+17.05;q30e_mnd;q30hd_maand;table;-;Mental Health in the Past Month;"De volgende vraag gaat over hoe u zich voelde in de afgelopen maand. Geeft u het antwoord dat het best uw gevoel weergeeft.
+
+De afgelopen maand…";;"The next question is about how you felt in the past month. Please give the answer that best represents your feelings.
+
+Last month…";;Nooit ,Zelden ,Soms ,Vaak ,Meestal ,Voortdurend;Never ,Rarely ,Sometimes ,Often ,Mostly ,Constantly;happy_month;
+18.01;support_a;support;table;-;Thoughts on Government Policy;Wat vindt u van de maatregelen op dit moment om de coronavirus-crisis te bestrijden als het gaat om de volgende gebieden?;Kinderdagopvang, buitenschoolse opvang en basisscholen zijn open;What do you think of the measures currently in place to combat the coronavirus crisis as it relates to the following areas?;Ordered Categorical;Te soepel ,Eerder te soepel dan te streng ,Precies voldoende ,Eerder te streng dan te soepel ,Te streng;Too flexible ,Rather too flexible than too strict ,Just enough ,Rather too strict than too flexible ,Too strict;support_childcare_open;Daycare centers, after-school programs and elementary schools are open
+18.02;support_c;support;table;-;Thoughts on Government Policy;Wat vindt u van de maatregelen op dit moment om de coronavirus-crisis te bestrijden als het gaat om de volgende gebieden?;Cafés en restaurants zijn dicht;What do you think of the measures currently in place to combat the coronavirus crisis as it relates to the following areas?;Ordered Categorical;Te soepel ,Eerder te soepel dan te streng ,Precies voldoende ,Eerder te streng dan te soepel ,Te streng;Too flexible ,Rather too flexible than too strict ,Just enough ,Rather too strict than too flexible ,Too strict;support_cafe_open;Pubs and restaurants are closed
+18.03;support_d;support;table;-;Thoughts on Government Policy;Wat vindt u van de maatregelen op dit moment om de coronavirus-crisis te bestrijden als het gaat om de volgende gebieden?;Verplicht een mondkapje dragen in het openbaar vervoer en in openbare ruimtes zoals winkels, gemeentehuis, parkeergarages enz.;What do you think of the measures currently in place to combat the coronavirus crisis as it relates to the following areas?;Ordered Categorical;Te soepel ,Eerder te soepel dan te streng ,Precies voldoende ,Eerder te streng dan te soepel ,Te streng;Too flexible ,Rather too flexible than too strict ,Just enough ,Rather too strict than too flexible ,Too strict;support_transport_rules;Mandatory wearing of a mouth mask on public transport and in public places such as stores, city hall, parking garages, etc.
+19.01;q8d;q8;table;-;Support Government Policy;Onder de omstandigheden op dit moment, bent u het oneens of eens met de volgende (mogelijke) beleidsmaatregelen tegen het verspreiden van het coronavirus?;Er mogen geen bezoekers komen in verpleeghuizen en bejaardentehuizen;Under the circumstances at this time, do you disagree or agree with the following (possible) policies against the spread of coronavirus?;Ordered Categorical;Helemaal mee oneens,Oneens,Niet oneens en niet eens,Eens,Helemaal mee eens;Strongly disagree,Disagree,Neither disagree nor disagree,Agree,Strongly agree;support_no_visitors;No visitors allowed in nursing homes and old people's homes
+19.02;q8e;q8;table;-;Support Government Policy;Onder de omstandigheden op dit moment, bent u het oneens of eens met de volgende (mogelijke) beleidsmaatregelen tegen het verspreiden van het coronavirus?;Iedereen van 70 jaar en ouder of met een medische aandoening moet thuis blijven, behalve om basisboodschappen te doen of omdat er dringende medische zorg nodig is;Under the circumstances at this time, do you disagree or agree with the following (possible) policies against the spread of coronavirus?;Ordered Categorical;Helemaal mee oneens,Oneens,Niet oneens en niet eens,Eens,Helemaal mee eens;Strongly disagree,Disagree,Neither disagree nor disagree,Agree,Strongly agree;support_curfew_high_risk;Anyone age 70 and older or with a medical condition must stay at home, except to do basic shopping or because urgent medical care is needed
+19.03;q8f;q8;table;-;Support Government Policy;Onder de omstandigheden op dit moment, bent u het oneens of eens met de volgende (mogelijke) beleidsmaatregelen tegen het verspreiden van het coronavirus?;Iedereen die niet werkt in een cruciale beroepsgroep (dat zijn bijvoorbeeld mensen die werken in de zorg, het openbaar vervoer, de voedselketen) moet thuis blijven, behalve om boodschappen te doen of omdat er dringende medische zorg nodig is;Under the circumstances at this time, do you disagree or agree with the following (possible) policies against the spread of coronavirus?;Ordered Categorical;Helemaal mee oneens,Oneens,Niet oneens en niet eens,Eens,Helemaal mee eens;Strongly disagree,Disagree,Neither disagree nor disagree,Agree,Strongly agree;support_curfew_non_crucial;Anyone who does not work in a crucial occupation (that is, for example, people who work in health care, public transportation, the food chain) must stay at home except to run errands or because urgent medical care is needed
+19.04;q8h;q8;table;-;Support Government Policy;Onder de omstandigheden op dit moment, bent u het oneens of eens met de volgende (mogelijke) beleidsmaatregelen tegen het verspreiden van het coronavirus?;Er moet een avondklok worden ingesteld;Under the circumstances at this time, do you disagree or agree with the following (possible) policies against the spread of coronavirus?;Ordered Categorical;Helemaal mee oneens,Oneens,Niet oneens en niet eens,Eens,Helemaal mee eens;Strongly disagree,Disagree,Neither disagree nor disagree,Agree,Strongly agree;support_curfew;A curfew must be imposed
+19.05;q8i;q8;table;-;Support Government Policy;Onder de omstandigheden op dit moment, bent u het oneens of eens met de volgende (mogelijke) beleidsmaatregelen tegen het verspreiden van het coronavirus?;De middelbare scholen en het voorgezet onderwijs (o.a. MBO, HBO en universiteiten) moeten dicht;Under the circumstances at this time, do you disagree or agree with the following (possible) policies against the spread of coronavirus?;Ordered Categorical;Helemaal mee oneens,Oneens,Niet oneens en niet eens,Eens,Helemaal mee eens;Strongly disagree,Disagree,Neither disagree nor disagree,Agree,Strongly agree;support_close_cc_some_schools;Secondary schools and secondary education (including MBO, HBO and universities) must be closed
+19.06;q8j;q8;table;-;Support Government Policy;Onder de omstandigheden op dit moment, bent u het oneens of eens met de volgende (mogelijke) beleidsmaatregelen tegen het verspreiden van het coronavirus?;De kinderopvang, buitenschoolse opvang, en alle scholen en universiteiten moeten dicht;Under the circumstances at this time, do you disagree or agree with the following (possible) policies against the spread of coronavirus?;Ordered Categorical;Helemaal mee oneens,Oneens,Niet oneens en niet eens,Eens,Helemaal mee eens;Strongly disagree,Disagree,Neither disagree nor disagree,Agree,Strongly agree;support_close_cc_all_schools;Day care centers, after school programs, and all schools and universities must be closed. closed
+20.01;EmploymentStatus;EmploymentStatus;cat;-;Employment Status;"Welke van de volgende opties beschrijft uw situatie het best?
+
+Als er meer opties mogelijk zijn, kiest u dan de hoofdactiviteit of -baan.";;"Which of the following options best describes your situation?
+
+If more options are possible, please choose the main activity or job.";Category;Ik verricht betaald werk in loondienst full-time of part-time ,Ik ben zelfstandig ondernemer ,Ik ben werkloos en ben op zoek naar werk ,Ik ben (vervroegd) gepensioneerd ,Ik ontvang een arbeidsongeschiktheidsuitkering of sociale bijstand en ben niet op zoek naar werk ,Ik ben leerling / student / stagiair en krijg alleen een onkostenvergoeding ,Ik doe het huishouden;I perform gainful employment full-time or part-time ,I am self-employed ,I am unemployed and looking for work ,I am retired (early) ,I receive disability benefits or social assistance and am not looking for work ,I am an apprentice / student / trainee and only receive a reimbursement of expenses ,I do the household;work_status;
+21.01;q14b_q14werk;q14;grid;EmploymentStatus;Work Time Remote and Workplace;"Hoeveel uur per week werkte u in de [if _current_date<2020-12-21: afgelopen zeven dagen / if _current_date>=2020-12-21: week van 14-20 december] op uw werkplek en vanuit huis?
+
+Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'.
+Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";De [if _current_date<2020-12-21: afgelopen zeven dagen/ if _current_date>=2020-12-21: week van 14-20 december], Op uw werkplek;"During the [if _current_date<2020-12-21: past seven days / if _current_date>=2020-12-21: week of December 14-20], how many hours per week did you work at your workplace and from home?
+
+If you always work at home, enter all hours under 'from home'.
+Enter zero (0) if you never work at your workplace or at home.";Integer;;;hours_workplace;The [if _current_date<2020-12-21: past seven days/ if _current_date>=2020-12-21: week of December 14-20], At your workplace
+21.02;q14b_q14thuis;q14;grid;EmploymentStatus;Work Time Remote and Workplace;"Hoeveel uur per week werkte u in de [if _current_date<2020-12-21: afgelopen zeven dagen / if _current_date>=2020-12-21: week van 14-20 december] op uw werkplek en vanuit huis?
+
+Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'.
+Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";De [if _current_date<2020-12-21: afgelopen zeven dagen/ if _current_date>=2020-12-21: week van 14-20 december], Vanuit huis;"During the [if _current_date<2020-12-21: past seven days / if _current_date>=2020-12-21: week of December 14-20], how many hours per week did you work at your workplace and from home?
+
+If you always work at home, enter all hours under 'from home'.
+Enter zero (0) if you never work at your workplace or at home.";Integer;;;hours_home;The [if _current_date<2020-12-21: past seven days/ if _current_date>=2020-12-21: week of December 14-20], From home
+22.01;vacsick1;vacsick;grid;EmploymentStatus;Vacation & Sickness;"In de [if _current_date<2020-12-21: afgelopen zeven dagen/ if _current_date>=2020-12-21: week van 14-20 december], hoeveel dagen hebt u...
+
+Rond af op hele dagen (bv. een halve dag = 1 dag).
+Vult u nul (0) in als u geen vrije dag hebt opgenomen.";een vrije dag opgenomen voor vrije tijd (ontspanning, vermaak);"In the [if _current_date<2020-12-21: past seven days/ if _current_date>=2020-12-21: week of December 14-20], how many days have you...
+
+Round to whole days (e.g., half a day = 1 day).
+Enter zero (0) if you did not take a day off.";Integer;;;day_off_leisure;taken a day off for leisure (relaxation, entertainment)
+22.02;vacsick2;vacsick;grid;EmploymentStatus;Vacation & Sickness;"In de [if _current_date<2020-12-21: afgelopen zeven dagen/ if _current_date>=2020-12-21: week van 14-20 december], hoeveel dagen hebt u...
+
+Rond af op hele dagen (bv. een halve dag = 1 dag).
+Vult u nul (0) in als u geen vrije dag hebt opgenomen.";een vrije dag opgenomen om voor de kinderen te zorgen;"In the [if _current_date<2020-12-21: past seven days/ if _current_date>=2020-12-21: week of December 14-20], how many days have you...
+
+Round to whole days (e.g., half a day = 1 day).
+Enter zero (0) if you did not take a day off.";Integer;;;day_off_childcare;taken a day off to take care of the children
+22.03;vacsick3;vacsick;grid;EmploymentStatus;Vacation & Sickness;"In de [if _current_date<2020-12-21: afgelopen zeven dagen/ if _current_date>=2020-12-21: week van 14-20 december], hoeveel dagen hebt u...
+
+Rond af op hele dagen (bv. een halve dag = 1 dag).
+Vult u nul (0) in als u geen vrije dag hebt opgenomen.";een vrije dag opgenomen voor een andere reden;"In the [if _current_date<2020-12-21: past seven days/ if _current_date>=2020-12-21: week of December 14-20], how many days have you...
+
+Round to whole days (e.g., half a day = 1 day).
+Enter zero (0) if you did not take a day off.";Integer;;;day_off_other;took a day off for another reason
+22.04;vacsick4;vacsick;grid;EmploymentStatus;Vacation & Sickness;"In de [if _current_date<2020-12-21: afgelopen zeven dagen/ if _current_date>=2020-12-21: week van 14-20 december], hoeveel dagen hebt u...
+
+Rond af op hele dagen (bv. een halve dag = 1 dag).
+Vult u nul (0) in als u geen vrije dag hebt opgenomen.";zich ziek gemeld;"In the [if _current_date<2020-12-21: past seven days/ if _current_date>=2020-12-21: week of December 14-20], how many days have you...
+
+Round to whole days (e.g., half a day = 1 day).
+Enter zero (0) if you did not take a day off.";Integer;;;day_off_sick;Called in sick
+23.01;worked_past_3m;worked_past_3m;cat;EmploymentStatus;Worked Past Three Months;Hebt u tussen september en november op enig moment betaald werk verricht?;;Did you engage in paid work at any time between September and November?;Boolean;Ja,Nee;Yes,No;worked_past_3m;
+24.01;lockdown_a_werk;lockdown;grid;EmploymentStatus;Work During Lockdown;"Hoeveel uur per week werkte u in de volgende perioden op uw werkplek en vanuit huis?
+
+Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'.
+Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Per week voor het ingaan van de gedeeltelijke lockdown (periode midden september), Op uw werkplek;"How many hours per week did you work at your workplace and from home during the following periods?
+
+If you always work at home, enter all hours under ""from home.
+Enter zero (0) if you never work at your workplace or at home.";Integer;;;hours_workplace_september;Per week before the partial lockdown takes effect (period mid-September), At your workplace
+24.02;lockdown_b_werk;lockdown;grid;EmploymentStatus;Work During Lockdown;"Hoeveel uur per week werkte u in de volgende perioden op uw werkplek en vanuit huis?
+
+Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'.
+Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Per week na de invoering van de gedeeltelijke lockdown op 13 oktober (periode eind oktober na de herfstvakantie), Op uw werkplek;"How many hours per week did you work at your workplace and from home during the following periods?
+
+If you always work at home, enter all hours under ""from home.
+Enter zero (0) if you never work at your workplace or at home.";Integer;;;hours_workplace_october;Per week after the partial lockdown takes effect on October 13 (period in late October after the fall break), At your workplace
+24.03;lockdown_c_werk;lockdown;grid;EmploymentStatus;Work During Lockdown;"Hoeveel uur per week werkte u in de volgende perioden op uw werkplek en vanuit huis?
+
+Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'.
+Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Per week na het aanscherpen van de gedeeltelijke lockdown op 4 november (periode midden november), Op uw werkplek;"How many hours per week did you work at your workplace and from home during the following periods?
+
+If you always work at home, enter all hours under ""from home.
+Enter zero (0) if you never work at your workplace or at home.";Integer;;;hours_workplace_november;Per week after the tightening of the partial lockdown on November 4 (period mid-November), At your workplace
+24.05;lockdown_a_thuis;lockdown;grid;EmploymentStatus;Work During Lockdown;"Hoeveel uur per week werkte u in de volgende perioden op uw werkplek en vanuit huis?
+
+Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'.
+Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Per week voor het ingaan van de gedeeltelijke lockdown (periode midden september), Vanuit huis;"How many hours per week did you work at your workplace and from home during the following periods?
+
+If you always work at home, enter all hours under ""from home.
+Enter zero (0) if you never work at your workplace or at home.";Integer;;;hours_home_september;By week before the partial lockdown takes effect (period mid-September), From home
+24.06;lockdown_b_thuis;lockdown;grid;EmploymentStatus;Work During Lockdown;"Hoeveel uur per week werkte u in de volgende perioden op uw werkplek en vanuit huis?
+
+Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'.
+Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Per week na de invoering van de gedeeltelijke lockdown op 13 oktober (periode eind oktober na de herfstvakantie), Vanuit huis;"How many hours per week did you work at your workplace and from home during the following periods?
+
+If you always work at home, enter all hours under ""from home.
+Enter zero (0) if you never work at your workplace or at home.";Integer;;;hours_home_october;Per week after the partial lockdown is implemented on October 13 (period late October after fall break), From home
+24.07;lockdown_c_thuis;lockdown;grid;EmploymentStatus;Work During Lockdown;"Hoeveel uur per week werkte u in de volgende perioden op uw werkplek en vanuit huis?
+
+Als u altijd thuis werkt, vult u alle uren in bij 'vanuit huis'.
+Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Per week na het aanscherpen van de gedeeltelijke lockdown op 4 november (periode midden november), Vanuit huis;"How many hours per week did you work at your workplace and from home during the following periods?
+
+If you always work at home, enter all hours under ""from home.
+Enter zero (0) if you never work at your workplace or at home.";Integer;;;hours_home_november;Per week after the tightening of the partial lockdown on November 4 (period mid-November), From home
+25.01;work_perc;work_perc;open;EmploymentStatus;Percentage of Work from Home;Hoeveel procent van uw normale werkzaamheden kunt u ook met thuiswerken doen?;;What percentage of your normal work can you do even with working from home?;Integer;;;work_perc_home;
+26.01;uren_pre_corona_werk;uren_corona;grid;EmploymentStatus;Work from Home;"We vragen u hieronder naar drie verschillende situaties:
+1. Gemiddeld hoeveel uren per week werkte u op uw werkplek en vanuit huis vóór de coronacrisis?
+
+Stel dat u na de coronacrisis net zoveel uren per week werkt als voor de coronacrisis.
+
+2. Hoeveel uren per week verwacht u na de coronacrisis op uw werkplek te werken en hoeveel uren thuis?
+3. Hoeveel uren per week zou u na de coronacrisis op uw werkplek willen werken en hoeveel uren thuis?
+
+Als u van plan bent altijd thuis te werken, vult u alle uren in bij 'vanuit huis'.
+Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Hoeveel uren per week werkte u op uw werkplek en vanuit huis vóór de coronacrisis?, Op uw werkplek;"We ask you about three different situations below:
+1. On average, how many hours per week did you work at your workplace and from home before the corona crisis?
+
+Suppose you work the same number of hours per week after the corona crisis as you did before the corona crisis.
+
+2. After the corona crisis, how many hours per week do you expect to work at your workplace and How many hours at home?
+3. How many hours per week would you like to work at your workplace after the corona crisis and How many hours at home?
+
+If you plan to always work at home, fill in all hours under 'from home'.
+Enter zero (0) if you never work at your workplace or at home.";Integer;;;hours_workplace_pre_corona;How many hours per week did you work at your workplace and from home before the corona crisis?, At your workplace
+26.02;uren_na_corona1_werk;uren_corona;grid;EmploymentStatus;Work from Home;"We vragen u hieronder naar drie verschillende situaties:
+1. Gemiddeld hoeveel uren per week werkte u op uw werkplek en vanuit huis vóór de coronacrisis?
+
+Stel dat u na de coronacrisis net zoveel uren per week werkt als voor de coronacrisis.
+
+2. Hoeveel uren per week verwacht u na de coronacrisis op uw werkplek te werken en hoeveel uren thuis?
+3. Hoeveel uren per week zou u na de coronacrisis op uw werkplek willen werken en hoeveel uren thuis?
+
+Als u van plan bent altijd thuis te werken, vult u alle uren in bij 'vanuit huis'.
+Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Hoeveel uren per week verwacht u na de coronacrisis op uw werkplek te werken en hoeveel uren vanuit huis?, Op uw werkplek;"We ask you about three different situations below:
+1. On average, how many hours per week did you work at your workplace and from home before the corona crisis?
+
+Suppose you work the same number of hours per week after the corona crisis as you did before the corona crisis.
+
+2. After the corona crisis, how many hours per week do you expect to work at your workplace and How many hours at home?
+3. How many hours per week would you like to work at your workplace after the corona crisis and How many hours at home?
+
+If you plan to always work at home, fill in all hours under 'from home'.
+Enter zero (0) if you never work at your workplace or at home.";Integer;;;hours_workplace_expected_post;After the corona crisis, how many hours per week do you expect to work at your workplace and how many hours from home?, At your workplace
+26.03;uren_na_corona2_werk;uren_corona;grid;EmploymentStatus;Work from Home;"We vragen u hieronder naar drie verschillende situaties:
+1. Gemiddeld hoeveel uren per week werkte u op uw werkplek en vanuit huis vóór de coronacrisis?
+
+Stel dat u na de coronacrisis net zoveel uren per week werkt als voor de coronacrisis.
+
+2. Hoeveel uren per week verwacht u na de coronacrisis op uw werkplek te werken en hoeveel uren thuis?
+3. Hoeveel uren per week zou u na de coronacrisis op uw werkplek willen werken en hoeveel uren thuis?
+
+Als u van plan bent altijd thuis te werken, vult u alle uren in bij 'vanuit huis'.
+Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Hoeveel uren per week zou u na de coronacrisis op uw werkplek willen werken en hoeveel uren vanuit huis?, Op uw werkplek;"We ask you about three different situations below:
+1. On average, how many hours per week did you work at your workplace and from home before the corona crisis?
+
+Suppose you work the same number of hours per week after the corona crisis as you did before the corona crisis.
+
+2. After the corona crisis, how many hours per week do you expect to work at your workplace and How many hours at home?
+3. How many hours per week would you like to work at your workplace after the corona crisis and How many hours at home?
+
+If you plan to always work at home, fill in all hours under 'from home'.
+Enter zero (0) if you never work at your workplace or at home.";Integer;;;hours_workplace_preferred_post;After the corona crisis, how many hours per week would you like to work at your workplace and how many hours from home?, At your workplace
+26.04;uren_pre_corona_thuis;uren_corona;grid;EmploymentStatus;Work from Home;"We vragen u hieronder naar drie verschillende situaties:
+1. Gemiddeld hoeveel uren per week werkte u op uw werkplek en vanuit huis vóór de coronacrisis?
+
+Stel dat u na de coronacrisis net zoveel uren per week werkt als voor de coronacrisis.
+
+2. Hoeveel uren per week verwacht u na de coronacrisis op uw werkplek te werken en hoeveel uren thuis?
+3. Hoeveel uren per week zou u na de coronacrisis op uw werkplek willen werken en hoeveel uren thuis?
+
+Als u van plan bent altijd thuis te werken, vult u alle uren in bij 'vanuit huis'.
+Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Hoeveel uren per week werkte u op uw werkplek en vanuit huis vóór de coronacrisis?, Vanuit huis;"We ask you about three different situations below:
+1. On average, how many hours per week did you work at your workplace and from home before the corona crisis?
+
+Suppose you work the same number of hours per week after the corona crisis as you did before the corona crisis.
+
+2. After the corona crisis, how many hours per week do you expect to work at your workplace and How many hours at home?
+3. How many hours per week would you like to work at your workplace after the corona crisis and How many hours at home?
+
+If you plan to always work at home, fill in all hours under 'from home'.
+Enter zero (0) if you never work at your workplace or at home.";Integer;;;hours_home_pre_corona;How many hours per week did you work at your workplace and from home before the corona crisis?, From home
+26.05;uren_na_corona1_thuis;uren_corona;grid;EmploymentStatus;Work from Home;"We vragen u hieronder naar drie verschillende situaties:
+1. Gemiddeld hoeveel uren per week werkte u op uw werkplek en vanuit huis vóór de coronacrisis?
+
+Stel dat u na de coronacrisis net zoveel uren per week werkt als voor de coronacrisis.
+
+2. Hoeveel uren per week verwacht u na de coronacrisis op uw werkplek te werken en hoeveel uren thuis?
+3. Hoeveel uren per week zou u na de coronacrisis op uw werkplek willen werken en hoeveel uren thuis?
+
+Als u van plan bent altijd thuis te werken, vult u alle uren in bij 'vanuit huis'.
+Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Hoeveel uren per week verwacht u na de coronacrisis op uw werkplek te werken en hoeveel uren vanuit huis?, Vanuit huis;"We ask you about three different situations below:
+1. On average, how many hours per week did you work at your workplace and from home before the corona crisis?
+
+Suppose you work the same number of hours per week after the corona crisis as you did before the corona crisis.
+
+2. After the corona crisis, how many hours per week do you expect to work at your workplace and How many hours at home?
+3. How many hours per week would you like to work at your workplace after the corona crisis and How many hours at home?
+
+If you plan to always work at home, fill in all hours under 'from home'.
+Enter zero (0) if you never work at your workplace or at home.";Integer;;;hours_home_expected_post;After the corona crisis, how many hours per week do you expect to work at your workplace and how many hours from home?, From home
+26.06;uren_na_corona2_thuis;uren_corona;grid;EmploymentStatus;Work from Home;"We vragen u hieronder naar drie verschillende situaties:
+1. Gemiddeld hoeveel uren per week werkte u op uw werkplek en vanuit huis vóór de coronacrisis?
+
+Stel dat u na de coronacrisis net zoveel uren per week werkt als voor de coronacrisis.
+
+2. Hoeveel uren per week verwacht u na de coronacrisis op uw werkplek te werken en hoeveel uren thuis?
+3. Hoeveel uren per week zou u na de coronacrisis op uw werkplek willen werken en hoeveel uren thuis?
+
+Als u van plan bent altijd thuis te werken, vult u alle uren in bij 'vanuit huis'.
+Vult u nul (0) in als u nooit op uw werkplek of thuis werkt.";Hoeveel uren per week zou u na de coronacrisis op uw werkplek willen werken en hoeveel uren vanuit huis?, Vanuit huis;"We ask you about three different situations below:
+1. On average, how many hours per week did you work at your workplace and from home before the corona crisis?
+
+Suppose you work the same number of hours per week after the corona crisis as you did before the corona crisis.
+
+2. After the corona crisis, how many hours per week do you expect to work at your workplace and How many hours at home?
+3. How many hours per week would you like to work at your workplace after the corona crisis and How many hours at home?
+
+If you plan to always work at home, fill in all hours under 'from home'.
+Enter zero (0) if you never work at your workplace or at home.";Integer;;;hours_home_preferred_post;After the corona crisis, how many hours per week would you like to work at your workplace and how many hours from home?, From home
+27.01;JobSearch;JobSearch;cat;EmploymentStatus;Unemployed – Looking for Different Profession;Bent u op zoek naar (ander) werk?;;Are you looking for (other) work?;Boolean;Ja,Nee;Yes,No;seeking_job;
+28.01;q26a;q26;grid;EmploymentStatus;Expectations March among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in maart voordoen?
+
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik behoud mijn baan omdat mijn werkgever / het bedrijf financieel niet sterk wordt geraakt door het coronavirus of financieel gezond genoeg is om de lonen te kunnen blijven betalen;"How likely do you think the following situations are to occur in March?
+
+You can answer these questions on a scale of 0 to 100, where 0 represents definitely not and 100 represents definitely yes. Note that your answers must add up to 100.";Integer;;;p_2m_employee_keep;I keep my job because my employer / company is not strongly affected financially by the coronavirus or is financially healthy enough to continue paying wages
+28.02;q26b;q26;grid;EmploymentStatus;Expectations March among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in maart voordoen?
+
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik behoud mijn baan omdat de overheid hulp biedt aan mijn werkgever / het bedrijf (bv. door een tegemoetkoming in de loonkosten);"How likely do you think the following situations are to occur in March?
+
+You can answer these questions on a scale of 0 to 100, where 0 represents definitely not and 100 represents definitely yes. Note that your answers must add up to 100.";Integer;;;p_2m_employee_keep_gov;I keep my job because the government offers help to my employer / company (e.g. by meeting the costs of wages)
+28.03;q26c;q26;grid;EmploymentStatus;Expectations March among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in maart voordoen?
+
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik heb een nieuwe baan bij een andere werkgever;"How likely do you think the following situations are to occur in March?
+
+You can answer these questions on a scale of 0 to 100, where 0 represents definitely not and 100 represents definitely yes. Note that your answers must add up to 100.";Integer;;;p_2m_employee_new_job;I have a new job with another employer
+28.04;q26d;q26;grid;EmploymentStatus;Expectations March among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in maart voordoen?
+
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik ben werkloos / behoor niet meer tot de beroepsbevolking / gepensioneerd / ik heb een arbeidsongeschiktheidspensioen;"How likely do you think the following situations are to occur in March?
+
+You can answer these questions on a scale of 0 to 100, where 0 represents definitely not and 100 represents definitely yes. Note that your answers must add up to 100.";Integer;;;p_2m_employee_unemployed;I am unemployed / no longer part of the labour force / retired / have a disability pension
+28.05;q26e;q26;grid;EmploymentStatus;Expectations March among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in maart voordoen?
+
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Iets anders gebeurt;"How likely do you think the following situations are to occur in March?
+
+You can answer these questions on a scale of 0 to 100, where 0 represents definitely not and 100 represents definitely yes. Note that your answers must add up to 100.";Integer;;;p_2m_employee_other;Something else happens
+29.01;q26a_1;q26header_1;grid;EmploymentStatus;Expectations Next Year among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik behoud mijn baan omdat mijn werkgever / het bedrijf financieel niet sterk wordt geraakt door het coronavirus of financieel gezond genoeg is om de lonen te kunnen blijven betalen;"How likely do you think the following situations are to occur one year from now?
+
+You can answer these questions on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes. Note that your answers must add up to 100.";Integer;;;p_year_employee_keep;I keep my job because my employer / company is not strongly affected financially by the coronavirus or is financially healthy enough to continue paying wages
+29.02;q26b_1;q26header_1;grid;EmploymentStatus;Expectations Next Year among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik behoud mijn baan omdat de overheid hulp biedt aan mijn werkgever / het bedrijf (bv. door een tegemoetkoming in de loonkosten);"How likely do you think the following situations are to occur one year from now?
+
+You can answer these questions on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes. Note that your answers must add up to 100.";Integer;;;p_year_employee_keep_gov;I keep my job because the government provides assistance to my employer / company (e.g., by covering labor costs)
+29.03;q26c_1;q26header_1;grid;EmploymentStatus;Expectations Next Year among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik heb een nieuwe baan bij een andere werkgever;"How likely do you think the following situations are to occur one year from now?
+
+You can answer these questions on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes. Note that your answers must add up to 100.";Integer;;;p_year_employee_new_job;I have a new job with another employer
+29.04;q26d_1;q26header_1;grid;EmploymentStatus;Expectations Next Year among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100."; Ik ben werkloos / behoor niet meer tot de beroepsbevolking / gepensioneerd / ik heb een arbeidsongeschiktheidspensioen;"How likely do you think the following situations are to occur one year from now?
+
+You can answer these questions on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes. Note that your answers must add up to 100.";Integer;;;p_year_employee_unemployed; I am unemployed / no longer part of the labour force / retired / have a disability pension
+29.05;q26e_1;q26header_1;grid;EmploymentStatus;Expectations Next Year among Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+
+U kunt deze vragen beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Iets anders gebeurt;"How likely do you think the following situations are to occur one year from now?
+
+You can answer these questions on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes. Note that your answers must add up to 100.";Integer;;;p_year_employee_other;Something else is happening
+30.01;q27a;q27;grid;EmploymentStatus;Expectations March among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in maart voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Mijn bedrijf zal minder werkzaamheden hebben dan voor de coronavirus crisis, maar zal geen steun nodig hebben van de overheid;"How likely do you think the following situations are to occur in March?
+
+You can answer this question on a scale of 0 to 100, where 0 represents definitely not and 100 represents definitely yes. Note that your answers must add up to 100.";Integer;;;p_3m_selfempl_normal;My company will have less work than before the coronavirus crisis, but will not need government support
+30.02;q27a;q27;grid;EmploymentStatus;Expectations March among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in maart voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Mijn bedrijf zal minder werkzaamheden hebben dan voor de coronavirus crisis, maar zal geen steun nodig hebben van de overheid;"How likely do you think the following situations are to occur in March?
+
+You can answer this question on a scale of 0 to 100, where 0 represents definitely not and 100 represents definitely yes. Note that your answers must add up to 100.";Integer;;;p_3m_selfempl_normal;My company will have less work than before the coronavirus crisis, but will not need government support
+30.03;q27c;q27;grid;EmploymentStatus;Expectations March among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in maart voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Mijn bedrijf zal minder werkzaamheden hebben dan voor de coronavirus crisis en zal alleen overleven door steun van de overheid (bv. door de versoepeling uitstel van belastingbetaling of de aanvullende inkomensondersteuning voor levensonderhoud);"How likely do you think the following situations are to occur in March?
+
+You can answer this question on a scale of 0 to 100, where 0 represents definitely not and 100 represents definitely yes. Note that your answers must add up to 100.";Integer;;;p_3m_selfempl_helped_by_gov;My business will have less work than before the coronavirus crisis and will survive only because of government support (e.g., through the relaxation of tax payment deferral or supplemental income support for living expenses)
+30.04;q27d;q27;grid;EmploymentStatus;Expectations March among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in maart voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Mijn bedrijf zal minder werkzaamheden hebben dan voor de coronavirus crisis en zal moeten sluiten;"How likely do you think the following situations are to occur in March?
+
+You can answer this question on a scale of 0 to 100, where 0 represents definitely not and 100 represents definitely yes. Note that your answers must add up to 100.";Integer;;;p_3m_selfempl_shutdown;My business will have less work than before the coronavirus crisis and will have to close
+30.05;q27e;q27;grid;EmploymentStatus;Expectations March among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich in maart voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Iets anders gebeurt;"How likely do you think the following situations are to occur in March?
+
+You can answer this question on a scale of 0 to 100, where 0 represents definitely not and 100 represents definitely yes. Note that your answers must add up to 100.";Integer;;;p_3m_selfempl_other;Something else is happening
+31.01;q27a_1;q27_1;grid;EmploymentStatus;Expectations Next Year among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Mijn bedrijf gaat gewoon verder als eerst of het gaat zelfs beter dan voor de coronavirus crisis;"How likely do you think the following situations are to occur one year from now?
+
+You can answer this question on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes. Note that your answers must add up to 100.";Integer;;;p_year_selfempl_normal;My business will continue as before or even do better than before the coronavirus crisis
+31.02;q27b_1;q27_1;grid;EmploymentStatus;Expectations Next Year among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Mijn bedrijf zal minder werkzaamheden hebben dan voor de coronavirus crisis, maar zal geen steun nodig hebben van de overheid;"How likely do you think the following situations are to occur one year from now?
+
+You can answer this question on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes. Note that your answers must add up to 100.";Integer;;;p_year_selfempl_fewer;My company will have less work than before the coronavirus crisis, but will not need support from the government
+31.03;q27c_1;q27_1;grid;EmploymentStatus;Expectations Next Year among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Mijn bedrijf zal minder werkzaamheden hebben dan voor de coronavirus crisis en zal alleen overleven door steun van de overheid (bv. door de versoepeling uitstel van belastingbetaling of de aanvullende inkomensondersteuning voor levensonderhoud);"How likely do you think the following situations are to occur one year from now?
+
+You can answer this question on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes. Note that your answers must add up to 100.";Integer;;;p_year_selfempl_helped_by_gov;My business will have less work than before the coronavirus crisis and will survive only because of government support (e.g., through the relaxation of tax payment deferral or supplemental income support for living expenses)
+31.04;q27d_1;q27_1;grid;EmploymentStatus;Expectations Next Year among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Mijn bedrijf zal minder werkzaamheden hebben dan voor de coronavirus crisis en zal moeten sluiten;"How likely do you think the following situations are to occur one year from now?
+
+You can answer this question on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes. Note that your answers must add up to 100.";Integer;;;p_year_selfempl_shutdown;My business will have less work than before the coronavirus crisis and will have to close
+31.05;q27e_1;q27_1;grid;EmploymentStatus;Expectations Next Year among Self-Employed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Iets anders gebeurt;"How likely do you think the following situations are to occur one year from now?
+
+You can answer this question on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes. Note that your answers must add up to 100.";Integer;;;p_year_selfempl_other;Something else is happening
+32.01;q27a_ex;q27_ex;grid;EmploymentStatus;Expectations March among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich in maart voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik heb een nieuwe baan gevonden;"How likely do you think the following situations are to occur in March?
+
+You can answer this question on a scale of 0 to 100, where 0 represents definitely not and 100 represents definitely yes. Note that your answers must add up to 100.";Integer;;;p_3m_unemployed_job;I have found a new job
+32.02;q27b_ex;q27_ex;grid;EmploymentStatus;Expectations March among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich in maart voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik ben bezig met een voltijds opleiding of vervolgopleiding;"How likely do you think the following situations are to occur in March?
+
+You can answer this question on a scale of 0 to 100, where 0 represents definitely not and 100 represents definitely yes. Note that your answers must add up to 100.";Integer;;;p_3m_unemployed_educ;I am working on a full-time education or continuing education course
+32.03;q27c_ex;q27_ex;grid;EmploymentStatus;Expectations March among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich in maart voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik werk dan niet, maar ben op zoek naar een nieuwe baan;"How likely do you think the following situations are to occur in March?
+
+You can answer this question on a scale of 0 to 100, where 0 represents definitely not and 100 represents definitely yes. Note that your answers must add up to 100.";Integer;;;p_3m_unemployed_looking;I am not working then, but am looking for a new job
+32.04;q27d_ex;q27_ex;grid;EmploymentStatus;Expectations March among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich in maart voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik werk dan niet en ben dan ook niet op zoek naar een nieuwe baan;"How likely do you think the following situations are to occur in March?
+
+You can answer this question on a scale of 0 to 100, where 0 represents definitely not and 100 represents definitely yes. Note that your answers must add up to 100.";Integer;;;p_3m_unemployed_not_looking;I am not working then, nor am I looking for a new job
+32.05;q27e_ex;q27_ex;grid;EmploymentStatus;Expectations March among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich in maart voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Iets anders gebeurt;"How likely do you think the following situations are to occur in March?
+
+You can answer this question on a scale of 0 to 100, where 0 represents definitely not and 100 represents definitely yes. Note that your answers must add up to 100.";Integer;;;p_3m_unemployed_other;Something else happens
+33.01;q27a_ex_1;q27_ex_1;grid;EmploymentStatus;Expectations Next Year among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik heb een nieuwe baan gevonden;"How likely do you think the following situations are to occur one year from now?
+
+You can answer this question on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes. Note that your answers must add up to 100.";Integer;;;p_year_unemployed_job;I have found a new job
+33.02;q27b_ex_1;q27_ex_1;grid;EmploymentStatus;Expectations Next Year among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik ben bezig met een voltijds opleiding of vervolgopleiding;"How likely do you think the following situations are to occur one year from now?
+
+You can answer this question on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes. Note that your answers must add up to 100.";Integer;;;p_year_unemployed_educ;I am in full-time training or continuing education
+33.03;q27c_ex_1;q27_ex_1;grid;EmploymentStatus;Expectations Next Year among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik werk dan niet, maar ben op zoek naar een nieuwe baan;"How likely do you think the following situations are to occur one year from now?
+
+You can answer this question on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes. Note that your answers must add up to 100.";Integer;;;p_year_unemployed_looking;I am not working then, but am looking for a new job
+33.04;q27d_ex_1;q27_ex_1;grid;EmploymentStatus;Expectations Next Year among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Ik werk dan niet en ben dan ook niet op zoek naar een nieuwe baan;"How likely do you think the following situations are to occur one year from now?
+
+You can answer this question on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes. Note that your answers must add up to 100.";Integer;;;p_year_unemployed_not_looking;I am not working then, nor am I looking for a new job
+33.05;q27e_ex_1;q27_ex_1;grid;EmploymentStatus;Expectations Next Year among Unemployed;"Hoe groot is volgens u de kans dat de volgende situaties zich een jaar vanaf nu voordoen?
+
+U kunt deze vraag beantwoorden op een schaal van 0 tot en met 100, waarbij 0 staat voor zeker niet en 100 voor zeker wel. Let op, uw antwoorden moeten optellen tot 100.";Iets anders gebeurt;"How likely do you think the following situations are to occur one year from now?
+
+You can answer this question on a scale of 0 to 100, where 0 means definitely not and 100 means definitely yes. Note that your answers must add up to 100.";Integer;;;p_year_unemployed_other;Something else happens
+34.01;inc_aug;inc;grid;-;Income;"Wat was in de afgelopen vier maanden [if (p_aantalhh = 1): uw bruto maandinkomen/ if (p_aantalhh ≠ 1): het gezamenlijke bruto maandinkomen van uw huishouden]? Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.
+
+Als u het niet precies weet geeft u dan uw beste inschatting.
+Vult u alleen cijfers (hele euro's) in, dus zonder punten en komma’s.";inkomen in augustus:;"In the past four months, what was [if (p_numberhh = 1): your gross monthly income/ if (p_numberhh ≠ 1): your household's combined gross monthly income]? So all income from e.g. work, pension, unemployment benefit etc.
+
+If you do not know exactly give your best estimate.
+Enter only figures (whole euros), without commas.";Integer;;;hh_income_202008;income in august:
+34.02;inc_sep;inc;grid;-;Income;"Wat was in de afgelopen vier maanden [if (p_aantalhh = 1): uw bruto maandinkomen/ if (p_aantalhh ≠ 1): het gezamenlijke bruto maandinkomen van uw huishouden]? Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.
+
+Als u het niet precies weet geeft u dan uw beste inschatting.
+Vult u alleen cijfers (hele euro's) in, dus zonder punten en komma’s.";inkomen in september:;"In the past four months, what was [if (p_numberhh = 1): your gross monthly income/ if (p_numberhh ≠ 1): your household's combined gross monthly income]? So all income from e.g. work, pension, unemployment benefit etc.
+
+If you do not know exactly give your best estimate.
+Enter only figures (whole euros), without commas.";Integer;;;hh_income_202009;income in September:
+34.03;inc_okt;inc;grid;-;Income;"Wat was in de afgelopen vier maanden [if (p_aantalhh = 1): uw bruto maandinkomen/ if (p_aantalhh ≠ 1): het gezamenlijke bruto maandinkomen van uw huishouden]? Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.
+
+Als u het niet precies weet geeft u dan uw beste inschatting.
+Vult u alleen cijfers (hele euro's) in, dus zonder punten en komma’s.";inkomen in oktober:;"In the past four months, what was [if (p_numberhh = 1): your gross monthly income/ if (p_numberhh ≠ 1): your household's combined gross monthly income]? So all income from e.g. work, pension, unemployment benefit etc.
+
+If you do not know exactly give your best estimate.
+Enter only figures (whole euros), without commas.";Integer;;;hh_income_202010;income in october:
+34.04;inc_nov;inc;grid;-;Income;"Wat was in de afgelopen vier maanden [if (p_aantalhh = 1): uw bruto maandinkomen/ if (p_aantalhh ≠ 1): het gezamenlijke bruto maandinkomen van uw huishouden]? Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.
+
+Als u het niet precies weet geeft u dan uw beste inschatting.
+Vult u alleen cijfers (hele euro's) in, dus zonder punten en komma’s.";inkomen in november:;"In the past four months, what was [if (p_numberhh = 1): your gross monthly income/ if (p_numberhh ≠ 1): your household's combined gross monthly income]? So all income from e.g. work, pension, unemployment benefit etc.
+
+If you do not know exactly give your best estimate.
+Enter only figures (whole euros), without commas.";Integer;;;hh_income_202011;income in November:
+35.01;expinc2020_a_col2_a;expinc2020;grid;-;Expected Income;We willen graag weten wat u verwacht dat [if (p_aantalhh = 1): uw bruto jaarinkomen/ if (p_aantalhh ≠ 1): het gezamenlijke bruto jaarinkomen van uw huishouden] voor 2020, 2021, en 2022 zal zijn. Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.;Voor dit jaar (dus ook voor de maanden januari tot en met november);We would like to know what you expect [if (p_numberhh = 1): your gross annual income/ if (p_numberhh ≠ 1): your household's combined gross annual income] to be for 2020, 2021, and 2022. So all income from, for example, work, pension, unemployment benefits, etc.;Integer;;;e_2020_hh_income;For this year (i.e., also for the months of January through November)
+35.02;expinc2021_a_col2_a;expinc2020;grid;-;Expected Income;We willen graag weten wat u verwacht dat [if (p_aantalhh = 1): uw bruto jaarinkomen/ if (p_aantalhh ≠ 1): het gezamenlijke bruto jaarinkomen van uw huishouden] voor 2020, 2021, en 2022 zal zijn. Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.;Voor het jaar 2021;We would like to know what you expect [if (p_numberhh = 1): your gross annual income/ if (p_numberhh ≠ 1): your household's combined gross annual income] to be for 2020, 2021, and 2022. So all income from, for example, work, pension, unemployment benefits, etc.;Integer;;;e_2021_hh_income;For the year 2021
+35.03;expinc2022_a_col2_a;expinc2020;grid;-;Expected Income;We willen graag weten wat u verwacht dat [if (p_aantalhh = 1): uw bruto jaarinkomen/ if (p_aantalhh ≠ 1): het gezamenlijke bruto jaarinkomen van uw huishouden] voor 2020, 2021, en 2022 zal zijn. Dus alle inkomsten uit bijvoorbeeld werk, pensioen, werkloosheidsuitkering enz.;Voor het jaar 2022;We would like to know what you expect [if (p_numberhh = 1): your gross annual income/ if (p_numberhh ≠ 1): your household's combined gross annual income] to be for 2020, 2021, and 2022. So all income from, for example, work, pension, unemployment benefits, etc.;Integer;;;e_2022_hh_income;For the year 2022
+36.01;ExpUnempl_today2020;ExpUnempl_today;table;-;Expected Unemployment Today;"We willen graag weten wat u verwacht dat het werkloosheidscijfer in Nederland zal zijn. Het werkloosheidspercentage was in de periode 2017-2019 ongeveer 4% per jaar.
+
+Wat zijn uw verwachtingen over het werkloosheidspercentage?";2020;"We would like to know what you expect the unemployment rate to be in the Netherlands. The unemployment rate in the period 2017-2019 was about 4% per year.
+
+What are your expectations about the unemployment rate?";Ordered Categorical;minder dan 3.0% ,3.0% tot 6.0% ,6.0% tot 9.0% ,9.0% tot 12.0% ,12.0% of hoger;less than 3.0% ,3.0% to 6.0% ,6.0% to 9.0% ,9.0% to 12.0% ,12.0% or higher;e_2020_unemp_rate;2020
+36.02;ExpUnempl_today2021;ExpUnempl_today;table;-;Expected Unemployment Today;"We willen graag weten wat u verwacht dat het werkloosheidscijfer in Nederland zal zijn. Het werkloosheidspercentage was in de periode 2017-2019 ongeveer 4% per jaar.
+
+Wat zijn uw verwachtingen over het werkloosheidspercentage?";2021;"We would like to know what you expect the unemployment rate to be in the Netherlands. The unemployment rate in the period 2017-2019 was about 4% per year.
+
+What are your expectations about the unemployment rate?";Ordered Categorical;minder dan 3.0% ,3.0% tot 6.0% ,6.0% tot 9.0% ,9.0% tot 12.0% ,12.0% of hoger;less than 3.0% ,3.0% to 6.0% ,6.0% to 9.0% ,9.0% to 12.0% ,12.0% or higher;e_2021_unemp_rate;2021
+36.03;ExpUnempl_today2022;ExpUnempl_today;table;-;Expected Unemployment Today;"We willen graag weten wat u verwacht dat het werkloosheidscijfer in Nederland zal zijn. Het werkloosheidspercentage was in de periode 2017-2019 ongeveer 4% per jaar.
+
+Wat zijn uw verwachtingen over het werkloosheidspercentage?";2022;"We would like to know what you expect the unemployment rate to be in the Netherlands. The unemployment rate in the period 2017-2019 was about 4% per year.
+
+What are your expectations about the unemployment rate?";Ordered Categorical;minder dan 3.0% ,3.0% tot 6.0% ,6.0% tot 9.0% ,9.0% tot 12.0% ,12.0% of hoger;less than 3.0% ,3.0% to 6.0% ,6.0% to 9.0% ,9.0% to 12.0% ,12.0% or higher;e_2022_unemp_rate;2022
+37.01;ExpEcGr_today2020;ExpEcGrowth_today;table;-;Expected Economic Growth Today;"We willen graag weten wat u verwacht dat de groei van de economie in Nederland zal zijn.
+De economische groei, dat wil zeggen, de verandering van de hoeveelheid goederen en diensten die Nederland kan gebruiken, was in de periode 2017-2019 ongeveer 2,5% per jaar.
+Wat zijn uw verwachtingen over de economische groei?";2020;"We would like to know what you expect the growth of the economy in the Netherlands to be.
+Economic growth, that is, the change in the amount of goods and services that the Netherlands can use, was about 2.5% per year in the period 2017-2019.
+What are your expectations about economic growth?";Ordered Categorical;minder dan -6% ,-6% tot -4% ,-4% tot -2% ,-2% tot 0% ,0% tot 2% ,2% tot 4% ,4% of hoger;less than -6% ,-6% to -4% ,-4% to -2% ,-2% to 0% ,0% to 2% ,2% to 4% ,4% or higher;e_2020_gdp;2020
+37.02;ExpEcGr_today2021;ExpEcGrowth_today;table;-;Expected Economic Growth Today;"We willen graag weten wat u verwacht dat de groei van de economie in Nederland zal zijn.
+De economische groei, dat wil zeggen, de verandering van de hoeveelheid goederen en diensten die Nederland kan gebruiken, was in de periode 2017-2019 ongeveer 2,5% per jaar.
+Wat zijn uw verwachtingen over de economische groei?";2021;"We would like to know what you expect the growth of the economy in the Netherlands to be.
+Economic growth, that is, the change in the amount of goods and services that the Netherlands can use, was about 2.5% per year in the period 2017-2019.
+What are your expectations about economic growth?";Ordered Categorical;minder dan -6% ,-6% tot -4% ,-4% tot -2% ,-2% tot 0% ,0% tot 2% ,2% tot 4% ,4% of hoger;less than -6% ,-6% to -4% ,-4% to -2% ,-2% to 0% ,0% to 2% ,2% to 4% ,4% or higher;e_2021_gdp;2021
+37.03;ExpEcGr_today2022;ExpEcGrowth_today;table;-;Expected Economic Growth Today;"We willen graag weten wat u verwacht dat de groei van de economie in Nederland zal zijn.
+De economische groei, dat wil zeggen, de verandering van de hoeveelheid goederen en diensten die Nederland kan gebruiken, was in de periode 2017-2019 ongeveer 2,5% per jaar.
+Wat zijn uw verwachtingen over de economische groei?";2022;"We would like to know what you expect the growth of the economy in the Netherlands to be.
+Economic growth, that is, the change in the amount of goods and services that the Netherlands can use, was about 2.5% per year in the period 2017-2019.
+What are your expectations about economic growth?";Ordered Categorical;minder dan -6% ,-6% tot -4% ,-4% tot -2% ,-2% tot 0% ,0% tot 2% ,2% tot 4% ,4% of hoger;less than -6% ,-6% to -4% ,-4% to -2% ,-2% to 0% ,0% to 2% ,2% to 4% ,4% or higher;e_2022_gdp;2022
+38.01;ExpInfl_today2020;ExpInfl_today;table;-;Expected Inflation Today;"We willen graag weten wat u verwacht dat de prijsverandering (verandering van de consumptieprijzen, inflatie) in Nederland zal zijn. De inflatie was in de periode 2017-2019 ongeveer 1,8% per jaar.
+
+Wat zijn uw verwachtingen over de inflatie (een negatief percentage betekent dat prijzen dalen)?";2020;"We would like to know what you expect the price change (change in consumer prices, inflation) to be in the Netherlands. Inflation was about 1.8% per year in the period 2017-2019.
+
+What are your expectations about inflation (a negative percentage means that prices are falling)?";Ordered Categorical;minder dan -2% ,-2% tot 0% ,0% tot 2% ,2% tot 4% ,4% tot 6% ,6% of hoger;less than -2% ,-2% to 0% ,0% to 2% ,2% to 4% ,4% to 6% ,6% or higher;e_2020_infl;2020
+38.02;ExpInfl_today2021;ExpInfl_today;table;-;Expected Inflation Today;"We willen graag weten wat u verwacht dat de prijsverandering (verandering van de consumptieprijzen, inflatie) in Nederland zal zijn. De inflatie was in de periode 2017-2019 ongeveer 1,8% per jaar.
+
+Wat zijn uw verwachtingen over de inflatie (een negatief percentage betekent dat prijzen dalen)?";2021;"We would like to know what you expect the price change (change in consumer prices, inflation) to be in the Netherlands. Inflation was about 1.8% per year in the period 2017-2019.
+
+What are your expectations about inflation (a negative percentage means that prices are falling)?";Ordered Categorical;minder dan -2% ,-2% tot 0% ,0% tot 2% ,2% tot 4% ,4% tot 6% ,6% of hoger;less than -2% ,-2% to 0% ,0% to 2% ,2% to 4% ,4% to 6% ,6% or higher;e_2021_infl;2021
+38.03;ExpInfl_today2022;ExpInfl_today;table;-;Expected Inflation Today;"We willen graag weten wat u verwacht dat de prijsverandering (verandering van de consumptieprijzen, inflatie) in Nederland zal zijn. De inflatie was in de periode 2017-2019 ongeveer 1,8% per jaar.
+
+Wat zijn uw verwachtingen over de inflatie (een negatief percentage betekent dat prijzen dalen)?";2022;"We would like to know what you expect the price change (change in consumer prices, inflation) to be in the Netherlands. Inflation was about 1.8% per year in the period 2017-2019.
+
+What are your expectations about inflation (a negative percentage means that prices are falling)?";Ordered Categorical;minder dan -2% ,-2% tot 0% ,0% tot 2% ,2% tot 4% ,4% tot 6% ,6% of hoger;less than -2% ,-2% to 0% ,0% to 2% ,2% to 4% ,4% to 6% ,6% or higher;e_2022_infl;2022

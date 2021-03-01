@@ -20,6 +20,7 @@ The results from the surveys can be explored in an `interactive dashboard <https
    wave-3/index
    wave-4/index
    wave-5/index
+   wave-6/index
    time-use-consumption/index
    variables
 
