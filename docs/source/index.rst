@@ -8,11 +8,13 @@ Welcome to the CoViD-19 Impact Lab Questionnaire documentation!
 
 This page contains the documentation of questionnaires created by the `CoViD-19 Impact Lab <https://covid-19-impact-lab.readthedocs.io/en/latest/>`_ in the `LISS Panel <https://www.lissdata.nl/>`_. The questionnaires are used to survey participants of the `LISS Panel <https://www.lissdata.nl/>`_ on their experiences, expectations, and socio-economic situation during the 2020 coronavirus pandemic. The surveys are divided into multiple waves, all of which will be documented here.
 
+The pdf version of the documentation can be obtained at: https://doi.org/10.5281/zenodo.4338730.
+
 The results from the surveys can be explored in an `interactive dashboard <https://covid-19-impact-lab.iza.org/app>`_.
 
 .. toctree::
    :maxdepth: 2
-   
+
    CoViD-19 Impact Lab <https://covid-19-impact-lab.readthedocs.io/en/latest/>
    Explore Data <https://covid-19-impact-lab.iza.org/app>
    wave-1/index
