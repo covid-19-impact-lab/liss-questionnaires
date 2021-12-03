@@ -10,6 +10,8 @@ This page contains the documentation of questionnaires created by the `CoViD-19 
 
 The pdf version of the documentation can be obtained at: https://doi.org/10.5281/zenodo.4338730.
 
+If you would like to use the data for your research, please contact `Hans-Martin von Gaudecker <https://www.wiwi.uni-bonn.de/gaudecker/index.html>` and we can give you access to our cleaned data sets.
+
 The results from the surveys can be explored in an `interactive dashboard <https://covid-19-impact-lab.iza.org/app>`_.
 
 .. toctree::
